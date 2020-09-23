@@ -111,6 +111,79 @@ In measuring $\epsilon$, why is it not very important that the ball height is ex
 
 ## 3. Data Analysis
 
+To analyze the data, it is probably easiest to use a spreadsheet program. Some great options are google sheets or excel if you have access to the software. You will be asked to turn in this file with your write-up at the end of the lab, so be sure to follow the instructions.
+
+####
+
+For each ball you should have 5 runs, with 5 times each, for a total of 25 data points. We will use these data points to calculate some quantities of interest, including the max bounce height, total energy and the energy lost per bounce.
+
+:::Question
+Answer the following "practice" questions to make sure you know how to calculate the relevant quantities for your experiment:
+
+(a) Say the time between two consecutive bounces was 2 seconds. Using your knowledge of basic kinematics, determine the max height reached in this period. 
+
+(b) What is the total energy *density* of the ball during this period? This is just the energy divided by the mass (so you don't have to worry about weighing it). Give your answer with appropriate units
+
+(c) If the time to the next consecutive bounce was 1 second calculate the max height and energy density of the ball during this time period.
+
+(d) Calculate the percent energy lost after the second bounce.
+
+(e) Do you think this ball is a "good" bouncer? Why or why not?
+:::
+
+:::Exercise
+Height v.s. Bounces:
+
+In a spreadsheet program of your choice, follow the instructions listed below:
+
+1. For one of your balls, make a table such as the one below. Title this table "Time of Flight during Bounce"
+AVOCADO
+2. Now make another table with 5 columns and 5 rows, and calculate the max bounce height for each of the 5 times in each run. Title this table "Max Height Each Bounce"
+3. Plot these sets of data on a graph where the y-axis is the ball's max height and the x-axis is the bounce number. What do the shapes of these graphs look like? Try fitting the data with functions.
+4. Repeat this with the data from your other ball.
+
+:::
+
+
+:::Exercise
+Energy Loss v.s. Bounces:
+:::Question
+Derive an equation that determines the energy lost after a bounce that *only* uses the max heights. Show any relevant work.
+:::
+
+1. Make another table that calculates the energy lost after each bounce using the equation derived above. Title this table "Energy Lost Each Bounce"
+AVOCADO
+2. Plot these sets of data on a graph where the y-axis is the ball's energy lost and the x-axis is the bounce number. 
+3. Repeat this with the data from your other ball.
+:::Question
+(a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
+
+(b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
+:::
+
+:::
+
+
+:::Exercise
+Coefficient of Restitution
+
+1. Finally make a table to calculate the measured coefficient of restitution for each bounce. 
+2. Calculate the average across bounces and runs using the spreadsheet AVERAGE function
+3. Similarly, calculate the standard deviation of your data across bounces and runs using the STDEV function.
+4. Calculate the total average over all 5 x 4= 20 measurements of $\epsilon$
+5. Repeat this with the data from your other ball.
+
+:::Question
+(a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
+
+(b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
+:::
+
+:::
+
+
+## 3. Follow Up Analysis Questions
+
 ## Part III: Write-up
  - For Part I, give a short summary of the Lorentz Force and the Right-Hand Rule. 
  - For Part II, write a short paragraph describing the procedure taken and any important observations for each Exercise. Be sure to summarize your results and reasons why you believe your data are precise and accurate. If you do not think your data are accurate, explain why, and how it could be fixed in a future lab.
