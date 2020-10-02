@@ -320,9 +320,9 @@ We will usually calculate the standard deviation by using the STDEV() function i
 
 #### Why use the standard deviation to report uncertainty?
 
-When we make many measurements, if we only have random error, the measurements will take the form of a Gaussian distribution. This means are measurements will be centered around some point, the mean, but could be slightly more or less than that value. The Gaussian distribute tells us that if someone to were repeat our measurement once, what is the probability of them measuring a particular value. The most like measurement that person would make would be the mean, there is a pretty good chance though that they will measure slightly more or less than the mean. There is an even lower chance that they will measure something much greater or smaller than the mean though.
+When we make many measurements, if we only have random error, the measurements will take the form of a Gaussian distribution. This means our measurements will be centered around some point, the mean, but could be slightly more or less than that value. The Gaussian distribute tells us that if someone to were repeat our measurement once, what is the probability of them measuring a particular value. The most likely measurement that person would make would be the mean, there is a pretty good chance though that they will measure slightly more or less than the mean. There is an even lower chance that they will measure something much greater or smaller than the mean though.
 
-The standard deviation tells us about the width of our Gaussian. The smaller the standard deviation, the narrower the Gaussian, the less likely it is for someone to measure something much different from the mean.
+The standard deviation tells us about the width of the Gaussian. The smaller the standard deviation, the narrower the Gaussian, the less likely it is for someone to measure something much different from the mean.
 
 :::Figure:Figure
 ![Gaussian](imgs/gaussian.png)
@@ -330,9 +330,9 @@ The standard deviation tells us about the width of our Gaussian. The smaller the
 
 The above figure shows a generic Gaussian, scaled by standard deviations denoted as $\sigma$. The percentages tell you the probability of measuring something within the highlighted region. That means if someone were to make a measurement there is a 68.2% chance that the value they measure would fall within one standard deviation of the mean. 
 
-To make it a little more concrete. In the measurement of the pencil above, if many length measurements we made, and the standard deviation was take of those measurement, then if you were to measure also measure the length of the pencil there is a 68.2% chance that your measurement would fall in the range of 62.28 - 62.38 cm. 
+To make it a little more concrete, in the measurement of the pencil above, if many length measurements were made, and the standard deviation was determined for those measurement the reported length of the pendulum is $62.33 \pm 0.05$cm. Then if you were to measure the length of the pencil again there is a 68.2% chance that your measurement would fall in the range of 62.28 - 62.38 cm. 
 
-This is why we use the standard deviation as an estimate of uncertainty. It provides us with some  idea of what values we might expect when making a measurement. If we made a measurement far outside of that range we know there is a pretty good chance we made a mistake while making the measurement or that there is a systematic error in your measurement.
+This is why we use the standard deviation as an estimate of uncertainty. It provides us with some idea of what values we might expect when making a measurement. If we made a measurement far outside of that range we know there is a pretty good chance we made a mistake while making the measurement or that there is a systematic error in our measurement.
 
 :::Exercise
 In this exercise we will analyze the from the accelerometer you collected above. The video below will walk you through determining the mean and standard deviation of your measurements using google sheets.
