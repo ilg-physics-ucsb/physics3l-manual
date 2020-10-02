@@ -325,7 +325,7 @@ When we make many measurements, if we only have random error, the measurements w
 The standard deviation tells us about the width of our Gaussian. The smaller the standard deviation, the narrower the Gaussian, the less likely it is for someone to measure something much different from the mean.
 
 :::Figure:Figure
-![Gaussian](/imgs/gaussian.png)
+![Gaussian](imgs/gaussian.png)
 :::
 
 The above figure shows a generic Gaussian, scaled by standard deviations denoted as $\sigma$. The percentages tell you the probability of measuring something within the highlighted region. That means if someone were to make a measurement there is a 68.2% chance that the value they measure would fall within one standard deviation of the mean. 
