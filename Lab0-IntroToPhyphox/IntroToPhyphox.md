@@ -92,7 +92,7 @@ Phyphox is an app that allows you to collect data from all of the different sens
  In this exercise you will determine the three axes of the accelerometer in your phone. First we should define a coordinate system for your phone.
  
 :::Figure:Figure
- ![](/imgs/PhoneAxis.png)
+ ![](imgs/PhoneAxis.png)
 :::
 
 Figure 1 shows the what we will call each axis of our phone. The screen axis is pointing out of the screen at you. 
