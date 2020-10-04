@@ -1,5 +1,5 @@
 
-# Good Laboratory Practices
+# iNTRODUCTION TO PHYPHOX & ERROR
 ---
 
 :::Note
@@ -320,19 +320,24 @@ We will usually calculate the standard deviation by using the STDEV() function i
 
 #### Why use the standard deviation to report uncertainty?
 
-When we make many measurements, if we only have random error, the measurements will take the form of a Gaussian distribution. This means our measurements will be centered around some point, the mean, but could be slightly more or less than that value. The Gaussian distribute tells us that if someone to were repeat our measurement once, what is the probability of them measuring a particular value. The most likely measurement that person would make would be the mean, there is a pretty good chance though that they will measure slightly more or less than the mean. There is an even lower chance that they will measure something much greater or smaller than the mean though.
+When we make many measurements, and we only have random errors, the distribution of the measurements will take the form of a Gaussian distribution (a bell-shaped curve). 
 
-The standard deviation tells us about the width of the Gaussian. The smaller the standard deviation, the narrower the Gaussian, the less likely it is for someone to measure something much different from the mean.
+The distribution is symmetric from the peak of the curve, which corresponds to the mean of the measurements. This implies that most measurements are clustered near the mean, and measurements away from the mean are less likely.
+
+The Gaussian distribution describes the probability of measuring a particular value. The most likely measurement would be the mean. There is a high probability of measuring a value close to the mean, and a low probability of measuring a value much greater or smaller than the mean.
+The standard deviation \sigma  tells us about the width of the Gaussian. The smaller the standard deviation, the narrower the Gaussian, so the less likely it is for a measurement to be very different from the mean.
 
 :::Figure:Figure
 ![Gaussian](imgs/gaussian.png)
 :::
 
-The above figure shows a generic Gaussian, scaled by standard deviations denoted as $\sigma$. The percentages tell you the probability of measuring something within the highlighted region. That means if someone were to make a measurement there is a 68.2% chance that the value they measure would fall within one standard deviation of the mean. 
+The above figure shows a generic Gaussian, scaled by standard deviations denoted as $\sigma$. The percentages tell you the probability of measuring something within the highlighted region. Therefore, there is a 68.2% chance that a measurement would fall within one standard deviation of the mean.
 
-To make it a little more concrete, in the measurement of the pencil above, if many length measurements were made, and the standard deviation was determined for those measurement the reported length of the pendulum is $62.33 \pm 0.05$cm. Then if you were to measure the length of the pencil again there is a 68.2% chance that your measurement would fall in the range of 62.28 - 62.38 cm. 
+For example, in the measurement of the pencil above, if many length measurements were made, and the standard deviation was determined to be 0.05 cm,  then the reported length of the pencil is $62.33 \pm 0.05$cm. Thus, if you were to measure the length of the pencil again there is a 68.2% chance that your measurement would fall in the range of 62.28 - 62.38 cm. 
 
-This is why we use the standard deviation as an estimate of uncertainty. It provides us with some idea of what values we might expect when making a measurement. If we made a measurement far outside of that range we know there is a pretty good chance we made a mistake while making the measurement or that there is a systematic error in our measurement.
+:::Note
+This is why we use the standard deviation as an estimate of uncertainty. It tells us what values we might expect when making a measurement. If we made a measurement far outside of that range we know there is a pretty good chance we made a mistake while making the measurement or that there is a systematic error in our measurement
+:::
 
 :::Exercise
 In this exercise we will analyze the from the accelerometer you collected above. The video below will walk you through determining the mean and standard deviation of your measurements using google sheets.
