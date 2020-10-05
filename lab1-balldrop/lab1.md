@@ -115,7 +115,7 @@ To analyze the data, it is probably easiest to use a spreadsheet program. Some g
 
 ####
 
-For each ball you should have 5 runs, with 5 times each, for a total of 25 data points. We will use these data points to calculate some quantities of interest, including the max bounce height, total energy and the energy lost per bounce.
+For each ball you should have 5 runs, with 5 times each, for a total of 25 data points. We will use these data points to calculate some quantities of interest, including the max bounce height, the energy lost per bounce, and the coefficient of restitution.
 
 :::Question
 Answer the following "practice" questions to make sure you know how to calculate the relevant quantities for your experiment:
@@ -184,8 +184,36 @@ Coefficient of Restitution
 
 ## 3. Follow Up Analysis Questions
 
+:::Question
+(a) Is the standard deviation of $\epsilon$ large across bounces in a single run or the same bounce across different runs? 
+
+(b) Why do you think this is true? 
+:::
+
+:::Question
+Would your results change if you threw the ball at the ground? Why or why not?
+:::
+
+:::Question
+(a) Using your equation for $\epsilon$ in terms of $h$, derive an equation that gives the height of the ball on the $n$th bounce
+
+(b) AVOCADO
+
+(c) Using the exponential curve you found, and your knowledge of projectile motion, sketch a rough graph of one ball's height over time.
+:::
+
+:::Question
+(a) Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 1 m?  Show your work and how you arrived at this conclusion.				
+					
+(b) Mark your predicted height as well as 1 m somewhere and test your theory using the camera on your phone.  					
+					
+					
+(c) How accurate was your prediction? Did you lose more energy than expected? Why do you think that is?					
+					
+:::
+
 ## Part III: Write-up
- - For Part I, give a short summary of the Lorentz Force and the Right-Hand Rule. 
+ - For Part I, give a short summary of Newton's Experimental Law. 
  - For Part II, write a short paragraph describing the procedure taken and any important observations for each Exercise. Be sure to summarize your results and reasons why you believe your data are precise and accurate. If you do not think your data are accurate, explain why, and how it could be fixed in a future lab.
  - You are encouraged to attach images of your plots,  data, and setup -- doing so may allow you to regain partial or full credit even if your experiment fails.
  - At the end of your write-up, please include the answers to all questions, clearly numbered. Show your work if applicable.
