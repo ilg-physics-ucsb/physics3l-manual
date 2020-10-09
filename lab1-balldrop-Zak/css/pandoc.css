@@ -2,7 +2,6 @@
  * I add this to html files generated with pandoc.
  */
 
-
  .resp-container {
   position: relative;
   overflow: hidden;
@@ -25,53 +24,52 @@ div.row{
 div.column{
   width: 50%;
   padding: 5px;
-  
 }
 
 div.Question {
   font-size: 14pt;
-  background: #84a3a8;
+  background: #4fb7ca;
   color: #FFFFFF;
   padding: 5px;
   border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #3f4a53;
+  border-top-width: 5px;
+  border-top-color: #265477;
 }
 
 div.QuestionHeading {
   font-size: 18pt;
-  background: #84a3a8;
-  border-width: 2px;
+  background: #4fb7ca;
+  border-width: 5px;
   border-style: solid;
-  border-color: #3f4a53;
+  border-color: #265477;
   color: #FFFFFF;
   padding: 5px;
   margin: 15px;
-  border-radius: 5px;
+  border-radius: 15px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 div.Exercise {
   font-size: 14pt;
-  background: #2c3d42;
+  background: #6e7cd2;
   color: #FFFFFF;
-  padding: 25px;
+  padding: 5px;
   border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #0b0d1a;
+  border-top-width: 5px;
+  border-top-color: #3c4686;
 }
 
 div.ExerciseHeading {
   font-size: 18pt;
-  background: #2c3d42;
-  border-width: 2px;
+  background: #6e7cd2;
+  border-width: 5px;
   border-style: solid;
-  border-color: #0b0d1a;
+  border-color: #3c4686;
   color: #FFFFFF;
-  padding: 25px;
+  padding: 5px;
   margin: 15px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 
@@ -94,16 +92,13 @@ html {
 
 body {
   color: #444;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
   font-size: 12px;
   line-height: 1.7;
   padding: 1em;
   margin: auto;
-
+  max-width: 80em;
   background: #fefefe;
-  width: 80%;
-  max-width: 1000px;
 }
 
 a {
@@ -169,7 +164,6 @@ h4, h5, h6 {
 
 h1 {
   font-size: 2.5em;
-  text-align: center;
 }
 
 h2 {
@@ -417,4 +411,3 @@ table td {
     page-break-after: avoid;
   }
 }
-
