@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body><link rel="stylesheet" href="css\pandoc.css"><link rel="stylesheet" href="css\katex.min.css"><link rel="stylesheet" href="css\katex.css">
+<h1>Lab 1: Coefficient of Restitution - Week 2</h1>
+<hr>
+<h3>All Materials Needed:</h3>
+<ul>
+<li>Two kinds of bouncy balls</li>
+<li>A hard, flat surface in an open space</li>
+<li>Phyphox "Acoustic Stopwatch" or an audio recording device that shows sound amplitude</li>
+</ul>
+<h3>Lab Goals:</h3>
+<ul>
+<li>Learn to use Phyphox for data collection</li>
+<li>Investigate the properties of inelastic collisions</li>
+<li>Familiarize yourself with experimental error</li>
+</ul>
+<hr>
+<h1>Part I: The Experiment</h1>
+<h2>1. Overview and Pre-lab</h2>
+<p>Our job in this lab will be to verify Newton's Experimental Law, calculate <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span> for different balls, hypothesize what effects this constant, and use our results to make &#x26; test a prediction. While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a, perhaps, unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.</p>
+<h4></h4>
+<p>The reason for doing this is quite simple: sound data are "cheap" and easy to analyze. Unlike video, which requires an immense increase in pixels (and thus data) in order to improve sampling rate &#x26; accuracy, sound data is one dimensional, letting us have a suitably fast sampling rate to make precise measurements. In this experiment, we really only need a few numbers: the times that the ball hits the ground-- we can calculate all other quantities of interest from this. Sound is more than adequate for this task, and video would waste resources on capturing information about the entire environment, colors, lighting etc., which we will ultimately toss out.</p>
+<h4></h4>
+<p>This kind of thinking is actually critical to real experimental physics: often experiments are limited by data quality and equipment costs, so a bit of creative problem solving goes a long way in a real lab! Only measure what you need to!</p>
+<h4></h4>
+<p>Before moving on to the procedure, be sure that you have downloaded and installed the Phyphox app on your phone, and that you can use and access the "Acoustic Stopwatch" module. This module conveniently reports the time between "loud" sounds, so you don't even have to look at the graphs yourself. </p>
+<h4></h4>
+<p>Note that there is an "Inelastic Collision" experiment module bundled with Phyphox, but it doesn't give you all the data needed for this lab, and our testing has suggested it is <em>less</em> accurate than the procedure given below. In other words, don't use it :)</p>
+<figure class="Video"><p><img src="imgs/droppingball.gif" alt="Ball Being Dropped"></p><figcaption>Video 1</figcaption></figure>
+<h2>2. Using sound to measure the coefficient of restitution</h2>
+<hr>
+<h3>Materials needed:</h3>
+<ul>
+<li>Two kinds of bouncy balls</li>
+<li>A hard, flat surface in an open space</li>
+<li>Phyphox "Acoustic Stopwatch" or an audio recording device that shows sound amplitude</li>
+</ul>
+<hr>
+<div class="ExerciseHeading"><p>Exercise 1</p><div class="Exercise parsed"><p>After you have downloaded and installed phyphox, and have gathered your materials, follow the steps below to perform your experiment and collect data:</p><ol>
+<li>Open up your acoustic timer in "sequence mode". This mode will record the times between 5 successive sounds.</li>
+<li>In your large, open area, place your phone on the ground with the mic pointing down. For example, to accomplish this, I propped my phone up against the wall of my living room. </li>
+<li>Hold the ball at the height of a nearby marker, such as a doorknob. It is not very important that the height is equal each run, but its nice for your data to be similar.</li>
+<li>Press "Reset" on the app to clear any accidental data</li>
+<li>Drop the ball and let 5 times register. If your ball knocks into an object or travels too far away, you will have to redo that run. Be sure to double check your times and make sure they are monotonically decreasing</li>
+<li>Record these times somewhere, and repeat the procedure for each ball at least 5 times.</li>
+</ol><div class="QuestionHeading"><p>Question 1</p><div class="Question parsed"><p>In measuring <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span>, why is it not very important that the ball height is exactly the same each run? Hint: review "Newton's Experimental Law".</p></div></div></div></div>
+<h2>3. Data Analysis</h2>
+<p>To analyze the data, it is probably easiest to use a spreadsheet program. Some great options are google sheets or excel if you have access to the software. You will be asked to turn in this file with your write-up at the end of the lab, so be sure to follow the instructions.</p>
+<h4></h4>
+<p>For each ball you should have 5 runs, with 5 times each, for a total of 25 data points. We will use these data points to calculate some quantities of interest, including the max bounce height, the energy lost per bounce, and the coefficient of restitution.</p>
+<div class="ExerciseHeading"><p>Exercise 2</p><div class="Exercise parsed"><p>Height v.s. Bounces:</p><p>In a spreadsheet, follow the instructions listed below:</p><ol>
+<li>For one of your balls, make a table such as the one below. Title this table "Time of Flight during Bounce"
+AVOCADO</li>
+<li>Now make another table with 5 columns and 5 rows, and calculate the max bounce height for each of the 5 times in each run. Title this table "Max Height Each Bounce"</li>
+<li>Plot these sets of data on a graph where the y-axis is the ball's max height and the x-axis is the bounce number. What do the shapes of these graphs look like? Try fitting the data with functions.</li>
+<li>Repeat this with the data from your other ball.</li>
+</ol></div></div>
+<div class="ExerciseHeading"><p>Exercise 3</p><div class="Exercise parsed"><p>Energy Loss v.s. Bounces:</p><div class="QuestionHeading"><p>Question 2</p><div class="Question parsed"><p>Derive an equation that determines the energy lost after a bounce that <em>only</em> uses the max heights. Show any relevant work.</p></div></div><ol>
+<li>Make another table that calculates the energy lost after each bounce using the equation derived above. Title this table "Energy Lost Each Bounce"
+AVOCADO</li>
+<li>Plot these sets of data on a graph where the y-axis is the ball's energy lost and the x-axis is the bounce number. </li>
+<li>Repeat this with the data from your other ball.</li>
+</ol><div class="QuestionHeading"><p>Question 3</p><div class="Question parsed"><p>(a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.</p><p>(b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? </p></div></div></div></div>
+<div class="ExerciseHeading"><p>Exercise 4</p><div class="Exercise parsed"><p>Coefficient of Restitution</p><ol>
+<li>Finally make a table to calculate the measured coefficient of restitution for each bounce. </li>
+<li>Calculate the average across bounces and runs using the spreadsheet AVERAGE function</li>
+<li>Similarly, calculate the standard deviation of your data across bounces and runs using the STDEV function.</li>
+<li>Calculate the total average over all 5 x 4= 20 measurements of <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span></li>
+<li>Repeat this with the data from your other ball.</li>
+</ol><div class="QuestionHeading"><p>Question 4</p><div class="Question parsed"><p>(a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.</p><p>(b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? </p></div></div></div></div>
+<h2>3. Follow Up Analysis Questions</h2>
+<div class="QuestionHeading"><p>Question 5</p><div class="Question parsed"><p>(a) Is the standard deviation of <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span> large across bounces in a single run or the same bounce across different runs? </p><p>(b) Why do you think this is true? </p></div></div>
+<div class="QuestionHeading"><p>Question 6</p><div class="Question parsed"><p>Would your results change if you threw the ball at the ground? Why or why not?</p></div></div>
+<div class="QuestionHeading"><p>Question 7</p><div class="Question parsed"><p>(a) Using your equation for <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ϵ</mi></mrow><annotation encoding="application/x-tex">\epsilon</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">ϵ</span></span></span></span></span> in terms of <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>h</mi></mrow><annotation encoding="application/x-tex">h</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">h</span></span></span></span></span>, derive an equation that gives the height of the ball on the <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span></span>th bounce</p><p>(b) AVOCADO</p><p>(c) Using the exponential curve you found, and your knowledge of projectile motion, sketch a rough graph of one ball's height over time.</p></div></div>
+<div class="QuestionHeading"><p>Question 8</p><div class="Question parsed"><p>(a) Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 1 m?  Show your work and how you arrived at this conclusion.				</p><p>(b) Mark your predicted height as well as 1 m somewhere and test your theory using the camera on your phone.  					</p><p>(c) How accurate was your prediction? Did you lose more energy than expected? Why do you think that is?
+</p></div></div>
+<h2>Part II: Write-up</h2>
+<ul>
+<li>For Part I, write a short paragraph describing the procedure taken and any important observations for each Exercise. Be sure to summarize your results and reasons why you believe your data are precise and accurate. If you do not think your data are accurate, explain why, and how it could be fixed in a future lab.</li>
+<li>You are encouraged to attach images of your plots,  data, and setup -- doing so may allow you to regain partial or full credit even if your experiment fails.</li>
+<li>At the end of your write-up, please include the answers to all questions, clearly numbered. Show your work if applicable.</li>
+</ul>
+</body>
+</html>

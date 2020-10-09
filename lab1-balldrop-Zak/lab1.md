@@ -6,9 +6,13 @@
 - Phyphox "Acoustic Stopwatch" or an audio recording device that shows sound amplitude
 
 ### Lab Goals:
-- Find a two objects to drop and a place to drop them.
-- Learn how to use equations in a spreadsheet.
-- Understand the prerequisite theory to process the data. 
+- ** Construct an apparatus **
+	- Find two "bouncy" balls that can bounce of a surface five times.
+	- Find a surface and location with plenty of room to bounce a ball
+- ** Data Analysis **
+	- Understand the theory behind Newton's Experimental Law
+	- Generate the equations that will be used to process the data.
+	- Learn how to use equations in a spreadsheet.
 
 ---
 
