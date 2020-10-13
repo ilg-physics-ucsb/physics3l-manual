@@ -13,7 +13,7 @@
 ---
 
 # Part I: The Experiment
-## 1. Overview and Pre-lab
+## 1. Overview
 Our job in this lab will be to verify Newton's Experimental Law, calculate $\epsilon$ for different balls, hypothesize what effects this constant, and use our results to make & test a prediction. While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a, perhaps, unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.
 
 ####
@@ -48,29 +48,31 @@ Note that there is an "Inelastic Collision" experiment module bundled with Phyph
 
 
 ::: Exercise
-After you have downloaded and installed phyphox, and have gathered your materials, follow the steps below to perform your experiment and collect data:
+Follow the steps below to collect data using the Acoustic Stopwatch module in Phyphox.
 
 1. Open up your acoustic timer in "sequence mode". This mode will record the times between 5 successive sounds.
 2. In your large, open area, place your phone on the ground with the mic pointing down. For example, to accomplish this, I propped my phone up against the wall of my living room. 
-3. Hold the ball at the height of a nearby marker, such as a doorknob. It is not very important that the height is equal each run, but its nice for your data to be similar.
-4. Press "Reset" on the app to clear any accidental data
-5. Drop the ball and let 5 times register. If your ball knocks into an object or travels too far away, you will have to redo that run. Be sure to double check your times and make sure they are monotonically decreasing
-6. Record these times somewhere, and repeat the procedure for each ball at least 5 times.
+3. Hold the ball at the height of a nearby marker, such as a doorknob or counter top. 
+4. For determining the coefficient of restitution, it is not very important that the initial height is equal each run. However, we will want to look at the average across your five runs throughout your calculations, thus you should try to make each drop as similar as possible.
+6. Press "Reset" on the app to clear any accidental data
+7. Drop the ball and let 5 times register. If your ball knocks into an object or travels too far away, you will have to redo that run. Be sure to double check your times and make sure they are monotonically decreasing
+8. Record these times somewhere, and repeat the procedure for each ball at least 5 times.
 
 :::Question
-In measuring $\epsilon$, why is it not very important that the ball height is exactly the same each run? Hint: review "Newton's Experimental Law".
+Exercise 1 step 4 says nn measuring $\epsilon$, it not very important that the ball height is exactly the same each run. Why is that the case? Hint: review "Newton's Experimental Law".
+:::
+
+:::Question
+Exercise 1 step 4 also states you should try to use the same initial heights for each run for the purpose of averaging. Why is this necessary?
 :::
 
 :::
 
 
 ## 3. Data Analysis
-
-To analyze the data, it is probably easiest to use a spreadsheet program. Some great options are google sheets or excel if you have access to the software. You will be asked to turn in this file with your write-up at the end of the lab, so be sure to follow the instructions.
-
 ####
 
-For each ball you should have 5 runs, with 5 times each, for a total of 25 data points. We will use these data points to calculate some quantities of interest, including the max bounce height, the energy lost per bounce, and the coefficient of restitution.
+For each ball you should have 5 runs, with 5 times each, for a total of 25 data points per ball. We will use these data points to calculate some quantities of interest, including the max bounce height, the percent energy lost per bounce, and the coefficient of restitution.
 
 :::Exercise
 Height v.s. Bounces:
@@ -78,10 +80,29 @@ Height v.s. Bounces:
 In a spreadsheet, follow the instructions listed below:
 
 1. For one of your balls, make a table such as the one below. Title this table "Time of Flight during Bounce"
-AVOCADO
-2. Now make another table with 5 columns and 5 rows, and calculate the max bounce height for each of the 5 times in each run. Title this table "Max Height Each Bounce"
-3. Plot these sets of data on a graph where the y-axis is the ball's max height and the x-axis is the bounce number. What do the shapes of these graphs look like? Try fitting the data with functions.
+
+
+| Bounce # | Run 1 (s) | Run 2 (s) | Run 3 (s) | Run 4 (s)  | Run 5 (s) | Average Time of Flight (s) |
+| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+| 1    |      |     |     |     |     |     |
+| ...   |      |     |     |     |     |     |
+| 5   |      |     |     |     |     |     |
+
+2. Fill this table with the data you collected from the first ball in Exercise 1. In the last column us a spreadsheet equation to calculate the average time of flight for each bounce. Make a plot that has the average time of flight on the y-axis and the bounce number on the x axis.
+
+2. Now make another table with 7 columns and 6 rows, and calculate the max bounce height for each of the 5 times in each run. Title this table "Max Height Each Bounce" **Be sure to include units**
+3.  What do the shapes of these graphs look like? Try fitting the data with functions.
 4. Repeat this with the data from your other ball.
+
+:::Question
+a) What mathematical equation did you use to get the max height for each bounce?
+
+b) For one of your cells, what was the spreadsheet formula you used to calculate the max height for each bounce?
+:::
+
+::: Question
+Based on your plots alone, what type of line or curve fits your data best? Justify you answer.
+:::
 
 :::
 
@@ -89,17 +110,18 @@ AVOCADO
 :::Exercise
 Energy Loss v.s. Bounces:
 :::Question
-Derive an equation that determines the energy lost after a bounce that *only* uses the max heights. Show any relevant work.
+Derive an equation that determines the percent energy lost after a bounce that *only* uses the max heights. Show any relevant work **Hint: The percent energy loss is the energy lost during the collision divided by the initial energy of the ball.**
 :::
 
-1. Make another table that calculates the energy lost after each bounce using the equation derived above. Title this table "Energy Lost Each Bounce"
-AVOCADO
-2. Plot these sets of data on a graph where the y-axis is the ball's energy lost and the x-axis is the bounce number. 
+1. Make another table that calculates the energy lost after each bounce using the equation derived above. Title this table "Percent Energy Lost Each Bounce" **Hint: since you will need to know the initial energy to calculate the percent energy lost, you will not be able to perform this calculation for the first bounce.**
+2. Calculate the average percent energy lost per bounce. Create a plot of the average percent energy lost per bounce as a function of bounce number.
 3. Repeat this with the data from your other ball.
-:::Question
-(a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
 
-(b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
+
+:::Question
+a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
+
+b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
 :::
 
 :::
@@ -109,15 +131,15 @@ AVOCADO
 Coefficient of Restitution
 
 1. Finally make a table to calculate the measured coefficient of restitution for each bounce. 
-2. Calculate the average across bounces and runs using the spreadsheet AVERAGE function
-3. Similarly, calculate the standard deviation of your data across bounces and runs using the STDEV function.
-4. Calculate the total average over all 5 x 4= 20 measurements of $\epsilon$
+2. Calculate the average across bounces **and** runs using the spreadsheet.
+3. Similarly, calculate the standard deviation of your data across bounces **and** runs using the STDEV function.
+4. Calculate the total average over all 5 x 4= 20 measurements of $\epsilon$ per ball.
 5. Repeat this with the data from your other ball.
 
 :::Question
-(a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
+a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
 
-(b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
+b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
 :::
 
 :::
@@ -126,9 +148,9 @@ Coefficient of Restitution
 ## 3. Follow Up Analysis Questions
 
 :::Question
-(a) Is the standard deviation of $\epsilon$ large across bounces in a single run or the same bounce across different runs? 
+a) Is the standard deviation of $\epsilon$ large across bounces in a single run or the same bounce across different runs? 
 
-(b) Why do you think this is true? 
+b) Why do you think this is true? 
 :::
 
 :::Question
