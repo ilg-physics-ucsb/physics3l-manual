@@ -6,9 +6,13 @@
 - Phyphox "Acoustic Stopwatch" or an audio recording device that shows sound amplitude
 
 ### Lab Goals:
-- Learn to use Phyphox for data collection
-- Investigate the properties of inelastic collisions
-- Familiarize yourself with experimental error
+- **Apparatus**
+	- Use the two bouncy balls and space you identified last week.
+- **Data Analysis**
+	- Collect data from two balls.
+	- Analyze this data to determine the coefficient of restitution for both balls.
+- **Modeling**
+	- Using your measured coefficient of restitution and theory of Newton's experimental law, make a prediction about the height of the ball and test your prediction. 
 
 ---
 
@@ -59,7 +63,7 @@ Follow the steps below to collect data using the Acoustic Stopwatch module in Ph
 8. Record these times somewhere, and repeat the procedure for each ball at least 5 times.
 
 :::Question
-Exercise 1 step 4 says nn measuring $\epsilon$, it not very important that the ball height is exactly the same each run. Why is that the case? Hint: review "Newton's Experimental Law".
+Exercise 1 step 4 says in measuring $\epsilon$, it not very important that the ball height is exactly the same each run. Why is that the case? Hint: review "Newton's Experimental Law".
 :::
 
 :::Question
@@ -158,24 +162,27 @@ Would your results change if you threw the ball at the ground? Why or why not?
 :::
 
 :::Question
-(a) Using your equation for $\epsilon$ in terms of $h$, derive an equation that gives the height of the ball on the $n$th bounce
+a) Using your equation for $\epsilon$ in terms of $h$, derive an equation that gives the height of the ball on the $n$th bounce
 
-(b) AVOCADO
+b) Based on your answer to part a of this question is, does your response to question 4 still make sense? Why or why not? 
 
-(c) Using the exponential curve you found, and your knowledge of projectile motion, sketch a rough graph of one ball's height over time.
+c) Using the exponential curve you found, and your knowledge of projectile motion, sketch a rough graph of one ball's height over time.
 :::
 
 :::Question
-(a) Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 1 m?  Show your work and how you arrived at this conclusion.				
+a) Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 28 cm?  Show your work and how you arrived at this conclusion.				
 					
-(b) Mark your predicted height as well as 1 m somewhere and test your theory using the camera on your phone.  					
+b.1) Mark your predicted height as well as 28 cm somewhere and test your theory using the camera on your phone.  					
+
+b.2) Use the Acoustic Stopwatch to determine the weight of the ball on the second bounce.
 					
-					
-(c) How accurate was your prediction? Did you lose more energy than expected? Why do you think that is?					
+c) How accurate was your prediction? Did you lose more energy than expected? Why do you think that is?					
 					
 :::
 
-## Part II: Write-up
- - For Part I, write a short paragraph describing the procedure taken and any important observations for each Exercise. Be sure to summarize your results and reasons why you believe your data are precise and accurate. If you do not think your data are accurate, explain why, and how it could be fixed in a future lab.
- - You are encouraged to attach images of your plots,  data, and setup -- doing so may allow you to regain partial or full credit even if your experiment fails.
- - At the end of your write-up, please include the answers to all questions, clearly numbered. Show your work if applicable.
+## Part II: Conclusion
+
+::: Exercise
+For Part I, write a short paragraph describing the procedure taken and any important observations for each Exercise. Be sure to summarize your results and reasons why you believe your data are precise and accurate. If you do not think your data are accurate, explain why, and how it could be fixed in a future lab.
+:::
+

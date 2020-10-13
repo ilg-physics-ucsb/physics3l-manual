@@ -132,7 +132,7 @@ Take a picture of your two bouncy balls (or ball and two surfaces) and include i
 :::
 :::
 
-## Part III: Conclusion
+## Part II: Conclusion
 
 ::: Exercise
 1. Give a short summary of Newton's Experimental Law. 
