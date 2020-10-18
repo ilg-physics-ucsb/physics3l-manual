@@ -7,7 +7,7 @@
 
 ### Lab Goals:
 - **Apparatus**
-	- Use the two bouncy balls and space you identified last week.
+	- Use the two bouncy balls and the flat surface in an open space you identified last week.
 - **Data Analysis**
 	- Collect data from two balls.
 	- Analyze this data to determine the coefficient of restitution for both balls.
@@ -76,7 +76,9 @@ Exercise 1 step 4 also states you should try to use the same initial heights for
 ## 3. Data Analysis
 ####
 
-For each ball you should have 5 runs, with 5 times each, for a total of 25 data points per ball. We will use these data points to calculate some quantities of interest, including the max bounce height, the percent energy lost per bounce, and the coefficient of restitution.
+For each ball you should have 5 runs, with 5 times each, for a total of 25 data points per ball. We will use these data points to calculate some quantities of interest, including the max bounce height, the percent energy lost per bounce, and the coefficient of restitution. 
+
+For convenience, we have a template of an [organized google sheet](https://docs.google.com/spreadsheets/d/1BLGy1LDlR9DbBSJBjNng0Bqsdq2v0hdrRohqFt27sUM/edit?usp=sharing) that you can use for your data. If you wish to use the template, please make your own copy of it. Note: you will still have to fill in the correct sheet formulas and make the required plots on your own .
 
 :::Exercise
 Height v.s. Bounces:
@@ -105,7 +107,7 @@ b) For one of your cells, what was the spreadsheet formula you used to calculate
 :::
 
 ::: Question
-Based on your plots alone, what type of line or curve fits your data best? Justify you answer.
+Based on your plots alone, what type of line or curve fits your data best? E.g. does the plot look linear, quadratic, logarithmic etc.? Justify you answer.
 :::
 
 :::
@@ -123,7 +125,7 @@ Derive an equation that determines the percent energy lost after a bounce that *
 
 
 :::Question
-a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
+a) For each ball, does the energy lost seem to increase, decrease, or stay the same with increasing bounce number? Explain your reasoning.
 
 b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
 :::
@@ -141,9 +143,18 @@ Coefficient of Restitution
 5. Repeat this with the data from your other ball.
 
 :::Question
-a) For each ball, does the energy lost seem to increase, decrease, or stay the same? Explain your reasoning.
+a) Look at the standard deviations obtained across runs and those obtained across bounces. Is one set of standard deviations larger than the other?
 
-b) Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
+b) What do you think this means? 
+
+c) Explain if you observation is part (a) is consistent with Newton's Experimental Law. 
+d) Whether or not it is consistent, discuss why you might expect the observation made in part (a) based on the relationship between energy lost and bounce number you observed in Exercise 3. 
+:::
+
+:::Question
+Report your average $\epsilon$ and the standard deviation for each ball, based on the entire set of data. Write this result in the form:
+
+Measured coefficient of restitution =$(\epsilon_{average} \pm  STD)$ 
 :::
 
 :::
@@ -152,21 +163,24 @@ b) Does your observation in part (a) match Newton's Experimental Law? If not, wh
 ## 3. Follow Up Analysis Questions
 
 :::Question
-a) Is the standard deviation of $\epsilon$ large across bounces in a single run or the same bounce across different runs? 
 
-b) Why do you think this is true? 
-:::
+a) Based on *Newton's Experimental Law*, should your results change if you threw the ball at the ground? Why or why not? 
 
-:::Question
-Would your results change if you threw the ball at the ground? Why or why not?
+b) Based on *your observations*, might your results change if you threw the ball at the ground? Why or why not? 
 :::
 
 :::Question
 a) Using your equation for $\epsilon$ in terms of $h$, derive an equation that gives the height of the ball on the $n$th bounce
 
-b) Based on your answer to part a of this question is, does your response to question 4 still make sense? Why or why not? 
+::: Note
+Hint: What is $h_2/h_1$, in terms of $\epsilon$? What is $h_3/h_2$ in terms of $\epsilon$? What is $(\frac{h_3}{h_2})(\frac{h_2}{h_1}) = \frac{h_3}{h_1}$ in terms of $\epsilon$? 
+:::
 
-c) Using the exponential curve you found, and your knowledge of projectile motion, sketch a rough graph of one ball's height over time.
+b) Based on your answer to part (a) of this question, does your response to question 4 still make sense? Why or why not? 
+
+c) In the plot containing your height v.s. bounce data, graph the equation from part (a) using the average $\epsilon$ you found in Question 8. Do you think this model fits your data well? 
+
+d) Using the exponential curve you found, and your knowledge of projectile motion, sketch a rough graph of one ball's height over time.
 :::
 
 :::Question
@@ -174,9 +188,9 @@ a) Based on your data, from what height do you need to drop the ball for its 2nd
 					
 b.1) Mark your predicted height as well as 28 cm somewhere and test your theory using the camera on your phone.  					
 
-b.2) Use the Acoustic Stopwatch to determine the weight of the ball on the second bounce.
+b.2) Use the Acoustic Stopwatch to determine the height of the ball on the second bounce. You can also try an "independent" verification by using your phone's camera.
 					
-c) How accurate was your prediction? Did you lose more energy than expected? Why do you think that is?					
+c) How accurate was your prediction? Calculate the *discrepancy*, or $|h_{2,calculated} - h_{2, actual}|$
 					
 :::
 
