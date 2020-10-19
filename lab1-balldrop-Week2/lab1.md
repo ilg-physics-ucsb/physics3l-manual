@@ -148,6 +148,7 @@ a) Look at the standard deviations obtained across runs and those obtained acros
 b) What do you think this means? 
 
 c) Explain if you observation is part (a) is consistent with Newton's Experimental Law. 
+
 d) Whether or not it is consistent, discuss why you might expect the observation made in part (a) based on the relationship between energy lost and bounce number you observed in Exercise 3. 
 :::
 
