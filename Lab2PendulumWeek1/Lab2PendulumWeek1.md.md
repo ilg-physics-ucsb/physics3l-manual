@@ -91,7 +91,7 @@ Recall:
 
 :::Figure:Equation
 $$
-a_{r} = r \omega^2
+a_{r} = r \omega^2 = r  \left ( \frac{d \theta}{dt} \right )^2
 $$
 :::
 
@@ -99,7 +99,7 @@ $$
 
 :::Figure:Equation
 $$
-a_\theta = r \alpha
+a_\theta = r \alpha = r  \frac{d^2 \theta}{dt^2}
 $$
 :::
 
