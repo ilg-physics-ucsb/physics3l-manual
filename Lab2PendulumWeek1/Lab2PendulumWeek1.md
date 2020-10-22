@@ -122,7 +122,7 @@ Now we have all of the necessary information to calculate the information we wil
 Assume:
 :::Figure: 
 $$
-\theta = theta\small_{0}\cos(\omega t)
+\theta = \theta\small_{0}\cos(\omega t)
 $$
 :::
 Plug in the formula for theta
