@@ -118,6 +118,24 @@ $$
 
 ## 1. The Experiment
 
+In this lab you will turn your phone into a pendulum. You will suspend it in some way, (we provide some ideas below), then use the "Accelerometer Without g" to measure the phone's acceleration along all three axes while your phone swings back and forth. Figure 3 shows one such setup. We will use the acceleration data to measure the period of the pendulum.
+
+:::Figure:Figure
+![Phone Swinging Image](imgs/PhonePendulumPhoto.jpg)
+:::
+
+## 2. Relationship Between the Period of Acceleration and Position
+
+:::Figure:Figure
+![Gif  of pendulum moving](imgs/accelerationgif.gif)
+:::
+
+Since we be measuring the period of the acceleration and not the angular position, we need to understand that relationship. In Figure 4 you can see the how the *net* acceleration vector changes with time. Notice that is periodic. Also notice that at the bottom of the swing it is entirely pointed radially and at the top of the swings it is entirely pointed tangentially. 
+
+:::Figure:Figure
+![Phone Swinging Diagram](imgs/PhonePendulum.png)
+:::
+
 
 
 
@@ -125,9 +143,7 @@ Typically when measuring the period of the pendulum you would measure the angula
 
 We
 
-:::Figure:Figure
-![Gif  of pendulum moving](imgs/accelerationgif.gif)
-:::
+
 
 
 ##### Background
