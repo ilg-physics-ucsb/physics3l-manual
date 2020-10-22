@@ -57,7 +57,8 @@ $x_0$ is the amplitude of the periodic motion, but also marks the initial positi
 
 ## 2. Simple Pendulum
 [comment]: # (Period is to the length of the pendulum--use this?)
-<--this is not a comment-->
+<!--this is not a comment-->
+
 :::Figure:Figure
 ![Picture of Pendulum](imgs/Pendulum.png)
 :::
@@ -86,20 +87,21 @@ $$
 Background
 A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
 
-Recall
+Recall:
+
 :::Figure:Equation
 $$
-a_{r} = L\omega^{2}\theta\small_{0}\normalsize^{2}\sin^{2}(\omega t)
+a_{r} = r \omega^2
 $$
 :::
 
+<!-- a_{r} = L\omega^{2}\theta_{0}^{2}\sin^{2}(\omega t) -->
 
-Figure:Equation
+:::Figure:Equation
 $$
-a_\theta = -\omega^{2}\theta\small_{0}\normalsize L\cos(\omega t)
+a_\theta = r \alpha
 $$
 :::
-
 
 
 
