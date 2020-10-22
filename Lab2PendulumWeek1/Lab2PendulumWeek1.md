@@ -115,21 +115,24 @@ $$
 :::
 
 ## Part II: Calculations
-##### QUESTION 1
-Assuming your phone face always points at the pivot point--this allows us to convert to polar coordinates--determine the equation for the acceleration in the radial direction and the equation of the acceleration in the angular direction (assuming theta = theta not….)
+:::Exercise
+Now we have all of the neccessary information to calculate the information we will get back from our phone during the experiment. Assuming your apparatus has your phone face always pointing at the pivot point, which allows us to convert to polar coordinates, determine the equation for the acceleration in the radial direction and the equation of the acceleration in the angular direction (assuming theta = theta not….)
 
 Plug in the formula for theta
 Assuming your phone face is pointed in the z ^hat, we only need to consider the y^hat (theta hat) and Z^hat directions for acceleration. One of these will follow the length of your phone and the other will follow the width of your phone.
 Knowing the positional equation for both x and y, determine the first and second derivative of each.
 Note: picture of phone at several different (3) positions with coordinates drawn on picture
 Q1 Compare/Draw the conclusion that the period of one acceleration is the same as the period of the pendulum and that one period of one acceleration is double the first? “What is the period compared to…”
+:::Question
+Using Equation 5, determine the equation for $$a\small_{r}$$ and $$a\small_{\theta}$$ as a function of time.
+:::
+:::
+
+
+
 
 
 ## 1. The Experiment
-
-
-
-
 Typically when measuring the period of the pendulum you would measure the angular position as a function of time. Then from that data you would measure the period of the pendulum. 
 
 We
@@ -138,19 +141,7 @@ We
 ![Gif  of pendulum moving](imgs/accelerationgif.gif)
 :::
 
-
 ##### Background
-A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
-
-
-
-
-
-
-
-
-
-Background
 A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
 
 
