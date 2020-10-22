@@ -66,17 +66,17 @@ A simple pendulum is one that is simple a point mass at the at the end of a mass
 
 :::Figure:Equation
 $$
-\alpha = \frac{d^2 \theta}{dt^2} = -\omega^2 \theta = -\frac{g}{L} \theta
+\alpha = \frac{d^2 \theta}{dt^2} = -\omega\small_{0}\normalsize^2 \theta = -\frac{g}{L} \theta
 $$
 :::
 
-You may also recall that for a simple pendulum $\omega = \sqrt{\frac{g}{L}}$, where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
+You may also recall that for a simple pendulum $\omega\small_{0}\normalsize = \sqrt{\frac{g}{L}}$, where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
 
 Lastly this means that angular position of the pendulum is given by:
 
 :::Figure:Equation
 $$
-\theta = \theta_0 \cos (\omega t)
+\theta = \theta\small_{0}\normalsize \cos (\omega\small_{0}\normalsize t)
 $$
 :::
 
@@ -97,6 +97,13 @@ $$
 :::
 
 Recall from your Physics 2 class that the acceleration an object experiences has two components. One points the radial direction (towards the pivot). This we will call $a_r$. The other points in the direction of motion tangential to the circle. This is sometimes call $a_{tan}$ but for this lab we will call it $a_{\theta}$.
+##### Background
+A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
+
+:::Figure:Figure
+![Picture of Pendulum](imgs/acceleration3.png)
+:::
+
 
 Recall:
 
