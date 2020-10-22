@@ -116,8 +116,15 @@ $$
 
 ## Part II: Calculations
 :::Exercise
-Now we have all of the neccessary information to calculate the information we will get back from our phone during the experiment. Assuming your apparatus has your phone face always pointing at the pivot point, which allows us to convert to polar coordinates, determine the equation for the acceleration in the radial direction and the equation of the acceleration in the angular direction (assuming theta = theta not….)
+Now we have all of the necessary information to calculate the information we will get back from our phone during the experiment. Assuming your apparatus has your phone face always pointing at the pivot point, which allows us to convert to polar coordinates, determine the equation for the acceleration in the radial direction and the equation of the acceleration in the angular direction. 
 
+#####
+Assume:
+:::Figure: 
+$$
+\theta = theta\small_{0}\cos(\omega t)
+$$
+:::
 Plug in the formula for theta
 Assuming your phone face is pointed in the z ^hat, we only need to consider the y^hat (theta hat) and Z^hat directions for acceleration. One of these will follow the length of your phone and the other will follow the width of your phone.
 Knowing the positional equation for both x and y, determine the first and second derivative of each.
