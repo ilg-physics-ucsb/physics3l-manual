@@ -116,7 +116,14 @@ $$
 
 ## Part II: Calculations
 
+## 1. The Experiment
+
+
+
+
 Typically when measuring the period of the pendulum you would measure the angular position as a function of time. Then from that data you would measure the period of the pendulum. 
+
+We
 
 :::Figure:Figure
 ![Gif  of pendulum moving](imgs/accelerationgif.gif)
