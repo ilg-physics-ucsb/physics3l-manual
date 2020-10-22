@@ -65,11 +65,11 @@ A simple is one that is simple a point mass at the at the end of a massless stri
 
 :::Figure:Equation
 $$
-a = \frac{d^2 \theta}{dt^2} = -\omega^2 \theta = -\frac{g}{L} \theta
+\alpha = \frac{d^2 \theta}{dt^2} = -\omega^2 \theta = -\frac{g}{L} \theta
 $$
 :::
 
-You may also recall that for a pendulum $\omega = \frac{g}{L}$ where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
+You may also recall that for a simple pendulum $\omega = \sqrt{\frac{g}{L}}$, where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
 
 Lastly this means that angular position of the pendulum is given by:
 
@@ -81,6 +81,7 @@ $$
 
 ## 3. Circular Motion
 
+In this experiment you will be using your phone to measure the 
 
 [INSERT ANIMATED GIF HERE]
 While you may be able to achieve a pendulum without it, we recommend you find a tube from toilet paper and, after flattening it, mark the width of your phone on both sides of the flatted tube.
