@@ -57,7 +57,10 @@ $x_0$ is the amplitude of the periodic motion, but also marks the initial positi
 
 ## 2. Simple Pendulum
 [comment]: # (Period is to the length of the pendulum--use this?)
+<<<<<<< HEAD
+=======
 <!--this is not a comment-->
+>>>>>>> 5c49d2974c97e7a51f99d5ff4918e8c73ba56fe2
 
 :::Figure:Figure
 ![Picture of Pendulum](imgs/Pendulum.png)
