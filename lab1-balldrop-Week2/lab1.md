@@ -185,13 +185,11 @@ d) Using the exponential curve you found, and your knowledge of projectile motio
 :::
 
 :::Question
-a) Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 28 cm?  Show your work and how you arrived at this conclusion.				
+a) Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 28 cm (the length of a sheet of paper)?  Show your work and how you arrived at this conclusion.				
+										
+b) Use the Acoustic Stopwatch to determine the height of the ball on the second bounce. You may also use your phones camera as an independent form of verification.
 					
-b.1) Mark your predicted height as well as 28 cm somewhere and test your theory  using the camera on your phone.  					
-
-b.2) Use the Acoustic Stopwatch to determine the height of the ball on the second bounce. 
-					
-c) How accurate was your prediction? Calculate the *discrepancy*, or $|h_{2,calculated} - h_{2, actual}|$
+c) How accurate was your prediction? Calculate the *percent discrepancy*.
 					
 :::
 
