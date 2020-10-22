@@ -84,10 +84,6 @@ $$
 
 In this experiment you will be using your phone to measure accelerations. Therefore we should discuss what types of accelerations your phone will undergo as it swings back and forth. In a pendulum, the motion of the mass (your phone) moves on an arc of a circle. Therefore we can use our knowledge of circular motion. 
 
-:::Figure:Figure
-![Gif  of pendulum moving](imgs/accelerationgif.gif)
-:::
-
 Object moving in a circle are said to have an angular velocity denoted as $\omega$. **This angular velocity is different from the $\omega_0$ used in Equations 4 & 5.** This angular velocity is defined as the rate of change of the angular position.
 
 :::Figure:Equation
@@ -96,16 +92,13 @@ $$
 $$
 :::
 
-Recall from your Physics 2 class that the acceleration an object experiences has two components. One points the radial direction (towards the pivot). This we will call $a_r$. The other points in the direction of motion tangential to the circle. This is sometimes call $a_{tan}$ but for this lab we will call it $a_{\theta}$.
-##### Background
-A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
+Recall from your Physics 2 class that the acceleration an object experiences has two components. One points the radial direction (towards the pivot). This we will call $a_{rad}$ or $a_r$ for short. The other points in the direction of motion tangential to the circle. This is sometimes call $a_{tan}$ but for this lab we will call it $a_{\theta}$.
 
 :::Figure:Figure
 ![Picture of Pendulum](imgs/acceleration3.png)
 :::
 
-
-Recall:
+The equation for both of the accelerations is given below:
 
 :::Figure:Equation
 $$
@@ -120,6 +113,25 @@ $$
 a_\theta = r \alpha = r  \frac{d^2 \theta}{dt^2}
 $$
 :::
+
+## Part II: Calculations
+
+Typically when measuring the period of the pendulum you would measure the angular position as a function of time. Then from that data you would measure the period of the pendulum. 
+
+:::Figure:Figure
+![Gif  of pendulum moving](imgs/accelerationgif.gif)
+:::
+
+
+##### Background
+A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
+
+
+
+
+
+
+
 
 
 Background
