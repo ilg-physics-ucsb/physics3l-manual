@@ -125,7 +125,7 @@ $$
 \theta = \theta\small_{0}\cos(\omega t)
 $$
 :::
-Plug in the formula for theta
+[comment]: # (Plug in the formula for theta)
 Assuming your phone face is pointed in the z ^hat, we only need to consider the y^hat (theta hat) and Z^hat directions for acceleration. One of these will follow the length of your phone and the other will follow the width of your phone.
 Knowing the positional equation for both x and y, determine the first and second derivative of each.
 Note: picture of phone at several different (3) positions with coordinates drawn on picture
