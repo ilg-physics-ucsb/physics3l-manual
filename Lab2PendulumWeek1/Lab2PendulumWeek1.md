@@ -115,6 +115,15 @@ $$
 :::
 
 ## Part II: Calculations
+##### QUESTION 1
+Assuming your phone face always points at the pivot point--this allows us to convert to polar coordinates--determine the equation for the acceleration in the radial direction and the equation of the acceleration in the angular direction (assuming theta = theta not….)
+
+Plug in the formula for theta
+Assuming your phone face is pointed in the z ^hat, we only need to consider the y^hat (theta hat) and Z^hat directions for acceleration. One of these will follow the length of your phone and the other will follow the width of your phone.
+Knowing the positional equation for both x and y, determine the first and second derivative of each.
+Note: picture of phone at several different (3) positions with coordinates drawn on picture
+Q1 Compare/Draw the conclusion that the period of one acceleration is the same as the period of the pendulum and that one period of one acceleration is double the first? “What is the period compared to…”
+
 
 ## 1. The Experiment
 
@@ -154,13 +163,7 @@ Assume $$\theta = \theta \small_{0} \normalsize \cos(\omega t)$$
 
 
 
-Assuming your phone face always points at the pivot point--this allows us to convert to polar coordinates--determine the equation for the acceleration in the radial direction and the equation of the acceleration in the angular direction (assuming theta = theta not….)
 
-Plug in the formula for theta
-Assuming your phone face is pointed in the z ^hat, we only need to consider the y^hat (theta hat) and Z^hat directions for acceleration. One of these will follow the length of your phone and the other will follow the width of your phone.
-Knowing the positional equation for both x and y, determine the first and second derivative of each.
-Note: picture of phone at several different (3) positions with coordinates drawn on picture
-Q1 Compare/Draw the conclusion that the period of one acceleration is the same as the period of the pendulum and that one period of one acceleration is double the first? “What is the period compared to…”
 
 Ex 2
 Show that we can assume a point mass for your phone, making our work much easier
