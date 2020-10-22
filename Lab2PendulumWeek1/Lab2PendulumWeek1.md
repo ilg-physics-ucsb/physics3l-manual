@@ -85,12 +85,12 @@ $$
 ##### Background
 A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
 
+:::Figure:Figure
+![Picture of Pendulum](imgs/acceleration.png)
+:::
+
 
 Recall:
-
-:::Figure:Figure
-![Picture of Pendulum](imgs/acceleration2.png)
-:::
 
 :::Figure:Equation
 $$
