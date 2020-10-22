@@ -30,7 +30,57 @@
 
 ## 1. Review
 
-Simple harmonic motion is defined by a system whose acceleration is proportional to its position. 
+Simple harmonic motion is characterized by a system whose acceleration is negatively proportional to its position. That is two say that it follows this differential equation:
+
+:::Figure:Equation
+$$
+a = \frac{d^2 x}{dt^2} = -\omega^2 x
+$$
+:::
+
+Where $x$ is the coordinate for position. $\omega$ is known as the angular frequency and is defined as the following:
+
+:::Figure:Equation
+$$
+\omega = 2 \pi f
+$$
+:::
+ Where $f$ is the frequency of the oscillator. **This definition of $\omega$ is true for all simple harmonic oscillators.** You maybe have seen Equation 1 solved in a lecture class before. We won't go through it here, but we will remind you that the solution gives position, $x$, as function of time , $t$. The equation for position is given in Equation 3 below. 
+ 
+:::Figure:Equation
+$$
+x = x_0 \cos (\omega t)
+$$
+:::
+
+$x_0$ is the amplitude of the periodic motion, but also marks the initial position. 
+
+## 2. Simple Pendulum
+
+:::Figure:Figure
+![Picture of Pendulum](imgs/Pendulum.png)
+:::
+
+A simple is one that is simple a point mass at the at the end of a massless string of length $L$. A simple pendulum that is released from a small initial angle ($<15 ^{\circ}$) exhibits simple harmonic motion. For the case of the pendulum it is the angular position given by $\theta$ that follows Equation 1. That is to say:
+
+:::Figure:Equation
+$$
+a = \frac{d^2 \theta}{dt^2} = -\omega^2 \theta = -\frac{g}{L} \theta
+$$
+:::
+
+You may also recall that for a pendulum $\omega = \frac{g}{L}$ where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
+
+Lastly this means that angular position of the pendulum is given by:
+
+:::Figure:Equation
+$$
+\theta = \theta_0 \cos (\omega t)
+$$
+:::
+
+## 3. Circular Motion
+
 
 [INSERT ANIMATED GIF HERE]
 While you may be able to achieve a pendulum without it, we recommend you find a tube from toilet paper and, after flattening it, mark the width of your phone on both sides of the flatted tube.
@@ -42,14 +92,6 @@ Poke holes in each of the corners of the now flattened roll, leaving enough spac
 
 
 
-
-
-Part I: Pendulum & Simple Harmonic Motion (or harmonic oscillations?)
-In previous courses, you probably learned about simple harmonic motion 
-An ideal simple pendulum is one in which there is a point mass suspended from some pivot point by massless string
-
-As long as we keep our initial angle small, we can use the small angle approximation as long as we keep it under 15 degrees
-We will now investigate _____
 
 Background
 A period is the time from one maxima point to the other and back again
