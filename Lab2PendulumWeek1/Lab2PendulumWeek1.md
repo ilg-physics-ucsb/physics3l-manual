@@ -1,29 +1,43 @@
 # Lab 2 Pendulum Week 1
+---
 
-Lab 2: Pendulum Week 1
+### All Materials Needed:
 
-Required Materials:
-String, twine, or some other type of long, thin, flexible structure for tying and supporting
-A pair of scissors 
-A cylindrical beam or similar geometrical shape (or tape it)
-phyphox "Acceleration without g” or a stopwatch (or work with someone with phyphox)
-Suggested Additional Materials:
-A paper or cardboard tube like that found in a roll of toilet paper
-A rubber band or some other elastic material  
-Lab Goals:
-Construct an apparatus
+- String, twine, ribbon, or some other type of long, thin, flexible structure for tying and supporting.
+- A pair of scissors.
+- Someplace to hang your pendulum i.e. shower curtain rod, broomstick across two chairs, taped to a dining room table, etc.
+- Phyphox "Acceleration without g”
+- Pillow, couch cushion, or something similar.
+
+##### Suggested Additional Materials:
+- Toilet paper roll or something similar.
+- A rubber band or some other elastic material.
+- Tape.
+
+### Lab Goals:
+
+- **Construct an apparatus** 
+	- Find a place to **safely** hang your phone.
+	- Construct a way of hanging your phone.
+- **Data Analysis**
+	- Understand the theory of Simple Harmonic Motion.
+	- Understand the relationship between period and length.
+	- Develop the equations from Newton's equations of motion to verify your data.
+
+---
+
+## Part I: Simple Harmonic Motion
+
+## 1. Review
+
+Simple harmonic motion is defined by a system whose acceleration is proportional to its position. 
+
 [INSERT ANIMATED GIF HERE]
 While you may be able to achieve a pendulum without it, we recommend you find a tube from toilet paper and, after flattening it, mark the width of your phone on both sides of the flatted tube.
 Cut into the roll approximately 2cm deep at each mark of your phone’s width and then cut along the length of the roll to complete the cutout. Do this on both sides.
 Poke holes in each of the corners of the now flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
 
 
-…..
-Data Analysis
-Understand the theory of Simple Harmonic Motion
-Understand the relationship between period and length
-Develop the equations from Newton's equations of motion to verify your data
-Use the chart function in Google Sheets to plot data and use that data to corroborate your equations
 
 
 
