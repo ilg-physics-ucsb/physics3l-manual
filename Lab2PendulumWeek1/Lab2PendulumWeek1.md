@@ -45,7 +45,15 @@ $$
 \omega = 2 \pi f
 $$
 :::
- Where $f$ is the frequency of the oscillator. **This definition of $\omega$ is true for all simple harmonic oscillators.** You maybe have seen Equation 1 solved in a lecture class before. We won't go through it here, but we will remind you that the solution gives position, $x$, as function of time , $t$. The equation for position is given in Equation 3 below. 
+
+
+ Where $f$ is the frequency of the oscillator. **This definition of $\omega$ is true for all simple harmonic oscillators.**
+
+::: Question
+Recall that the period, $T$ is given by $T=\frac{1}{f}$. Use this an Equation 2 to write the equation for the period in terms of angular frequency. 
+:::
+
+You maybe have seen Equation 1 solved in a lecture class before. We won't go through it here, but we will remind you that the solution gives position, $x$, as function of time , $t$. The equation for position is given in Equation 3 below. 
  
 :::Figure:Equation
 $$
@@ -78,6 +86,10 @@ Lastly this means that angular position of the pendulum is given by:
 $$
 \theta = \theta\small_{0}\normalsize \cos (\omega\small_{0}\normalsize t)
 $$
+:::
+
+:::Question
+Use your equation from Question 1 write the period of a pendulum in terms of length $L$. 
 :::
 
 ## 3. Circular Motion
@@ -115,91 +127,132 @@ $$
 :::
 
 ## Part II: Calculations
-:::Exercise
-Now we have all of the necessary information to calculate the information we will get back from our phone during the experiment. Assuming your apparatus has your phone face always pointing at the pivot point, which allows us to convert to polar coordinates, determine the equation for the acceleration in the radial direction and the equation of the acceleration in the angular direction. 
 
-#####
-Assume:
-:::Figure: 
-$$
-\theta = \theta\small_{0}\cos(\omega t)
-$$
-:::
-[comment]: # (Plug in the formula for theta)
-Assuming your phone face is pointed in the z ^hat, we only need to consider the y^hat (theta hat) and Z^hat directions for acceleration. One of these will follow the length of your phone and the other will follow the width of your phone.
-Knowing the positional equation for both x and y, determine the first and second derivative of each.
-Note: picture of phone at several different (3) positions with coordinates drawn on picture
-Q1 Compare/Draw the conclusion that the period of one acceleration is the same as the period of the pendulum and that one period of one acceleration is double the first? “What is the period compared to…”
-:::Question
-Using Equation 5, determine the equation for $$a\small_{r}$$ and $$a\small_{\theta}$$ as a function of time.
-:::
-:::
-
+## 1. The Experiment
 
 In this lab you will turn your phone into a pendulum. You will suspend it in some way, (we provide some ideas below), then use the "Accelerometer Without g" to measure the phone's acceleration along all three axes while your phone swings back and forth. Figure 3 shows one such setup. We will use the acceleration data to measure the period of the pendulum.
 
 :::Figure:Figure
-![Phone Swinging Image](imgs/PhonePendulumPhoto.jpg)
+![Phone Swinging Image](imgs/phonePendulumGif.gif)
 :::
 
 ## 2. Relationship Between the Period of Acceleration and Position
 
-## 1. The Experiment
 Typically when measuring the period of the pendulum you would measure the angular position as a function of time. Then from that data you would measure the period of the pendulum. 
+
 :::Figure:Figure
 ![Gif  of pendulum moving](imgs/accelerationgif.gif)
 :::
 
-Since we be measuring the period of the acceleration and not the angular position, we need to understand that relationship. In Figure 4 you can see the how the *net* acceleration vector changes with time. Notice that is periodic. Also notice that at the bottom of the swing it is entirely pointed radially and at the top of the swings it is entirely pointed tangentially. 
+Since we be measuring the period of the acceleration and not the angular position, we need to understand the relationship between the two. In Figure 4 you can see the how the **net acceleration** vector changes with time. Notice that is periodic. Also notice that at the bottom of the swing it is entirely pointed radially and at the top of the swings it is entirely pointed tangentially. 
+
+This indicates that both $a_r$ and $a_\theta$ have some sort of periodic behavior, but it is not a given that the period of either acceleration would match that of the angular position. We can get some intuition by watching the animation however. Notice that it takes one full swing of the pendulum for $a_\theta$ to point in the same direction while $a_r$ points radially twice in one full swing.
+
+:::Exercise
+Assume that the angular position of the pendulum is given by Equation 5 above.
+
+:::Question
+Derive the equation for the radial acceleration of the pendulum $a_r$ as a function of time using Equations 5 and 7. Show your work.
+:::
+
+:::Question
+Derive the equation for the radial acceleration of the pendulum $a_\theta$ as a function of time using Equations 5 and 8. Show your work.
+:::
+
+:::Question
+a) What is the relationship between the period of $a_r$ and the angular position?
+
+b) What is the relationship between the period of $a_r$ and the angular position?
+
+c) Which should you use to measure to angular position of of the pendulum?
+:::
+
+Recall that the radial acceleration vector always points towards the pivot. The tangential acceleration points in the direction of motion (tangential to the circular arc). 
+
+Figure 5 shows how the coordinate system for your accelerometer moves with your phone. 
 
 :::Figure:Figure
 ![Phone Swinging Diagram](imgs/PhonePendulum.png)
 :::
 
+::: Question
+Build a list that identifies which axis of your accelerometer is the long, short, and screen axis, and which of the two correlate to the $a_r$ and $a_\theta$ vectors. 
+
+This is just an example: Long Axis = z = $a_r$, etc.
+:::
+:::
 
 
+## 3. Is Your Phone a Simple Pendulum?
 
-Typically when measuring the period of the pendulum you would measure the angular position as a function of time. Then from that data you would measure the period of the pendulum. 
+So far, most of our discussion has been based on a simple pendulum. That means a point mass at the end of  massless string.
 
-We
+Your phone is not a point mass but are we able to treat it like one? The answer is yes, but only under certain conditions. 
 
+You were taught in Physics 2 for a physical pendulum (not a simple pendulum) that the angular frequency is given by:
+
+:::Figure:Equation
+$$
+\omega_0 = \sqrt{\frac{mgL}{I}}
+$$
+:::
+
+Where $I$ is the moment of inertia for the physical pendulum.
+
+::: Exercise
+
+:::Question
+Verify when we use the moment of inertia for a simple pendulum (point mass) that you get back out the $\omega_0$ we expect.
+:::
+
+To figure out the moment of inertia for your phone we will need to do two things. 
+
+1. First we will assume that your phone has the same moment of inertia as a bar rotating about its center. This is given by:
+
+:::Figure:Equation
+$$
+I_{phone-cm} = \frac{1}{12}ml^2
+$$
+:::
+
+Where $l$ is the length of one of the edges of your phone.
+
+2. The equation for $I_{phone-cm}$ only works for rotating your phone about its **center of mass**. For our setup, your phone will be rotating about its center of mass, but about the pivot of the pendulum. For this we will have to apply the parallel axis theorem.
+
+::: Question
+Use the parallel axis theorem and equation 10 to write the equation moment of inertia of your phone about the pendulum pivot. Call it $I_{phone}$
+:::
+
+3. Now that you have the moment of inertia for your phone, plug it into Equation 9.
+4. Factor out $mL^2$ from the denominator. 
+
+:::Question
+a) Under what condition does your phone behave like a simple pendulum. **Hint: Consider the ratio of $\frac{l}{L}$.**
+
+b) If your phone had a length of 8cm and the pendulum a length is 50cm,  What is the percent difference between the period of a perfect pendulum of 50cm, and your phone pendulum. 
+:::
+:::
 
 
 
 ##### Background
 A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
 
-
-The restoring forces obey Hooke’s Law (approx). The restoring forces are proportional to the displacements.
-PAULA’S SLIDES
-
-Ex 1 Derive the equations
-Ex 1
-Assume $$\theta = \theta \small_{0} \normalsize \cos(\omega t)$$
-
-
-
-
-
-Ex 2
-Show that we can assume a point mass for your phone, making our work much easier
-Zak’s overleaf
-Give them equation w = sqrt (mgL/I) (equation 1)
-Do MoI of point particle
-Determine MoI for phone using Parallel Axis Theorem
-Plug PAT MoI into equation 1
-Convince students that 1/12 Ma^2 where a is length of phone is much less than ML^2 and can be ignored (we might need to guide them through this)
-Q2:
 We want to make the correction term (the term due to rotation) as small as possible so given that your phone is X cm long, what length of string would you like to make your pendulum?
 
 Ex 3
 Build apparatus. Take pic. Take data. 
 PUT DISCLAIMER ABOUT SECURING PHONE/PILLOWS/EVERYTHING
 
-## 4. Building an apparatus
+# Part III: Building an Apparatus
 In this experiment you will be using your phone to measure the 
 
 [INSERT ANIMATED GIF HERE]
 While you may be able to achieve a pendulum without it, we recommend you find a tube from toilet paper and, after flattening it, mark the width of your phone on both sides of the flatted tube.
 Cut into the roll approximately 2cm deep at each mark of your phone’s width and then cut along the length of the roll to complete the cutout. Do this on both sides.
 Poke holes in each of the corners of the now flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
+
+# Part IV: Conclusion
+::: Exercise
+1. Give a quick summary of the import parts of this lab.
+:::
