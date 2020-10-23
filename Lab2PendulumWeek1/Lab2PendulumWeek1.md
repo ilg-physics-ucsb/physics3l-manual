@@ -286,8 +286,16 @@ While you may be able to achieve a pendulum without it, we recommend using the a
 ![Suggested Materials](imgs/IMG_0727.jpg)
 :::
 
-9. 
-10. 
+9.  Now find something to hang your string from. I have used both a shower frame as well as a broom handle between two chairs.
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0695.jpg)
+:::
+
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_8006.jpg)
+:::
+
+11. 
 
 Ex 3
 Build apparatus. Take pic. Take data. 
