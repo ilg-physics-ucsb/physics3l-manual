@@ -248,7 +248,8 @@ We want to make the correction term (the term due to rotation) as small as possi
 Build apparatus. Take pic. Take data. 
 DISCLAIMER ABOUT SECURING PHONE/PILLOWS/EVERYTHING
 
-In this experiment you will be using your phone to measure the acceleration in the x, y, and z axis without gravity. 
+In this experiment you will be using your phone to measure the acceleration in the x, y, and z axis without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
+
 While you may be able to achieve a pendulum without it, we recommend using the additional materials as well. This guide will assume that you have them.
 
 :::Figure:Figure
