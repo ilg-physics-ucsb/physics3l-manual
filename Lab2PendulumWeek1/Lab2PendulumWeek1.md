@@ -292,10 +292,19 @@ While you may be able to achieve a pendulum without it, we recommend using the a
 :::
 
 :::Figure:Figure
-![Suggested Materials](imgs/IMG_8006.jpg)
+![Suggested Materials](imgs/IMG_7003.jpg)
 :::
 
-11. 
+
+10. If your phone is not level, try corrective measures.
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0700.jpg)
+:::
+
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_08007.jpg)
+:::
+note: I added tape after the second photo to ensure it would stay.
 
 Ex 3
 Build apparatus. Take pic. Take data. 
