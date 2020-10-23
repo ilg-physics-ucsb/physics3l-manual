@@ -245,8 +245,8 @@ We want to make the correction term (the term due to rotation) as small as possi
 # Part III: Building an Apparatus
 
 :::Exercise
-Build apparatus. Take pic. Take data. 
-DISCLAIMER ABOUT SECURING PHONE/PILLOWS/EVERYTHING
+
+DISCLAIMER - You will be using your phone to take data and this come sometimes lead to accidents. EVERYTHING
 
 In this experiment you will be using your phone to measure the acceleration in the x, y, and z axis without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
 
