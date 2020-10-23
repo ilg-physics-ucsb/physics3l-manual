@@ -1,4 +1,4 @@
-# Lab 2 Pendulum Week 1
+									# Lab 2 Pendulum Week 1
 ---
 
 ### All Materials Needed:
@@ -243,12 +243,51 @@ We want to make the correction term (the term due to rotation) as small as possi
 
 
 # Part III: Building an Apparatus
-In this experiment you will be using your phone to measure the 
+In this experiment you will be using your phone to measure the acceleration in the x, y, and z axis without gravity. 
+While you may be able to achieve a pendulum without it, we recommend using the additional materials as well. This guide will assume that you have them.
+
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0713.jpg)
+:::
 
 [INSERT ANIMATED GIF HERE]
-While you may be able to achieve a pendulum without it, we recommend you find a tube from toilet paper and, after flattening it, mark the width of your phone on both sides of the flatted tube.
-Cut into the roll approximately 2cm deep at each mark of your phone’s width and then cut along the length of the roll to complete the cutout. Do this on both sides.
-Poke holes in each of the corners of the now flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
+1. Find the cardboard tube from a toilet paper roll and flatten it.  
+
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0710.jpg)
+:::
+
+3. mark the width of your phone on both sides of the flatted tube.
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0712.jpg)
+:::
+
+4. Cut into the roll approximately 4 cm deep at each mark you made using your phone. Cut along the length of the roll to complete the cutout. Do this on both sides.
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0716.jpg)
+:::
+
+5. Poke holes in each of the corners of the now flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0720.jpg)
+:::
+
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0724.jpg)
+:::
+
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0726.jpg)
+:::
+
+7.  Now cut a long length of string. Make sure you leave a lot of slack, too. This string will run through the width edge, run underneath the roll, then back through and up the other width edge hole.
+
+:::Figure:Figure
+![Suggested Materials](imgs/IMG_0727.jpg)
+:::
+
+9. 
+10. 
 
 Ex 3
 Build apparatus. Take pic. Take data. 
