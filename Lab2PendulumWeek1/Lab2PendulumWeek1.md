@@ -34,34 +34,30 @@ Simple harmonic motion is characterized by a system whose acceleration is negati
 #####
 :::Figure:Equation
 $$
-a = \frac{d^2 x}{dt^2} = -\omega^2 x
+a = \frac{d^2 x}{dt^2} = -\Omega^2 x
 $$
 :::
 #####
-where $x$ is the coordinate for position. $\omega$ is known as the angular frequency and is defined as the following:
+where $x$ is the coordinate for position. $\Omega$ is known as the angular frequency and is defined as the following:
 #####
 :::Figure:Equation
 $$
-\omega = 2 \pi f
+\Omega = \frac{2 \pi}{T}
 $$
 :::
 #####
 
- where $f$ is the frequency of the oscillator. 
+ where $T$ is the period of the oscillator. 
  
  
  #####
- **This definition of $\omega$ is true for all simple harmonic oscillators.**
-
-::: Question
-Recall that the period, $T$ is given by $T=\frac{1}{f}$. Use this an Equation 2 to write the equation for the period in terms of angular frequency. 
-:::
+ **This definition of $\Omega$ is true for all simple harmonic oscillators.**
 
 You maybe have seen Equation 1 solved in a lecture class before. We won't go through it here, but we will remind you that the solution gives position $x$ as function of time  $t$. The equation for position is given in Equation 3 below. 
  
 :::Figure:Equation
 $$
-x = x_0 \cos (\omega t)
+x = x_0 \cos (\Omega t)
 $$
 :::
 
@@ -78,29 +74,29 @@ A simple pendulum is one that is simple a point mass at the at the end of a mass
 
 :::Figure:Equation
 $$
-\alpha = \frac{d^2 \theta}{dt^2} = -\omega\small_{0}\normalsize^2 \theta = -\frac{g}{L} \theta
+\alpha = \frac{d^2 \theta}{dt^2} = -\Omega^2 \theta = -\frac{g}{L} \theta
 $$
 :::
 
-You may also recall that for a simple pendulum $\omega\small_{0}\normalsize = \sqrt{\frac{g}{L}}$, where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
+You may also recall that for a simple pendulum $\Omega = \sqrt{\frac{g}{L}}$, where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
 
 Lastly this means that angular position of the pendulum is given by:
 
 :::Figure:Equation
 $$
-\theta = \theta\small_{0}\normalsize \cos (\omega\small_{0}\normalsize t)
+\theta = \theta\small_{0}\normalsize \cos (\Omega t)
 $$
 :::
 
 :::Question
-Use your equation from Question 1 write the period of a pendulum in terms of length $L$. 
+Use the information above and Equation 2. What is the period of the pendulum?
 :::
 
 ## 3. Circular Motion
 
 In this experiment you will be using your phone to measure accelerations. Therefore we should discuss what types of accelerations your phone will undergo as it swings back and forth. In a pendulum, the motion of the mass (your phone) moves on an arc of a circle. Therefore we can use our knowledge of circular motion. 
 
-Object moving in a circle are said to have an angular velocity denoted as $\omega$. **This angular velocity is different from the $\omega_0$ used in Equations 4 & 5.** This angular velocity is defined as the rate of change of the angular position.
+Object moving in a circle are said to have an angular velocity denoted as $\omega$. This angular velocity is defined as the rate of change of the angular position.
 
 :::Figure:Equation
 $$
@@ -208,7 +204,7 @@ Where $I$ is the moment of inertia for the physical pendulum.
 ::: Exercise
 
 :::Question
-Verify when we use the moment of inertia for a simple pendulum (point mass) that you get back out the $\omega_0$ we expect.
+Verify when we use the moment of inertia for a simple pendulum (point mass) that you get back out the $\Omega$ we expect.
 :::
 
 To figure out the moment of inertia for your phone we will need to do two things. 
@@ -223,7 +219,7 @@ $$
 
 Where $l$ is the length of one of the edges of your phone.
 
-2. The equation for $I_{phone-cm}$ only works for rotating your phone about its **center of mass**. For our setup, your phone will be rotating about its center of mass, but about the pivot of the pendulum. For this we will have to apply the parallel axis theorem.
+2. The equation for $I_{phone-cm}$ only works for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem.
 
 ::: Question
 Use the parallel axis theorem and equation 10 to write the equation moment of inertia of your phone about the pendulum pivot. Though some of you may prefer Android, call it $I_{phone}$.
