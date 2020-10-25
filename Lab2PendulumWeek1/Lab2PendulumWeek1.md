@@ -5,8 +5,8 @@
 
 - String, twine, ribbon, or some other type of long, thin, flexible structure for tying and supporting.
 - A pair of scissors.
-- Someplace to hang your pendulum i.e. shower curtain rod, broomstick across two chairs, taped to a dining room table, etc.
-- Phyphox "Acceleration without g”
+- Someplace to hang your pendulum, *e.g.*, shower curtain rod, broomstick across two chairs, taped to a dining room table, etc.
+- Phyphox &ldquo;Acceleration without g&rdquo;
 - Pillow, couch cushion, or something similar.
 
 ##### Suggested Additional Materials:
@@ -53,7 +53,7 @@ $$
  #####
  **This definition of $\Omega$ is true for all simple harmonic oscillators.**
 
-You maybe have seen Equation 1 solved in a lecture class before. We won't go through it here, but we will remind you that the solution gives position $x$ as function of time  $t$. The equation for position is given in Equation 3 below. 
+You may have seen Equation 1 solved in a lecture class before. We won&rsquo;t go through it here, but we will remind you that the solution gives position $x$ as function of time  $t$. The equation for position is given in Equation 3 below. 
  
 :::Figure:Equation
 $$
@@ -70,7 +70,7 @@ $x_0$ is the amplitude of the periodic motion, but also marks the initial positi
 ![Picture of Pendulum](imgs/Pendulum.png)
 :::
 
-A simple pendulum is one that is simple a point mass at the at the end of a massless string of length $L$. A simple pendulum that is released from a small initial angle ($15 ^{\circ}$ or less) exhibits simple harmonic motion. For the case of the pendulum it is the angular position given by $\theta$ that follows Equation 1. That is to say:
+A simple pendulum is one that is simply a point mass at the at the end of a massless string of length $L$. A simple pendulum that is released from a small initial angle ($15 ^{\circ}$ or less) exhibits simple harmonic motion. For the case of the pendulum it is the angular position given by $\theta$ that follows Equation 1. That is to say:
 
 :::Figure:Equation
 $$
@@ -89,14 +89,14 @@ $$
 :::
 
 :::Question
-Use the information above and Equation 2. What is the period of the pendulum?
+Use the information above and Equation 2 to write an equation for the period of the pendulum.
 :::
 
 ## 3. Circular Motion
 
 In this experiment you will be using your phone to measure accelerations. Therefore we should discuss what types of accelerations your phone will undergo as it swings back and forth. In a pendulum, the motion of the mass (your phone) moves on an arc of a circle. Therefore we can use our knowledge of circular motion. 
 
-Object moving in a circle are said to have an angular velocity denoted as $\omega$. This angular velocity is defined as the rate of change of the angular position.
+Objects moving in a circle are said to have angular velocity, denoted as $\omega$. This angular velocity is defined as the rate of change of the angular position.
 
 :::Figure:Equation
 $$
@@ -104,7 +104,7 @@ $$
 $$
 :::
 
-Recall from Physics 2 that the acceleration an object experiences has two components. One points the radial direction (towards the pivot). This we will call $a_{rad}$ or $a_r$ for short. The other points in the direction of motion tangential to the circle. This is sometimes call $a_{tan}$ but for this lab we will call it $a_{\theta}$.
+Recall from Physics 2 that the acceleration an object experiences when it moves in an arc or circle at varying speed, has two components. One points in the radial direction (towards the pivot). This we will call $a_{rad}$ or $a_r$ for short. The other points in the direction of motion tangent to the circle. This is sometimes called $a_{tan}$ but for this lab we will call it $a_{\theta}$.
 
 :::Figure:Figure
 ![Picture of Pendulum](imgs/acceleration3.png)
@@ -130,7 +130,7 @@ $$
 
 ## 1. The Experiment
 
-In this lab you will turn your phone into a pendulum. You will suspend it in some way (we provide some ideas below) and then use the "Accelerometer without g" to measure the phone's acceleration along all three axes while your phone swings back and forth. Figure 3 shows one such setup. We will use the acceleration data to measure the period of the pendulum.
+In this lab you will turn your phone into a pendulum. You will suspend it in some way (we provide some ideas below) and then use the &ldquo;Accelerometer without g&rdquo; to measure the phone&rsquo;s acceleration along all three axes while your phone swings back and forth. Figure 3 shows one such setup. We will use the acceleration data to measure the period of the pendulum.
 
 :::Figure:Figure
 ![Phone Swinging Image](imgs/phonePendulumGif.gif)
@@ -138,25 +138,25 @@ In this lab you will turn your phone into a pendulum. You will suspend it in som
 
 ## 2. Relationship Between the Period of Acceleration and Position
 
-Typically when measuring the period of the pendulum you would measure the angular position as a function of time. Then from that data you would measure the period of the pendulum. 
+Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum. 
 
 :::Figure:Figure
 ![Gif  of pendulum moving](imgs/accelerationgif.gif)
 :::
 
-Since we are measuring the period of the acceleration and not the angular position, we need to understand the relationship between the two. In Figure 4 you can see the how the **net acceleration** vector changes with time. Notice that is periodic. Also notice that at the bottom of the swing it is entirely pointed radially and at the top of the swings it is entirely pointed tangentially. 
+Since we are measuring the period of the acceleration and not the angular position, we need to understand the relationship between the two. In Figure 4 you can see the how the **net acceleration** vector changes with time. Notice that this change is periodic. Also notice that at the bottom of the swing the acceleration is pointed entirely radially, and at the top of the swing it is pointed entirely tangentially. 
 
-This indicates that both $a_r$ and $a_\theta$ have some sort of periodic behavior, but it is not a given that the period of either acceleration would match that of the angular position. We can get some intuition by watching the animation however. Notice that it takes one full swing of the pendulum for $a_\theta$ to point in the same direction while $a_r$ points radially twice in one full swing.
+This indicates that both $a_r$ and $a_\theta$ have some sort of periodic behavior, but it is not a given that the period of either acceleration would match that of the angular position. We can get some intuition by watching the animation, however. Notice that it takes one full swing of the pendulum for $a_\theta$ to point in the same direction, while $a_r$ points radially twice in one full swing.
 
 :::Exercise
 Assume that the angular position of the pendulum is given by Equation 5 above.
 
 :::Question
-Derive the equation for the radial acceleration of the pendulum $a_r$ as a function of time using Equations 5 and 7. Show your work.
+Derive the equation for the radial acceleration of the pendulum $a_r$ as a function of time by using Equations 5 and 7. Show your work.
 :::
 
 :::Question
-Derive the equation for the radial acceleration of the pendulum $a_\theta$ as a function of time using Equations 5 and 8. Show your work.
+Derive the equation for the radial acceleration of the pendulum $a_\theta$ as a function of time by Equations 5 and 8. Show your work.
 :::
 
 :::Question
@@ -167,7 +167,7 @@ b) What is the relationship between the period of $a_\theta$ and the angular pos
 c) Which should you use to measure to angular position of of the pendulum?
 :::
 
-Recall that the radial acceleration vector always points towards the pivot. The tangential acceleration points in the direction of motion (tangential to the circular arc). 
+Recall that the radial acceleration vector always points towards the pivot. The tangential acceleration points in the direction of motion (tangent to the circular arc). 
 
 Figure 5 shows how the coordinate system for your accelerometer moves with your phone. 
 
@@ -189,9 +189,9 @@ Long Axis is x = $a_r$, etc.
 
 So far, most of our discussion has been based on a simple pendulum. That means a point mass at the end of  massless string.
 
-Your phone is not a point mass but are we able to treat it like one? The answer is yes, but only under certain conditions. 
+Your phone is not a point mass, but are we able to treat it as one? The answer is yes, but only under certain conditions. 
 
-You were taught in Physics 2 for a physical pendulum (not a simple pendulum) that the angular frequency is given by:
+You were taught in Physics 2 that for a physical pendulum (not a simple pendulum), the angular frequency is given by:
 
 :::Figure:Equation
 $$
@@ -204,7 +204,7 @@ Where $I$ is the moment of inertia for the physical pendulum.
 ::: Exercise
 
 :::Question
-Verify when we use the moment of inertia for a simple pendulum (point mass) that you get back out the $\Omega$ we expect.
+Verify  that when we use the moment of inertia for a simple pendulum (point mass), we get back out the $\Omega$ we expect.
 :::
 
 To figure out the moment of inertia for your phone we will need to do two things. 
@@ -219,7 +219,7 @@ $$
 
 Where $l$ is the length of one of the edges of your phone.
 
-2. The equation for $I_{phone-cm}$ only works for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem.
+2. The equation for $I_{phone-cm}$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem.
 
 ::: Question
 Use the parallel axis theorem and equation 10 to write the equation moment of inertia of your phone about the pendulum pivot. Though some of you may prefer Android, call it $I_{phone}$.
@@ -229,9 +229,9 @@ Use the parallel axis theorem and equation 10 to write the equation moment of in
 4. Factor out $mL^2$ from the denominator. 
 
 :::Question
-a) Under what condition does your phone behave like a simple pendulum. **Hint: Consider the ratio of $\frac{l}{L}$.**
+a) Under what condition does your phone behave as a simple pendulum. **Hint: Consider the ratio of $\frac{l}{L}$.**
 
-b) If your phone had a length of 8cm and the pendulum a length is 50cm,  What is the percent difference between the period of a perfect pendulum of 50cm, and your phone pendulum. 
+b) If your phone had a length of 8 cm and the pendulum a length of 50 cm,  what would be the percent difference between the period of an ideal simple pendulum of 50 cm, and that of your phone pendulum. 
 :::
 :::
 
@@ -246,11 +246,11 @@ We want to make the correction term (the term due to rotation) as small as possi
 
 :::Exercise
 
-DISCLAIMER - You will be using your phone to take data and this come sometimes lead to accidents. EVERYTHING
+DISCLAIMER - You will be using your phone to take data, and this can sometimes lead to accidents. **Please use due care in handling your phone during this experiment.**
 
-In this experiment you will be using your phone to measure the acceleration in the x, y, and z axis without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
+In this experiment you will be using your phone to measure the acceleration in the x, y, and z axes without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
 
-While you may be able to achieve a pendulum without it, we recommend using the additional materials as well. This guide will assume that you have them.
+While you may be able to achieve a pendulum without them, we recommend using the additional materials as well. This guide will assume that you have them.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0713.jpg)
@@ -263,17 +263,17 @@ While you may be able to achieve a pendulum without it, we recommend using the a
 ![Suggested Materials](imgs/IMG_0710.jpg)
 :::
 
-3. mark the width of your phone on both sides of the flatted tube.
+3. mark the width of your phone on both sides of the flattened tube.
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0712.jpg)
 :::
 
-4. Cut into the roll approximately 4 cm deep at each mark you made using your phone. Cut along the length of the roll to complete the cutout. Do this on both sides.
+4. Make a cut, approximately 4 mm deep, at each mark you made with your phone. Cut from one mark to the other, along the length of the roll, to complete the cutout. Do this on both sides.
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0716.jpg)
 :::
 
-5. Poke holes in each of the corners of the now flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
+5. Poke holes in each of the corners of the flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0720.jpg)
 :::
@@ -292,7 +292,7 @@ While you may be able to achieve a pendulum without it, we recommend using the a
 ![Suggested Materials](imgs/IMG_0727.jpg)
 :::
 
-9.  Now find something to hang your string from. I have used both a shower frame as well as a broom handle between two chairs.
+9.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0695.jpg)
 :::
@@ -308,13 +308,13 @@ While you may be able to achieve a pendulum without it, we recommend using the a
 :::
 
 :::Figure:Figure
-![Suggested Materials](imgs/IMG_08007.jpg)
+![Suggested Materials](imgs/IMG_8007.jpg)
 :::
-note: I added tape after the second photo to ensure it would stay.
+Note: I added tape after the second photo to ensure that the phone would stay in place.
 
 
 :::
 # Part IV: Conclusion
 ::: Exercise
-1. Give a quick summary of the import parts of this lab.
+1. Give a quick summary of the important parts of this lab.
 :::
