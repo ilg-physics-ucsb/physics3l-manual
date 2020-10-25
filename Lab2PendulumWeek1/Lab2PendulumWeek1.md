@@ -298,7 +298,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 
 :::Figure:Figure
-![Suggested Materials](imgs/IMG_7003.jpg)
+![Suggested Materials](imgs/IMG_0703.jpg)
 :::
 
 
@@ -310,7 +310,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_8007.jpg)
 :::
-Note: I added tape after the second photo to ensure that the phone would stay in place.
+Note: I added tape after the second photo to ensure that everything would stay in place.
 
 
 :::
