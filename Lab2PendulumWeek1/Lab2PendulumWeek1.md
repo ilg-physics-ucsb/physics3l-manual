@@ -89,7 +89,7 @@ $$
 :::
 
 :::Question
-Use the information above and Equation 2 to write an equation for the period of the pendulum.
+Use the information above and Equation 2 to write an equation for the period of the pendulum in terms of $g$ and $L$.
 :::
 
 ## 3. Circular Motion
