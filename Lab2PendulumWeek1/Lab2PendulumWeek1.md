@@ -263,16 +263,16 @@ While you may be able to achieve a pendulum without them, we recommend using the
 
 <!---:::Figure:Figure![Suggested Materials](imgs/IMG_0710.jpg):::--->
 
-3. Mark the width of your phone on both sides of the flattened tube.
+2. Mark the width of your phone on both sides of the flattened tube.
 <!---:::Figure:Figure![Suggested Materials](imgs/IMG_0712.jpg):::--->
 
-4. Make a cut, approximately 4 mm deep, at each mark you made with your phone. Cut from one mark to the other, along the length of the roll, to complete the cutout. Do this on both sides.
+3. Make a cut, approximately 4 mm deep, at each mark you made with your phone. Cut from one mark to the other, along the length of the roll, to complete the cutout. Do this on both sides.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0716.jpg)
 :::
 
-5. Poke holes in each of the corners of the flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
+4. Poke holes in each of the corners of the flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0720.jpg)
@@ -284,13 +284,13 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_0726.jpg)
 :::
 
-6.  Now cut a long length of string. Make sure you leave a lot of slack, too. This string will run through the width edge, run underneath the roll, then back through and up the other width edge hole.
+5.  Now cut a long length of string. Make sure you leave a lot of slack, too. This string will run through the width edge, run underneath the roll, then back through and up the other width edge hole.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0727.jpg)
 :::
 
-7.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
+6.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0695.jpg)
@@ -301,7 +301,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 
 
-8. If your phone is not level, try corrective measures.
+7. If your phone is not level, try corrective measures.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0700.jpg)
