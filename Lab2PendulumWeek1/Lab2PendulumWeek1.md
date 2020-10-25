@@ -256,31 +256,33 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_0713.jpg)
 :::
 
-[INSERT ANIMATED GIF HERE]
+<!---[INSERT ANIMATED GIF HERE]--->
 1. Find the cardboard tube from a toilet paper roll and flatten it.  
 
-:::Figure:Figure
+<!---:::Figure:Figure
 ![Suggested Materials](imgs/IMG_0710.jpg)
-:::
+:::--->
 
-3. mark the width of your phone on both sides of the flattened tube.
-:::Figure:Figure
+3. Mark the width of your phone on both sides of the flattened tube.
+<!---:::Figure:Figure
 ![Suggested Materials](imgs/IMG_0712.jpg)
-:::
+:::--->
 
 4. Make a cut, approximately 4 mm deep, at each mark you made with your phone. Cut from one mark to the other, along the length of the roll, to complete the cutout. Do this on both sides.
+
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0716.jpg)
 :::
+
 
 5. Poke holes in each of the corners of the flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0720.jpg)
 :::
 
-:::Figure:Figure
+<!---:::Figure:Figure
 ![Suggested Materials](imgs/IMG_0724.jpg)
-:::
+:::--->
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0726.jpg)
@@ -293,6 +295,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 
 9.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
+
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0695.jpg)
 :::
@@ -303,6 +306,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 
 
 10. If your phone is not level, try corrective measures.
+
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0700.jpg)
 :::
@@ -312,8 +316,9 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 Note: I added tape after the second photo to ensure that everything would stay in place.
 
-
 :::
+
+
 # Part IV: Conclusion
 ::: Exercise
 1. Give a quick summary of the important parts of this lab.
