@@ -217,7 +217,7 @@ I_{phone-cm} = \frac{1}{12}ml^2
 $$
 :::
 
-Where $l$ is the length of one of the edges of your phone.
+Where $l$ is the length of one of the (long) edges of your phone.
 
 2. The equation for $I_{phone-cm}$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem.
 
