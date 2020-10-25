@@ -236,10 +236,10 @@ b) If your phone had a length of 8 cm and the pendulum a length of 50 cm,  what 
 :::
 
 
-<!--##### Background
+<!---##### Background
 A period is the time it takes for one cycle in a repeating event. It is the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period.
 
-We want to make the correction term (the term due to rotation) as small as possible so given that your phone is X cm long, what length of string would you like to make your pendulum?)-->
+We want to make the correction term (the term due to rotation) as small as possible so given that your phone is X cm long, what length of string would you like to make your pendulum?)--->
 
 
 # Part III: Building an Apparatus
