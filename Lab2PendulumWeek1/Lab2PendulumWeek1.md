@@ -244,9 +244,11 @@ We want to make the correction term (the term due to rotation) as small as possi
 
 # Part III: Building an Apparatus
 
-:::Exercise
-
+:::Note
 DISCLAIMER - You will be using your phone to take data, and this can sometimes lead to accidents. **Please use due care in handling your phone during this experiment.**
+:::
+
+:::Exercise
 
 In this experiment you will be using your phone to measure the acceleration in the x, y, and z axes without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
 
@@ -259,14 +261,10 @@ While you may be able to achieve a pendulum without them, we recommend using the
 <!---[INSERT ANIMATED GIF HERE]--->
 1. Find the cardboard tube from a toilet paper roll and flatten it.  
 
-<!---:::Figure:Figure
-![Suggested Materials](imgs/IMG_0710.jpg)
-:::--->
+<!---:::Figure:Figure![Suggested Materials](imgs/IMG_0710.jpg):::--->
 
 3. Mark the width of your phone on both sides of the flattened tube.
-<!---:::Figure:Figure
-![Suggested Materials](imgs/IMG_0712.jpg)
-:::--->
+<!---:::Figure:Figure![Suggested Materials](imgs/IMG_0712.jpg):::--->
 
 4. Make a cut, approximately 4 mm deep, at each mark you made with your phone. Cut from one mark to the other, along the length of the roll, to complete the cutout. Do this on both sides.
 
@@ -274,15 +272,13 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_0716.jpg)
 :::
 
-
 5. Poke holes in each of the corners of the flattened roll, leaving enough space along the edge that you don’t rip out to the edge.
+
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0720.jpg)
 :::
 
-<!---:::Figure:Figure
-![Suggested Materials](imgs/IMG_0724.jpg)
-:::--->
+<!---:::Figure:Figure![Suggested Materials](imgs/IMG_0724.jpg):::--->
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0726.jpg)
@@ -314,8 +310,8 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_8007.jpg)
 :::
-Note: I added tape after the second photo to ensure that everything would stay in place.
 
+Note: I added tape after the second photo to ensure that everything would stay in place.
 :::
 
 
