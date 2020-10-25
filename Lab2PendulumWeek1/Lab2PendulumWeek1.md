@@ -1,4 +1,4 @@
-									# Lab 2 Pendulum Week 1
+# Lab 2 Pendulum Week 1
 ---
 
 ### All Materials Needed:
@@ -284,13 +284,13 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_0726.jpg)
 :::
 
-7.  Now cut a long length of string. Make sure you leave a lot of slack, too. This string will run through the width edge, run underneath the roll, then back through and up the other width edge hole.
+6.  Now cut a long length of string. Make sure you leave a lot of slack, too. This string will run through the width edge, run underneath the roll, then back through and up the other width edge hole.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0727.jpg)
 :::
 
-9.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
+7.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0695.jpg)
@@ -301,7 +301,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 
 
-10. If your phone is not level, try corrective measures.
+8. If your phone is not level, try corrective measures.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0700.jpg)
