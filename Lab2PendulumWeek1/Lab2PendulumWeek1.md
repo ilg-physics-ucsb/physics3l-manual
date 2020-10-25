@@ -6,7 +6,7 @@
 - String, twine, ribbon, or some other type of long, thin, flexible structure for tying and supporting.
 - A pair of scissors.
 - Someplace to hang your pendulum, *e.g.*, shower curtain rod, broomstick across two chairs, taped to a dining room table, etc.
-- Phyphox &ldquo;Acceleration without g&rdquo;
+- Phyphox &ldquo;Acceleration without g.&rdquo;
 - Pillow, couch cushion, or something similar.
 
 ##### Suggested Additional Materials:
