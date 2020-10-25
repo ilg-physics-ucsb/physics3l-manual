@@ -195,7 +195,7 @@ You were taught in Physics 2 that for a physical pendulum (not a simple pendulum
 
 :::Figure:Equation
 $$
-\omega_0 = \sqrt{\frac{mgL}{I}}
+\Omega = \sqrt{\frac{mgL}{I}}
 $$
 :::
 
@@ -219,10 +219,12 @@ $$
 
 Where $l$ is the length of one of the (long) edges of your phone.
 
-2. The equation for $I_{phone-cm}$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem.
+2. The equation for $I_{phone-cm}$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem. When one does this for his or her phone swinging about a pivot distance $L$ away you find:
 
-::: Question
-Use the parallel axis theorem and equation 10 to write the equation moment of inertia of your phone about the pendulum pivot. Though some of you may prefer Android, call it $I_{phone}$.
+:::Figure:Equation
+$$
+I_{phone} = \frac{1}{12}ml^2 +mL^2
+$$
 :::
 
 3. Now that you have the moment of inertia for your phone, plug it into Equation 9.
@@ -317,5 +319,9 @@ Note: I added tape after the second photo to ensure that everything would stay i
 
 # Part IV: Conclusion
 ::: Exercise
-1. Give a quick summary of the important parts of this lab.
+1. Describe the experiment you will be performing next week.
+
+2. Shortly state how the acceleration you will measure will be related to the period of the pendulum.
+
+3. Summarize how using your phone as the bob affects your pendulum.
 :::
