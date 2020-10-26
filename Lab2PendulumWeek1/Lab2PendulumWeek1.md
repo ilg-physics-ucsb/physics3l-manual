@@ -292,7 +292,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_0727.jpg)
 :::
 
-6.  Insert your phone into the whole you have cut, with the string ends on the same side as your phone face. Put a rubber band, or something else elastic, around one end of the phone (while the roll is at that end). Slide the roll and elastic band to the other side, so you can fir it around there too. This will secure your phone even more.
+6.  Insert your phone into the slot you have cut, with the string ends on the same side as your phone face. Put a rubber band, or something else elastic, around one end of the phone (while the roll is at that end). Slide the roll and elastic band to the other side, so you can fit it around there too. This will secure your phone even better.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/3N1.jpeg)
@@ -328,7 +328,7 @@ Note: I added tape after the second photo to ensure that everything would stay i
 ::: Exercise
 1. Describe the experiment you will be performing next week.
 
-2. Shortly state how the acceleration you will measure will be related to the period of the pendulum.
+2. Briefly state how the acceleration you will measure will be related to the period of the pendulum.
 
 3. Summarize how using your phone as the bob affects your pendulum.
 :::
