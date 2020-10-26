@@ -29,13 +29,8 @@
 
 # Part III: Building an Apparatus
 
-:::Note
-DISCLAIMER - You will be using your phone to take data, and this can sometimes lead to accidents. **Please use due care in handling your phone during this experiment.**
-:::
 
-:::Exercise
 
-<!---[INSERT ANIMATED GIF HERE]--->
 :::row
 :::column
 :::Figure:Figure
@@ -48,6 +43,15 @@ DISCLAIMER - You will be using your phone to take data, and this can sometimes l
 :::
 :::
 :::
+
+:::Note
+DISCLAIMER - You will be using your phone to take data, and this can sometimes lead to accidents. **Please use due care in handling your phone during this experiment.**
+:::
+
+
+
+<!---[INSERT ANIMATED GIF HERE]--->
+
 
 In this experiment you will be using your phone to measure the acceleration in the x, y, and z axes without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
 
@@ -138,18 +142,17 @@ Note: I added tape after the second photo to ensure that everything would stay i
 
 ##### Background
 A period is the time it takes for one cycle in a repeating event or the time for which the event repeats itself. 
-
+#####
 A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period of the pendulum.
-
+#####
 You should have determined by now how you will be turning your phone into a pendulum.
-
-
+#####
 Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum. 
-
+#
 
 1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this), 
-2. Look up the mass of your phone online. Record the data
-3. Measure the length of your pendulum (AVOCADO come back to this)
+2. Look up the mass of your phone online. Record the data (alternately they can grab some things from the kitchen with weight listed on them and create a balance -- this link here is for anything we may need to weigh in the future: https://www.hunker.com/13414006/how-to-weigh-things-without-a-scale
+3. Measure the length of your pendulum (AVOCADO come back to this). Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
 4. measure small angle for one length
 5. Using the 'Accelerometer without g' function (and we find making it a timed run gives a lot of data and the ability to start the pendulum in motion before recording starts).
 6. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
@@ -162,7 +165,7 @@ Some Question here about thier plot or data collected
 :::
 
 
-
+# Part V: IDR
 
 
 # Part VI: Conclusion
