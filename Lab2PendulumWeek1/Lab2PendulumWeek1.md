@@ -161,11 +161,11 @@ Derive the equation for the radial acceleration of the pendulum $a\small_{\theta
 :::
 
 :::Question
-a) What is the relationship between the period of $a\small_{r}\normalsize$ and the angular position?
+a) What is the relationship between the period of $a\small_{r}\normalsize$ and the period of the angular position?
 
-b) What is the relationship between the period of $a\small_{\theta}\normalsize$ and the angular position?
+b) What is the relationship between the period of $a\small_{\theta}\normalsize$ and period of the angular position?
 
-c) Which should you use to measure to angular position of of the pendulum?
+c) Which should you use to measure the period angular position of the pendulum?
 :::
 
 Recall that the radial acceleration vector always points towards the pivot. The tangential acceleration points in the direction of motion (tangent to the circular arc). 
