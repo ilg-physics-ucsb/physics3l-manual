@@ -1,28 +1,29 @@
 # Lab 2 Pendulum Week 1
 ---
 
-### All Materials Needed:
+### Required Materials:
 
-- String, twine, ribbon, or some other type of long, thin, flexible structure for tying and supporting.
-- A pair of scissors.
-- Someplace to hang your pendulum, *e.g.*, shower curtain rod, broomstick across two chairs, taped to a dining room table, etc.
-- Phyphox &ldquo;Acceleration without g.&rdquo;
-- Pillow, couch cushion, or something similar.
+- String, twine, ribbon, or some other type of long, thin, flexible structure for tying and supporting
+- A pair of scissors
+- Somewhere to hang your pendulum, *e.g.*, shower curtain rod, broomstick across two chairs, taped to a dining room table, etc.
+- phyphox &ldquo;Acceleration without g.&rdquo;
+- Pillow, couch cushion, or something similar
 
 ##### Suggested Additional Materials:
-- Toilet paper roll or something similar.
-- A rubber band or some other elastic material.
-- Tape.
+- Toilet paper roll or something similar
+- A rubber band or some other elastic material
+- Measuring tape
+- Tape
 
 ### Lab Goals:
 
 - **Construct an apparatus** 
-	- Find a place to **safely** hang your phone.
-	- Construct a way of hanging your phone.
+- Construct a method of suspending your phone
+- Find a place to **safely** hang your phone
 - **Data Analysis**
-	- Understand the theory of Simple Harmonic Motion.
-	- Understand the relationship between period and length.
-	- Develop the equations from Newton's equations of motion to verify your data.
+	- Understand the theory of Simple Harmonic Motion
+	- Understand the relationship between period and length
+	- Develop the equations from Newton's equations of motion to verify your data
 
 ---
 
@@ -57,11 +58,11 @@ You may have seen Equation 1 solved in a lecture class before. We won&rsquo;t go
  
 :::Figure:Equation
 $$
-x = x_0 \cos (\Omega t)
+x = x\small_{0}\normalsize\cos (\Omega t)
 $$
 :::
 
-$x_0$ is the amplitude of the periodic motion, but also marks the initial position. 
+$x\small_{0}\normalsize$ is the amplitude of the periodic motion, but also marks the initial position. 
 
 ## 2. Simple Pendulum
 [comment]: # (Period is to the length of the pendulum--use this?)
@@ -104,7 +105,7 @@ $$
 $$
 :::
 
-Recall from Physics 2 that the acceleration an object experiences when it moves in an arc or circle at varying speed, has two components. One points in the radial direction (towards the pivot). This we will call $a_{rad}$ or $a_r$ for short. The other points in the direction of motion tangent to the circle. This is sometimes called $a_{tan}$ but for this lab we will call it $a_{\theta}$.
+Recall from Physics 2 that the acceleration an object experiences when it moves in an arc or circle at varying speed, has two components. One points in the radial direction (towards the pivot). This we will call $a\small_{rad}\normalsize$ or $a\small_{r}\normalsize$ for short. The other points in the direction of motion tangent to the circle. This is sometimes called $a\small_{tan}\normalsize$ but for this lab we will call it $a\small_{\theta}\normalsize$.
 
 :::Figure:Figure
 ![Picture of Pendulum](imgs/acceleration3.png)
@@ -114,15 +115,15 @@ The equation for both of the accelerations is given below:
 
 :::Figure:Equation
 $$
-a_{r} = r \omega^2 = r  \left ( \frac{d \theta}{dt} \right )^2
+a\small_{r}\normalsize = r \omega^2 = r  \left ( \frac{d \theta}{dt} \right )^2
 $$
 :::
 
-<!-- a_{r} = L\omega^{2}\theta_{0}^{2}\sin^{2}(\omega t) -->
+<!-- a\small_{r}\normalsize = L\omega^{2}\theta_{0}^{2}\sin^{2}(\omega t) -->
 
 :::Figure:Equation
 $$
-a_\theta = r \alpha = r  \frac{d^2 \theta}{dt^2}
+a\small_{\theta}\normalsize = r \alpha = r  \frac{d^2 \theta}{dt^2}
 $$
 :::
 
@@ -146,23 +147,23 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 
 Since we are measuring the period of the acceleration and not the angular position, we need to understand the relationship between the two. In Figure 4 you can see the how the **net acceleration** vector changes with time. Notice that this change is periodic. Also notice that at the bottom of the swing the acceleration is pointed entirely radially, and at the top of the swing it is pointed entirely tangentially. 
 
-This indicates that both $a_r$ and $a_\theta$ have some sort of periodic behavior, but it is not a given that the period of either acceleration would match that of the angular position. We can get some intuition by watching the animation, however. Notice that it takes one full swing of the pendulum for $a_\theta$ to point in the same direction, while $a_r$ points radially twice in one full swing.
+This indicates that both $a\small_{r}\normalsize$ and $a\small_{\theta}\normalsize$ have some sort of periodic behavior, but it is not a given that the period of either acceleration would match that of the angular position. We can get some intuition by watching the animation, however. Notice that it takes one full swing of the pendulum for $a\small_{\theta}\normalsize$ to point in the same direction, while $a\small_{r}\normalsize$ points radially twice in one full swing.
 
 :::Exercise
 Assume that the angular position of the pendulum is given by Equation 5 above.
 
 :::Question
-Derive the equation for the radial acceleration of the pendulum $a_r$ as a function of time by using Equations 5 and 7. Show your work.
+Derive the equation for the radial acceleration of the pendulum $a\small_{r}\normalsize$ as a function of time by using Equations 5 and 7. Show your work.
 :::
 
 :::Question
-Derive the equation for the radial acceleration of the pendulum $a_\theta$ as a function of time by Equations 5 and 8. Show your work.
+Derive the equation for the radial acceleration of the pendulum $a\small_{\theta}\normalsize$ as a function of time by Equations 5 and 8. Show your work.
 :::
 
 :::Question
-a) What is the relationship between the period of $a_r$ and the angular position?
+a) What is the relationship between the period of $a\small_{r}\normalsize$ and the angular position?
 
-b) What is the relationship between the period of $a_\theta$ and the angular position?
+b) What is the relationship between the period of $a\small_{\theta}\normalsize$ and the angular position?
 
 c) Which should you use to measure to angular position of of the pendulum?
 :::
@@ -176,11 +177,11 @@ Figure 5 shows how the coordinate system for your accelerometer moves with your 
 :::
 
 ::: Question
-Build a list that identifies which axis of your accelerometer is the long, short, and screen axis, and which of the two correlate to the $a_r$ and $a_\theta$ vectors. 
+Build a list that identifies which axis of your accelerometer is the long, short, and screen axis, and which of the two correlate to the $a\small_{r}\normalsize$ and $a\small_{\theta}\normalsize$ vectors. 
 
 This is just an example: 
 
-Long Axis is x = $a_r$, etc.
+Long Axis is x = $a\small_{r}\normalsize$, etc.
 :::
 :::
 
@@ -213,17 +214,17 @@ To figure out the moment of inertia for your phone we will need to do two things
 
 :::Figure:Equation
 $$
-I_{phone-cm} = \frac{1}{12}ml^2
+I\small_{phone-cm}\normalsize = \frac{1}{12}ml^2
 $$
 :::
 
 Where $l$ is the length of one of the (long) edges of your phone.
 
-2. The equation for $I_{phone-cm}$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem. When one does this for his or her phone swinging about a pivot distance $L$ away you find:
+2. The equation for $I\small_{phone-cm}\normalsize$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the parallel axis theorem. When one does this for his or her phone swinging about a pivot distance $L$ away you find:
 
 :::Figure:Equation
 $$
-I_{phone} = \frac{1}{12}ml^2 +mL^2
+I\small_{phone}\normalsize = \frac{1}{12}ml^2 +mL^2
 $$
 :::
 
@@ -252,6 +253,20 @@ DISCLAIMER - You will be using your phone to take data, and this can sometimes l
 
 :::Exercise
 
+<!---[INSERT ANIMATED GIF HERE]--->
+:::row
+:::column
+:::Figure:Figure
+![Carpet Pendulum](imgs/CarpetPendulum.gif)
+:::
+:::
+:::column
+:::Figure:Figure
+![Bathroom Pendulum](imgs/BathroomPendulum.gif)
+:::
+:::
+:::
+
 In this experiment you will be using your phone to measure the acceleration in the x, y, and z axes without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
 
 While you may be able to achieve a pendulum without them, we recommend using the additional materials as well. This guide will assume that you have them.
@@ -260,9 +275,8 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_0713.jpg)
 :::
 
-<!---[INSERT ANIMATED GIF HERE]--->
-1. Find the cardboard tube from a toilet paper roll and flatten it.  
 
+1. Find the cardboard tube from a toilet paper roll and flatten it.  
 <!---:::Figure:Figure![Suggested Materials](imgs/IMG_0710.jpg):::--->
 
 2. Mark the width of your phone on both sides of the flattened tube.
