@@ -82,8 +82,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0726.jpg)
-:::column
-:::
+
 :::
 :::
 
@@ -109,28 +108,64 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 :::
 
-:::column
+
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0703.jpg)
-:::
 :::
 :::
 
 8. If your phone is not level, try corrective measures.
 
+:::row
+:::column
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0700.jpg)
 :::
+:::
+
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_8007.jpg)
 :::
+:::
+:::
 
 Note: I added tape after the second photo to ensure that everything would stay in place.
+
+
+
+# Part IV: Experiment
+
+##### Background
+A period is the time it takes for one cycle in a repeating event or the time for which the event repeats itself. 
+
+A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced, it oscillates about the equilibrium position. The duration of time from the position of displacement after it is released and back to that position is the period of the pendulum.
+
+You should have determined by now how you will be turning your phone into a pendulum.
+
+
+Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum. 
+
+
+1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this), 
+2. Look up the mass of your phone online. Record the data
+3. Measure the length of your pendulum (AVOCADO come back to this)
+4. measure small angle for one length
+5. Using the 'Accelerometer without g' function (and we find making it a timed run gives a lot of data and the ability to start the pendulum in motion before recording starts).
+6. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
+7. Create a Google Sheet and import your data from your phone--this is easily done by sending the data from your phone in an email to yourself). Plot your data.
+8. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
+9. Fill out this form to submit the data for your classes total data.
+
+:::Question:
+Some Question here about thier plot or data collected
 :::
 
 
-# Part IV: Conclusion
+
+
+
+# Part VI: Conclusion
 ::: Exercise
 1. Describe the experiment you will be performing next week.
 
