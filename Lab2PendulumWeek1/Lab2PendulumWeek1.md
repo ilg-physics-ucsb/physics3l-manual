@@ -342,7 +342,7 @@ Note: I added tape after the second photo to ensure that everything would stay i
 ::: Exercise
 1. Describe the experiment you will be performing next week.
 
-2. Shortly state how the acceleration you will measure will be related to the period of the pendulum.
+2. Briefly state how the acceleration you will measure will be related to the period of the pendulum.
 
 3. Summarize how using your phone as the bob affects your pendulum.
 :::
