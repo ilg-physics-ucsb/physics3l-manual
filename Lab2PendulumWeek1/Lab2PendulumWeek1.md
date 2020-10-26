@@ -292,7 +292,14 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_0727.jpg)
 :::
 
-6.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
+6.  Insert your phone into the whole you have cut, with the string ends on the same side as your phone face. Put a rubber band, or something else elastic, around one end of the phone (while the roll is at that end). Slide the roll and elastic band to the other side, so you can fir it around there too. This will secure your phone even more.
+
+:::Figure:Figure
+![Suggested Materials](imgs/3N1.jpeg)
+:::
+
+
+7.  Now find something from which to hang your string. I have used both a shower frame and a broom handle set between two chairs.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0695.jpg)
@@ -303,7 +310,7 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 
 
-7. If your phone is not level, try corrective measures.
+8. If your phone is not level, try corrective measures.
 
 :::Figure:Figure
 ![Suggested Materials](imgs/IMG_0700.jpg)
