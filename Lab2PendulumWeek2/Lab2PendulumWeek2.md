@@ -132,7 +132,6 @@ While you may be able to achieve a pendulum without them, we recommend using the
 ![Suggested Materials](imgs/IMG_8007.jpg)
 :::
 :::
-:::
 
 Note: I added tape after the second photo to ensure that everything would stay in place.
 
@@ -150,20 +149,32 @@ You should have determined by now how you will be turning your phone into a pend
 Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum. 
 #
 
-1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this), 
-2. Look up the mass of your phone online. Record the data (alternately they can grab some things from the kitchen with weight listed on them and create a balance -- this link here is for anything we may need to weigh in the future: https://www.hunker.com/13414006/how-to-weigh-things-without-a-scale
-3. Measure the length of your pendulum (AVOCADO come back to this). Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
-4. measure small angle for one length
-5. Using the 'Accelerometer without g' function (and we find making it a timed run gives a lot of data and the ability to start the pendulum in motion before recording starts).
-6. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
-7. Create a Google Sheet and import your data from your phone--this is easily done by sending the data from your phone in an email to yourself). Plot your data.
-8. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
-9. Fill out this form to submit the data for your classes total data.
+:::Exercise
+1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this)
+
+
+:::Figure:Table
+
+| Column 1 | Column 2 | Column 3 | Zak added Column |
+| -------- | -------- | -------- |---|
+| Text     | Text     | Text     | Hi |
+
+:::
+
+
+3. Look up the mass of your phone online. Record the data (alternately they can grab some things from the kitchen with weight listed on them and create a balance -- this link here is for anything we may need to weigh in the future: https://www.hunker.com/13414006/how-to-weigh-things-without-a-scale
+4. Measure the length of your pendulum (AVOCADO come back to this). Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
+5. measure small angle for one length
+6. Using the 'Accelerometer without g' function (and we find making it a timed run gives a lot of data and the ability to start the pendulum in motion before recording starts).
+7. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
+8. Create a Google Sheet and import your data from your phone--this is easily done by sending the data from your phone in an email to yourself). Plot your data.
+9. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
+10. Fill out this form to submit the data for your classes total data.
 
 :::Question:
 Some Question here about thier plot or data collected
 :::
-
+:::
 
 # Part V: IDR
 
