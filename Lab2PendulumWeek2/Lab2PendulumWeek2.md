@@ -279,6 +279,10 @@ question about potential and kinetic energy?
 :::
 
 # Part V: IDR
+ex 1 take your data put it in table that makes sense, calculate g (10 periods, divide by 10).
+ex 2 get everyone's data, plot it, do a power fit. check that it matches theory
+ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?
+
 
 
 # Part VI: Conclusion
@@ -288,4 +292,4 @@ question about potential and kinetic energy?
 2. Briefly state how the acceleration you will measure will be related to the period of the pendulum.
 
 3. Summarize how using your phone as the bob affects your pendulum.
-:::
+	:::
