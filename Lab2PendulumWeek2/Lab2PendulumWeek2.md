@@ -149,7 +149,7 @@ You should have determined by now how you will be turning your phone into a pend
 Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum. 
 #####
 (very rough) Did you know that the clock was invented after the discovery of Simple Harmonic Motion? Simple Harmonic Motion also is how musicians keep time with one another.
-Vibration on a string produces a pitch, and depending on where the musicians fingers are. Now, as the vibration diminishes, why does the pitch stay the same?
+(no segwy, bad sentence/uninformative--->) Vibration on a string produces a pitch, and depending on where the musicians fingers are. Now, as the vibration diminishes, why does the pitch stay the same?
 #####
 Newton's famous 2nd Law of Motion states that force is equal to mass times acceleration. We know that acceleration is the second derivative of position. In Simple Harmonic Motion, force comes from the displacement of $x$, itself.
 
