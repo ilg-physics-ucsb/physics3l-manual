@@ -151,97 +151,9 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 (very rough) Did you know that the clock was invented after the discovery of Simple Harmonic Motion? Simple Harmonic Motion also is how musicians keep time with one another.
 (no segwy, bad sentence/uninformative--->) Vibration on a string produces a pitch, and depending on where the musicians fingers are. Now, as the vibration diminishes, why does the pitch stay the same?
 #####
-Newton's famous 2nd Law of Motion states that force is equal to mass times acceleration. We know that acceleration is the second derivative of position. In Simple Harmonic Motion, force comes from the displacement of $x$, itself.
-
-$$
-F = ma
-$$
-$$
-F = m  \frac{d^2 x}{dt^2}
-$$
-$$
-F = -kx
-$$
-$$
-m \frac{d^2 x}{dt^2} = -kx
-$$
-$$
-\frac{d^2 x}{dt^2} = -\frac{k}{m}x
-$$
-This is the form of the differential equation of SHM. The answer,  it seems, must come from the time-honored tradition of guessing. When you plot your pendulum's motion during the experiment, you will see sinusoidal motion. This was the guess that was made for the differential equation! The guessed solution was $x = A \sin\omega t$ but if that was $x$, was the second derivative equal to $-\frac{k}{m} x$?
-#####
 This was an idea I had for showing the same thing but with a pendulum...alas, I could not find it...
 #####
 ![SHMSpring](imgs/SHMSpring.gif?Style=centerme)
-#####
-Why did I write this proof? I really don't know...but here it is:
-$$
-x = A\sin\omega t
-$$
-$$
-\frac{d^2 x}{dt^2} = -A\omega^2\sin\omega t
-$$
-$$
-\frac{d^2 x}{dt^2} = -\omega^2x
-$$
-$$
-\omega^2 x = - \frac{k}{m}
-$$
-$$
-\omega =  \sqrt\frac{k}{m}
-$$
-The frequency is measured in radians per second. There are $2\pi$ radians in each cycle, $f$.
-
-:::Figure:Figure
-$$
-\omega = 2\pi f
-$$
-:::
-Looking now at a free body diagram of a pendulum, we see
-![Suggested Materials](imgs/PendulumFBD.gif?style=centerme)
-
-#####
-and if the dashed line is $x = 0$, then
-$$
-F = ma
-$$
-$$
-ma\small_{x}\normalsize = -T\sin\theta = -T\frac{x}{l}
-$$
-$$
-ma\small_{y}\normalsize = T\cos\theta -mg
-$$
-$$
-\cos\theta \approx 1
-$$
-$$
-a\small_{y}\normalsize \approx 0
-$$
-$$
-0 = T\cos\theta - mg
-$$
-$$
-T = mg
-$$
-$$
-ma\small_{x}\normalsize = -mg\frac{x}{l}
-$$
-$$
-a\small_{x}\normalsize\;\;or\;\;\frac{d^2 x\small_{x}\normalsize}{dt^2} = -\frac{g}{l}x
-$$
-$$
-a\small_{x}\normalsize = -\omega^2x
-$$
-$$
-\omega = -\sqrt\frac{g}{l}
-$$
-
-and using equation 13 above, 
-$$\omega = 2\pi f  = \frac{2\pi}{T}
-$$
-$$\therefore \;\;\;\;\;\;T = 2\pi \sqrt\frac{l}{g}
-$$
-
 #####
 #
 
