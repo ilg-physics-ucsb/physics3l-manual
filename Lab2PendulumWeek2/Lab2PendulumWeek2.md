@@ -157,6 +157,18 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 #
 
 :::Exercise
+In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. If you have a measuring tape, use it. We could use another string and use that. We could ______. You are free to use either of those methods. However, using trigonometry will be more accurate in the end and will require a little explanation.
+#####
+First, we suggest that you keep your string lengths perpendicular to the floor, i.e. from the front view, you do not want them flaring out or in, but rather straight up. This will make things a little easier. Secondly, you will need to calculate two projections of the length in order to use the Pythagorean theorem to determine the effective length of your pendulum.
+#####
+//pictures here
+#####
+//diagrams here
+#####
+
+Measure the length of your pendulum. Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
+:::
+:::Exercise
 <!---ex 1 take your data put it in table that makes sense, calculate g (10 periods, divide by 10).--->
 1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this).
 
@@ -166,27 +178,29 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 | mass, m | length, l | Period, T | Initial Angle, $\theta$ |
 | -------- | -------- | -------- |---|
 |     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
-|     |     |     |     |
+
 :::
 
 
 2. Look up the mass of your phone online. Record the value in your table.
-3. Measure the length of your pendulum (AVOCADO what method?). Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
+3. Measure the length of your pendulum (exercise 1). Record the value in your table.
 4. Approximate a small displacement from equilibrium in which you will start your pendulum. Record this angle in your table.
 5. Using the 'Accelerometer without g' experiment and tap ⋮ to go to 'Timed Run'. Chose an appropriate start delay (first blank) and experiment duration (second blank) to get cleaner data. 
 
 :::Question
-Why does using a start delay on your phone yield cleaner data?
+
+:::
 :::
 
+
+
+# Part V: Data Analysis 
+<!---ex 2 get everyone's data, plot it, do a power fit. check that it matches theory-->
+
+:::Exercise
 7. Determine which axis has the appropriate data and calculate the average for one period. Use upwards of 10 periods or more.
 8. Create a spreadsheet and import the data from your phone--this is easily done by sending the data from your phone in an email to yourself. Plot your data for period T and length l.
 9. Using your data, calculate g.
-
 :::Question:
 Some Question here about their plot or data collected
 #####
@@ -205,12 +219,7 @@ Does the period significantly depend on the mass? Why? Justify your answer.
 Does the period significantly depend on the length? Why? Justify your answer.
 #####
 :::
-:::
 
-# Part V: Data Analysis 
-<!---ex 2 get everyone's data, plot it, do a power fit. check that it matches theory-->
-
-:::Exercise
 Length = X
 1. Make a new apparatus or re-use your old one using the given length.
 2. Fill out this form (or sheet) to submit your 'Acceleration without g' data in order to average one period using the results of all the students in your section.
