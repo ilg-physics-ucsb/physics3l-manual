@@ -156,6 +156,8 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 #####
 #
 
+
+
 :::Exercise
 In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. 
 
@@ -169,16 +171,16 @@ First, we suggest that you keep your string lengths perpendicular to the floor, 
 :::Note
 Please note; if you *are* using a measuring device of some kind make sure the resolution of the measurement is appropriate.
 :::
-
+Measure the length of your pendulum in meters.
 #####
 :::Figure:Figure
 ![Suggested Materials](imgs/diagram.png)
 :::
-#####
-
-Measure the length of your pendulum in meters.
 <!---Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.--->
 :::
+
+
+
 :::Exercise
 <!---ex 1 take your data put it in table that makes sense, calculate g (10 periods, divide by 10).--->
 1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this).
@@ -208,6 +210,8 @@ Measure the length of your pendulum in meters.
 # Part V: Data Analysis 
 <!---ex 2 get everyone's data, plot it, do a power fit. check that it matches theory-->
 
+
+
 :::Exercise
 7. Determine which axis has the appropriate data and calculate the average for one period. Use upwards of 10 periods or more.
 8. Create a spreadsheet and import the data from your phone--this is easily done by sending the data from your phone in an email to yourself. 
@@ -229,8 +233,10 @@ Length = X
 1. Make a new apparatus or re-use your old one using the given length.
 2. Fill out this form (or sheet) to submit your 'Acceleration without g' data in order to average one period using the results of all the students in your section.
 3. mass question
-
 :::
+
+
+
 :::Exercise
 
 
@@ -246,6 +252,7 @@ Does the period significantly depend on the mass? Why? Justify your answer.
 Based on the average of one period, what is g?
 :::
 :::
+
 
 
 :::Exercise
