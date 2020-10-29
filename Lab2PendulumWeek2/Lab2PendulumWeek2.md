@@ -253,11 +253,8 @@ Based on the average of one period, what is g?
 :::
 :::
 
-
-
-:::Exercise
 <!---ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?--->
-:::
+
 # Part VI: Conclusion
 ::: Exercise
 1. Describe the experiment you will be performing next week.
