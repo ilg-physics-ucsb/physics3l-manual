@@ -155,8 +155,6 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 ![SHMSpring](imgs/SHMSpring.gif?Style=centerme)-->
 #####
 
-
-
 :::Exercise
 In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. 
 
@@ -175,15 +173,13 @@ Measure the length of your pendulum in meters.
 :::Figure:Figure
 ![Suggested Materials](imgs/diagram.png)
 :::
-<!---Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.--->
-:::
 
 
 ::: Exercise
 
 In this exercise you will use Phyphox to collect acceleration data from you phone while it is swinging.
 
-1. Make a table. Be sure to include things like mass, $m$, length, $L$, period, $T$.
+1. Make a table. Include the following quantities in the header of the table: mass $m$, length $L$, period $T$.
 
 
 :::Figure:Table
@@ -212,9 +208,25 @@ In this exercise you will use Phyphox to collect acceleration data from you phon
 
 :::Note
 Pay attention to the vertical axis scaling on your three plots. They won't all be the same so you shouldn't directly compare your three graphs to each other without first rescaling or noting the difference in scales.
-:::
+
+:::Figure:Figure
+![Screenshot of Timed Run](imgs/TimedRun.jpg)
 :::
 
+5. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
+6. Let it swing for the time you set in Step 3 and then look at your data. 
+7. Ensure that the data looks good, and that you have 10 or more periods before exporting it.
+
+:::Note
+"Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like.
+
+Recall that $a_\theta$ should look like $\cos(\Omega t)$ while $a_r$ should look like $\sin^2 (\Omega t)$. Thus you should hope to see things like $a_r$ has half roughly the period of $a_{\theta}$. You should notice that $a_{\theta}$ oscillates about $0$ while $a_r$ is almost entirely positive. Your final axis shouldn't have much on it). It is unlikely that you will get perfect data (i.e. exact cosine and sine squared functions), but should see these sort of trends.
+:::
+
+:::Note
+Pay attention to the vertical axis scaling on your three plots. They won't all be the same so you shouldn't directly compare your three graphs to each other without first rescaling or noting the difference in scales.
+:::
+:::
 
 
 # Part V: Data Analysis 
@@ -223,22 +235,38 @@ Pay attention to the vertical axis scaling on your three plots. They won't all b
 
 
 :::Exercise
-7. Determine which axis has the appropriate data and calculate the average for one period. Use upwards of 10 periods or more.
-8. Create a spreadsheet and import the data from your phone--this is easily done by sending the data from your phone in an email to yourself. 
-:::Question:
-Some Question here about their plot or data collected
-#####
-a) What is the period?
-#####
-b) What is g?
-#####
+We want to determine the period $T$ of the oscillations of motion. We will do so by looking at the oscillatory behavior of the accelerations recorded by the phone in the three different directions. Remember your derivations from Week 1 to determine the relationship between the periods of the accelerations in the different directions and the period  $T$of motion of the pendulum.
 
-#####
--Does the period significantly depend on the length? Why? Justify your answer.
-#####
+1. Create a spreadsheet and import the data from your phone.
+
+:::Question:
+
+a) How do the periods of the accelerations measured by the phone compare to the period of oscillations of the pendulum?
+
+b) Which axis has the same period as the period of motion?
+:::
+
+2. Find the period of motion of the pendulum by measuring the average period of the acceleration with the same period as the period of motion (your answer from the previous question). 
+To find the average period, measure the time it takes the pendulum to complete 10 periods and divide by the number of periods (in this case 10). This will reduce the error in your measurement. If your data only displays 8 or 9 periods , that works as well.
+
+:::Question
+What is the average period of motion?
 :::
 ::: 
 
+
+Remember the period $T$ is determined by the length of the pendulum $L$ and the acceleration due to gravity $g$. 
+
+$$T=2\pi \sqrt{\frac{L}{g}}$$
+
+3. Rewrite the previous equation to find $g$ in terms of $L$ and $T$.
+2. Given your value of $L$ measured earlier and of $T$ which you found from the acceleration data, determine the value of $g$.
+3. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
+
+:::Question
+What is the value of $g$ and the percent discrepancy you recorded?
+:::
+:::
 
 :::Exercise
 
