@@ -150,52 +150,82 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 #####
 (very rough) Did you know that the clock was invented after the discovery of Simple Harmonic Motion? Simple Harmonic Motion also is how musicians keep time with one another.
 #####
-This was an idea I had for showing the same thing but with a pendulum...alas, I could not find it...
+<!---This was an idea I had for showing the same thing but with a pendulum...alas, I could not find it...
 #####
-![SHMSpring](imgs/SHMSpring.gif?Style=centerme)
+![SHMSpring](imgs/SHMSpring.gif?Style=centerme)-->
 #####
 #
 
 :::Exercise
-1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this)
+<!---ex 1 take your data put it in table that makes sense, calculate g (10 periods, divide by 10).--->
+1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this).
 
 
 :::Figure:Table
 
-| Mass | Column 2 | Column 3 | Zak added Column |
+| mass, m | length, l | Period, T | Initial Angle, $\theta$ |
 | -------- | -------- | -------- |---|
-| Text     | Text     | Text     | Hi |
-
+|     |     |     |     |
+|     |     |     |     |
+|     |     |     |     |
+|     |     |     |     |
+|     |     |     |     |
+|     |     |     |     |
 :::
 
 
-2. Look up the mass of your phone online. Record the data (alternately they can grab some things from the kitchen with weight listed on them and create a balance -- this link here is for anything we may need to weigh in the future: https://www.hunker.com/13414006/how-to-weigh-things-without-a-scale
-3. Measure the length of your pendulum (AVOCADO come back to this). Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
-4. measure small angle for one length
-5. Using the 'Accelerometer without g' function (and we find making it a timed run gives a lot of data and the ability to start the pendulum in motion before recording starts).
-6. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
-7. Create a Google Sheet and import your data from your phone--this is easily done by sending the data from your phone in an email to yourself). Plot your data.
-8. Determine which axis you will be using and calculate the averaged measured period using ~10 periods.
-9. Fill out this form to submit the data for your classes total data.
+2. Look up the mass of your phone online. Record the value in your table.
+3. Measure the length of your pendulum (AVOCADO what method?). Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
+4. Approximate a small displacement from equilibrium in which you will start your pendulum. Record this angle in your table.
+5. Using the 'Accelerometer without g' experiment and tap ⋮ to go to 'Timed Run'. Chose an appropriate start delay (first blank) and experiment duration (second blank) to get cleaner data. 
+
+:::Question
+Why does using a start delay on your phone yield cleaner data?
+:::
+
+7. Determine which axis has the appropriate data and calculate the average for one period. Use upwards of 10 periods or more.
+8. Create a spreadsheet and import the data from your phone--this is easily done by sending the data from your phone in an email to yourself. Plot your data for period T and length l.
+9. Using your data, calculate g.
 
 :::Question:
-Some Question here about thier plot or data collected
-
-what is the period?
-
+Some Question here about their plot or data collected
+#####
+What is the period?
+#####
 what is the frequency?
-
-question about potential and kinetic energy?
+#####
+What is g?
+#####
+Even though you only took data for one initial angular displacement and one mass, answer the following questions (based on your intuition?)
+#####
+Does the period depend significantly on the initial angular displacement? Why? Justify your answer.
+#####
+Does the period significantly depend on the mass? Why? Justify your answer.
+#####
+Does the period significantly depend on the length? Why? Justify your answer.
+#####
 :::
 :::
 
-# Part V: IDR
-ex 1 take your data put it in table that makes sense, calculate g (10 periods, divide by 10).
-ex 2 get everyone's data, plot it, do a power fit. check that it matches theory
-ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?
+# Part V: Data Analysis 
+<!---ex 2 get everyone's data, plot it, do a power fit. check that it matches theory-->
+
+:::Exercise
+Length = X
+1. Make a new apparatus or re-use your old one using the given length.
+2. Fill out this form (or sheet) to submit your 'Acceleration without g' data in order to average one period using the results of all the students in your section.
+3. It is very hard to make analytical comparisons unless we linearize  Plot this data and perform a power curve fit
+4. Calculate g based on the resulting average of one period for the given length.
+
+:::Question
+Based on the average of one period, what is g?
+:::
+:::
 
 
-
+:::Exercise
+<!---ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?--->
+:::
 # Part VI: Conclusion
 ::: Exercise
 1. Describe the experiment you will be performing next week.
