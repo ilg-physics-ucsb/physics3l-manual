@@ -173,6 +173,7 @@ Measure the length of your pendulum in meters.
 :::Figure:Figure
 ![Suggested Materials](imgs/diagram.png)
 :::
+:::
 
 
 ::: Exercise
@@ -193,21 +194,6 @@ In this exercise you will use Phyphox to collect acceleration data from you phon
 
 2. Look up the mass of your phone online. Record the value in your table. Make sure to use the correct units. 
 3. Using the "Accelerometer **without** g" experiment and tap ⋮ to go to "Timed Run". Chose an appropriate start delay (first blank) and experiment duration (second blank & about 15-20 secounds). Now, when you hit play, the phone will wait the set amount of time to start collecting data and then only collect data for the time you set. This will allow you get a nice run of data and not have to do any trimming later.
-
-:::Figure:Figure
-![Screenshot of Timed Run](imgs/TimedRun.jpg)
-:::
-
-5. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
-6. Let it swing for the time you set in Step 3 and then look at your data. 
-7. Ensure that the data looks good, and that you have 10 or more periods before exporting it.
-
-:::Note
-"Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like. Recall that $a_\theta$ should look like $\cos(\Omega t)$ while $a_r$ should look like $\sin^2 (\Omega t)$. Thus you should hope to see things like $a_r$ has half roughly the period of $a_theta$. You should notice that $a_\theta$ oscillates about $0$ while $a_r$ is almost entirely positive. Your final axis shouldn't have much on it). It is unlikely that you will get perfect data (i.e. exact cosine and sine squared functions), but should see these sort of trends.
-:::
-
-:::Note
-Pay attention to the vertical axis scaling on your three plots. They won't all be the same so you shouldn't directly compare your three graphs to each other without first rescaling or noting the difference in scales.
 
 :::Figure:Figure
 ![Screenshot of Timed Run](imgs/TimedRun.jpg)
@@ -239,7 +225,7 @@ We want to determine the period $T$ of the oscillations of motion. We will do so
 
 1. Create a spreadsheet and import the data from your phone.
 
-:::Question:
+:::Question
 
 a) How do the periods of the accelerations measured by the phone compare to the period of oscillations of the pendulum?
 
@@ -252,7 +238,6 @@ To find the average period, measure the time it takes the pendulum to complete 1
 :::Question
 What is the average period of motion?
 :::
-::: 
 
 
 Remember the period $T$ is determined by the length of the pendulum $L$ and the acceleration due to gravity $g$. 
@@ -271,8 +256,7 @@ What is the value of $g$ and the percent discrepancy you recorded?
 :::Exercise
 
 In this exercise you will be submitting your data in a Google form that will be collected into one larger dataset with all the students in your class. You will then begin to analyze how the period of the pendulum is related to its length.
-
-1. Submit you data in the form linked in the table below. Make sure the mass you provide is in **kilograms**, the length is in **meters**, and the period is in **seconds**. **Also make sure that you select your correct section!**
+Submit you data in the form linked in the table below. Make sure the mass you provide is in **kilograms**, the length is in **meters**, and the period is in **seconds**. **Also make sure that you select your correct section!**
 
 :::Figure:Table
 | Google Form |
