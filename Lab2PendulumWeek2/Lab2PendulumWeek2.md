@@ -161,9 +161,9 @@ In order to accurately measure the length of your pendulum, we will need to figu
 #####
 First, we suggest that you keep your string lengths perpendicular to the floor, i.e. from the front view, you do not want them flaring out or in, but rather straight up. This will make things a little easier. Secondly, you will need to calculate two projections of the length in order to use the Pythagorean theorem to determine the effective length of your pendulum.
 #####
-//pictures here
-#####
-//diagrams here
+:::Figure:Figure
+![Suggested Materials](imgs/diagram.png)
+:::
 #####
 
 Measure the length of your pendulum. Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
