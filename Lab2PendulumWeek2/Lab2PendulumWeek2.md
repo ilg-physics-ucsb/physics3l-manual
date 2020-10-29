@@ -180,7 +180,7 @@ In this exercise you will use Phyphox to collect acceleration data from you phon
 
 | Mass [kg] | Length [m]| Period [s] | 
 | -------- | -------- | -------- |
-|     |     |     | 
+|  -  |  -   |  -   | 
 
 :::
 
