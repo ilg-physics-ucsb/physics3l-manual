@@ -199,34 +199,39 @@ Measure the length of your pendulum. Print a ruler from an online source or use 
 
 :::Exercise
 7. Determine which axis has the appropriate data and calculate the average for one period. Use upwards of 10 periods or more.
-8. Create a spreadsheet and import the data from your phone--this is easily done by sending the data from your phone in an email to yourself. Plot your data for period T and length l.
-9. Using your data, calculate g.
+8. Create a spreadsheet and import the data from your phone--this is easily done by sending the data from your phone in an email to yourself. 
 :::Question:
 Some Question here about their plot or data collected
 #####
-What is the period?
+a) What is the period?
 #####
-what is the frequency?
+b) What is g?
 #####
-What is g?
+
 #####
-Even though you only took data for one initial angular displacement and one mass, answer the following questions (based on your intuition?)
-#####
-Does the period depend significantly on the initial angular displacement? Why? Justify your answer.
-#####
-Does the period significantly depend on the mass? Why? Justify your answer.
-#####
-Does the period significantly depend on the length? Why? Justify your answer.
+-Does the period significantly depend on the length? Why? Justify your answer.
 #####
 :::
-
+::: 
+:::Exercise
 Length = X
 1. Make a new apparatus or re-use your old one using the given length.
 2. Fill out this form (or sheet) to submit your 'Acceleration without g' data in order to average one period using the results of all the students in your section.
-3. It is very hard to make analytical comparisons unless we linearize  Plot this data and perform a power curve fit
-4. Calculate g based on the resulting average of one period for the given length.
+3. mass question
+
+:::
+:::Exercise
+
+
+5. It is very hard to make analytical comparisons unless we linearize.  Plot this data and perform a power curve fit
+
+6. Calculate g based on the resulting average of one period for the given length.
 
 :::Question
+Even though you only took data for one initial angular displacement and one mass, answer the following questions (based on your intuition?)
+#####
+Does the period significantly depend on the mass? Why? Justify your answer.
+#####
 Based on the average of one period, what is g?
 :::
 :::
