@@ -226,18 +226,39 @@ b) What is g?
 #####
 :::
 ::: 
+
+
 :::Exercise
-Length = X
-1. Make a new apparatus or re-use your old one using the given length.
-2. Fill out this form (or sheet) to submit your 'Acceleration without g' data in order to average one period using the results of all the students in your section.
-3. mass question
+
+In this exercise you will be submitting your data in a Google form that will be collected into one larger dataset with all the students in your class. You will then begin to analyze how the period of the pendulum is related to its length.
+
+1. Submit you data in the form linked in the table below. Make sure the mass you provide is in **kilograms**, the length is in **meters**, and the period is in **seconds**. **Also make sure that you select your correct section!**
+
+:::Figure:Table
+| Google Form |
+| -------- |
+| [Link To Form](https://)     |
+:::
+
+::: Note
+Wait until your TA gives you to okay to proceed. You'll need enough data collected to make a usable set of data. 
+:::
+
+2. Now that you and your classmate's data has been collected you can proceed.
+3. Copy the data set into a spreadsheet where you can do your work.
+4. Create a plot of period as a function of length.
+
+
+
+6. 
 
 :::
+
+
 :::Exercise
 
 
 5. It is very hard to make analytical comparisons unless we linearize.  Plot this data and perform a power curve fit
-
 6. Calculate g based on the resulting average of one period for the given length.
 
 :::Question
