@@ -147,7 +147,7 @@ A pendulum at rest is considered to be in equilibrium. Once the pendulum is disp
 You should have determined by now how you will be turning your phone into a pendulum.
 #####
 Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum. 
-##### 
+#####
 (very rough) Did you know that the clock was invented after the discovery of Simple Harmonic Motion? Simple Harmonic Motion also is how musicians keep time with one another.
 #####
 <!---This was an idea I had for showing the same thing but with a pendulum...alas, I could not find it...
@@ -155,27 +155,17 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 ![SHMSpring](imgs/SHMSpring.gif?Style=centerme)-->
 #####
 
-
-
 :::Exercise
-In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. 
-
-If you have a measuring tape, use one end at the point of the pivot and then measure straight downward to the center of mass of your phone. 
-
-If you do not have a measuring tape but have a ruler, cut a piece of string that you will dangle from the surface of the pivot to your phone in a straight downward line. 
-
-You are free to use either of those methods. However, if you have access to neither of those methods, or another method of your choosing, then we will have to use trigonometry to solve this problem. 
+In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. If you have a measuring tape, use it. We could use another string and use that. We could ______. You are free to use either of those methods. However, using trigonometry will be more accurate in the end and will require a little explanation.
 #####
 First, we suggest that you keep your string lengths perpendicular to the floor, i.e. from the front view, you do not want them flaring out or in, but rather straight up. This will make things a little easier. Secondly, you will need to calculate two projections of the length in order to use the Pythagorean theorem to determine the effective length of your pendulum.
-:::Note
-Please note; if you *are* using a measuring device of some kind make sure the resolution of the measurement is appropriate.
-:::
-Measure the length of your pendulum in meters.
 #####
-:::Figure:Figure
-![Suggested Materials](imgs/diagram.png)
-:::
-<!---Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.--->
+//pictures here
+#####
+//diagrams here
+#####
+
+Measure the length of your pendulum. Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
 :::
 
 
@@ -183,7 +173,7 @@ Measure the length of your pendulum in meters.
 
 In this exercise you will use Phyphox to collect acceleration data from you phone while it is swinging.
 
-1. Make a table. Be sure to include things like mass, $m$, length, $L$, period, $T$.
+1. Make a table. Include the following quantities in the header of the table: mass $m$, length $L$, period $T$.
 
 
 :::Figure:Table
@@ -207,7 +197,9 @@ In this exercise you will use Phyphox to collect acceleration data from you phon
 7. Ensure that the data looks good, and that you have 10 or more periods before exporting it.
 
 :::Note
-"Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like. Recall that $a_\theta$ should look like $\cos(\Omega t)$ while $a_r$ should look like $\sin^2 (\Omega t)$. Thus you should hope to see things like $a_r$ has half roughly the period of $a_theta$. You should notice that $a_\theta$ oscillates about $0$ while $a_r$ is almost entirely positive. Your final axis shouldn't have much on it). It is unlikely that you will get perfect data (i.e. exact cosine and sine squared functions), but should see these sort of trends.
+"Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like.
+
+Recall that $a_\theta$ should look like $\cos(\Omega t)$ while $a_r$ should look like $\sin^2 (\Omega t)$. Thus you should hope to see things like $a_r$ has half roughly the period of $a_{\theta}$. You should notice that $a_{\theta}$ oscillates about $0$ while $a_r$ is almost entirely positive. Your final axis shouldn't have much on it). It is unlikely that you will get perfect data (i.e. exact cosine and sine squared functions), but should see these sort of trends.
 :::
 
 :::Note
@@ -216,29 +208,40 @@ Pay attention to the vertical axis scaling on your three plots. They won't all b
 :::
 
 
-
 # Part V: Data Analysis 
 <!---ex 2 get everyone's data, plot it, do a power fit. check that it matches theory-->
 
-
-
 :::Exercise
-7. Determine which axis has the appropriate data and calculate the average for one period. Use upwards of 10 periods or more.
-8. Create a spreadsheet and import the data from your phone--this is easily done by sending the data from your phone in an email to yourself. 
+We want to determine the period $T$ of the oscillations of motion. We will do so by looking at the oscillatory behavior of the accelerations recorded by the phone in the three different directions. Remember your derivations from Week 1 to determine the relationship between the periods of the accelerations in the different directions and the period  $T$of motion of the pendulum.
+
+1. Create a spreadsheet and import the data from your phone.
+
 :::Question:
-Some Question here about their plot or data collected
-#####
-a) What is the period?
-#####
-b) What is g?
-#####
 
-#####
--Does the period significantly depend on the length? Why? Justify your answer.
-#####
+a) How do the periods of the accelerations measured by the phone compare to the period of oscillations of the pendulum?
+
+b) Which axis has the same period as the period of motion?
 :::
-::: 
 
+2. Find the period of motion of the pendulum by measuring the average period of the acceleration with the same period as the period of motion (your answer from the previous question). 
+To find the average period, measure the time it takes the pendulum to complete 10 periods and divide by the number of periods (in this case 10). This will reduce the error in your measurement. If your data only displays 8 or 9 periods , that works as well.
+
+:::Question
+What is the average period of motion?
+:::
+
+Remember the period $T$ is determined by the length of the pendulum $L$ and the acceleration due to gravity $g$. 
+
+$$T=2\pi \sqrt{\frac{L}{g}}$$
+
+3. Rewrite the previous equation to find $g$ in terms of $L$ and $T$.
+2. Given your value of $L$ measured earlier and of $T$ which you found from the acceleration data, determine the value of $g$.
+3. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
+
+:::Question
+What is the value of $g$ and the percent discrepancy you recorded?
+:::
+:::
 
 :::Exercise
 
@@ -282,8 +285,10 @@ Based on the average of one period, what is g?
 :::
 :::
 
-<!---ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?--->
 
+:::Exercise
+<!---ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?--->
+:::
 # Part VI: Conclusion
 ::: Exercise
 1. Describe the experiment you will be performing next week.

@@ -2,7 +2,7 @@
  * I add this to html files generated with pandoc.
  */
 
-.resp-container {
+ .resp-container {
   position: relative;
   overflow: hidden;
   padding-top: 56.25%;
@@ -72,19 +72,7 @@ div.ExerciseHeading {
   border-radius: 15px;
 }
 
-div.Note {
-  font-size: 18pt;
-  background: #6aa571;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #195a21;
-  color: #FFFFFF;
-  padding: 5px;
-  margin: 15px;
-  border-radius: 15px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
+
 
 div>p{
   margin-bottom:0;
@@ -92,7 +80,7 @@ div>p{
 }
 
 span.math.display {
-  font-size: 20pt;
+  font-size: 40pt;
 }
 
 html {
@@ -161,6 +149,7 @@ p {
 img {
   max-width: 100%;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #111;
@@ -299,11 +288,6 @@ img {
   vertical-align: middle;
 }
 
-img[src$="centerme"] {
-  display:block;
-  margin: 0 auto;
-}
-
 figure {
   display: block;
   text-align: center;
@@ -327,6 +311,8 @@ table {
   border-right: 1px solid #ddd;
   border-spacing: 0;
   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 table th {
@@ -334,6 +320,7 @@ table th {
   background-color: #eee;
   border-top: 1px solid #ddd;
   border-left: 1px solid #ddd;
+  color: black;
 }
 
 table td {
