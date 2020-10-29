@@ -147,7 +147,7 @@ A pendulum at rest is considered to be in equilibrium. Once the pendulum is disp
 You should have determined by now how you will be turning your phone into a pendulum.
 #####
 Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum. 
-#####
+##### 
 (very rough) Did you know that the clock was invented after the discovery of Simple Harmonic Motion? Simple Harmonic Motion also is how musicians keep time with one another.
 #####
 <!---This was an idea I had for showing the same thing but with a pendulum...alas, I could not find it...
@@ -157,16 +157,27 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 #
 
 :::Exercise
-In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. If you have a measuring tape, use it. We could use another string and use that. We could ______. You are free to use either of those methods. However, using trigonometry will be more accurate in the end and will require a little explanation.
+In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. 
+
+If you have a measuring tape, use one end at the point of the pivot and then measure straight downward to the center of mass of your phone. 
+
+If you do not have a measuring tape but have a ruler, cut a piece of string that you will dangle from the surface of the pivot to your phone in a straight downward line. 
+
+You are free to use either of those methods. However, if you have access to neither of those methods, or another method of your choosing, then we will have to use trigonometry to solve this problem. 
 #####
 First, we suggest that you keep your string lengths perpendicular to the floor, i.e. from the front view, you do not want them flaring out or in, but rather straight up. This will make things a little easier. Secondly, you will need to calculate two projections of the length in order to use the Pythagorean theorem to determine the effective length of your pendulum.
+:::Note
+Please note; if you *are* using a measuring device of some kind make sure the resolution of the measurement is appropriate.
+:::
+
 #####
 :::Figure:Figure
 ![Suggested Materials](imgs/diagram.png)
 :::
 #####
 
-Measure the length of your pendulum. Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
+Measure the length of your pendulum in meters.
+<!---Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.--->
 :::
 :::Exercise
 <!---ex 1 take your data put it in table that makes sense, calculate g (10 periods, divide by 10).--->
