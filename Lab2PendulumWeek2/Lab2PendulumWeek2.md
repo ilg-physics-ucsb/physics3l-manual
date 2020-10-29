@@ -154,7 +154,6 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 #####
 ![SHMSpring](imgs/SHMSpring.gif?Style=centerme)-->
 #####
-#
 
 :::Exercise
 In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. If you have a measuring tape, use it. We could use another string and use that. We could ______. You are free to use either of those methods. However, using trigonometry will be more accurate in the end and will require a little explanation.
@@ -168,27 +167,41 @@ First, we suggest that you keep your string lengths perpendicular to the floor, 
 
 Measure the length of your pendulum. Print a ruler from an online source or use a money. A dollar bill is 6" long and if you need something smaller, a quarter is 1 inch.
 :::
-:::Exercise
-<!---ex 1 take your data put it in table that makes sense, calculate g (10 periods, divide by 10).--->
-1. Make a table. Be sure to include things like mass, m, length, l, period, T, as well as the initial angle, $\theta$ (you only need approximate this).
+
+
+::: Exercise
+
+In this exercise you will use Phyphox to collect acceleration data from you phone while it is swinging.
+
+1. Make a table. Be sure to include things like mass, $m$, length, $L$, period, $T$.
 
 
 :::Figure:Table
 
-| mass, m | length, l | Period, T | Initial Angle, $\theta$ |
-| -------- | -------- | -------- |---|
-|     |     |     |     |
+| Mass [kg] | Length [m]| Period [s] | 
+| -------- | -------- | -------- |
+|     |     |     | 
 
 :::
 
 
-2. Look up the mass of your phone online. Record the value in your table.
-3. Measure the length of your pendulum (exercise 1). Record the value in your table.
-4. Approximate a small displacement from equilibrium in which you will start your pendulum. Record this angle in your table.
-5. Using the 'Accelerometer without g' experiment and tap ⋮ to go to 'Timed Run'. Chose an appropriate start delay (first blank) and experiment duration (second blank) to get cleaner data. 
+2. Look up the mass of your phone online. Record the value in your table. Make sure to use the correct units. 
+3. Using the "Accelerometer **without** g" experiment and tap ⋮ to go to "Timed Run". Chose an appropriate start delay (first blank) and experiment duration (second blank & about 15-20 secounds). Now, when you hit play, the phone will wait the set amount of time to start collecting data and then only collect data for the time you set. This will allow you get a nice run of data and not have to do any trimming later.
 
-:::Question
+:::Figure:Figure
+![Screenshot of Timed Run](imgs/TimedRun.jpg)
+:::
 
+5. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
+6. Let it swing for the time you set in Step 3 and then look at your data. 
+7. Ensure that the data looks good, and that you have 10 or more periods before exporting it.
+
+:::Note
+"Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like. Recall that $a_\theta$ should look like $\cos(\Omega t)$ while $a_r$ should look like $\sin^2 (\Omega t)$. Thus you should hope to see things like $a_r$ has half roughly the period of $a_theta$. You should notice that $a_\theta$ oscillates about $0$ while $a_r$ is almost entirely positive. Your final axis shouldn't have much on it). It is unlikely that you will get perfect data (i.e. exact cosine and sine squared functions), but should see these sort of trends.
+:::
+
+:::Note
+Pay attention to the vertical axis scaling on your three plots. They won't all be the same so you shouldn't directly compare your three graphs to each other without first rescaling or noting the difference in scales.
 :::
 :::
 
