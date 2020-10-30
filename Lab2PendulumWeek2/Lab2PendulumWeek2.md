@@ -150,29 +150,43 @@ Typically, when measuring the period of the pendulum, you would measure the angu
 ##### 
 (very rough) Did you know that the clock was invented after the discovery of Simple Harmonic Motion? Simple Harmonic Motion also is how musicians keep time with one another.
 #####
-<!---This was an idea I had for showing the same thing but with a pendulum...alas, I could not find it...
-#####
-![SHMSpring](imgs/SHMSpring.gif?Style=centerme)-->
-#####
+
 
 :::Exercise
-In order to accurately measure the length of your pendulum, we will need to figure a method for determining that. 
+In this exercise you will measure the length of your pendulum. This would be straight forward in lab, but since we don't have access to a lab it might be a bit more complicated. Below are some tips and ideas to help you accomplish this task.
 
-If you have a measuring tape, use one end at the point of the pivot and then measure straight downward to the center of mass of your phone. 
+Figure 13 below shows a front view and a side view of your phone in the cradle. In the front view the long axis of the phone is coming in and out of the screen, in the side view it is running parallel to the screen.
 
-If you do not have a measuring tape but have a ruler, cut a piece of string that you will dangle from the surface of the pivot to your phone in a straight downward line. 
+This distance you want to measure is from the pivot tot he center of mass of the phone. This is depicted as $L$. 
+
+- If you have a measuring tape, use one end at the point of the pivot and then measure straight downward to the center of mass of your phone. 
+
+- If you do not have a measuring tape but have a ruler, cut a piece of string that you will dangle from the surface of the pivot to your phone in a straight downward line. Then use a ruler to measure the length of that string.
+- If you don't have a ruler of any sort then we recommend using lined paper. You can look up the spacing for different types of rulings.
+
 
 You are free to use either of those methods. However, if you have access to neither of those methods, or another method of your choosing, then we will have to use trigonometry to solve this problem. 
 #####
-First, we suggest that you keep your string lengths perpendicular to the floor, i.e. from the front view, you do not want them flaring out or in, but rather straight up. This will make things a little easier. Secondly, you will need to calculate two projections of the length in order to use the Pythagorean theorem to determine the effective length of your pendulum.
+First, we suggest that you keep your string lengths perpendicular to the floor, i.e. from the front view, you do not want them flaring out or in, but rather straight up. This will make things a little easier. Secondly, you will need to measure $l$ and then use the Pythagorean to calculate the length $L$.
 :::Note
 Please note; if you *are* using a measuring device of some kind make sure the resolution of the measurement is appropriate.
 :::
-Measure the length of your pendulum in meters.
+1. Measure the length of your pendulum in meters.
 #####
 :::Figure:Figure
 ![Suggested Materials](imgs/diagram.png)
 :::
+
+:::Question
+a) What tool did you use to measure the length of your pendulum?
+
+b) Briefly write a short description of the procedure you used to measure the length.
+:::
+
+:::Question
+What is the length of you pendulum in meters. Be sure to include the uncertainty in your measurement. **Hint:** If you forgot how to get uncertainty from a scale the information is contained in Lab $0$.
+:::
+
 :::
 
 
@@ -180,19 +194,8 @@ Measure the length of your pendulum in meters.
 
 In this exercise you will use Phyphox to collect acceleration data from you phone while it is swinging.
 
-1. Make a table. Include the following quantities in the header of the table: mass $m$, length $L$, period $T$.
 
-
-:::Figure:Table
-
-| Mass [kg] | Length [m]| Period [s] | 
-| -------- | -------- | -------- |
-|  -  |  -   |  -   | 
-
-:::
-
-
-2. Look up the mass of your phone online. Record the value in your table. Make sure to use the correct units. 
+1. Look up the mass of your phone online. Record the value in your table. Make sure to use the correct units. 
 3. Using the "Accelerometer **without** g" experiment and tap ⋮ to go to "Timed Run". Chose an appropriate start delay (first blank) and experiment duration (second blank & about 15-20 secounds). Now, when you hit play, the phone will wait the set amount of time to start collecting data and then only collect data for the time you set. This will allow you get a nice run of data and not have to do any trimming later.
 
 :::Figure:Figure
@@ -201,8 +204,7 @@ In this exercise you will use Phyphox to collect acceleration data from you phon
 
 5. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
 6. Let it swing for the time you set in Step 3 and then look at your data. 
-7. Ensure that the data looks good (see notes below), and that you have 10 or more periods before exporting it.
-8. When you are ready, export the data to a spreadsheet.
+7. Ensure that the data looks good (see notes below), and that you have 10 or more periods.
 
 :::Note
 "Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like.
