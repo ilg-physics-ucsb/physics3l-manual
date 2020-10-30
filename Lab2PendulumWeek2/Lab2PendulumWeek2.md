@@ -199,9 +199,9 @@ In this exercise you will use Phyphox to collect acceleration data from you phon
 ![Screenshot of Timed Run](imgs/TimedRun.jpg)
 :::
 
-5. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
-6. Let it swing for the time you set in Step 3 and then look at your data. 
-7. Ensure that the data looks good, and that you have 10 or more periods before exporting it.
+4. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
+5. Let it swing for the time you set in Step 3 and then look at your data. 
+6. Ensure that the data looks good, and that you have 10 or more periods before exporting it.
 
 :::Note
 "Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like.
@@ -244,7 +244,7 @@ Remember the period $T$ is determined by the length of the pendulum $L$ and the 
 
 $$T=2\pi \sqrt{\frac{L}{g}}$$
 
-3. Rewrite the previous equation to find $g$ in terms of $L$ and $T$.
+1. Rewrite the previous equation to find $g$ in terms of $L$ and $T$.
 2. Given your value of $L$ measured earlier and of $T$ which you found from the acceleration data, determine the value of $g$.
 3. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
 
@@ -268,39 +268,32 @@ Submit you data in the form linked in the table below. Make sure the mass you pr
 Wait until your TA gives you to okay to proceed. You'll need enough data collected to make a usable set of data. 
 :::
 
-2. Now that you and your classmate's data has been collected you can proceed.
-3. Copy the data set into a spreadsheet where you can do your work.
-4. Create a plot of period as a function of length.
-
-
-
-6. 
-
+1. Now that you and your classmate's data has been collected you can proceed. Copy the data set into a spreadsheet where you can do your work and create a plot of period as a function of length.
 :::
 
 
 :::Exercise
-
-
-5. It is very hard to make analytical comparisons unless we linearize.  Plot this data and perform a power curve fit
-6. Calculate g based on the resulting average of one period for the given length.
-
+1. It can be very hard to make analytical comparisons of certain curve fits unless we linearize the data. We know that our data should be in the form $y = ax^b$ (maybe a question instead?). Plot the data in a spreadsheet and make a chart where you can perform a power curve fit on your data. Determine the value for $g$.
+2. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
 :::Question
-Even though you only took data for one initial angular displacement and one mass, answer the following questions (based on your intuition?)
-#####
-Does the period significantly depend on the mass? Why? Justify your answer.
-#####
-Based on the average of one period, what is g?
+What is the value of $g$ and the percent discrepancy you recorded?
+:::
+##
+3. In this experiment we used small angles in order to capitalize on the small angle formula. This allowed us to bypass many more advanced mathematics and study simple harmonic motion.
+We also never varied the mass of the pendulum. Even though you only took data for one initial angular displacement and one mass, answer the following questions using your intuition.
+:::Question
+a. Does the period significantly depend on the mass? Why? Justify your answer.
+b. Based on the average of one period, what is g?
 :::
 :::
 
 <!---ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?--->
 
 # Part VI: Conclusion
-::: Exercise
+:::Exercise
 1. Describe the experiment you will be performing next week.
 
 2. Briefly state how the acceleration you will measure will be related to the period of the pendulum.
 
 3. Summarize how using your phone as the bob affects your pendulum.
-	:::
+:::
