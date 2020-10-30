@@ -289,7 +289,7 @@ In the first equivalence we have replaced all the constants in Equation 1 with v
 Thus we can see that a generic form of our equation is a power law. Google allows us to do this by selecting our trend line as "Power Series" which is a bit of a misnomer. Figure 15 shows where to the function to select. 
 
 :::Figure:Figure
-![Power Series Selection](imgs/PowerLaw.png)
+![Power Series Selection](imgs/PowerLaw.gif)
 :::
 
 5.  Perform the power law fit to your data and display the equation. Make sure to properly label the axes and title the graph.
@@ -307,34 +307,86 @@ b) Does this appear to fit well with the theory described in Equation 1? Why or 
 :::Question
 a) What is the value of the fitting parameter $D$?
 
-b) What is the meaning of that parameter?
+b) What do you think the meaning of this parameter is?
 :::
 
+:::
+
+
+In the last exercise you demonstrated how the period of the pendulum relates to its length. Hopefully you saw that a power law fit matches pretty well with the theory we developed last week. Determining the quality of a non-linear curve fit quantitatively can be very challenging and is beyond this class.
+
+It is possible, though, to analyze a **linear** fit quantitatively. There are some semi-complicated equations that tell use what the uncertainty in the slope and intercept is for a linear fit. We won't worry about the details of those here but we will just use google sheets' "LINEST" function. 
+
+LINEST is short for Linear Estimation. It will use the method of least squares to make a best estimation of the line that fits your data.
+
+Below is a video that shows you how use the LINEST function in Google Sheets and how to get the slope, the uncertainty in the slope, the intercept, and the error in the intercept.
+
+:::Figure:Video
+!(https://www.youtube.com/watch?v=wkqlSuAoFLQ)
 :::
 
 
 :::Exercise
-1. It can be very hard to make analytical comparisons of certain curve fits unless we linearize the data. We know that our data should be in the form $y = ax^b$ (maybe a question instead?). Plot the data in a spreadsheet and make a chart where you can perform a power curve fit on your data. Determine the value for $g$.
-2. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
+
+In this exercise we will **linearize** the class data so that we can fit a line to the data and make a quantitative judgment about the experiment.
+
+To linearize an equation you must perform a mathematical operation on your equation so that the independent variable is linear. That is, it appears once and is to the first power. While performing the linearization to the independent variable you track the mathematical operations done to the dependent variable. You then apply those to the operations to the dependent variable to generate a new equation that is linear. 
+
+For this lab, $L$ is your independent variable and $T$ is your dependent variable. If you square both sides of Equation 1 you will have a function, $T^2$ that is linear in $L$.
+
+:::Question
+Linearize Equation 1. What is the new equation?
+:::
+
+1. Make a new column in you spreadsheet. In this column square each of the period measurements. 
+2. Create a new plot  of $T^2$ vs $L$.
+3. Add a linear trendline and use the LINEST function to get the uncertainties for the slope an intercept.
+
+:::Question
+a) What is the value of the slope? Make sure to include the units and uncertainty.
+
+b) Based on your response in Question 7, what should the slope be?
+:::
+
+:::Question
+Use the slope to determine a value for $g$.
+:::
+
+Determining the uncertainty in $g$ is slightly more complex then just using the uncertainty in the slope provided by LINEST. Because the slope is exactly equal $g$ the uncertainties aren't exactly equal either. To determine the uncertainty you must **propgate** it from $m$ to $g$. This is another topic that we will save the details for later, but for now we will just state that the uncertainty in $g$, denoted $\delta g$ is related to the uncertainty in the slope $\delta m$ in the following way:
+
+:::Figure:Equation
+$$
+\delta g = 4 \pi^2 |g| \left(\frac{\delta m}{|m|}\right)
+$$
+:::
+
+:::Question
+a) What is the value you measured for $g$ with the uncertainty?
+
+b) Does the accepted value of $g$ fall within your window of uncertainty?
+
+c) Does this strengthen the theory? Why or why not?
+:::
+
+5. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
 :::Question
 What is the value of $g$ and the percent discrepancy you recorded?
 :::
-##
-3. In this experiment we used small angles in order to capitalize on the small angle formula. This allowed us to bypass many more advanced mathematics and study simple harmonic motion.
+:::
+
+:::Exercise
+1 . In this experiment we used small angles in order to capitalize on the small angle formula. This allowed us to bypass many more advanced mathematics and study simple harmonic motion.
 We also never varied the mass of the pendulum. Even though you only took data for one initial angular displacement and one mass, answer the following questions using your intuition.
 :::Question
 a. Does the period significantly depend on the mass? Why? Justify your answer.
 b. Based on the average of one period, what is g?
-:::
+:::  
+
 :::
 
 <!---ex 3 linearize it. show linest video. "this is your error now, on your slope", translate it into error in g. how does that value compare to your known g?--->
 
 # Part VI: Conclusion
 :::Exercise
-1. Describe the experiment you will be performing next week.
-
-2. Briefly state how the acceleration you will measure will be related to the period of the pendulum.
-
-3. Summarize how using your phone as the bob affects your pendulum.
+Write a brief conclusion summarizing the import parts of this lab. **Hint:** Briefly summarize each exercise, and where appropriate, how they logically fit together. 
 :::
