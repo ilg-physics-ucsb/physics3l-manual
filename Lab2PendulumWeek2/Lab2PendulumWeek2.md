@@ -224,8 +224,6 @@ Pay attention to the vertical axis scaling on your three plots. They won't all b
 :::Exercise
 We want to determine the period, $T$, of the oscillations of motion. We will do so by looking at the oscillatory behavior of the accelerations recorded by the phone in the three different directions. Remember your derivations from Week 1 to determine the relationship between the periods of the accelerations in the different directions and the period  $T$ of motion of the pendulum.
 
-1. Create a spreadsheet and import the data from your phone.
-
 :::Question
 
 a) How do the periods of the accelerations measured by the phone compare to the period of oscillations of the pendulum?
@@ -233,11 +231,15 @@ a) How do the periods of the accelerations measured by the phone compare to the 
 b) Which axis has the same period as the period of motion?
 :::
 
-2. Find the period of motion of the pendulum by measuring the average period of the acceleration with the same period as the period of motion (your answer from the previous question). 
+1. Find the period of motion of the pendulum by measuring the average period of the acceleration with the same period as the period of motion (your answer from the previous question). 
 To find the average period, measure the time it takes the pendulum to complete 10 periods and divide by the number of periods (in this case 10). This will reduce the error in your measurement. If your data only displays 8 or 9 periods , that works as well.
 
+:::Figure:Figure
+![How to measure period in phyphox](imgs/PeriodMeasurement.gif)
+:::
+
 :::Question
-What is the average period of motion?
+What is the average period of motion? For now, include 4 decimal places in your measurement.
 :::
 
 
@@ -252,65 +254,35 @@ $$T=2\pi \sqrt{\frac{L}{g}}$$
 3. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
 
 :::Question
-a) What is the value of $g$ from your measurements?
+a) What is the value of $g$ from your measurements? Don't worry about uncertainty.
 
 b) What is the percent discrepancy you recorded?
 :::
 :::
 
-:::Exercise
+#### Propagation of Uncertainty
 
-In this exercise you will be submitting your data in a Google form that will be collected into one larger dataset with all the students in your class. You will then begin to analyze how the period of the pendulum is related to its length.
-Submit you data in the form linked in the table below. Make sure the mass you provide is in **kilograms**, the length is in **meters**, and the period is in **seconds**. **Also make sure that you select your correct section!**
+In the last exercise you calculated a value for $g$ using your one data measurement. Up until this point in Physics 3L when we have discussed uncertainty we either determined it from a scale or from a standard deviation. 
 
-:::Figure:Table
-| Google Form |
-| -------- |
-| [Link To Form](https://docs.google.com/forms/d/e/1FAIpQLSdMNOtqqm2KSdf8FQLNO5scZo3EIxxJ9WP1eJ9lRgUUMas-0g/viewform)     |
-:::
+A standard deviation requires multiple measurements of the same value, but you currently only have one measurement. How does one report uncertainty in that measurement? Well, if we know the uncertainty in the values that make up the measurement we care about we can **propagate** those uncertainties to measurement we care about. For this experiment, if we know the uncertainties in $T$ and $L$ we can **propogate** them to $g$ to calculate the uncertainty in $g$.
 
-::: Note
-Wait until your TA gives you to okay to proceed. You'll need enough data collected to make a usable set of data. 
-:::
-
-1. Now that you and your classmate's data has been collected you can proceed. Copy the data set into a spreadsheet where you can do your work and create a plot of period as a function of length.
-2. Now that you and your classmate's data has been collected you can proceed.
-3. Copy the data set into a spreadsheet where you can do your work.
-4. Create a plot of period as a function of length.
-
-You will want to perform a curve fit on this data, but it may not be obvious what function to use? The answer lies in our theory and therefore, Equation 1. If you were to abstract Equation 1 we may write it like the following:
+Propagating uncertainty can get complicated and we won't provide the techniques in this lab, but we will provide the formula for how to calculate the uncertainty in $g$. In the equation below the uncertainties are denoted with a $\delta$ before the variable and the best estimation is just the variable (i.e. $\delta L$ is the uncertainty in the length $L$)
 
 :::Figure:Equation
 $$
-T(L) = A\left( \frac{L}{B}\right)^C=\left(\frac{A}{B^C}\right)L^C=DL^C
+\delta g = g \sqrt{\left ( \frac{\delta L}{L}\right)^2 + \left ( \frac{2\delta T}{T}\right )}
 $$
 :::
 
-In the first equivalence we have replaced all the constants in Equation 1 with variables. Note: the square root is the same as raising something to the 1/2 power, hence $C$. Then in the second equivalence we took everything that is a constant and put it together. Finally, in the last line we replaced the group of constants (which is a constant) with a new constant named $D$. 
-
-Thus we can see that a generic form of our equation is a power law. Google allows us to do this by selecting our trend line as "Power Series" which is a bit of a misnomer. Figure 15 shows where to the function to select. 
-
-:::Figure:Figure
-![Power Series Selection](imgs/PowerLaw.gif)
+:::Note
+In the equation above $L$, $g$, and $T$ are all the measured values.
 :::
 
-5.  Perform the power law fit to your data and display the equation. Make sure to properly label the axes and title the graph.
+:::Exercise
+In this exercise you will **propagate the uncertainty** in $L$ and $T$ to determine the uncertainty in $g$.
 
-:::Question
-Is this a good fit for the data? What makes it a good fit?
-:::
-
-:::Question
-a) What is the value for the fitting parameter $C$?
-
-b) Does this appear to fit well with the theory described in Equation 1? Why or why not?
-:::
-
-:::Question
-a) What is the value of the fitting parameter $D$?
-
-b) What do you think the meaning of this parameter is?
-:::
+1. First we must determine the uncertainty in $T$. To do this look at your accelerometer data from the "Lab 0: Intro to Phyphox" lab. 
+2. Open the spreadsheet and look at the time column. In a separate column take the difference between one time value and the one before it.
 
 :::
 
@@ -330,7 +302,17 @@ Below is a video that shows you how use the LINEST function in Google Sheets and
 
 :::Exercise
 
-In this exercise we will **linearize** the class data so that we can fit a line to the data and make a quantitative judgment about the experiment.
+In this exercise you will be submitting your data in a Google form that will be collected into one larger dataset with all the students in your class. We will then **linearize** the class data so that we can fit a line to the data and make a quantitative judgment about the experiment.Submit you data in the form linked in the table below. Make sure the mass you provide is in **kilograms**, the length is in **meters**, and the period is in **seconds**. **Also make sure that you select your correct section!**
+
+:::Figure:Table
+| Google Form |
+| -------- |
+| [Link To Form](https://docs.google.com/forms/d/e/1FAIpQLSdMNOtqqm2KSdf8FQLNO5scZo3EIxxJ9WP1eJ9lRgUUMas-0g/viewform)     |
+:::
+
+::: Note
+Wait until your TA gives you to okay to proceed. You'll need enough data collected to make a usable set of data. 
+:::
 
 To linearize an equation you must perform a mathematical operation on your equation so that the independent variable is linear. That is, it appears once and is to the first power. While performing the linearization to the independent variable you track the mathematical operations done to the dependent variable. You then apply those to the operations to the dependent variable to generate a new equation that is linear. 
 
@@ -358,7 +340,7 @@ Determining the uncertainty in $g$ is slightly more complex then just using the 
 
 :::Figure:Equation
 $$
-\delta g = 4 \pi^2 |g| \left(\frac{\delta m}{|m|}\right)
+\delta g = |g| \left(\frac{\delta m}{|m|}\right)
 $$
 :::
 
