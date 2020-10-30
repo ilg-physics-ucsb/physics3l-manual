@@ -199,9 +199,10 @@ In this exercise you will use Phyphox to collect acceleration data from you phon
 ![Screenshot of Timed Run](imgs/TimedRun.jpg)
 :::
 
-4. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
-5. Let it swing for the time you set in Step 3 and then look at your data. 
-6. Ensure that the data looks good, and that you have 10 or more periods before exporting it.
+5. Displace the phone by a small amount (something like $15^{\circ}$), hit play, and then release your phone.
+6. Let it swing for the time you set in Step 3 and then look at your data. 
+7. Ensure that the data looks good (see notes below), and that you have 10 or more periods before exporting it.
+8. When you are ready, export the data to a spreadsheet.
 
 :::Note
 "Good" data is hard to define. You might just try taking a couple runs to see what type of data comes out. You should however be able to make *some* predictions about what good data should look like.
@@ -218,13 +219,8 @@ Pay attention to the vertical axis scaling on your three plots. They won't all b
 # Part V: Data Analysis 
 <!---ex 2 get everyone's data, plot it, do a power fit. check that it matches theory-->
 
-
-:::Note
-Here
-:::
-
 :::Exercise
-We want to determine the period $T$ of the oscillations of motion. We will do so by looking at the oscillatory behavior of the accelerations recorded by the phone in the three different directions. Remember your derivations from Week 1 to determine the relationship between the periods of the accelerations in the different directions and the period  $T$of motion of the pendulum.
+We want to determine the period, $T$, of the oscillations of motion. We will do so by looking at the oscillatory behavior of the accelerations recorded by the phone in the three different directions. Remember your derivations from Week 1 to determine the relationship between the periods of the accelerations in the different directions and the period  $T$ of motion of the pendulum.
 
 1. Create a spreadsheet and import the data from your phone.
 
@@ -245,14 +241,18 @@ What is the average period of motion?
 
 Remember the period $T$ is determined by the length of the pendulum $L$ and the acceleration due to gravity $g$. 
 
+:::Figure:Equation
 $$T=2\pi \sqrt{\frac{L}{g}}$$
+:::
 
-1. Rewrite the previous equation to find $g$ in terms of $L$ and $T$.
+3. Rewrite the Equation 1 to find $g$ in terms of $L$ and $T$.
 2. Given your value of $L$ measured earlier and of $T$ which you found from the acceleration data, determine the value of $g$.
 3. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
 
 :::Question
-What is the value of $g$ and the percent discrepancy you recorded?
+a) What is the value of $g$ from your measurements?
+
+b) What is the percent discrepancy you recorded?
 :::
 :::
 
@@ -264,7 +264,7 @@ Submit you data in the form linked in the table below. Make sure the mass you pr
 :::Figure:Table
 | Google Form |
 | -------- |
-| [Link To Form](https://)     |
+| [Link To Form](https://docs.google.com/forms/d/e/1FAIpQLSdMNOtqqm2KSdf8FQLNO5scZo3EIxxJ9WP1eJ9lRgUUMas-0g/viewform)     |
 :::
 
 ::: Note
@@ -272,6 +272,44 @@ Wait until your TA gives you to okay to proceed. You'll need enough data collect
 :::
 
 1. Now that you and your classmate's data has been collected you can proceed. Copy the data set into a spreadsheet where you can do your work and create a plot of period as a function of length.
+2. Now that you and your classmate's data has been collected you can proceed.
+3. Copy the data set into a spreadsheet where you can do your work.
+4. Create a plot of period as a function of length.
+
+You will want to perform a curve fit on this data, but it may not be obvious what function to use? The answer lies in our theory and therefore, Equation 1. If you were to abstract Equation 1 we may write it like the following:
+
+:::Figure:Equation
+$$
+T(L) = A\left( \frac{L}{B}\right)^C=\left(\frac{A}{B^C}\right)L^C=DL^C
+$$
+:::
+
+In the first equivalence we have replaced all the constants in Equation 1 with variables. Note: the square root is the same as raising something to the 1/2 power, hence $C$. Then in the second equivalence we took everything that is a constant and put it together. Finally, in the last line we replaced the group of constants (which is a constant) with a new constant named $D$. 
+
+Thus we can see that a generic form of our equation is a power law. Google allows us to do this by selecting our trend line as "Power Series" which is a bit of a misnomer. Figure 15 shows where to the function to select. 
+
+:::Figure:Figure
+![Power Series Selection](imgs/PowerLaw.png)
+:::
+
+5.  Perform the power law fit to your data and display the equation. Make sure to properly label the axes and title the graph.
+
+:::Question
+Is this a good fit for the data? What makes it a good fit?
+:::
+
+:::Question
+a) What is the value for the fitting parameter $C$?
+
+b) Does this appear to fit well with the theory described in Equation 1? Why or why not?
+:::
+
+:::Question
+a) What is the value of the fitting parameter $D$?
+
+b) What is the meaning of that parameter?
+:::
+
 :::
 
 
