@@ -219,6 +219,9 @@ Pay attention to the vertical axis scaling on your three plots. They won't all b
 <!---ex 2 get everyone's data, plot it, do a power fit. check that it matches theory-->
 
 
+:::Note
+Here
+:::
 
 :::Exercise
 We want to determine the period $T$ of the oscillations of motion. We will do so by looking at the oscillatory behavior of the accelerations recorded by the phone in the three different directions. Remember your derivations from Week 1 to determine the relationship between the periods of the accelerations in the different directions and the period  $T$of motion of the pendulum.
