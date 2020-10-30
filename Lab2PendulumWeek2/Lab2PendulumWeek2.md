@@ -270,7 +270,7 @@ Propagating uncertainty can get complicated and we won't provide the techniques 
 
 :::Figure:Equation
 $$
-\delta g = g \sqrt{\left ( \frac{\delta L}{L}\right)^2 + \left ( \frac{2\delta T}{T}\right )}
+\delta g = g \sqrt{\left ( \frac{\delta L}{L}\right)^2 + \left ( \frac{2\delta T}{T}\right )^2}
 $$
 :::
 
@@ -283,11 +283,33 @@ In this exercise you will **propagate the uncertainty** in $L$ and $T$ to determ
 
 1. First we must determine the uncertainty in $T$. To do this look at your accelerometer data from the "Lab 0: Intro to Phyphox" lab. 
 2. Open the spreadsheet and look at the time column. In a separate column take the difference between one time value and the one before it.
+3. Divide that difference by 2. This will be your uncertainty in one time measurement, $\delta t$. 
+4. To measure the period though, you took a difference and averaged it. The uncertainty in that operation is given by teh following equation where $N$ is the number of periods you measured.
+
+:::Figure:Equation
+$$
+\delta T =\frac{\sqrt{2}}{N}\delta t
+$$
+:::
+
+::: Question 
+What is the value period of your pendulum in seconds reported to correct significant figures and with uncertainty?
+:::
+
+5. Now that you have your uncertainty in the period use that, your uncertainty in the length, and Equation 2 to determine the uncertainty in $g$.
+
+:::Question
+a) Show your work for step 5.
+
+b) Report your value of $g$ in $m/s^2$ to correct significant figures and with uncertainty.
+:::
 
 :::
 
 
-In the last exercise you demonstrated how the period of the pendulum relates to its length. Hopefully you saw that a power law fit matches pretty well with the theory we developed last week. Determining the quality of a non-linear curve fit quantitatively can be very challenging and is beyond this class.
+#### Linearizing Data
+
+Determining the quality of a non-linear curve fit quantitatively can be very challenging and is beyond this class.
 
 It is possible, though, to analyze a **linear** fit quantitatively. There are some semi-complicated equations that tell use what the uncertainty in the slope and intercept is for a linear fit. We won't worry about the details of those here but we will just use google sheets' "LINEST" function. 
 
@@ -329,18 +351,18 @@ Linearize Equation 1. What is the new equation?
 :::Question
 a) What is the value of the slope? Make sure to include the units and uncertainty.
 
-b) Based on your response in Question 7, what should the slope be?
+b) Based on your response in Question 8, what should the slope be theoretically?
 :::
 
 :::Question
 Use the slope to determine a value for $g$.
 :::
 
-Determining the uncertainty in $g$ is slightly more complex then just using the uncertainty in the slope provided by LINEST. Because the slope is exactly equal $g$ the uncertainties aren't exactly equal either. To determine the uncertainty you must **propgate** it from $m$ to $g$. This is another topic that we will save the details for later, but for now we will just state that the uncertainty in $g$, denoted $\delta g$ is related to the uncertainty in the slope $\delta m$ in the following way:
+Determining the uncertainty in $g$ is slightly more complex then just using the uncertainty in the slope provided by LINEST. Because the slope is exactly equal $g$ the uncertainties aren't exactly equal either. To determine the uncertainty you must **propgate** it from the slope, $m$, to $g$. This is another topic that we will save the details for later, but for now we will just state that the uncertainty in $g$, denoted $\delta g$ is related to the uncertainty in the slope $\delta m$ in the following way:
 
 :::Figure:Equation
 $$
-\delta g = |g| \left(\frac{\delta m}{|m|}\right)
+\delta g = g \left(\frac{\delta m}{m}\right)
 $$
 :::
 
@@ -358,13 +380,7 @@ What is the value of $g$ and the percent discrepancy you recorded?
 :::
 :::
 
-:::Exercise
-1 . In this experiment we used small angles in order to capitalize on the small angle formula. This allowed us to bypass many more advanced mathematics and study simple harmonic motion.
-We also never varied the mass of the pendulum. Even though you only took data for one initial angular displacement and one mass, answer the following questions using your intuition.
 :::Question
-a. Does the period significantly depend on the mass? Why? Justify your answer.
-b. Based on the average of one period, what is g?
-:::  
 
 :::
 
