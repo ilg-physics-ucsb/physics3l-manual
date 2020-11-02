@@ -224,7 +224,7 @@ b) Which axis has the same period as the period of motion?
 :::
 #####
 1. Find the period of motion of the pendulum by measuring the average period of the acceleration that has the same period as the period of motion (your answer from the previous question). 
-To find the average period, measure the time it takes the pendulum to complete 10 periods (see Figure 15), and divide by the number of periods (in this case, 10). This will reduce the error in your measurement. If your data cover only eight or nine periods, that works as well. Figure 15 shows AVOCADO
+To find the average period, measure the time it takes the pendulum to complete 10 periods (see Figure 15), and divide by the number of periods (in this case, 10). This will reduce the error in your measurement. If your data cover only eight or nine periods, that works as well. Figure 15 shows you can make a quick measurement of many periods in the Phyphox app. Simply click the "Pick Data" button at the bottom of the screen then touch the point where you would like to start your measurement. Then drag your finger to the end point. A box will appear that will display the difference between the two times you selected.
 #####
 :::Figure:Figure
 ![How to measure period in phyphox](imgs/PeriodMeasurement.gif)
