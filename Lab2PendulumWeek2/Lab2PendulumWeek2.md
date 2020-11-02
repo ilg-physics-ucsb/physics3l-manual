@@ -387,5 +387,5 @@ What is the value of $g$, and of the percent discrepancy, that you recorded?
 
 # Part VI: Conclusion
 :::Exercise
-Write a brief conclusion summarizing the important parts of this lab. **Hint:** Briefly summarize each exercise, and where appropriate, how it fits logically with the others.
+Write a brief conclusion summarizing the important parts of this lab. **Hint:** Briefly summarize each exercise, and where appropriate, how it fits logically with the others. In a couple sentences state your results for your different $g$'s  and how they are related.
 :::
