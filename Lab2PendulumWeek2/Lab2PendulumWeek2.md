@@ -178,7 +178,9 @@ b) Write a short description of the procedure you used to measure the length.
 :::
 #####
 :::Question
-What is the length of your pendulum in meters? Be sure to include the uncertainty in your measurement. **Hint:** If you forgot how to get uncertainty from a scale, the information is contained in Lab $0$.
+What is the length of your pendulum in meters? Be sure to include the uncertainty in your measurement. 
+#####
+**Hint:** If you forgot how to get uncertainty from a scale, the information is contained in Lab $0$.
 :::
 #####
 :::
@@ -381,6 +383,5 @@ What is the value of $g$ and of the percent discrepancy that you recorded?
 :::Exercise
 Write a brief conclusion summarizing the important parts of this lab. 
 #####
-**Hint:** Briefly summarize each exercise. Where/AVOCADO"when" appropriate, include how it fits logically with other exercises. In a couple sentences state your results for your different $g$'s  and how they are related.
-
+**Hint:** Briefly summarize each exercise. Where appropriate, include how it fits logically with other exercises. In a couple sentences state your results for your different $g$'s  and how they are related.
 :::
