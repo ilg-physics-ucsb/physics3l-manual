@@ -169,7 +169,7 @@ Regardless your choice in measuring device, make sure that the resolution of the
 :::
 #####
 :::Figure:Figure
-![Suggested Materials](imgs/diagram.png)
+![Suggested Materials](imgs/Diagram.png)
 :::
 #####
 :::Question
