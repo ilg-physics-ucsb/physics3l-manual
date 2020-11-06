@@ -3,13 +3,14 @@
 ### All Materials Needed:
 - Two kinds of rubber bands
 - Ziplock bag
-- Household baking goods and measuring cups, coins, or other objects of known masses.
+- Paperclip
+- Household baking goods and measuring cups, coins, batteries, or other objects of known masses.
 - Scissors
 - Tape
 - Measuring tape or meter stick
 - Pillow, couch cushion, or something similar.
 - Somewhere to hang your spring, e.g., shower curtain rod, broomstick across two chairs, large table, etc. 
-- Phyphox "Acceleration (without g)"
+- Phyphox "Acceleration (without g)" preferred, or "Acceleration (with g)".
 
 ### Optional Materials
 
@@ -98,7 +99,7 @@ In fact, this is another form of a simple harmonic oscillator.
 In order show this mathematically we must first determine the net force on the mass when it is slightly displaced. 
 
 :::Figure:Figure
-![Image of Mass in Three positions](imgs/SHMDerivation.png)
+![Image of Mass in Three positions](imgs/SHMDerivation.PNG)
 :::
 
 Figure 4 shows the mass in three different positions labeled 1, 2, and 3. Position 1 shows the unstretched spring which is what we use to mark the zero position. Position 2 is the mass in its equilibrium position. Position 3 shows the mass when it has been displaced by an amount $\Delta y$ from equilibrium. 
@@ -164,26 +165,59 @@ Does the acceleration experienced by the mass have the same period as the positi
 
 In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure Guac shows a possible set up, the set up for both exercises will be similar.
 
-:::Figure:Image
-Image.jpeg
-:::
+
 
 :::Exercise 
 In this experiment you will be using some masses and your phone to measure characteristics of simple harmonic motion. You will build an apparatus and take data for analysis. Be sure to include a picture of your set up if you can!
 
 The process of building your spring AVO experiment will be similar to the apparatus you made in your previous lab: Pendulum. You can also build this with many different variations. Please read through all of the instructions before considering alternate steps.
 
-1. Collect all of the materials you will need for this set up: rubber bands, tape, scissors, zip-lock bags, makeshift weights (sugar, flour, salt, cornstarch, coins).
+1. Collect all of the materials you will need for this set up: rubber bands, tape, paper clips, scissors, zip-lock bags, makeshift weights (sugar, flour, salt, cornstarch, coins).
 
 2. Find the location where you will build your apparatus. You should be fine with building this wherever you build your pendulum from the previous lab.
 
-In this lab you will have your phone oscillating on a rubber band, so you will want to make sure your phone is not suspended too high, and that you can place a cushion underneath it.
+:::Figure:Figure
+![Empty Assembly](/imgs/Assembly/Assembly_1.PNG)
+:::
 
-3. Cut your rubber band so you have one long piece instead of a ring.
-4. Secure the top of your rubber band to your mounting point using tape and/or zip-ties. 
-5. Secure the bottom of your rubber band to your zip-lock bag. That can be done by punching a hole into the bag, running the rubber band through and tying it. You can also zip-tie the band on the bag. 
+In this lab you will have your phone oscillating on a rubber band, so you will want to make sure your phone is not suspended to high, and that you can place a cushion underneath it.
 
-Once you have your set up it should look something like this: IMAGE AVO
+3. Secure the top of your rubber band to your mounting point using tape and/or zip-ties. 
+
+:::Figure:Figure
+:::row
+:::column
+![Empty Assembly](/imgs/Assembly/Assembly_2.PNG)
+:::
+:::column
+![Empty Assembly](/imgs/Assembly/Assembly_3.PNG)
+:::
+:::column
+![Empty Assembly](/imgs/Assembly/Assembly_4.PNG)
+:::
+:::
+:::
+
+4. Now take your zip-lock bag and attach your paper clip to it. It is best if you can secure the bag only using one side so that you can better access the inside of the bag.
+
+:::Figure:Figure
+:::row
+:::column
+![Empty Assembly](/imgs/Assembly/Assembly_5.PNG)
+:::
+:::column
+![Empty Assembly](/imgs/Assembly/Assembly_6.PNG)
+:::
+:::
+:::
+
+5.  Hook your rubber band to your paperclip. 
+
+Once you have your set up it should look something like this:
+
+:::Figure:Figure
+![Empty Assembly](/imgs/Assembly/Assembly_7.PNG)
+:::
 
 6. Now repeat steps 1-5 for your second rubber band. AVO do we want them to do 2?
 
