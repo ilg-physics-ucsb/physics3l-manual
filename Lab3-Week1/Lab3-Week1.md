@@ -58,8 +58,8 @@ We will define the downward direction as positive. See Figure 2 for a free body 
 
 :::Figure:Equation
 $$
-\sum F = F_{sp}+F_g = F_{sp}+mg =0 \\
-\implies F_{sp}=-mg
+\sum F = -F_{sp}+F_g = F_{sp}+mg =0 \\
+\implies F_{sp}=mg
 $$
 :::
 
@@ -147,6 +147,18 @@ b) Why do you think that mass increases the period? Hint: Thing about this in te
 ## The Second Experiment
 
 The second experiment for next week will involve you putting your phone in the Ziploc bag and then setting it in motion. You will use the "Acceleration without g" to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period and the spring constant and the rubber band.
+
+Similar to the pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know the mass on a spring is also a simple harmonic oscillator we know the position as a function of time looks like the following:
+
+:::Figure:Equation
+$$
+y = y_1 \sin(\Omega t)
+$$
+:::
+
+:::Question
+Does the acceleration experienced by the mass have the same period as the position? Justify your answer. 
+:::
 
 ## Building Your Lab
 
