@@ -43,12 +43,18 @@ Where $F_{sp}$ is the force exerted by the spring, $y$ is the displacement from 
 For the purpose of the lab we will define the origin, the zero point, as spot at the end of the spring when it is hanging in its relaxed state. See Figure 1 below.
 
 :::Figure:Figure
-Spring Figure
+![Hooke's Law Image](imgs/HookesLaw.png)
 :::
 
 Hooke's law is an excellent description for spring buy often times applies to more than just springs. It is also sometimes accurate when dealing with elastic materials such as rubber bands. 
 
-If we were to hang a mass, $m$, from a rubber band and wait for the system to come to equilibrium (stop moving) we could determine the spring force by using Newton's second law and the force of gravity. We will define the downward direction as positive. See Figure 2 for a free body diagram. Putting this together we have:
+If we were to hang a mass, $m$, from a rubber band and wait for the system to come to equilibrium (stop moving) we could determine the spring force by using Newton's second law and the force of gravity. 
+
+:::Figure:Figure
+![Free Body Diagram of spring mass system](imgs/FreeBodyDiagram.png)
+:::
+
+We will define the downward direction as positive. See Figure 2 for a free body diagram. Putting this together we have:
 
 :::Figure:Equation
 $$
@@ -67,7 +73,13 @@ Use Equation 1 and Equation 2 to write the equation for the spring constant.
 
 ### The First Experiment
 
+:::Figure:Figure
+![Sugar in bag hanging on rubberband](imgs/Experiment1.png)
+:::
+
 A better way to determine the spring constant would be to very the mass and measure the length. From many data point we could create a plot and perform a fit.
+
+For this lab you will hang a Ziploc bag on a rubber band then add mass to the bag. You will measure the length of the rubber band as you add more and more mass.
 
 :::Question
 a) Rewrite your answer to Question 1 to have postion, $y$, as a function of mass $m$.
@@ -86,10 +98,10 @@ In fact, this is another form of a simple harmonic oscillator.
 In order show this mathematically we must first determine the net force on the mass when it is slightly displaced. 
 
 :::Figure:Figure
-Figure of motion
+![Image of Mass in Three positions](imgs/SHMDerivation.png)
 :::
 
-Figure 3 shows the mass in three different positions labeled 1, 2, and 3. Position 1 shows the unstretched spring which is what we use to mark the zero position. Position 2 is the mass in its equilibrium position. Position 3 shows the mass when it has been displaced by an amount $\Delta y$ from equilibrium. 
+Figure 4 shows the mass in three different positions labeled 1, 2, and 3. Position 1 shows the unstretched spring which is what we use to mark the zero position. Position 2 is the mass in its equilibrium position. Position 3 shows the mass when it has been displaced by an amount $\Delta y$ from equilibrium. 
 
 We already know that in position 2 the spring force is given by:
 
@@ -134,7 +146,7 @@ b) Why do you think that mass increases the period? Hint: Thing about this in te
 
 ## The Second Experiment
 
-Something about what is happening in the second experiment with the phone.
+The second experiment for next week will involve you putting your phone in the Ziploc bag and then setting it in motion. You will use the "Acceleration without g" to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period and the spring constant and the rubber band.
 
 ## Building Your Lab
 
