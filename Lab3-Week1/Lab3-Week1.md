@@ -48,7 +48,7 @@ For the purpose of the lab we will define the origin, the zero point, as spot at
 
 Hooke's law is an excellent description for spring buy often times applies to more than just springs. It is also sometimes accurate when dealing with elastic materials such as rubber bands. 
 
-If we were to hang a mass, $m$, from a rubber band and wait for the system to come to equilibrium (stop moving) we could determine the spring force by using Newton's second law and the force of gravity. 
+If we were to hang a mass, $m$, from a rubber band and wait for the system to come to** equilibrium (stop moving)** we could determine the spring force by using Newton's second law and the force of gravity. 
 
 :::Figure:Figure
 ![Free Body Diagram of spring mass system](imgs/FreeBodyDiagram.png)
@@ -107,7 +107,7 @@ We already know that in position 2 the spring force is given by:
 
 :::Figure:Equation
 $$
-F_{sp2} = ky_0 = mg
+F_{sp2} = -ky_0 = mg
 $$
 :::
 
@@ -152,7 +152,7 @@ Similar to the pendulum, we typically talk about the period of the position and 
 
 :::Figure:Equation
 $$
-y = y_1 \sin(\Omega t)
+y = \Delta y \sin(\Omega t)
 $$
 :::
 
