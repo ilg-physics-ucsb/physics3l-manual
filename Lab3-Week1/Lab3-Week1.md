@@ -44,7 +44,7 @@ $$
 
 The ratio of the force ($F$) to the amount stretched from equilibrium ($\Delta y$) is the spring constant $k$; $k = \frac{F}{\Delta y}$. This principle applies to more than just springs, it also works when dealing with elastics such as rubber bands. 
 
-Add Figure AVO
+![Figure 1](/imgs/Figure_1.png)
 
 
 #####
