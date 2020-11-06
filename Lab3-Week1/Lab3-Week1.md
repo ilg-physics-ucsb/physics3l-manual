@@ -99,7 +99,7 @@ In fact, this is another form of a simple harmonic oscillator.
 In order show this mathematically we must first determine the net force on the mass when it is slightly displaced. 
 
 :::Figure:Figure
-![Image of Mass in Three positions](imgs/SHMDerivation.PNG)
+![Image of Mass in Three positions](imgs/SHMDerivation.png)
 :::
 
 Figure 4 shows the mass in three different positions labeled 1, 2, and 3. Position 1 shows the unstretched spring which is what we use to mark the zero position. Position 2 is the mass in its equilibrium position. Position 3 shows the mass when it has been displaced by an amount $\Delta y$ from equilibrium. 
