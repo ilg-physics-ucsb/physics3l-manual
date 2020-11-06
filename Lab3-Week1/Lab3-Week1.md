@@ -177,7 +177,7 @@ The process of building your spring AVO experiment will be similar to the appara
 2. Find the location where you will build your apparatus. You should be fine with building this wherever you build your pendulum from the previous lab.
 
 :::Figure:Figure
-![Empty Assembly](/imgs/Assembly/Assembly_1.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_1.PNG)
 :::
 
 In this lab you will have your phone oscillating on a rubber band, so you will want to make sure your phone is not suspended to high, and that you can place a cushion underneath it.
@@ -187,13 +187,13 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](/imgs/Assembly/Assembly_2.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_2.PNG)
 :::
 :::column
-![Empty Assembly](/imgs/Assembly/Assembly_3.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_3.PNG)
 :::
 :::column
-![Empty Assembly](/imgs/Assembly/Assembly_4.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_4.PNG)
 :::
 :::
 :::
@@ -203,10 +203,10 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](/imgs/Assembly/Assembly_5.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_5.PNG)
 :::
 :::column
-![Empty Assembly](/imgs/Assembly/Assembly_6.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_6.PNG)
 :::
 :::
 :::
@@ -216,7 +216,7 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 Once you have your set up it should look something like this:
 
 :::Figure:Figure
-![Empty Assembly](/imgs/Assembly/Assembly_7.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_7.PNG)
 :::
 
 6. Now repeat steps 1-5 for your second rubber band. AVO do we want them to do 2?
