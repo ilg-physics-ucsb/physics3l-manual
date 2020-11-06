@@ -34,11 +34,22 @@ Simple Harmonic Motion (introduction)?
 
 #####
 
-Most springs obey Hooke's Law: the magnitude of the force the spring exerts is proportional to the amount it is stretched. The ratio of the force ($F$) to the amount stretched ($d$) is the spring constant $k$; $k = \frac{F}{d}$. This principle applies to more than just springs, it also works when dealing with elastics such as rubber bands. 
+Most springs obey Hooke's Law: the magnitude of the force the spring exerts is proportional to the amount it is stretched. This is mathematically expressed as: 
+
+:::Figure:Equation
+$$
+F = -k \Delta y
+$$
+:::
+
+The ratio of the force ($F$) to the amount stretched from equilibrium ($\Delta y$) is the spring constant $k$; $k = \frac{F}{\Delta y}$. This principle applies to more than just springs, it also works when dealing with elastics such as rubber bands. 
+
+Add Figure AVO
+
 
 #####
 
-One way to determine k for a spring or rubber band is to hang a mass m from it. The force that mass is exerting on the rubber band is then mg, where g is the acceleration due to gravity - assume $g = 9.80 \frac{m}{s^2}$. We can then see how far the rubber band stretches.
+One way to determine k for an elastic is to hang a mass $m$ from it. The force that mass is exerting on the rubber band is then mg, where g is the acceleration due to gravity - assume $g = 9.80 \frac{m}{s^2}$. We can then see how far the rubber band stretches.
 
 #####
 
@@ -172,11 +183,11 @@ Make another table in Google Sheets as seen below for the second experiment.
 
 Now we want to figure out what masses you can use with your apparatus.
 
-You can use any household item you can weigh for this, however, we have several recommendations: Coins, Flour, Sugar, and Salt.
+You can use any household item you can weigh for this, however, we have several recommendations: Coins, Batteries, Water, Flour, Sugar, and Salt.
 
 The mass range you will want to be looking at is anywhere from about 20g to 1000g depending on how thick your rubber bands are. Most small rubber bands should only get about 350g, while thicker ones can hold over 1000g.
 
-Mixing and matching materials for your masses is certainly fine. Below are tables for how much each of your recommended materials weigh.
+Mixing and matching materials for your masses is certainly fine. Please note however, that certain items should not be combined, such as water and batteries. Below are tables for how much each of your recommended materials weigh.
 
 US Coins:
 
@@ -184,13 +195,27 @@ US Coins:
 | -------- | -------- | -------- | -------- | -------- | -------- |
 | 8.1g | 11.3g | 5.7g | 2.3g | 5.0g | 2.5g |
 
+Batteries:
+
+| | AA | AAA | 9V | D | C |
+| -------- | -------- | -------- | -------- | -------- | -------- | 
+| Alkaline | 23g | 11.5g | | 135g | 65g | 
+| Lithium | 15g | 7.6g | | | | | 
+|Rechargable Ni-MH | 31g | 14g |  | 105-160g | 80g |
+|Energizer Alkaline|  |  |  |  |
+|Energizer Lithium|  |  |  |  |
+|Duracell Alkaline|  |  |  |  |
+|Duracell Lithium|  |  |  |  |
+|Amazon Basic|  |  |  |  |
+
 
 Household goods: 
 
-| Amount | Flour | Sugar | Salt |
-| -------- | -------- | -------- | -------- |
-| 1 cup     |      |      |     |
-| $\frac{1}{2}$ cup     |      |      |     |
+| Amount | Amount Metric | Water | Flour (All Purpose) | Flour Sugar | Salt | Water |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| Density |  - | 
+| 1 cup     |  120ml    |      |     |  | 
+| $\frac{1}{2}$ cup     |      |   75g   |     |
 | $\frac{1}{3}$ cup     |      |      |     |
 | $\frac{1}{4}$ cup     |      |      |     |
 | 1 teaspoon     |      |      |     |
@@ -201,7 +226,7 @@ Using a second zip-lock bag would be great. This way you do not have to get the 
 1. Find your available materials and roughly thing about how you can distribute your masses to have 10 - 15 different mass values between 20g and 500g. Measure out your available materials and make a mass plan for each mass value you want to test. Mass values of roughly 20g, 50g, 100g, 150g, 200g, 250g, 300g, 350g, 400g, 450g, 500g would be great.
 2. Write out your chosen masses and what breakdown of what materials are used for them in the table you made for experiment 1.
 
-Note that 20g is a good starting point so that your rubber band starts out taught.
+Note that 20g is a good starting point so that your rubber band starts out taught. 
 :::
 
 ## Conclusion
