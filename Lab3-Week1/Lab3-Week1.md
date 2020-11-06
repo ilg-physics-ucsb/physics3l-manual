@@ -30,70 +30,99 @@
 
 # Part I: Hooke's Law
 
-Simple Harmonic Motion (introduction)?
-
-#####
-
-Most springs obey Hooke's Law: the magnitude of the force the spring exerts is proportional to the amount it is stretched. This is mathematically expressed as: 
+Most springs obey Hooke's Law: the magnitude of the force  the spring exerts is proportional to the amount it is stretched. This is mathematically expressed as: 
 
 :::Figure:Equation
 $$
-F = -k \Delta y
+F_{sp} = -k y
 $$
 :::
 
-The ratio of the force ($F$) to the amount stretched from equilibrium ($\Delta y$) is the spring constant $k$; $k = \frac{F}{\Delta y}$. This principle applies to more than just springs, it also works when dealing with elastics such as rubber bands. 
+Where $F_{sp}$ is the force exerted by the spring, $y$ is the displacement from the springs equilibrium position, and $k$ is the spring constant. The larger the spring constant $k$, the "stiffer" the spring.  As a matter of fact, the constant $k$ is often referred to as the stiffness.
 
-Add Figure AVO
+For the purpose of the lab we will define the origin, the zero point, as spot at the end of the spring when it is hanging in its relaxed state. See Figure 1 below.
 
+:::Figure:Figure
+Spring Figure
+:::
 
-#####
+Hooke's law is an excellent description for spring buy often times applies to more than just springs. It is also sometimes accurate when dealing with elastic materials such as rubber bands. 
 
-One way to determine k for an elastic is to hang a mass $m$ from it. The force that mass is exerting on the rubber band is then mg, where g is the acceleration due to gravity - assume $g = 9.80 \frac{m}{s^2}$. We can then see how far the rubber band stretches.
-
-#####
-
-More quantitatively: 
+If we were to hang a mass, $m$, from a rubber band and wait for the system to come to equilibrium (stop moving) we could determine the spring force by using Newton's second law and the force of gravity. We will define the downward direction as positive. See Figure 2 for a free body diagram. Putting this together we have:
 
 :::Figure:Equation
 $$
-|F| = k |d|, \\|F| = mg, \\|d| = \frac{g}{k}m
+\sum F = F_{sp}+F_g = F_{sp}+mg =0 \\
+\implies F_{sp}=-mg
 $$
 :::
 
-If the graph of |$d$| vs $m$ (with m as the independent variable) approximates a straight line, then this is evidence that the rubber band obey's Hooke's Law. Furthermore, the slope of the line, $s$, will be $\frac{g}{k}$. You could determine $k$ if you found $s$: $k = \frac{g}{s}$.
+Where in the first line of the equation we recognized that for a system in equilibrium the acceleration is zero.
+
+Thus we can use the mass and gravity to measure the spring force. From this we can measure the spring constant of the rubber band.
 
 :::Question
-(a) Some conceptual question?
-
-(b) Maybe another conceptual question?
+Use Equation 1 and Equation 2 to write the equation for the spring constant.
 :::
 
+### The First Experiment
 
-## Springs in Motion
+A better way to determine the spring constant would be to very the mass and measure the length. From many data point we could create a plot and perform a fit.
 
-The larger the spring constant $k$, the "stiffer" the spring or rubber band - as a matter of fact, the constant $k$ is often refered to as the stiffness of the band AVO. The angular frequency $w$ of a mass $m$ bouncing on a spring AVo is determined by $k$ and $m$: 
+:::Question
+a) Rewrite your answer to Question 1 to have postion, $y$, as a function of mass $m$.
+
+b) If you were to create the plot of length vs mass, what is the expression for the slope?
+
+c) How does the slope change with stiffness of the spring or rubber band?
+:::
+
+# Part II: Springs in Motion (More Harmonic Motion)
+
+Another way to determine the spring constant is to hang a single mass from the spring. If you were to displace the mass from its equilibrium position slightly and release you would see the mass oscillate around the equilibrium position. This should sound **very** familiar.
+
+In fact, this is another form of a simple harmonic oscillator. 
+
+In order show this mathematically we must first determine the net force on the mass when it is slightly displaced. 
+
+:::Figure:Figure
+Figure of motion
+:::
+
+Figure 3 shows the mass in three different positions labeled 1, 2, and 3. Position 1 shows the unstretched spring which is what we use to mark the zero position. Position 2 is the mass in its equilibrium position. Position 3 shows the mass when it has been displaced by an amount $\Delta y$ from equilibrium. 
+
+We already know that in position 2 the spring force is given by:
 
 :::Figure:Equation
 $$
-w= \sqrt{\frac{k}{m}}
+F_{sp2} = ky_0 = mg
 $$
 :::
 
-$w$ is in $\frac{radians}{s}$. Frequency $f$, in $\frac{vibrations}{s}$, is equal to $\frac{w}{2\pi}$. Period T, in $\frac{s}{vibrations}$, is equal to $\frac{1}{f}$. Thus: 
+Then, if you look at the net force on the mass in position three you would see :
 
 :::Figure:Equation
 $$
-T=\frac{2\pi}{w}
+\sum F = -ky_1+mg \\
+
+= -ky_1 + ky_0 = -k\Delta y
 $$
 :::
 
-This applies to any simple harmonic motion. For all simple harmonic motion the restoring force is linear. For the case of a mass on a rubber band, substitution yields: 
+In the above we used the fact that $\Delta y = y_1 - y_0$ in the final step.
 
-:::Figure:Equation
-$$
-T = 2\pi \sqrt{\frac{m}{k}}
-$$
+:::Question
+Use Newton's second law and Equation 4 to determine acceleration felt by the mass, $a_y$. 
+:::
+
+:::Question
+Is the oscillating mass a simple harmonic oscillator? Use your response to question 3 to help justify your answer. **Hint:** Look back ad Lab 2 Week 1 if you need help.
+:::
+
+:::Question
+a) What is the expression for the angular frequency, $\Omega$, of this simple harmonic oscillator?
+
+b) What is the period of oscillation?
 :::
 
 ::: Question
@@ -102,21 +131,10 @@ a) For a given mass, a stiffer spring causes greater of lesser frequency? Period
 b) Why do you think that mass increases the period? Hint: Thing about this in terms of $F=ma$
 :::
 
-For a particular spring, $k$ is approximately constant within a given regime. Thus $T$ is equal to a constant times $\sqrt{m}$, or equivalently, $T^2$ is proportional to $m$. If you graph $T^2$ versus $m$ for a number of different masses, you should get a straight line with slope of $\frac{(2\pi)^2}{k}$:
 
-:::Figure:Equation
-$$
-T^2=[\frac{(2\pi)^2}{k}]m
-$$
-:::
+## The Second Experiment
 
-The most precise way to measure the period is to measure, say, 10 periods, and then divide by 10. That way any imprecision in your measuring process is spread out over a much greater time, and will have a much smaller overall effect. If $n$ is the number of periods you time, and $t_n$ is the time for all those periods, then:
-
-:::Figure:Equation
-$$
-T=\frac{t_n}{n}
-$$
-:::
+Something about what is happening in the second experiment with the phone.
 
 ## Building Your Lab
 
@@ -128,7 +146,6 @@ Image.jpeg
 
 :::Exercise 
 In this experiment you will be using some masses and your phone to measure characteristics of simple harmonic motion. You will build an apparatus and take data for analysis. Be sure to include a picture of your set up if you can!
-
 
 The process of building your spring AVO experiment will be similar to the apparatus you made in your previous lab: Pendulum. You can also build this with many different variations. Please read through all of the instructions before considering alternate steps.
 
