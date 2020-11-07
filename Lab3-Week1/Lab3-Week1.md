@@ -35,11 +35,11 @@ Most springs obey Hooke's Law: the magnitude of the force  the spring exerts is 
 
 :::Figure:Equation
 $$
-F_{sp} = -k y
+F_{sp} = -k\Delta y
 $$
 :::
 
-Where $F_{sp}$ is the force exerted by the spring, $y$ is the displacement from the springs equilibrium position, and $k$ is the spring constant. The larger the spring constant $k$, the "stiffer" the spring.  As a matter of fact, the constant $k$ is often referred to as the stiffness.
+Where $F_{sp}$ is the force exerted by the spring, $\Delta y$ is the displacement from the springs equilibrium position, and $k$ is the spring constant. The larger the spring constant $k$, the "stiffer" the spring.  As a matter of fact, the constant $k$ is often referred to as the stiffness.
 
 For the purpose of the lab we will define the origin, the zero point, as spot at the end of the spring when it is hanging in its relaxed state. See Figure 1 below.
 
@@ -78,14 +78,14 @@ Use Equation 1 and Equation 2 to write the equation for the spring constant.
 ![Sugar in bag hanging on rubberband](imgs/Experiment1.png)
 :::
 
-A better way to determine the spring constant would be to very the mass and measure the length. From many data point we could create a plot and perform a fit.
+A better way to determine the spring constant would be to very the mass and measure the stretch. From many data point we could create a plot and perform a fit.
 
 For this lab you will hang a Ziploc bag on a rubber band then add mass to the bag. You will measure the length of the rubber band as you add more and more mass.
 
 :::Question
-a) Rewrite your answer to Question 1 to have postion, $y$, as a function of mass $m$.
+a) Rewrite your answer to Question 1 to have stretch, $y$, as a function of mass $m$.
 
-b) If you were to create the plot of length vs mass, what is the expression for the slope?
+b) If you were to create the plot of stretch vs mass, what is the expression for the slope?
 
 c) How does the slope change with stiffness of the spring or rubber band?
 :::
@@ -102,13 +102,13 @@ In order show this mathematically we must first determine the net force on the m
 ![Image of Mass in Three positions](imgs/SHMDerivation.png)
 :::
 
-Figure 4 shows the mass in three different positions labeled 1, 2, and 3. Position 1 shows the unstretched spring which is what we use to mark the zero position. Position 2 is the mass in its equilibrium position. Position 3 shows the mass when it has been displaced by an amount $\Delta y$ from equilibrium. 
+Figure 4 shows the mass in three different positions labeled 1, 2, and 3. Position 1 shows the unstretched spring. Position 2 is the mass in its equilibrium position which is what we will call the zero position. Position 3 shows the mass when it has been displaced by an amount $y$ from equilibrium. 
 
 We already know that in position 2 the spring force is given by:
 
 :::Figure:Equation
 $$
-F_{sp2} = ky_0 = mg
+F_{sp2} = ky = mg = 0
 $$
 :::
 
@@ -116,13 +116,13 @@ Then, if you look at the net force on the mass in position three you would see :
 
 :::Figure:Equation
 $$
-\sum F = -ky_1+mg \\
+\sum F = -ky+mg \\
 
-= -ky_1 + ky_0 = -k\Delta y
+= -ky
 $$
 :::
 
-In the above we used the fact that $\Delta y = y_1 - y_0$ in the final step.
+In the above we used the fact that $y=0$ for position 2.
 
 :::Question
 Use Newton's second law and Equation 4 to determine acceleration felt by the mass, $a_y$. 
