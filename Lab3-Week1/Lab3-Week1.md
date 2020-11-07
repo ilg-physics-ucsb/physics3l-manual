@@ -153,6 +153,15 @@ The second experiment for next week will involve you putting your phone in the Z
 
 In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure Guac shows a possible set up, the set up for both exercises will be similar.
 
+Similar to the pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know the mass on a spring is also a simple harmonic oscillator we know the position as a function of time looks like the following:
+:::Figure:Equation
+$$
+y = \Delta y \sin(\Omega t)
+$$
+:::
+:::Question
+Does the acceleration experienced by the mass have the same period as the position? Justify your answer. 
+:::
 
 
 :::Exercise 
