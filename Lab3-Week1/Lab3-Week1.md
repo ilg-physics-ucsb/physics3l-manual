@@ -13,10 +13,8 @@
 - Phyphox "Acceleration (without g)" preferred, or "Acceleration (with g)".
 
 ### Optional Materials
-
--Zip ties
-
--Super glue
+- Zip ties
+- Super glue
 
 ### Lab Goals:
 - ** Construct an apparatus **
@@ -149,19 +147,25 @@ b) Why do you think that mass increases the period? Hint: Thing about this in te
 
 The second experiment for next week will involve you putting your phone in the Ziploc bag and then setting it in motion. You will use the "Acceleration without g" to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period and the spring constant and the rubber band.
 
+Similar to the pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know the mass on a spring is also a simple harmonic oscillator we know the position as a function of time looks like the following:
+
+
+:::Figure:Equation
+$$
+y = A\sin(\Omega t)
+$$
+:::
+
+:::Question
+Does the acceleration experienced by the mass have the same period as the position? Justify your answer. 
+:::
+
+
 ## Building Your Lab
 
 In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure Guac shows a possible set up, the set up for both exercises will be similar.
 
-Similar to the pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know the mass on a spring is also a simple harmonic oscillator we know the position as a function of time looks like the following:
-:::Figure:Equation
-$$
-y = \Delta y \sin(\Omega t)
-$$
-:::
-:::Question
-Does the acceleration experienced by the mass have the same period as the position? Justify your answer. 
-:::
+
 
 
 :::Exercise 
