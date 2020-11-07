@@ -156,6 +156,8 @@ y = A\sin(\Omega t)
 $$
 :::
 
+Where $A$ is the amplitude or the initial displacement, and $\Omega$ is the angular frequency.
+
 :::Question
 Does the acceleration experienced by the mass have the same period as the position? Justify your answer. 
 :::
