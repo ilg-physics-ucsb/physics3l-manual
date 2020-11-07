@@ -49,7 +49,7 @@ For the purpose of the lab we will define the origin, the zero point, as spot at
 
 Hooke's law is an excellent description for spring buy often times applies to more than just springs. It is also sometimes accurate when dealing with elastic materials such as rubber bands. 
 
-If we were to hang a mass, $m$, from a rubber band and wait for the system to come to** equilibrium (stop moving)** we could determine the spring force by using Newton's second law and the force of gravity. 
+If we were to hang a mass, $m$, from a rubber band and wait for the system to come to equilibrium (stop moving) we could determine the spring force by using Newton's second law and the force of gravity. 
 
 :::Figure:Figure
 ![Free Body Diagram of spring mass system](imgs/FreeBodyDiagram.png)
@@ -59,8 +59,8 @@ We will define the downward direction as positive. See Figure 2 for a free body 
 
 :::Figure:Equation
 $$
-\sum F = -F_{sp}+F_g = F_{sp}+mg =0 \\
-\implies F_{sp}=mg
+\sum F = F_{sp}+F_g = F_{sp}+mg =0 \\
+\implies F_{sp}=-mg
 $$
 :::
 
@@ -108,7 +108,7 @@ We already know that in position 2 the spring force is given by:
 
 :::Figure:Equation
 $$
-F_{sp2} = -ky_0 = mg
+F_{sp2} = ky_0 = mg
 $$
 :::
 
@@ -149,18 +149,6 @@ b) Why do you think that mass increases the period? Hint: Thing about this in te
 
 The second experiment for next week will involve you putting your phone in the Ziploc bag and then setting it in motion. You will use the "Acceleration without g" to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period and the spring constant and the rubber band.
 
-Similar to the pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know the mass on a spring is also a simple harmonic oscillator we know the position as a function of time looks like the following:
-
-:::Figure:Equation
-$$
-y = \Delta y \sin(\Omega t)
-$$
-:::
-
-:::Question
-Does the acceleration experienced by the mass have the same period as the position? Justify your answer. 
-:::
-
 ## Building Your Lab
 
 In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure Guac shows a possible set up, the set up for both exercises will be similar.
@@ -177,7 +165,7 @@ The process of building your spring AVO experiment will be similar to the appara
 2. Find the location where you will build your apparatus. You should be fine with building this wherever you build your pendulum from the previous lab.
 
 :::Figure:Figure
-![Empty Assembly](imgs/Assembly/Assembly_1.png)
+![Empty Assembly](/imgs/Assembly/Assembly_1.PNG)
 :::
 
 In this lab you will have your phone oscillating on a rubber band, so you will want to make sure your phone is not suspended to high, and that you can place a cushion underneath it.
@@ -187,13 +175,13 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_2.png)
+![Empty Assembly](/imgs/Assembly/Assembly_2.PNG)
 :::
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_3.png)
+![Empty Assembly](/imgs/Assembly/Assembly_3.PNG)
 :::
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_4.png)
+![Empty Assembly](/imgs/Assembly/Assembly_4.PNG)
 :::
 :::
 :::
@@ -203,10 +191,10 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_5.png)
+![Empty Assembly](/imgs/Assembly/Assembly_5.PNG)
 :::
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_6.png)
+![Empty Assembly](/imgs/Assembly/Assembly_6.PNG)
 :::
 :::
 :::
@@ -216,7 +204,7 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 Once you have your set up it should look something like this:
 
 :::Figure:Figure
-![Empty Assembly](imgs/Assembly/Assembly_7.png)
+![Empty Assembly](/imgs/Assembly/Assembly_7.PNG)
 :::
 
 6. Now repeat steps 1-5 for your second rubber band. AVO do we want them to do 2?
@@ -239,16 +227,20 @@ Making your data tables now will help organization and reduce workload for next 
 
 Make a table in Google sheets as seen below for the first experiment.
 
-| Length | Delta y | Mass | Mass Description | Force | k | 
+| Length (m) | $\Delta$y (m) | Mass (kg) | Mass Description | Force (N)| k | 
 | -------- | -------- | -------- | -------- | -------- | -------- |
-|      |      |      |
+|   -   |  -  |     - |  -|   -   |  -  |     - |
+|   -   |  -  |     - |   -   |  -  |     - |
+
+Your independent 
+
 
 Make another table in Google Sheets as seen below for the second experiment.
 
 
-| Mass | $time_i$ | $time_f$ | Delta $t$ | number of periods | T | k | 
+| Mass | time$_i$ | time$_f$ | $\Delta t$ | number of periods (n) | T  (s) | k | 
 | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-|      |      |      |
+|   -   |  -  |     - |   -   |  -  |     - | - |
 
 :::
 
@@ -274,27 +266,20 @@ Batteries:
 
 | | AA | AAA | 9V | D | C |
 | -------- | -------- | -------- | -------- | -------- | -------- | 
-| Alkaline | 23g | 11.5g | | 135g | 65g | 
-| Lithium | 15g | 7.6g | | | | | 
-|Rechargable Ni-MH | 31g | 14g |  | 105-160g | 80g |
-|Energizer Alkaline|  |  |  |  |
-|Energizer Lithium|  |  |  |  |
-|Duracell Alkaline|  |  |  |  |
-|Duracell Lithium|  |  |  |  |
-|Amazon Basic|  |  |  |  |
+| Alkaline | 23g | 11.5g |45g | 135g | 65g | 
+| Lithium | 15g | 7.6g | 37g| -|- | 
+|Rechargable Ni-MH | 31g | 14g |-  | 160g | 80g |
+
 
 
 Household goods: 
 
-| Amount | Amount Metric | Water | Flour (All Purpose) | Flour Sugar | Salt | Water |
+|  | Metric (ml) | Water | All Purpose Flour | Granulated White Sugar | Table Salt |
 | -------- | -------- | -------- | -------- | -------- | -------- |
-| Density |  - | 
-| 1 cup     |  120ml    |      |     |  | 
-| $\frac{1}{2}$ cup     |      |   75g   |     |
-| $\frac{1}{3}$ cup     |      |      |     |
-| $\frac{1}{4}$ cup     |      |      |     |
-| 1 teaspoon     |      |      |     |
-| 1 tablespoon     |      |      |     |
+| Density (g/ml) |   | 1g/ml |  0.6g/ml |  0.92g/ml    |  1.26g/ml  | 
+| 1 cup     |  237ml    |   237g   |  130g   | 200g | 273g | 
+| 1 teaspoon     |  4.9ml    |   4.9g   |   3.3g  | 4g | 5.7g |
+| 1 tablespoon     |  14.8ml    |   14.8g   |   8.5g  | 12.6g | 17g |
 
 Using a second zip-lock bag would be great. This way you do not have to get the bag attached to your rubber band dirty. Note that your phone will go in that bag later. So ideally you will fit your mass bag into your first bag AVO WORDING.
 
