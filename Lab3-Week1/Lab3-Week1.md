@@ -1,11 +1,10 @@
 # Lab 3: Simple Harmonic Motion Week 1
 ---
 ### All Materials Needed:
-- Two kinds of rubber bands
-- Ziplock bag
+- A rubber band
+- One or two Ziplock bags
 - Paperclip
 - Household baking goods and measuring cups, coins, batteries, or other objects of known masses.
-- Scissors
 - Tape
 - Measuring tape or meter stick
 - Pillow, couch cushion, or something similar.
@@ -13,13 +12,15 @@
 - Phyphox "Acceleration (without g)" preferred, or "Acceleration (with g)".
 
 ### Optional Materials
+
 - Zip ties
-- Super glue
+- Scissors
 
 ### Lab Goals:
 - ** Construct an apparatus **
-	- Find two rubber bands of different widths.
+	- Find a rubber band, and all necessary mounting pieces.
 	- Find a surface and location to hang your masses from; such as a table, shower rod, broom, etc.
+	- Find masses to be used in your experiment.
 - ** Data Analysis **
 	- Understand the theory behind Hooke's Law.
 	- Generate the equations that will be used to process the data.
@@ -165,17 +166,16 @@ Does the acceleration experienced by the mass have the same period as the positi
 
 ## Building Your Lab
 
-In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure Guac shows a possible set up, the set up for both exercises will be similar.
-
+In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure 3 shows a possible set up. Note, the set up for both exercises will be similar.
 
 
 
 :::Exercise 
 In this experiment you will be using some masses and your phone to measure characteristics of simple harmonic motion. You will build an apparatus and take data for analysis. Be sure to include a picture of your set up if you can!
 
-The process of building your spring AVO experiment will be similar to the apparatus you made in your previous lab: Pendulum. You can also build this with many different variations. Please read through all of the instructions before considering alternate steps.
+The process of building your experiment will be similar to the apparatus you made in your previous lab, Pendulum. You can also build this with many different variations. Please read through all of the instructions before considering alternate steps.
 
-1. Collect all of the materials you will need for this set up: rubber bands, tape, paper clips, scissors, zip-lock bags, makeshift weights (sugar, flour, salt, cornstarch, coins).
+1. Collect all of the materials you will need for this set up: rubber band, tape, paper clips, zip-lock bags, makeshift weights (sugar, flour, salt, cornstarch, coins). Optional items include scissors and zip ties.
 
 2. Find the location where you will build your apparatus. You should be fine with building this wherever you build your pendulum from the previous lab.
 
@@ -185,7 +185,7 @@ The process of building your spring AVO experiment will be similar to the appara
 
 In this lab you will have your phone oscillating on a rubber band, so you will want to make sure your phone is not suspended to high, and that you can place a cushion underneath it.
 
-3. Secure the top of your rubber band to your mounting point using tape and/or zip-ties. 
+3. Secure the top of your rubber band to your mounting point using tape. If you are mounting to a broom or cylindrical object, you can zip tie the broom and rubber band together.
 
 :::Figure:Figure
 :::row
@@ -222,7 +222,7 @@ Once you have your set up it should look something like this:
 ![Empty Assembly](/imgs/Assembly/Assembly_7.PNG)
 :::
 
-6. Now repeat steps 1-5 for your second rubber band. AVO do we want them to do 2?
+You may consider alternate mounting methods if you have a solution that is better for your space.
 
 Note: You will want to place a cushion under your apparatus in case the rubber band breaks or you masses or phone slip.
 
@@ -233,9 +233,6 @@ Note: You will want to place a cushion under your apparatus in case the rubber b
 
 With your apparatus built we will want to prepare the masses and your data tables.
 You will be collecting data in two experiments, one with only masses, and one with your phone and other masses.
-
-At this point your apparatus should look like this:
-Image.jpeg AVO
 
 :::Exercise
 Making your data tables now will help organization and reduce workload for next week. 
@@ -263,13 +260,29 @@ Make another table in Google Sheets as seen below for the second experiment.
 
 :::Exercise
 
-Now we want to figure out what masses you can use with your apparatus.
+At this point your apparatus should look like Figure 8 above.
+
+Now we need to figure out what masses you can use with your apparatus.
 
 You can use any household item you can weigh for this, however, we have several recommendations: Coins, Batteries, Water, Flour, Sugar, and Salt.
 
-The mass range you will want to be looking at is anywhere from about 20g to 1000g depending on how thick your rubber bands are. Most small rubber bands should only get about 350g, while thicker ones can hold over 1000g.
+The mass range you will want to be looking at is anywhere from about 20g to 1000g depending on how thick your rubber band is. Most small rubber bands should only get about 350g, while thicker ones can hold over 1000g.
 
 Mixing and matching materials for your masses is certainly fine. Please note however, that certain items should not be combined, such as water and batteries. Below are tables for how much each of your recommended materials weigh.
+
+Figure 9 is an example of what your experiment will look like when using household goods.
+
+:::Figure:Figure
+:::row
+:::column
+![Empty Assembly](/imgs/Experiment1.PNG)
+:::
+:::column
+![Empty Assembly](/imgs/Experiment1.2.PNG)
+:::
+:::
+:::
+
 
 US Coins:
 
@@ -285,8 +298,6 @@ Batteries:
 | Lithium | 15g | 7.6g | 37g| -|- | 
 |Rechargable Ni-MH | 31g | 14g |-  | 160g | 80g |
 
-
-
 Household goods: 
 
 |  | Metric (ml) | Water | All Purpose Flour | Granulated White Sugar | Table Salt |
@@ -296,12 +307,26 @@ Household goods:
 | 1 teaspoon     |  4.9ml    |   4.9g   |   3.3g  | 4g | 5.7g |
 | 1 tablespoon     |  14.8ml    |   14.8g   |   8.5g  | 12.6g | 17g |
 
-Using a second zip-lock bag would be great. This way you do not have to get the bag attached to your rubber band dirty. Note that your phone will go in that bag later. So ideally you will fit your mass bag into your first bag AVO WORDING.
-
-1. Find your available materials and roughly thing about how you can distribute your masses to have 10 - 15 different mass values between 20g and 500g. Measure out your available materials and make a mass plan for each mass value you want to test. Mass values of roughly 20g, 50g, 100g, 150g, 200g, 250g, 300g, 350g, 400g, 450g, 500g would be great.
+1. Find your available materials and roughly think about how you can distribute your masses to have 10 - 15 different mass values between 20g and 500g. Measure out your available materials and make a mass plan for each mass value you want to test. Mass values of roughly 20g, 50g, 100g, 150g, 200g, 250g, 300g, 350g, 400g, 450g, 500g would be great.
 2. Write out your chosen masses and what breakdown of what materials are used for them in the table you made for experiment 1.
 
 Note that 20g is a good starting point so that your rubber band starts out taught. 
+
+Because your zip-lock is mounted via a paper clip, you can easily replace your bag when moving onto experiment 2. This will be useful if you are using messy masses such as flour or water.
+
+Note: If you are using messy household goods, you can use two bags for experiment 2. Put your masses into a separate bag, then place that bag with your phone in the main bag as seen in Figure 10. 
+
+:::Figure:Figure
+:::row
+:::column
+![Empty Assembly](/imgs/Experiment2.3.PNG)
+:::
+:::column
+![Empty Assembly](/imgs/Experiment2.4.PNG)
+:::
+:::
+:::
+
 :::
 
 ## Conclusion
