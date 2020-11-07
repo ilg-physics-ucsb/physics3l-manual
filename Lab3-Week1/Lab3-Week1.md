@@ -146,6 +146,11 @@ b) Why do you think that mass increases the period? Hint: Thing about this in te
 
 ## The Second Experiment
 
+:::Figure:Figure
+![GIF of moving phone](imgs/SHMExp.gif)
+:::
+
+
 The second experiment for next week will involve you putting your phone in the Ziploc bag and then setting it in motion. You will use the "Acceleration without g" to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period and the spring constant and the rubber band.
 
 Similar to the pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know the mass on a spring is also a simple harmonic oscillator we know the position as a function of time looks like the following:
