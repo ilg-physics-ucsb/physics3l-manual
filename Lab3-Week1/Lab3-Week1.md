@@ -185,7 +185,7 @@ The process of building your experiment will be similar to the procedure you use
 2. Find the location where you will build your apparatus. You should be fine with building this wherever you built your pendulum from the previous lab.
 
 :::Figure:Figure
-![Empty Assembly](imgs/Assembly/Assembly_1.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_1.png)
 :::
 
 In this lab you will have your phone oscillating on a rubber band, so you will want to make sure your phone is not suspended too high, and that you can place a cushion underneath it.
@@ -195,13 +195,13 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_2.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_2.png)
 :::
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_3.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_3.png)
 :::
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_4.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_4.png)
 :::
 :::
 :::
@@ -211,10 +211,10 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_5.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_5.png)
 :::
 :::column
-![Empty Assembly](imgs/Assembly/Assembly_6.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_6.png)
 :::
 :::
 :::
@@ -224,7 +224,7 @@ In this lab you will have your phone oscillating on a rubber band, so you will w
 Once you have your setup, it should look something like this:
 
 :::Figure:Figure
-![Empty Assembly](imgs/Assembly/Assembly_7.PNG)
+![Empty Assembly](imgs/Assembly/Assembly_7.png)
 :::
 
 You may consider alternate mounting methods if you have a solution that is better for your space.
