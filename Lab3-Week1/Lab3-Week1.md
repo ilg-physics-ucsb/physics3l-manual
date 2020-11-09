@@ -9,7 +9,7 @@
 - Measuring tape or meter stick
 - Pillow, couch cushion, or something similar.
 - Somewhere to hang your spring, e.g., shower curtain rod, broomstick across two chairs, large table, etc. 
-- Phyphox &ldquo;Acceleration (without g)&rdquo; preferred, or &ldqou;Acceleration (with g).&rdquo;
+- Phyphox &ldquo;Acceleration (without g)&rdquo; preferred, or &ldquo;Acceleration (with g).&rdquo;
 
 ### Optional Materials
 
@@ -38,7 +38,7 @@ F_{sp} = -k\Delta y
 $$
 :::
 
-Where $F_{sp}$ is the force exerted by the spring, $\Delta y$ is the displacement from the spring&rsquo;s equilibrium position, and $k$ is the spring constant. The larger the spring constant $k$, the &ldquo;stiffer&rdquo; the spring.  As a matter of fact, the constant $k$ is often referred to as the stiffness.
+Where $F_{sp}$ is the force exerted by the spring, $\Delta y$ is the displacement from the spring&rsquo;s unstretched position, and $k$ is the spring constant. The larger the spring constant $k$, the &ldquo;stiffer&rdquo; the spring.  As a matter of fact, the constant $k$ is often referred to as the stiffness.
 
 For the purpose of this lab, we will define the origin, the zero point, as spot at the end of the spring when it is hanging in its relaxed state. (See Figure 1 below.)
 
@@ -107,7 +107,7 @@ We already know that in position 2 the spring force is given by:
 
 :::Figure:Equation
 $$
-F_{sp2} = -ky + mg = 0
+F_{sp2} = -k\Delta y = - mg 
 $$
 :::
 
@@ -115,13 +115,13 @@ Then, if you look at the net force on the mass in position three you see that:
 
 :::Figure:Equation
 $$
-\sum F = -ky+mg \\
+\sum F = -k(y+\Delta y)+mg \\
 
-= -ky
+\sum F = -ky
 $$
 :::
 
-In the above we used the fact that $y=0$ for position 2.
+where when we distribute the first part of Equation 4 and use Equation 3 we find that the two forces cancel out.
 
 :::Question
 Use Newton&rsquo;s second law and Equation 4 to determine the acceleration felt by the mass, $a_y$. 
@@ -242,21 +242,19 @@ You will be collecting data in two experiments &mdash; one with only masses, and
 :::Exercise
 Making your data tables now will help organization and reduce workload for next week. 
 
-Make a table in Google sheets as seen below for the first experiment.
-
-| Length (m) | $\Delta$y (m) | Mass (kg) | Mass Description | Force (N)| k | 
+Make a table in Google sheets as shown below for the first experiment.
+#####
+| Length (m) | $\Delta$y (m) | Mass (kg) | Mass Description | Force (N)| k (N/m)| 
 | -------- | -------- | -------- | -------- | -------- | -------- |
 |$\:$      |        |      |      |    |      |
 | $\:$     |        |      |      |    |      |
 
-Your independent AVOCADO
 
 
 Make another table in Google Sheets as shown below for the second experiment.
-
-
-| Mass | time$_i$ | time$_f$ | $\Delta t$ | number of periods (n) | T  (s) | k | 
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+#####
+| Mass (kg) | $\Delta t$  (s) | number of periods (n) | T  (s) | k (N/m)| 
+| -------- | -------- | -------- | -------- | -------- |
 |$\:$    |      |      |      |      |      |      |
 
 :::
@@ -292,13 +290,13 @@ Figure 9 is an example of what your experiment will look like when you use house
 US Coins:
 
 | Dollar | Half Dollar | Quarter | Dime | Nickel | Penny |
-| -------- | -------- | -------- | -------- | -------- | -------- |
+| :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | 8.1g | 11.3g | 5.7g | 2.3g | 5.0g | 2.5g |
 
 Batteries:
 
 | | AA | AAA | 9-V | D | C |
-| -------- | -------- | -------- | -------- | -------- | -------- | 
+| -------- | :--------: | :--------: | :--------: | :--------: | :--------: | 
 | Alkaline | 23g | 11.5g |45g | 135g | 65g | 
 | Lithium | 15g | 7.6g | 37g| -|- | 
 |Rechargable Ni-MH | 31g | 14g |-  | 160g | 80g |
@@ -306,7 +304,7 @@ Batteries:
 Household goods: 
 
 |  | Metric equivalent (ml) | Water | All Purpose Flour | Granulated White Sugar | Table Salt |
-| -------- | -------- | -------- | -------- | -------- | -------- |
+| -------- | :--------: | :--------: | :--------: | :--------: | :--------: |
 | Density (g/ml) |   | 1g/ml |  0.6g/ml |  0.92g/ml    |  1.26g/ml  | 
 | 1 cup     |  237ml    |   237g   |  130g   | 200g | 273g | 
 | 1 teaspoon     |  4.9ml    |   4.9g   |   3.3g  | 4g | 5.7g |
