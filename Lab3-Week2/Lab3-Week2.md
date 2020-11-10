@@ -439,6 +439,27 @@ Whaaaaaaaaaat???
 
 With your data collected we can now dive more into theory and use your findings to supplement your understanding.
 
+In week 1 we explored the theory of simple harmonic motion and expressed the periodic motion as described by this equation:
+
+:::Figure:Equation
+$$
+y = A sin(\Omega t)
+$$
+:::
+
+where $\Omega$ is the angular frequency. Angular frequency means the frequency at which 2$\pi$ has been traveled, or one cycle.
+
+How do we have them derive $\Omega$? AVOCADO
+
+:::Question
+a) Derive the period of simple harmonic motion both in terms of $\Omega$ and in terms of k and m.
+
+b) For a given mass, how would the stiffness of a spring affect its frequency and period?
+
+c) Why do you think that mass increases period? Hint: Think about this in terms of F=ma.
+:::
+
+
 
 
 
