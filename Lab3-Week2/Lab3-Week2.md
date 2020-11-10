@@ -424,8 +424,6 @@ AVOCADO - How do they get their data off of PhyPhox, I only know how to do it ma
 
 17. Export your graph? This would be best probably
 
-AVOCADO - Do we want them to do multiple masses, instead of only 2 or 3? This way they can make a T vs mass plot (and T^2 vs m). 
-
 :::Question
 
 
@@ -460,7 +458,6 @@ b) For a given mass, how would the stiffness of a spring affect its frequency an
 
 c) Why do you think that mass increases period? Hint: Think about this in terms of F=ma.
 :::
-
 
 
 
