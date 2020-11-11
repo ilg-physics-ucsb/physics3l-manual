@@ -31,7 +31,7 @@
 
 
 
-## Building Your Lab
+## Part I: Building Your Lab
 
 In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure 3 shows a possible setup. Note that the setup for both exercises will be similar.
 
@@ -95,43 +95,7 @@ Note: You will want to place a cushion under your apparatus in case the rubber b
 
 :::
 
-### The First Experiment
-
-:::Figure:Figure
-![Sugar in bag hanging on rubberband](imgs/Experiment1.png)
-:::
-
-A better way to determine the spring constant would be to vary the mass and measure the stretch for each mass. From many data points we could create a plot and perform a fit.
-
-For this lab you will hang a zip-lock bag on a rubber band, and add mass to the bag. You will measure the length of the rubber band as you add more and more mass.
-
-
-
-## The Second Experiment
-
-:::Figure:Figure
-![GIF of moving phone](imgs/SHMExp.gif)
-:::
-
-
-The second experiment for next week will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use the &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of the rubber band.
-
-As we do for a pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know that the mass on a spring is also a simple harmonic oscillator, we know that the position as a function of time looks like the following:
-
-
-:::Figure:Equation
-$$
-y = A\sin(\Omega t)
-$$
-:::
-
-where $A$ is the amplitude or the initial displacement, and $\Omega$ is the angular frequency.
-
-
-
-
-
-## Mass Tables
+### Mass Tables
 
 US Coins:
 
@@ -157,7 +121,21 @@ Household goods:
 | 1 tablespoon     |  14.8ml    |   14.8g   |   8.5g  | 12.6g | 17g |
 
 
-## Hooke's Law
+
+## Part II: Hooke's Law
+
+###The First Experiment
+
+:::Figure:Figure
+![Sugar in bag hanging on rubberband](imgs/Experiment1.png)
+:::
+
+A better way to determine the spring constant would be to vary the mass and measure the stretch for each mass. From many data points we could create a plot and perform a fit.
+
+For this lab you will hang a zip-lock bag on a rubber band, and add mass to the bag. You will measure the length of the rubber band as you add more and more mass.
+
+
+### Hooke's Law
 :::Exercise
 In this exercise you will be adding masses and collecting data on the length change of your rubber band. 
 
@@ -169,7 +147,7 @@ Do not leave masses on your elastic for too long as this with deform and stretch
 3. Record your mass and $\Delta$y data in the spreadsheet you made last week. 
 4. Check your units and ensure they are correct. Calculate the values in your table for F and k. 
 
-:::Quustion
+:::Question
 a)What tool did you use to make your length measurements?
 
 b) What is your uncertainty?
@@ -191,16 +169,35 @@ In this exercise you will be analyzing the data from Exercise 2 to determine if 
 1. Graph $\Delta$y vs m, with m as the independent variable. 
 
 :::Question
-a) What is the expression for your slope of the graph you made above?
+a) What does the theory say $\Delta$y vs m should produce? ie. What is the expression for your slope of the graph?
 
-b) What value of k do you get from your graph?
+b) What is the shape of your graph, does it look linear?
 
-c) How does the slope change as a function of length stretched?
+c) If it does not look linear, are there portions which are linear? What regimes are linear?
 
-d) How does your k value from your graph and k values from your table compare?
+d) What is the value of k in your linear regime or regimes? 
+
+e) How does your k value from your graph and k values from your table compare? Is there a region from your data table where k matches your linear regime k from your graph?
 :::
 
-2. Now put your phone (or whatever device you will be using with PhyPhox for experiment 2), in your bag and measure the displacement $\Delta$y. If your bag is dirty due to the masses used, go ahead and use a new bag.
+2. Graph k as a function of $\Delta$y 
+
+:::Question
+a) What is the shape of this slope?
+
+b) Is there a portion that is constant?
+
+c) How does the region where k is constant compare to the linear regime above?
+
+b) How does the slope change as a function of length stretched?
+:::
+
+:::
+
+:::Exercise
+In this exercise you will use the data you collected an analyzed in Exercises 2 and 3 to measure the mass of your phone. 
+
+Place your PhyPhox enabled device you plan on using in experiment 2 in your bag such that it is the only mass weighing on your rubber band.  Measure the displacement $\Delta$y. If your bag is dirty due to the masses used, go ahead and use a new bag.
 
 :::Question
 a) What is the displacement $\Delta$y with your phone as your mass?
@@ -214,11 +211,29 @@ c) How does this value compare to what you find online? Note that cases and othe
 
 :::
 
+## Part III: Simple Harmonic Motion
 
-## Simple Harmonic Motion
+###The Second Experiment
 
-Transition/recap from last week's description. Maybe a prep question or two
+:::Figure:Figure
+![GIF of moving phone](imgs/SHMExp.gif)
+:::
 
+
+The second experiment for next week will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use the &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of the rubber band.
+
+As we do for a pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know that the mass on a spring is also a simple harmonic oscillator, we know that the position as a function of time looks like the following:
+
+
+:::Figure:Equation
+$$
+y = A\sin(\Omega t)
+$$
+:::
+
+where $A$ is the amplitude or the initial displacement, and $\Omega$ is the angular frequency.
+
+### Simple Harmonic Motion
 
 :::Exercise
 In experiment 2 you will use your apparatus from experiment 1 to explore simple harmonic motion. You will use a PhyPhox enabled device to measure the period of the simple harmonic motion of your rubber band. 
@@ -241,13 +256,13 @@ Figure 11 shows your raw PhyPhox data. From left to right, the Acceleration modu
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](/imgs/PhyPhox/RawData1.PNG)
+![Empty Assembly](imgs/PhyPhox/RawData1.png)
 :::
 :::column
-![Empty Assembly](/imgs/PhyPhox/RawData2.PNG)
+![Empty Assembly](imgs/PhyPhox/RawData2.png)
 :::
 :::column
-![Empty Assembly](/imgs/PhyPhox/RawData3.PNG)
+![Empty Assembly](imgs/PhyPhox/RawData3.png)
 :::
 :::
 :::
@@ -258,77 +273,72 @@ Figure 11 shows your raw PhyPhox data. From left to right, the Acceleration modu
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](/imgs/PhyPhox/DataPoint1.PNG)
+![Empty Assembly](imgs/PhyPhox/DataPoint1.png)
 :::
 :::column
-![Empty Assembly](/imgs/PhyPhox/DataPoint2.PNG)
+![Empty Assembly](imgs/PhyPhox/DataPoint2.png)
 :::
 :::
 :::
 
 14. Find $\Delta$t for as many clear periods you have and not how many periods that is.
 15. Fill your data table with your measured $\Delta$t and the number of periods.
-16. Repeat this process with two added masses.
+16. Pick 5 mass values between 20g and 100g to add to your phone for more data.
+17. Repeat this process with four additional mass values. Try to pull the rubber band down a similar length each run. 
 
-You can add masses in a separate bag as shown below if you are using something like water or flour.
+AVOCADO Get your data how you did last lab with dragging and shit
+
+:::Note
+You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
+:::
 
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](/imgs/Experiment2.3.PNG)
+![Empty Assembly](imgs/Experiment2.3.png)
 :::
 :::column
-![Empty Assembly](/imgs/Experiment2.4.PNG)
+![Empty Assembly](imgs/Experiment2.4.png)
 :::
 :::
 :::
 
-AVOCADO - How do they get their data off of PhyPhox, I only know how to do it manually. Do we have a guide for this or should I write one?
+:::
 
-17. Export your graph? This would be best probably
+:::Exercise
+In this exercise you will analyze your data to do cool things.
 
-AVOCADO - Do we want them to do multiple masses, instead of only 2 or 3? This way they can make a T vs mass plot (and T^2 vs m). 
+With your data we now math and science!
+
+1. Derive the expression for period, T, as a function of mass, m, and k. 
+2. Graph your data for T as a function of m for your 6 runs from experiment 2.
 
 :::Question
+a) Describe the slope of your graph.
 
-
+b) How would you linearize your data?
 :::
 
-
+3. Derive the linearized expression for period with respect to m.
+4. Graph your linearized equation.
+5. Fit a line to your linearized graph.
 
 :::Question
-Whaaaaaaaaaat???
+a) What is the expression for the slope of your line?
+
+b) What is the k value from your fit data?
+
+c) How does this k value compare to the value you got in experiment 1?
 :::
-
-:::
-
-With your data collected we can now dive more into theory and use your findings to supplement your understanding.
-
-In week 1 we explored the theory of simple harmonic motion and expressed the periodic motion as described by this equation:
-
-:::Figure:Equation
-$$
-y = A sin(\Omega t)
-$$
-:::
-
-where $\Omega$ is the angular frequency. Angular frequency means the frequency at which 2$\pi$ has been traveled, or one cycle.
-
-How do we have them derive $\Omega$? AVOCADO
 
 :::Question
-a) Derive the period of simple harmonic motion both in terms of $\Omega$ and in terms of k and m.
+a) Does your rubber band you used obey Hooke's Law?
 
-b) For a given mass, how would the stiffness of a spring affect its frequency and period?
-
-c) Why do you think that mass increases period? Hint: Think about this in terms of F=ma.
+b) In what regime or regimes does it obey Hooke's Law?
+:::
 :::
 
-
-
-
-
-
+AVOCADO We should maybe have a discussion about HOW and WHY Hooke's law breaks down. Maybe thats too complicated, but I think it would be a good final question to have them think about that.
 
 ## Conclusion
 
