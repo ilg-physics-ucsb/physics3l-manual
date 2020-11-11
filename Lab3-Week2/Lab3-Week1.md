@@ -1,4 +1,4 @@
-# Lab 3: Simple Harmonic Motion, Week 1
+# Lab 3: Simple Harmonic Motion, Week 2
 ---
 ### All Materials Needed:
 - A rubber band
@@ -28,145 +28,7 @@
 
 ---
 
-# Part I: Hooke&rsquo;s Law
 
-Most springs obey Hooke's Law: the magnitude of the force  that the spring exerts is proportional to the amount it is stretched. This is mathematically expressed as: 
-
-:::Figure:Equation
-$$
-F_{sp} = -k\Delta y
-$$
-:::
-
-Where $F_{sp}$ is the force exerted by the spring, $\Delta y$ is the displacement from the spring&rsquo;s unstretched position, and $k$ is the spring constant. The larger the spring constant $k$, the &ldquo;stiffer&rdquo; the spring.  As a matter of fact, the constant $k$ is often referred to as the stiffness.
-
-For the purpose of this lab, we will define the origin, the zero point, as spot at the end of the spring when it is hanging in its relaxed state. (See Figure 1 below.)
-
-:::Figure:Figure
-![Hooke's Law Image](imgs/HookesLaw.png)
-:::
-
-Hooke&rsquo;s law is an excellent description for the behavior of springs, but it often applies to other things besides springs. It is also sometimes accurate for elastic materials such as rubber bands.
-
-If we were to hang a mass, $m$, from a rubber band, and wait for the system to come to equilibrium (stop moving), we could determine the spring force by using Newton&rsquo;s second law and the force of gravity. 
-
-:::Figure:Figure
-![Free Body Diagram of spring mass system](imgs/FreeBodyDiagram.png)
-:::
-
-We will define the downward direction as positive. See Figure 2 for a free body diagram. Putting this together we have:
-
-:::Figure:Equation
-$$
-\sum F = F_{sp}+F_g = F_{sp}+mg =0 \\
-\implies F_{sp}=-mg
-$$
-:::
-
-where in the first line of the equation we recognized that for a system in equilibrium, the acceleration is zero.
-
-Thus we can use the mass and gravity to measure the spring force. From this we can measure the spring constant of the rubber band.
-
-:::Question
-Use Equation 1 and Equation 2 to write the equation for the spring constant.
-:::
-
-### The First Experiment
-
-:::Figure:Figure
-![Sugar in bag hanging on rubberband](imgs/Experiment1.png)
-:::
-
-A better way to determine the spring constant would be to vary the mass and measure the stretch for each mass. From many data points we could create a plot and perform a fit.
-
-For this lab you will hang a zip-lock bag on a rubber band, and add mass to the bag. You will measure the length of the rubber band as you add more and more mass.
-
-:::Question
-a) Rewrite your answer to Question 1 to have stretch, $\Delta y$, as a function of mass $m$.
-
-b) If you were to create a plot of stretch vs. mass, what would be the expression for the slope?
-
-c) How would the slope change with stiffness of the spring or rubber band?
-:::
-
-# Part II: Springs in Motion (More Harmonic Motion)
-
-Another way to determine the spring constant is to hang a single mass from the spring. If you were to displace the mass from its equilibrium position slightly and release it, you would see the mass oscillate around the equilibrium position. This should sound **very** familiar.
-
-In fact, this is another form of a simple harmonic oscillator. 
-
-In order to show this mathematically, we must first determine the net force on the mass when it is slightly displaced. 
-
-:::Figure:Figure
-![Image of Mass in Three positions](imgs/SHMDerivation.png)
-:::
-
-Figure 4 shows the spring in three different positions, labeled 1, 2 and 3. Position 1 shows the unstretched spring. Position 2 is the mass hanging from the spring in its equilibrium position, which is what we will call the zero position. Position 3 shows the mass when it has been displaced by an amount $y$ from equilibrium. 
-
-We already know that in position 2 the spring force is given by:
-
-:::Figure:Equation
-$$
-F_{sp2} = -k\Delta y = - mg 
-$$
-:::
-
-Then, if you look at the net force on the mass in position three you see that:
-
-:::Figure:Equation
-$$
-\sum F = -k(y+\Delta y)+mg \\
-
-\sum F = -ky
-$$
-:::
-
-where when we distribute the first part of Equation 4 and use Equation 3 we find that the two forces cancel out.
-
-:::Question
-Use Newton&rsquo;s second law and Equation 4 to determine the acceleration felt by the mass, $a_y$. 
-:::
-
-:::Question
-Is the oscillating mass a simple harmonic oscillator? Use your response to question 3 to help justify your answer. **Hint:** Look back at Lab 2 Week 1 if you need help.
-:::
-
-:::Question
-a) What is the expression for the angular frequency, $\Omega$, of this simple harmonic oscillator?
-
-b) What is the period of oscillation?
-:::
-
-::: Question
-a) For a given mass, does a stiffer spring cause the oscillations to have greater or lesser frequency? Period?
-
-b) Why do you think that increasing the mass increases the period? Hint: Think about this in terms of $F=ma$.
-:::
-
-
-## The Second Experiment
-
-:::Figure:Figure
-![GIF of moving phone](imgs/SHMExp.gif)
-:::
-
-
-The second experiment for next week will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use the &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of the rubber band.
-
-As we do for a pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know that the mass on a spring is also a simple harmonic oscillator, we know that the position as a function of time looks like the following:
-
-
-:::Figure:Equation
-$$
-y = A\sin(\Omega t)
-$$
-:::
-
-where $A$ is the amplitude or the initial displacement, and $\Omega$ is the angular frequency.
-
-:::Question
-Does the acceleration experienced by the mass have the same period as the position? Justify your answer. 
-:::
 
 
 ## Building Your Lab
@@ -233,59 +95,43 @@ Note: You will want to place a cushion under your apparatus in case the rubber b
 
 :::
 
-
-## Making your Spreadsheets
-
-With your apparatus built, you will want to prepare the masses and your data tables.
-You will be collecting data in two experiments &mdash; one with only masses, and one with your phone and other masses.
-
-:::Exercise
-Making your data tables now will help organization and reduce workload for next week. 
-
-Make a table in Google sheets as shown below for the first experiment.
-#####
-| Length (m) | $\Delta$y (m) | Mass (kg) | Mass Description | Force (N)| k (N/m)| 
-| -------- | -------- | -------- | -------- | -------- | -------- |
-|$\:$      |        |      |      |    |      |
-| $\:$     |        |      |      |    |      |
-
-
-
-Make another table in Google Sheets as shown below for the second experiment.
-#####
-| Mass (kg) | $\Delta t$  (s) | number of periods (n) | T  (s) | k (N/m)| 
-| -------- | -------- | -------- | -------- | -------- |
-|$\:$    |      |      |      |      |      |      |
-
-:::
-
-## Figuring out your Masses
-
-:::Exercise
-
-At this point your apparatus should look like Figure 8 above.
-
-Now we need to figure out what masses you can use with your apparatus.
-
-For this you can use any household item that you can weigh, but we have several recommendations: coins, batteries, water, flour, sugar and salt.
-
-The mass range you will want to use is anywhere from about 20 g to 1,000 g, depending on how thick your rubber band is. Most small rubber bands should support only about 350 g, while thicker ones can hold over 1,000 g.
-
-Mixing and matching materials for your masses is certainly fine. Please note, however, that certain items should not be combined, such as water and batteries. Below are tables for how much each of your recommended materials weighs.
-
-Figure 9 is an example of what your experiment will look like when you use household goods.
+### The First Experiment
 
 :::Figure:Figure
-:::row
-:::column
-![Empty Assembly](imgs/Experiment1.png)
-:::
-:::column
-![Empty Assembly](imgs/Experiment1.2.png)
-:::
-:::
+![Sugar in bag hanging on rubberband](imgs/Experiment1.png)
 :::
 
+A better way to determine the spring constant would be to vary the mass and measure the stretch for each mass. From many data points we could create a plot and perform a fit.
+
+For this lab you will hang a zip-lock bag on a rubber band, and add mass to the bag. You will measure the length of the rubber band as you add more and more mass.
+
+
+
+## The Second Experiment
+
+:::Figure:Figure
+![GIF of moving phone](imgs/SHMExp.gif)
+:::
+
+
+The second experiment for next week will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use the &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of the rubber band.
+
+As we do for a pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know that the mass on a spring is also a simple harmonic oscillator, we know that the position as a function of time looks like the following:
+
+
+:::Figure:Equation
+$$
+y = A\sin(\Omega t)
+$$
+:::
+
+where $A$ is the amplitude or the initial displacement, and $\Omega$ is the angular frequency.
+
+
+
+
+
+## Mass Tables
 
 US Coins:
 
@@ -310,44 +156,39 @@ Household goods:
 | 1 teaspoon     |  4.9ml    |   4.9g   |   3.3g  | 4g | 5.7g |
 | 1 tablespoon     |  14.8ml    |   14.8g   |   8.5g  | 12.6g | 17g |
 
-1. Find your available materials and think about how you can distribute your masses to have 10 - 15 different mass values between 20 g and 500 g. Measure out your available materials, and make a plan for how to achieve each mass value you want to test. Mass values of roughly 20 g, 50 g, 100 g, 150 g, 200 g, 250 g, 300 g, 350 g, 400 g, 450 g, 500 g would be great.
-2. Write out your chosen masses and what proportions of which materials you use for them in the table you made for experiment 1.
-
-Note that 20 g is a good starting point so that your rubber band starts out taught. 
-
-Because your zip-lock bag is mounted via a paper clip, you can easily replace your bag when you move on to experiment 2. This will be useful if you are using messy masses such as flour or water.
-
-Note: If you are using messy household goods, you can use two bags for experiment 2. Put your masses into a separate bag, then place that bag with your phone in the main bag as shown in Figure 11. 
-
-:::Figure:Figure
-:::row
-:::column
-![Empty Assembly](imgs/Experiment2.3.png)
-:::
-:::column
-![Empty Assembly](imgs/Experiment2.4.png)
-:::
-:::
-:::
-
-:::
-
-Rebuild apparatus
 
 ## Hooke's Law
 :::Exercise
-In Experiment 1 you will be verifying and analyzing Hooke's Law.
+In this exercise you will be adding masses and collecting data on the length change of your rubber band. 
 
-In week 1 you built your prototype apparatus and looked at the theory behind Hooke's Law.
-
-This week you will test the theory and analyze your results. Note: Do not leave masses on your elastic for too long as this with deform and stretch the rubber band.
-
+:::Note
+Do not leave masses on your elastic for too long as this with deform and stretch the rubber band.
+:::
 1. Collect the masses you decided on last week. If you have changed your masses that is fine, just be sure to update your data table.
-2. Starting with your minimum mass, roughly 20g, add masses in the roughly 50g increments you determined last week. As a reminder, these increments should be roughly: 20g, 50g, 100g, 150g, 200g, 250g, 300g, 350g, 400g, 450g, 500g. You may do additional mass if you feel the rubber band can handle the extra weight. 
-3. Record your mass and $\Delta$y data in your table. 
-4. Make sure to remove your masses when not recording data, this will prevent your rubber band from deforming.
-5. Check your units and ensure they are correct and calculate the rest of the values in your table. 
-6. Graph $\Delta$y vs m, with m as the independent variable. 
+2. Take 10 data points starting with 20g going to roughly 500g. The maximum mass can vary depending on what your rubber band can handle, make sure to get at least 10 data points.
+3. Record your mass and $\Delta$y data in the spreadsheet you made last week. 
+4. Check your units and ensure they are correct. Calculate the values in your table for F and k. 
+
+:::Quustion
+a)What tool did you use to make your length measurements?
+
+b) What is your uncertainty?
+:::
+
+:::Question
+a) Describe the masses you used.
+
+b) Estimate your uncertainty in your mass values.
+
+c) What are the sources of uncertainty here? / How did you determine your uncertainty?
+:::
+
+:::
+
+:::Exercise
+In this exercise you will be analyzing the data from Exercise 2 to determine if a rubber band obeys Hooke's Law.
+
+1. Graph $\Delta$y vs m, with m as the independent variable. 
 
 :::Question
 a) What is the expression for your slope of the graph you made above?
@@ -359,7 +200,7 @@ c) How does the slope change as a function of length stretched?
 d) How does your k value from your graph and k values from your table compare?
 :::
 
-7. Now put your phone (or whatever device you will be using with PhyPhox for experiment 2), in your bag and measure the displacement $\Delta$y. If your bag is dirty due to the masses used, go ahead and use a new bag.
+2. Now put your phone (or whatever device you will be using with PhyPhox for experiment 2), in your bag and measure the displacement $\Delta$y. If your bag is dirty due to the masses used, go ahead and use a new bag.
 
 :::Question
 a) What is the displacement $\Delta$y with your phone as your mass?
@@ -369,7 +210,10 @@ b) Using your data from experiment 1 and your $\Delta$y for your phone, estimate
 c) How does this value compare to what you find online? Note that cases and other things on your phone will increase your estimated weight. 
 :::
 
+
+
 :::
+
 
 ## Simple Harmonic Motion
 
