@@ -243,15 +243,15 @@ In experiment 2 you will use your apparatus from experiment 1 to explore simple 
 3. Test your accelerometer axes. To do this begin recording data by pressing the play button in the module. Move your phone in each axis and take note of which accelerometer (x, y, or z) picks up data for each movement. Take note of this 
 AVOCADO- Should I have them start at different amplitudes? I assume no
 4. Place your phone in the bag attached to your elastic. Note which accelerometer will be collecting vertical motion with your phone in this position.
-5. AVOCADO - So we want this or just the absolute graph. I feel its important to at least see how this works.
-6. The Absolute tab will have a graph that combines the data from each acceleromter to give an absolute acceleration graph.
-7. Press the play button in the module to begin recording data.
-8. Pull down your phone to stretch the rubber band and let go.
-9. Once your device stops oscillating pull out your phone and stop recording data. 
-10. Look at your data by pressing on the graph (AVOCADO for the accelerometer in the correct orientation).
-11. You can use two fingers to pan and zoom so that you see only the relevant data.
+5. The Absolute tab will have a graph that combines the data from each acceleromter to give an absolute acceleration graph.
+6. Press the play button in the module to begin recording data.
+7. Pull down your phone to stretch the rubber band and let go.
+8. Once your device stops oscillating pull out your phone and stop recording data. 
 
 Figure 11 shows your raw PhyPhox data. From left to right, the Acceleration module page, the full raw data for acceleration in the x direction, zoomed in data for acceleration in the x direction. 
+
+
+AVOCADO Maybe we no longer need these figures?
 
 :::Figure:Figure
 :::row
@@ -267,8 +267,9 @@ Figure 11 shows your raw PhyPhox data. From left to right, the Acceleration modu
 :::
 :::
 
-12. Press on the "Pick data" icon on the bottom of the page and tap on the graph to select a point.
-13. You can take data from each minimum or maximum as shown in figure 12. 
+9. Find $\Delta$t for as many clear periods you have and not how many periods that is.
+10. Fill your data table with your measured $\Delta$t and the number of periods.
+
 
 :::Figure:Figure
 :::row
@@ -281,12 +282,9 @@ Figure 11 shows your raw PhyPhox data. From left to right, the Acceleration modu
 :::
 :::
 
-14. Find $\Delta$t for as many clear periods you have and not how many periods that is.
-15. Fill your data table with your measured $\Delta$t and the number of periods.
-16. Pick 5 mass values between 20g and 100g to add to your phone for more data.
-17. Repeat this process with four additional mass values. Try to pull the rubber band down a similar length each run. 
 
-AVOCADO Get your data how you did last lab with dragging and shit
+11. Pick 5 mass values between 20g and 100g to add to your phone for more data.
+12. Repeat this process with four additional mass values. Try to pull the rubber band down a similar length each run. 
 
 :::Note
 You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
