@@ -124,7 +124,7 @@ Household goods:
 
 ## Part II: Hooke's Law
 
-###The First Experiment
+### The First Experiment
 
 :::Figure:Figure
 ![Sugar in bag hanging on rubberband](imgs/Experiment1.png)
@@ -158,7 +158,7 @@ a) Describe the masses you used.
 
 b) Estimate your uncertainty in your mass values.
 
-c) What are the sources of uncertainty here? / How did you determine your uncertainty?
+c) What are the sources of uncertainty here?
 :::
 
 :::
@@ -169,9 +169,26 @@ In this exercise you will be analyzing the data from Exercise 2 to determine if 
 1. Graph $\Delta$y vs m, with m as the independent variable. 
 
 :::Question
-a) What does the theory say $\Delta$y vs m should produce? ie. What is the expression for your slope of the graph?
+a) Based on the equation you derived in last week's lab, what should the functional form of this plot be? i.e. (quadratic, root, linear, exponential, etc.)
 
 b) What is the shape of your graph, does it look linear?
+:::
+
+You may find that your data is not explicitly linear but has linear like regions. Below in Figure 6 you see on the left a plot of some data that we collected. You'll notice it is not linear, but if we focus only on the regions for small masses or on the regions for large masses it behaves pretty linearly. This is shown with the example purple and green best fit lines. 
+
+:::Figure:Figure
+:::row
+:::column
+![Plot of rubberband data](imgs/RubberbandData.png)
+:::
+:::column
+![Plot of rubberband data](imgs/TwoLinearFits.png)
+:::
+
+:::
+:::
+
+:::Question
 
 c) If it does not look linear, are there portions which are linear? What regimes are linear?
 
@@ -197,7 +214,7 @@ b) How does the slope change as a function of length stretched?
 :::Exercise
 In this exercise you will use the data you collected an analyzed in Exercises 2 and 3 to measure the mass of your phone. 
 
-Place your PhyPhox enabled device you plan on using in experiment 2 in your bag such that it is the only mass weighing on your rubber band.  Measure the displacement $\Delta$y. If your bag is dirty due to the masses used, go ahead and use a new bag.
+1. Place your PhyPhox enabled device you plan on using in experiment 2 in your bag such that it is the only mass weighing on your rubber band.  Measure the displacement $\Delta$y. If your bag is dirty due to the masses used, go ahead and use a new bag.
 
 :::Question
 a) What is the displacement $\Delta$y with your phone as your mass?
@@ -213,7 +230,7 @@ c) How does this value compare to what you find online? Note that cases and othe
 
 ## Part III: Simple Harmonic Motion
 
-###The Second Experiment
+### The Second Experiment
 
 :::Figure:Figure
 ![GIF of moving phone](imgs/SHMExp.gif)
