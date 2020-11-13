@@ -189,13 +189,22 @@ You may find that your data is not explicitly linear but has linear like regions
 :::
 
 :::Question
-
-c) If it does not look linear, are there portions which are linear? What regimes are linear?
-
-d) What is the value of k in your linear regime or regimes? 
-
-e) How does your k value from your graph and k values from your table compare? Is there a region from your data table where k matches your linear regime k from your graph?
+Over what regions of mass does the plot look linear? 
 :::
+2. If you have multiple linear regions, make a plots of $\Delta y$ vs $m$ for each region.
+
+You will be determining $k$ from the slope,  of the linear region(s). Just like the previews week, you will need to propagate the uncertainty from your slope to your value of $k$. Very similar to last week, the equation for the uncertainty in $k$, $\delta k$, is given by:
+
+:::Figure:Equation
+$$
+\delta k = \frac{k}{s}\delta s
+$$
+:::
+
+:::Question
+What is the value of $k$ in your linear regime or regimes? 
+:::
+
 
 2. Graph k as a function of $\Delta$y 
 
