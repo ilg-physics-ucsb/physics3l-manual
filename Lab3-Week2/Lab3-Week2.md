@@ -148,7 +148,7 @@ Do not leave masses on your elastic for too long as this with deform and stretch
 4. Check your units and ensure they are correct. Calculate the values in your table for F and k. 
 
 :::Question
-a)What tool did you use to make your length measurements?
+a) What tool did you use to make your length measurements?
 
 b) What is your uncertainty?
 :::
@@ -257,51 +257,56 @@ In experiment 2 you will use your apparatus from experiment 1 to explore simple 
 
 1. Download and open the PhyPhox app on your mobile device. 
 2. Open the "Acceleration (without g)" module on PhyPhox. If you only have "Acceleration with g" that is fine too.
-3. Test your accelerometer axes. To do this begin recording data by pressing the play button in the module. Move your phone in each axis and take note of which accelerometer (x, y, or z) picks up data for each movement. Take note of this 
-AVOCADO- Should I have them start at different amplitudes? I assume no
-4. Place your phone in the bag attached to your elastic. Note which accelerometer will be collecting vertical motion with your phone in this position.
-5. The Absolute tab will have a graph that combines the data from each acceleromter to give an absolute acceleration graph.
-6. Press the play button in the module to begin recording data.
-7. Pull down your phone to stretch the rubber band and let go.
-8. Once your device stops oscillating pull out your phone and stop recording data. 
+3. Place your phone in the bag attached to your elastic. Note which accelerometer will be collecting vertical motion with your phone in this position.
+4. Press the play button in the module to begin recording data.
 
-Figure 11 shows your raw PhyPhox data. From left to right, the Acceleration module page, the full raw data for acceleration in the x direction, zoomed in data for acceleration in the x direction. 
-
-
-AVOCADO Maybe we no longer need these figures?
-
-:::Figure:Figure
-:::row
-:::column
-![Empty Assembly](imgs/PhyPhox/RawData1.png)
-:::
-:::column
-![Empty Assembly](imgs/PhyPhox/RawData2.png)
-:::
-:::column
-![Empty Assembly](imgs/PhyPhox/RawData3.png)
-:::
-:::
+:::Note
+You should **not** use the time delay function used in Pendulum.
 :::
 
-9. Find $\Delta$t for as many clear periods you have and not how many periods that is.
-10. Fill your data table with your measured $\Delta$t and the number of periods.
+5. Pull down your phone to stretch the rubber band and let go.
+6. Once your device stops oscillating pull out your phone and stop recording data. 
 
+
+
+:::Note
+You should expect to see significant damping in this data. Figure Guac shows some sample data
+:::
+
+Figure GUAC shows how you will be collecting your data. Notice the regions of junk data and real data.
 
 :::Figure:Figure
 :::row
 :::column
-![Empty Assembly](imgs/PhyPhox/DataPoint1.png)
+![Empty Assembly](imgs/PhyPhox/RealData.gif)
 :::
 :::column
-![Empty Assembly](imgs/PhyPhox/DataPoint2.png)
+![Empty Assembly](imgs/PhyPhox/RealData2.PNG)
+:::
+:::column
+![Empty Assembly](imgs/PhyPhox/RealData3.PNG)
 :::
 :::
 :::
 
 
-11. Pick 5 mass values between 20g and 100g to add to your phone for more data.
-12. Repeat this process with four additional mass values. Try to pull the rubber band down a similar length each run. 
+
+
+7. Find $\Delta$t for as many clear periods you have and not how many periods that is.
+8. Fill your data table with your measured $\Delta$t and the number of periods, n.
+
+Figure GUAC shows how you will be collecting your data.
+:::Figure:Figure
+![Empty Assembly](imgs/PhyPhox/PeriodMeasurement.gif)
+:::
+
+
+:::Note
+To calculate the period T, divide your time by n is the number of periods, not peaks. 
+:::
+
+9. Pick four mass values between roughly 50g and 200g to add to your phone for more data.
+10. Repeat this process with four additional mass values. Try to pull the rubber band down a similar length each run. 
 
 :::Note
 You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
