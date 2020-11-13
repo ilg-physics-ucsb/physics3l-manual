@@ -273,7 +273,7 @@ You should **not** use the time delay function used in Pendulum.
 You should expect to see significant damping in this data. Figure Guac shows some sample data
 :::
 
-Figure GUAC shows how you will be collecting your data. Notice the regions of junk data and real data.
+Figure GUAC shows sample data. Notice the regions of junk data and real data.
 
 :::Figure:Figure
 :::row
@@ -296,8 +296,16 @@ Figure GUAC shows how you will be collecting your data. Notice the regions of ju
 8. Fill your data table with your measured $\Delta$t and the number of periods, n.
 
 Figure GUAC shows how you will be collecting your data.
+
 :::Figure:Figure
+:::row
+:::column
 ![Empty Assembly](imgs/PhyPhox/PeriodMeasurement.gif)
+:::
+:::column
+![Empty Assembly](imgs/PhyPhox/DataCollection.gif)
+:::
+:::
 :::
 
 
