@@ -330,43 +330,47 @@ You can add masses in a separate bag as shown below if you are using something m
 :::
 
 :::Exercise
-In this exercise you will analyze your data to do cool things.
-
-With your data we now math and science!
-
-1. Derive the expression for period, T, as a function of mass, m, and k. 
-2. Graph your data for T as a function of m for your 6 runs from experiment 2.
+In this exercise, you will analyze the data collected in the Exercise 5 to determine the value of $k$ using the lens of simple harmonic motion.
 
 :::Question
-a) Describe the slope of your graph.
+a) What is the expression for the period, $T$, as a function of mass, $m$, and the spring constant, $k$. 
 
-b) How would you linearize your data?
+b) If you were to plot $T$ vs $m$ should you fit a line to it? Why or why not?
 :::
 
-3. Derive the linearized expression for period with respect to m.
-4. Graph your linearized equation.
-5. Fit a line to your linearized graph.
+Last week you had a very similar expression for period. We analyzed it by linearizing the equation and performing a linear fit.
+
+:::Question
+How would you linearize the period with respect to mass? (What's the equation?)
+:::
+
+1. Graph your linearized equation.
+2. Fit a line to your linearized graph.
+
+Again, you will have to propagate your uncertainty from the slope to your measurement of $k$. The equation is the same as it was before. That is, Equation 1, hold true here as well.
 
 :::Question
 a) What is the expression for the slope of your line?
 
 b) What is the k value from your fit data?
-
-c) How does this k value compare to the value you got in experiment 1?
 :::
 
 :::Question
-a) Does your rubber band you used obey Hooke's Law?
-
-b) In what regime or regimes does it obey Hooke's Law?
-:::
+Using the $k$ value that is in regime closest to the mass of your phone, compare the two $k$ values. Do they agree?
 :::
 
-AVOCADO We should maybe have a discussion about HOW and WHY Hooke's law breaks down. Maybe thats too complicated, but I think it would be a good final question to have them think about that.
+:::
 
 ## Conclusion
 
+:::Question
+Does your rubber band obey Hooke's law?
+:::
+
+:::Question
+If you were to asked to give the most *precise* method of measuring the spring constant which experiment would you use an why? 
+:::
+
 ::: Exercise
-1. Give a short summary of Hooke&rsquo;s Law. 
-2. Give a quick summary of the important parts of this lab.
+Write a short summary of this lab. Describe the two experiments you performed and discuss how your two measurements of $k$ relate.
 :::
