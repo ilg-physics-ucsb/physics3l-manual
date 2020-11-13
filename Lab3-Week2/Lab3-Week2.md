@@ -31,7 +31,7 @@
 
 
 
-## Part I: Building Your Lab
+## Part I: Building Your Lab 2
 
 In this lab you will be mounting a rubber band to a horizontal surface for two exercises. The first exercise will require you to attach a variety of masses to your rubber band, and the second will require you to attach your phone to your rubber band. Figure 3 shows a possible setup. Note that the setup for both exercises will be similar.
 
