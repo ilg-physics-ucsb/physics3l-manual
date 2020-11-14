@@ -188,7 +188,7 @@ You may find that your data is not explicitly linear but has linear like regions
 :::
 
 :::Question
-Over what regions of mass does the plot look linear? 
+Over what region or regions of mass does the plot look linear? 
 :::
 2. If you have multiple linear regions, make a plots of $\Delta y$ vs $m$ for each region.
 
@@ -204,28 +204,26 @@ $$
 What is the value of $k$ in your linear regime or regimes? 
 :::
 
-
-2. Graph k as a function of $\Delta$y 
-
-:::Question
-a) Is there a portion of this graph that is constant?
-
-b) How does the region where k is constant compare to the linear regime above?
-
-c) How does the slope change as a function of length stretched?
+::: Question
+Does your rubber band appear to obey Hooke's law? Explain your reasoning.
 :::
+
 :::
 
 :::Exercise
-In this exercise you will plot k vs. m and discuss it.
+In this exercise you will plot $k$ vs. $m$ and discuss it.
+
+Another way we can analyze if your rubber band obey Hooke's Law is to examine the spring constant. An ideal spring has constant $k$ over all masses attached. 
 
 1. Graph k as a function of mass.
 
 :::Question
-a) Is there a region in which k is static?
+a) Is there a region in which $k$ is constant?
 
 b) If so, how does that region compare to the linear regime found above?
 :::
+
+You may find that $k$ varies with mass. This will be an important consideration in experiment 2. 
 
 :::
 
@@ -273,9 +271,11 @@ where $A$ is the amplitude or the initial displacement, and $\Omega$ is the angu
 :::Exercise
 In experiment 2 you will use your apparatus from experiment 1 to explore simple harmonic motion. You will use a PhyPhox enabled device to measure the period of the simple harmonic motion of your rubber band. 
 
-1. Download and open the PhyPhox app on your mobile device. 
-2. Open the "Acceleration (without g)" module on PhyPhox. If you only have "Acceleration with g" that is fine too.
+For this part of the lab you will want ensure that you are working in a linear regime. This means that you may need to adjust the mass that you will be hanging so that you are in a linear regime. i.e. If you answered 0.200 kg - 0.350 kg for Question 4, you will want to adjust you're hanging mass to be in that region.
+
+1. Open the "Acceleration (without g)" module on PhyPhox. If you only have "Acceleration with g" that is fine too.
 3. Place your phone in the bag attached to your elastic. Note which accelerometer will be collecting vertical motion with your phone in this position.
+4. If your phone does not already land in a linear regime, add masses (potentially in another bag as seen in Figure 10 below), until the total mass is in the lower end of a linear regime.
 
 :::Question
 In what axis will your data be collected?
@@ -333,12 +333,14 @@ Figure 9 shows how you will be collecting your data.
 
 
 :::Note
-To calculate the period T, divide your time by n is the number of periods, not peaks. 
+To calculate the period T, divide your time by n is the number of **periods**, not peaks. 
 :::
 
-9. Pick five mass values between roughly 20g and 100g to add to your phone for more data.
-10. Repeat this process with five additional mass values. Try to pull the rubber band down a similar length each run. If time permits, take data with more masses until you reach the linear regime you determined in part 1.
+9. Pick four mass values between roughly 20g and 100g to add to your phone for more data. 
 
+We want the change in mass to be small. That way the spring constant $k$ is *roughly* constant over that regime.  
+
+11. Repeat this process with five additional mass values. Try to pull the rubber band down a similar length each run.
 :::Note
 You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
 :::
@@ -389,11 +391,6 @@ Using the $k$ value that is in the regime closest to the mass of your phone, com
 :::
 
 ## Conclusion
-
-:::Question
-Does your rubber band obey Hooke's law?
-:::
-
 :::Question
 If you were to asked to give the most *precise* method of measuring the spring constant which experiment would you use an why? 
 :::
