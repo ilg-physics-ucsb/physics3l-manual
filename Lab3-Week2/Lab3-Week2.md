@@ -18,13 +18,12 @@
 
 ### Lab Goals:
 - ** Construct an apparatus **
-	- Find a rubber band, and all necessary mounting pieces.
-	- Find a surface and location to hang your masses, such as a table, shower rod, broom, etc.
-	- Find masses to use in your experiment.
+	- Rebuilt your apparatus.
+	- Investigate Hooke's Law for a rubber band.
+	- Investigate oscillations using your rubber band.
 - ** Data Analysis **
-	- Understand the theory behind Hooke's Law.
-	- Write the equations that will be used to process the data.
-	- Prepare a spreadsheet for data analysis.
+	- Test Hooke's Law and analyze the regimes in which it holds.
+	- Analyze the relationships between mass, k, and period for simple harmonic oscillators.
 
 ---
 
@@ -140,11 +139,11 @@ For this lab you will hang a zip-lock bag on a rubber band, and add mass to the 
 In this exercise you will be adding masses and collecting data on the length change of your rubber band. 
 
 :::Note
-Do not leave masses on your elastic for too long as this with deform and stretch the rubber band.
+Do not leave masses on your elastic for too long as this with deform and stretch the rubber band. However, do wait until your rubber band has reached equilibrium for each mass.
 :::
 1. Collect the masses you decided on last week. If you have changed your masses that is fine, just be sure to update your data table.
 2. Take 10 data points starting with 20g going to roughly 500g. The maximum mass can vary depending on what your rubber band can handle, make sure to get at least 10 data points.
-3. Record your mass and $\Delta$y data in the spreadsheet you made last week. 
+3. Record your mass and $\Delta$y data in the spreadsheet you made last week. Leave each mass for 5 to 10 seconds before measuring.
 4. Check your units and ensure they are correct. Calculate the values in your table for F and k. 
 
 :::Question
@@ -209,13 +208,23 @@ What is the value of $k$ in your linear regime or regimes?
 2. Graph k as a function of $\Delta$y 
 
 :::Question
-a) What is the shape of this slope?
+a) Is there a portion of this graph that is constant?
 
-b) Is there a portion that is constant?
+b) How does the region where k is constant compare to the linear regime above?
 
-c) How does the region where k is constant compare to the linear regime above?
+c) How does the slope change as a function of length stretched?
+:::
+:::
 
-b) How does the slope change as a function of length stretched?
+:::Exercise
+In this exercise you will plot k vs. m and discuss it.
+
+1. Graph k as a function of mass.
+
+:::Question
+a) Is there a region in which k is static?
+
+b) If so, how does that region compare to the linear regime found above?
 :::
 
 :::
@@ -267,7 +276,12 @@ In experiment 2 you will use your apparatus from experiment 1 to explore simple 
 1. Download and open the PhyPhox app on your mobile device. 
 2. Open the "Acceleration (without g)" module on PhyPhox. If you only have "Acceleration with g" that is fine too.
 3. Place your phone in the bag attached to your elastic. Note which accelerometer will be collecting vertical motion with your phone in this position.
-4. Press the play button in the module to begin recording data.
+
+:::Question
+In what axis will your data be collected?
+:::
+
+5. Press the play button in the module to begin recording data.
 
 :::Note
 You should **not** use the time delay function used in Pendulum.
@@ -282,7 +296,7 @@ You should **not** use the time delay function used in Pendulum.
 You should expect to see significant damping in this data. Figure Guac shows some sample data
 :::
 
-Figure GUAC shows sample data. Notice the regions of junk data and real data.
+Figure 8 shows sample data. Notice the regions of junk data and real data.
 
 :::Figure:Figure
 :::row
@@ -304,7 +318,7 @@ Figure GUAC shows sample data. Notice the regions of junk data and real data.
 7. Find $\Delta$t for as many clear periods you have and not how many periods that is.
 8. Fill your data table with your measured $\Delta$t and the number of periods, n.
 
-Figure GUAC shows how you will be collecting your data.
+Figure 9 shows how you will be collecting your data.
 
 :::Figure:Figure
 :::row
@@ -322,8 +336,8 @@ Figure GUAC shows how you will be collecting your data.
 To calculate the period T, divide your time by n is the number of periods, not peaks. 
 :::
 
-9. Pick four mass values between roughly 50g and 200g to add to your phone for more data.
-10. Repeat this process with four additional mass values. Try to pull the rubber band down a similar length each run. 
+9. Pick five mass values between roughly 20g and 100g to add to your phone for more data.
+10. Repeat this process with five additional mass values. Try to pull the rubber band down a similar length each run. If time permits, take data with more masses until you reach the linear regime you determined in part 1.
 
 :::Note
 You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
@@ -357,7 +371,7 @@ Last week you had a very similar expression for period. We analyzed it by linear
 How would you linearize the period with respect to mass? (What's the equation?)
 :::
 
-1. Graph your linearized equation.
+1. Graph your linearized data.
 2. Fit a line to your linearized graph.
 
 Again, you will have to propagate your uncertainty from the slope to your measurement of $k$. The equation is the same as it was before. That is, Equation 1, hold true here as well.
@@ -369,7 +383,7 @@ b) What is the k value from your fit data?
 :::
 
 :::Question
-Using the $k$ value that is in regime closest to the mass of your phone, compare the two $k$ values. Do they agree?
+Using the $k$ value that is in the regime closest to the mass of your phone, compare the two $k$ values. Do they agree?
 :::
 
 :::
