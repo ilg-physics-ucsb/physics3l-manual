@@ -340,7 +340,7 @@ To calculate the period T, divide your time by n is the number of **periods**, n
 
 We want the change in mass to be small. That way the spring constant $k$ is *roughly* constant over that regime.  
 
-11. Repeat this process with five additional mass values. Try to pull the rubber band down a similar length each run.
+10. Repeat this process with five additional mass values. Try to pull the rubber band down a similar length each run.
 :::Note
 You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
 :::
