@@ -163,17 +163,17 @@ c) What are the sources of uncertainty here?
 :::
 
 :::Exercise
-In this exercise you will analyze the data from Exercise 2 to determine if a rubber band obeys Hooke's Law.
+In this exercise you will be analyzing the data from Exercise 2 to determine if a rubber band obeys Hooke's Law.
 
 1. Graph $\Delta$y vs m, with m as the independent variable. 
 
 :::Question
-a) Based on the equation you derived in last week's lab, what should the functional form of this plot be (e.g. quadratic, root, linear, exponential, etc.)?
+a) Based on the equation you derived in last week's lab, what should the functional form of this plot be? i.e. (quadratic, root, linear, exponential, etc.)
 
-b) What is the shape of your graph? Does it look linear?
+b) What is the shape of your graph, does it look linear?
 :::
 
-You may find that your data is not explicitly linear but has linear-like regions. In Figure 6 below you see on the left a plot of some data that we collected. You'll notice the data is not linear, but if we focus only on the region for small masses or on the region for large masses it behaves pretty linearly. This is shown with the example purple and green best fit lines. 
+You may find that your data is not explicitly linear but has linear like regions. Below in Figure 6 you see on the left a plot of some data that we collected. You'll notice it is not linear, but if we focus only on the regions for small masses or on the regions for large masses it behaves pretty linearly. This is shown with the example purple and green best fit lines. 
 
 :::Figure:Figure
 :::row
@@ -192,7 +192,7 @@ Over what region or regions of mass does the plot look linear?
 :::
 2. If you have multiple linear regions, make a plots of $\Delta y$ vs $m$ for each region.
 
-You will be determining $k$ from the slope $s$  of the linear regions. Just like the previous week, you will need to propagate the uncertainty from your slope $s$ to your value of $k$. Very similar to last week, the equation for the uncertainty in $k$, which we denote by $\delta k$, is given in terms of the uncertainty in the slope $s$, which we denote by $\delta s$:
+You will be determining $k$ from the slope,  of the linear region(s). Just like the previews week, you will need to propagate the uncertainty from your slope to your value of $k$. Very similar to last week, the equation for the uncertainty in $k$, $\delta k$, is given by:
 
 :::Figure:Equation
 $$
@@ -201,9 +201,7 @@ $$
 :::
 
 :::Question
-a) What is the value of $k$ in your linear regime or regimes? 
-
-b) What is the uncertainty $\delta k$ in each linear regime?
+What is the value of $k$ in your linear regime or regimes? 
 :::
 
 ::: Question
@@ -215,9 +213,9 @@ Does your rubber band appear to obey Hooke's law? Explain your reasoning.
 :::Exercise
 In this exercise you will plot $k$ vs. $m$ and discuss it.
 
-Another way we can analyze if your rubber band obeys Hooke's Law is to examine the spring constant $k$. An ideal spring has a constant spring constant $k$ over all masses attached. 
+Another way we can analyze if your rubber band obey Hooke's Law is to examine the spring constant. An ideal spring has constant $k$ over all masses attached. 
 
-1. Graph $k$ as a function of mass $m$.
+1. Graph k as a function of mass.
 
 :::Question
 a) Is there a region in which $k$ is constant?
@@ -230,7 +228,7 @@ You may find that $k$ varies with mass. This will be an important consideration 
 :::
 
 :::Exercise
-In this exercise you will use the data you collected and analyzed in Exercises 2 and 3 to measure the mass of your phone. 
+In this exercise you will use the data you collected an analyzed in Exercises 2 and 3 to measure the mass of your phone. 
 
 1. Place your PhyPhox enabled device you plan on using in experiment 2 in your bag such that it is the only mass weighing on your rubber band.  Measure the displacement $\Delta$y. If your bag is dirty due to the masses used, go ahead and use a new bag.
 
@@ -255,9 +253,9 @@ c) How does this value compare to what you find online? Note that cases and othe
 :::
 
 
-The second experiment will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use the &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of the rubber band.
+The second experiment for next week will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use the &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of the rubber band.
 
-As we do for a pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know that the mass on a spring is also a simple harmonic oscillator, we know that the position $y$ as a function of time looks like the following:
+As we do for a pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know that the mass on a spring is also a simple harmonic oscillator, we know that the position as a function of time looks like the following:
 
 
 :::Figure:Equation
@@ -273,7 +271,7 @@ where $A$ is the amplitude or the initial displacement, and $\Omega$ is the angu
 :::Exercise
 In experiment 2 you will use your apparatus from experiment 1 to explore simple harmonic motion. You will use a PhyPhox enabled device to measure the period of the simple harmonic motion of your rubber band. 
 
-For this part of the lab you will want ensure that you are working in a linear regime. This means that you may need to adjust the mass that you will be hanging so that you are in a linear regime. If you answered 0.200 kg - 0.350 kg for Question 4, you will want to adjust your hanging mass to be in that region.
+For this part of the lab you will want ensure that you are working in a linear regime. This means that you may need to adjust the mass that you will be hanging so that you are in a linear regime. i.e. If you answered 0.200 kg - 0.350 kg for Question 4, you will want to adjust you're hanging mass to be in that region.
 
 1. Open the "Acceleration (without g)" module on PhyPhox. If you only have "Acceleration with g" that is fine too.
 3. Place your phone in the bag attached to your elastic. Note which accelerometer will be collecting vertical motion with your phone in this position.
@@ -295,7 +293,7 @@ You should **not** use the time delay function used in Pendulum.
 
 
 :::Note
-You should expect to see significant damping in this data. 
+You should expect to see significant damping in this data. Figure Guac shows some sample data
 :::
 
 Figure 8 shows sample data. Notice the regions of junk data and real data.
@@ -317,8 +315,8 @@ Figure 8 shows sample data. Notice the regions of junk data and real data.
 
 
 
-7. Find $\Delta$t for as many clear periods you have and note how many periods you measured.
-8. Fill your data table with your measured $\Delta$t and the number of periods, $n$.
+7. Find $\Delta$t for as many clear periods you have and not how many periods that is.
+8. Fill your data table with your measured $\Delta$t and the number of periods, n.
 
 Figure 9 shows how you will be collecting your data.
 
@@ -335,12 +333,14 @@ Figure 9 shows how you will be collecting your data.
 
 
 :::Note
-To calculate the period T, divide your time by the number of periods $n$. Note that $n$ is the number of **periods**, not peaks. 
+To calculate the period T, divide your time by n is the number of **periods**, not peaks. 
 :::
 
-10. Repeat this process with additional mass values. Add four masses ~20g at a time. Try to pull the rubber band down a similar length each run.
+9. Pick four mass values between roughly 20g and 100g to add to your phone for more data. 
 
 We want the change in mass to be small. That way the spring constant $k$ is *roughly* constant over that regime.  
+
+11. Repeat this process with five additional mass values. Try to pull the rubber band down a similar length each run.
 :::Note
 You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
 :::
@@ -359,10 +359,10 @@ You can add masses in a separate bag as shown below if you are using something m
 :::
 
 :::Exercise
-In this exercise, you will analyze the data collected in Exercise 5 to determine the value of $k$ using the principles of simple harmonic motion.
+In this exercise, you will analyze the data collected in the Exercise 5 to determine the value of $k$ using the lens of simple harmonic motion.
 
 :::Question
-a) What is the expression for the period, $T$, as a function of mass, $m$, and the spring constant, $k$?
+a) What is the expression for the period, $T$, as a function of mass, $m$, and the spring constant, $k$. 
 
 b) If you were to plot $T$ vs $m$ should you fit a line to it? Why or why not?
 :::
@@ -376,18 +376,16 @@ How would you linearize the period with respect to mass? (What's the equation?)
 1. Graph your linearized data.
 2. Fit a line to your linearized graph.
 
-You will have to propagate your uncertainty from the slope to your measurement of $k$. The equation you should use is Equation 1.
+Again, you will have to propagate your uncertainty from the slope to your measurement of $k$. The equation is the same as it was before. That is, Equation 1, hold true here as well.
 
 :::Question
 a) What is the expression for the slope of your line?
 
-b) What is the $k$ value from your fit data?
-
-c) What is the uncertainty $\delta k$ in your $k$ value?
+b) What is the k value from your fit data?
 :::
 
 :::Question
-Using the $k$ value that is in the regime closest to the mass of your phone, compare the two $k$ values and their uncertainties $\delta k$. How well do they agree?
+Using the $k$ value that is in the regime closest to the mass of your phone, compare the two $k$ values. Do they agree?
 :::
 
 :::
