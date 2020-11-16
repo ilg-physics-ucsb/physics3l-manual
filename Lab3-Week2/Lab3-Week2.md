@@ -336,11 +336,9 @@ Figure 9 shows how you will be collecting your data.
 To calculate the period T, divide your time by n is the number of **periods**, not peaks. 
 :::
 
-9. Pick four mass values between roughly 20g and 100g to add to your phone for more data. 
+10. Repeat this process with additional mass values. Add four masses ~20g at a time. Try to pull the rubber band down a similar length each run.
 
 We want the change in mass to be small. That way the spring constant $k$ is *roughly* constant over that regime.  
-
-10. Repeat this process with five additional mass values. Try to pull the rubber band down a similar length each run.
 :::Note
 You can add masses in a separate bag as shown below if you are using something messy such as water or flour.
 :::
