@@ -1,21 +1,28 @@
-]
-#[\k Lab 4 Week 1
----
-Theory
+# Theory
 
 
 We will investigate resonance in an air column as we look to calculate the speed of sound.
-
+#####
 Sound is caused by a disturbance in the surrounding medium—air. Air is an elastic medium, meaning it returns to its original shape once an acting force no longer acts. To illustrate ‘this’, consider a single audio speaker. When music is playing the speaker vibrates, pushing and pulling air molecules surrounding it. 
 
-
+:::Figure:Figure
+![Speaker](imgs/Speaker.gif)
+:::
 
 When the speaker moves outward, it pushes out surrounding air molecules and that push causes a chain reaction of disturbances that propagate through the air. <<figure 1>> When the speaker moves inward, it creates more space for air particles to move, starting with the air molecules closest to the speaker. <<figure 2>> This is known as positive and negative displacement.
 
-
-                                                          
-1                                    2
-
+:::row
+:::column
+:::Figure:Figure
+![SpeakerOut](imgs/SpeakerOut.png)
+:::
+:::
+:::column
+:::Figure:Figure
+![SpeakerIn](imgs/SpeakerIn.png)
+:::
+:::
+:::
 
 Remember, the air particles themselves don’t move, they only vibrate. Check out figure X to see how the individual particles only displace and return to their equilibrium.
 
@@ -68,7 +75,7 @@ Now we can look at the frequency of the vibration of our speaker, in which the f
 Each particle vibrates due to the motion of its nearest neighbor. For example, if the first particle in the medium begins vibrating at 500 Hz, it will push and pull on the next adjacent particle at the same frequency of 500 Hz. The process continues throughout the medium; each particle vibrates at the same frequency.
 
 
-Boundary Conditions 
+## Boundary Conditions 
 
 Waves have certain 'interactions' at boundaries, making boundary conditions interesting and enlightening.
 
@@ -87,7 +94,7 @@ At some distance d from the source, a crest and a crest meet. They build each ot
 
 
 
-Speed of Sound
+## Speed of Sound
 
 The speed of sound is a slightly tricky concept. It does not refer to how fast any one given particle is moving. Rather, it refers to how fast the sound wave propagates through the medium. If you were to pick a point on the wave, say one of the negative displacements, and watch it move...this would be the speed of sound. It is the measure of how fast the disturbance moves through a medium. Like a projectile, it is expressed in units of meters per second.
 
@@ -106,13 +113,35 @@ where T is the temperature of the air in degrees Celsuis.
 
 Think about the case of a simple transverse wave; it takes the form of a sine wave as a function of distance. The wave has properties like amplitude, wavelength and distance. 
 
+:::Figure:Figure
+![WaveAsAFunctionOfDistance](imgs/WaveAsAFunctionOfDistance.gif)
+:::
+
 Looking at a sine wave as a function of time, period takes the place of wavelength when discussing peak to peak of a wave.
 
+:::Figure:Figure
+![WaveAsAFunctionOfTime](imgs/WaveAsAFunctionOfTime.gif)
+:::
+	
+The velocity of the wave goes in the same direction as distance and time, in the above snapshots. From basic physics, we know that 
+	
+$$
+distance = velocity * time
+$$
 
-Distance example
+Wavelength is our distance. Since we are looking at one wavelength, that means we are looking at one period. Now our relationship becomes
+	
+$$
+\lambda = vT
+$$
 
-
-Resonance
+Since frequency has an inverse relationship with period, we finally arrive at the wave relationship
+	
+$$
+v = \lambda f
+$$
+	
+## Resonance
 
 The word resonance comes from latin words for ‘echo’ and ‘resound’. Resonance is illustrated by swing on a playground; if you push a friend on the swing and wait for it to return to you, the swing will fall into a rhythm, a natural interval. As long as you push the swing in time with its natural frequency, the swing can go higher. The natural frequency is the frequency at which it would oscillate if there were no resistive forces present. However, if you attempt to push the swing outside of this natural frequency, the swing will go lower (and you might hurt yourself).
 
@@ -122,10 +151,32 @@ Amplitude is proportional to the driving force.
 
 Though we are not considering factors of a system, such as damping, we can investigate how resonance works. Looking at the real part of the particular solution to the differential equation for the equation of motion of the driving force, we find that
 
-A2= f02(02 -  )2 + 422
-
+$$
+A_2 =  \frac{f\small_{0}\normalsize^2}{(\omega\small_{0}\normalsize^2 - \omega)^2 + 4\beta^2\omega^2}
+$$
 
 which shows that the amplitude is proportional to the driving force. It also shows that left to its own devices, an oscillator vibrates at its natural frequency 0(or a slightly lower frequency 1 if we allow for the damping, ). If we try and force it to vibrate at a frequency , then for values of  close to 0, the oscillator responds very well, but if  is far from 0, it hardly responds at all. 
+#####
+Looking again at our simple wavelength, we see that a full wavelength is from crest to crest or trough to trough. A wavelength could also be taken from one equilibrium point to the next, as the next figure.
+
+:::Figure:Figure
+![OneSingleWave](imgs/OneSingleWave.png)
+:::
+
+Looking at the fundamental frequency of length L we see that only half the wavelength makes up the fundamental frequency! 
+	
+$$
+\lambda = 2L
+$$
+	
+:::Figure:Figure
+![WaveLength](imgs/WaveLength.gif)
+:::
 
 
+If we now look at the fundamental frequency in a cylinder with open ends we see that each end of the tube has an anti-node with a node in the middle.
+
+:::Figure:Figure
+![AirCylinderFundamentalFrequency](imgs/AirCylinderFundamentalFrequency.gif)
+:::
 
