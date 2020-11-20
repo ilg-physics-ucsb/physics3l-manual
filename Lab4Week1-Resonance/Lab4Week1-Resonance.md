@@ -56,7 +56,7 @@ $$
 where T is the temperature of the air in degrees Celsius.
 
 :::Question
-What are the units of the 0.6 constant in Equation 2?
+What are the units of the 0.6 constant in Equation 1?
 :::
 
 :::Question
@@ -90,7 +90,17 @@ If the frequency of the sound increases, what happens to the wavelength? Justify
 
 The word resonance comes from latin words for ‘echo’ and ‘resound’. Resonance is illustrated by swing on a playground; if you push a friend on the swing and wait for it to return to you, the swing will fall into a rhythm, a natural interval. As long as you push the swing in time with its natural frequency, the swing can go higher. The natural frequency is the frequency at which it would oscillate if there were no resistive forces present. However, if you attempt to push the swing outside of this natural frequency, the swing will go lower (and you might hurt yourself).
 
-The lowest resonant frequency is called the **fundamental frequency**, or the 1st harmonic. A harmonic is a positive integer multiple of the fundamental frequency. Open cylindrical air columns can produce all harmonics of the fundamental frequency. Cylinders with one closed end can only produce odd harmonic frequencies.
+Resonance happens when you form a **standing wave**. That is a wave whose nodes stay in the same position. In a tube of air you can produce a standing wave, and therefore resonate, when you meet the proper boundary conditions. For a standing wave to form, there needs to be an anti-node at any open end of a pipe and a node any closed end.
+
+To get resonant conditions we can do this in two ways. 
+
+1. We can adjust the driving frequency. Since the speed of sound is constant at a particular temperature, adjusting the frequency will change the wavelength. When the wavelength is such that it meets the boundary conditions the tube will resonate.
+
+The lowest resonant frequency is called the **fundamental frequency**, or the 1st harmonic. A harmonic is a positive integer multiple of the fundamental frequency.  By increasing the frequency, 
+
+Open cylindrical air columns can produce all harmonics of the fundamental frequency. Cylinders with one closed end can only produce odd harmonic frequencies.
+
+2. We can adjust the tube length while keeping the frequency constant. Eventually the wave inside the tube will match the boundary conditions in order for the pipe to resonate.
 
 :::Exercise
 :::Figure:Figure
@@ -104,11 +114,23 @@ What is the wavelength for the fundamental frequency of an open-open tube in ter
 :::
 
 :::Question
-a) For an open-open tube, draw the next two standing waves (harmonics) that would form.
+a) For an open-open tube, draw the next two harmonics that would form for a tube of the same length $L$.
 
 b) What is the wavelength for each of those two harmonics in terms of the tube length $L$.
 
 c) Based on the fundamental, and the next two harmonics, what is the wavelength for the $n$th harmonic?
+:::
+
+1. For an open open tube, we will say that there is one segment inside the tube resonating at the fundamental.
+
+:::Question
+a) For an open-open tube, draw the next two standing waves that would form in a larger tube while keeping the frequency constant.
+
+b) How many segments are in each tube?
+
+c) What is the length, $L$, of the tube in terms of the wavelength $\lambda$ for each of the two new pipes.
+
+d) Based on the fundamental, and the next two standing waves, what is length of a tube with $n$ segments inside of it.
 :::
 
 :::
@@ -117,13 +139,49 @@ c) Based on the fundamental, and the next two harmonics, what is the wavelength 
 
 ## The Experiment
 
-For this lab you will build a tube that you can change the length of out of card board. You will then use PhyPhox to generate a constant frequency tone and place your phones speaker at the end of the tube. You will then adjust the length of the tube until a standing wave forms in the tube and it resonants. 
+For this lab you will build a tube that you can change the length of out of card board. You will then use Phyphox to generate a constant frequency tone and place your phones speaker at the end of the tube. You will then adjust the length of the tube until a standing wave forms in the tube and it resonants. \
+
+When a tube resonates that will be observed by an increase in volume.
+
+:::Figure:Figure
+![Amplitude Plot](imgs/AmplitudePlot.png)
+:::
+
+Figure 4 shows is a sketch of volume as a function of tube length for the fundamental in an open-open pipe. Notice there is a background volume of the speaker playing, but as the length of the pipe nears the length (1 m) the volume increases dramatically.  
 
 :::Exercise
 
-You will be able to change the tube's length from $L$ to $2L$. Over that length you will want to measure five harmonics (have your tube resonate five times).
+You will be able to gradually change the tube's length from $L$ to $2L$. Thus you are able to adjust the length of the pipe by $L$. Over that length you will want to measure five standing waves (have your tube resonate five times).
 
-Thus you need to choose a frequency that will allow this.
+Thus you need to choose a frequency that will allow this. Let's make that calculation now.
+
+1. Determine the separation between any two standing waves.
+
+:::Question
+Assume you have a pipe of length $L$ with a set frequency $f$ that is the $n$th standing wave. You increase the length of your pipe by $\Delta L$ to the $(n+1)$ standing wave without changing the frequency.
+
+What is $\Delta L$ in terms of wavelength?
+:::
+
+2. You know the separation between two standing waves. We will increase our pipe by length by $L$, with five standing waves forming over that change.
+
+:::Question
+What is the separation between five standing waves?
+:::
+
+:::Question
+If you increase the length of the pipe by $L$, and there are five standing waves in that length of pipe, what is the length, $L$, in terms of wavelength, $\lambda$?
+:::
+
+2. In order to get five standing waves over the length increase you will need to select the correct frequency. 
+
+:::Question
+Assuming the speed of sound is what you calculated in Question 2, that you can change your pipe over a length $L$, and you want to get five standing waves over that change, what frequency should you use?
+:::
+
+:::Question
+Assuming you are using a paper towel roll of standard length, $28$ cm, what is the frequency you need to get five standing waves?
+:::
 
 :::
 
