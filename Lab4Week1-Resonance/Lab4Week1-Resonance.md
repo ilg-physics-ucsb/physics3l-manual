@@ -25,7 +25,7 @@
 
 ### Sound
 
-Sound is caused by a disturbance in the surrounding medium — air. Air is an elastic medium, meaning it returns to its original shape once forces stop acting on it. Consider a single audio speaker. When music is playing the speaker vibrates, alternately compressing and expanding the volume in front of it, thus periodically pushing the air molecules in front of it.
+Sound is caused by a disturbance in the surrounding medium — air. Air is an elastic medium, meaning that it returns to its original shape once forces stop acting on it. Consider a single audio speaker. When music is playing the speaker vibrates, alternately compressing and expanding the volume in front of it, thus periodically pushing the air molecules in front of it.
 
 :::Figure:Figure
 ![Speaker](imgs/Speaker.gif)
@@ -90,7 +90,7 @@ If the frequency of the sound increases, what happens to the wavelength? Justify
 
 The word resonance comes from Latin words for ‘echo’ and ‘resound’. Resonance is illustrated by a swing on a playground; if you push a friend on the swing and wait for it to return to you, the swing will fall into a rhythm, a natural interval. As long as you push the swing in time with its natural frequency, the swing can go quite high. The natural frequency is the frequency at which it would oscillate if there were no resistive forces present. If,  however, you attempt to push the swing at a frequency that is different from this natural frequency, the maximum height of the swing will be much lower  (and you might hurt yourself).
 
-As you might guess from the swing analogy, resonance occurs when you drive a system at its natural frequency of oscillation.  In the case of the paper towel tube apparatus that you are about to make, this means setting the conditions so that you form a **standing wave** inside the tube. That is, a wave that forms a pattern of nodes and antinodes fixed in space.  This happens when the wave reflected from the end of the tube comes back in phase with the outgoing wave. You can produce a standing wave, and therefore resonate, when you meet the proper boundary conditions. For a standing wave to form, there needs to be an antinode at any open end of a pipe and a node any closed end.
+As you might guess from the swing analogy, resonance occurs when you drive a system at its natural frequency of oscillation.  In the case of the paper towel tube apparatus that you are about to make, this means setting the conditions so that you form a **standing wave** inside the tube. That is, a wave that forms a pattern of nodes and antinodes that is fixed in space.  This happens when the wave reflected from the end of the tube comes back in phase with the outgoing wave. You can produce a standing wave, and therefore make something resonate, when you meet the proper boundary conditions. For a standing wave to form, there needs to be an antinode at any open end of a pipe, and a node any closed end.
 
 To get resonance conditions we can do this in two ways. 
 
@@ -107,21 +107,21 @@ Air columns in cylinders for which both ends are open can produce all harmonics 
 ![Resonant Conditions](imgs/ResonanceTubes.png)
 :::
 
-As noted above, the boundary conditions for a standing wave require that there is a node at any closed end and an antinode at any open end. In Figure 3, the top tube is open on both ends, and the bottom tube is open at one end and closed at the other. Drawn in each is the first standing wave that can form in either tube. 
+As noted above, the boundary conditions for a standing wave require that there is a node at any closed end and an antinode at any open end. In Figure 3, the top tube is open on both ends (open-open), and the bottom tube is open at one end and closed at the other. Drawn in each is the first standing wave that can form in either tube. 
 
 :::Question
-What is the wavelength for the fundamental frequency of an open-open tube in terms of the tube length $L$. 
+What is the wavelength for the fundamental frequency of an open-open tube in terms of the tube length $L$?
 :::
 
 :::Question
 a) For an open-open tube, draw the next two harmonics that would form for a tube of the same length $L$.
 
-b) What is the wavelength for each of those two harmonics in terms of the tube length $L$.
+b) What is the wavelength for each of those two harmonics in terms of the tube length $L$?
 
 c) Based on the fundamental, and the next two harmonics, what is the wavelength for the $n\rm^{th}$ harmonic?
 :::
 
-For a tube with both ends open (open-open), we will say that there is one segment inside the tube resonating at the fundamental.
+For a tube with both ends open, we will say that there is one segment inside the tube resonating at the fundamental.
 
 :::Question
 a) For an open-open tube, draw the next two standing waves that would form in a longer tube, assuming that the frequency is kept constant.
@@ -150,7 +150,7 @@ Figure 4 shows is a sketch of volume as a function of tube length for the fundam
 The simulation below will allow you to experiment with this.
  
 :::Figure:Simulation
-https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html
+<embed type="text/html"src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800">
 :::
 
 :::Exercise
@@ -167,14 +167,14 @@ Assume you have a pipe of length $L$, and that with a set frequency $f$, this co
 What is $\Delta L$ in terms of wavelength?
 :::
 
-2. You now know the separation between two standing waves (harmonics). We will increase our pipe length by $L$, with five standing waves forming over that change.
+2. You now know the separation between two standing waves. We will increase our pipe length by $L$, with five standing waves forming over that change.
 
 :::Question
 What is the separation between five standing waves (*i.e.*, from the first standing wave to the fifth one)?
 :::
 
 :::Question
-If you increase the length of the pipe by $L$, and there are five standing waves in that length of pipe, what is the length, $L$, in terms of wavelength, $\lambda$?
+If you increase the length of the pipe by $L$, and five standing waves occur over that change in length, what is the length, $L$, in terms of wavelength, $\lambda$?
 :::
 
 2. In order to get five standing waves over the length increase you will need to select the correct frequency. 
