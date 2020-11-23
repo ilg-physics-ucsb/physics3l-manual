@@ -90,7 +90,7 @@ If the frequency of the sound increases, what happens to the wavelength? Justify
 
 The word resonance comes from Latin words for ‘echo’ and ‘resound’. Resonance is illustrated by a swing on a playground; if you push a friend on the swing and wait for it to return to you, the swing will fall into a rhythm, a natural interval. As long as you push the swing in time with its natural frequency, the swing can go quite high. The natural frequency is the frequency at which it would oscillate if there were no resistive forces present. If,  however, you attempt to push the swing at a frequency that is different from this natural frequency, the maximum height of the swing will be much lower  (and you might hurt yourself).
 
-As you might guess from the swing analogy, resonance occurs when you drive a system at its natural frequency of oscillation.  In the case of the paper towel tube apparatus that you are about to make, this means setting the conditions so that you form a **standing wave** inside the tube. That is, a wave that forms a pattern of nodes and antinodes that is fixed in space.  This happens when the wave reflected from the end of the tube comes back in phase with the outgoing wave. You can produce a standing wave, and therefore make something resonate, when you meet the proper boundary conditions. For a standing wave to form, there needs to be an antinode at any open end of a pipe, and a node any closed end.
+As you might guess from the swing analogy, resonance occurs when you drive a system at its natural frequency of oscillation.  In the case of the paper towel tube apparatus that you are about to make, this means setting the conditions so that you form a **standing wave** inside the tube. That is, a wave that forms a pattern of nodes and antinodes that is fixed in space. You can produce a standing wave, and therefore make something resonate, when you meet the proper boundary conditions. For a standing wave to form, there needs to be an antinode at any open end of a pipe, and a node any closed end.
 
 To get resonance conditions we can do this in two ways. 
 
@@ -99,7 +99,7 @@ To get resonance conditions we can do this in two ways.
 
 The lowest resonant frequency is called the **fundamental frequency**, or the 1$\rm^{st}$ harmonic. A harmonic is a positive integer multiple of the fundamental frequency.  By increasing the frequency, and thus shortening the wavelength, we can find higher harmonics for which the tube resonates.
 
-Air columns in cylinders for which both ends are open can produce all harmonics of the fundamental frequency. They allow all harmonics that have an antinode at each end of the cylinder.  These are all half-wavelength harmonics. Cylinders with one closed end and one open end produce only those harmonics that have a node at the closed end and an antinode at the open end. These are all odd quarter-wavelength harmonics.
+Air columns in cylinders for which both ends are open can produce all harmonics of the fundamental frequency. They allow all harmonics that have an antinode at each end of the cylinder. Cylinders with one closed end and one open end produce only those harmonics that have a node at the closed end and an antinode at the open end.
 
 
 :::Exercise
@@ -107,10 +107,12 @@ Air columns in cylinders for which both ends are open can produce all harmonics 
 ![Resonant Conditions](imgs/ResonanceTubes.png)
 :::
 
-As noted above, the boundary conditions for a standing wave require that there is a node at any closed end and an antinode at any open end. In Figure 3, the top tube is open on both ends (open-open), and the bottom tube is open at one end and closed at the other. Drawn in each is the first standing wave that can form in either tube. 
+As noted above, the boundary conditions for a standing wave require that there is a node at any closed end and an antinode at any open end. In Figure 3, the top tube is open on both ends (open-open), and the bottom tube is open at one end and closed (open-closed) at the other. Drawn in each is the first standing wave that can form in either tube. 
 
 :::Question
-What is the wavelength for the fundamental frequency of an open-open tube in terms of the tube length $L$?
+a. What is the wavelength for the fundamental frequency of an open-open tube in terms of the tube length $L$?
+
+b. What is the wavelength for the fundamental frequency of an open-closed tube in terms of the tube length $L$?
 :::
 
 :::Question
@@ -150,7 +152,7 @@ Figure 4 shows is a sketch of volume as a function of tube length for the fundam
 The simulation below will allow you to experiment with this.
  
 :::Figure:Simulation
-<embed type="text/html"src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800">
+embed src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800"
 :::
 
 :::Exercise
