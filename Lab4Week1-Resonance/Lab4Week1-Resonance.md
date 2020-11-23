@@ -27,9 +27,6 @@
 
 Sound is caused by a disturbance in the surrounding medium — air. Air is an elastic medium, meaning that it returns to its original shape once forces stop acting on it. Consider a single audio speaker. When music is playing the speaker vibrates, alternately compressing and expanding the volume in front of it, thus periodically pushing the air molecules in front of it.
 
-:::Figure:Figure
-![Speaker](imgs/Speaker.gif)
-:::
 
 When the speaker moves outward, it pushes out surrounding air molecules, and that push causes a chain of disturbances that propagate through the air. When the speaker moves inward, it creates more space for air particles to move, starting with the air molecules closest to the speaker. This is known as positive and negative displacement.
 
@@ -37,7 +34,7 @@ When the speaker moves outward, it pushes out surrounding air molecules, and tha
 ![SpeakerOut](imgs/SoundPulse.gif)
 :::
 
-Figure 2 shows column of air set in motion by a speaker at the left vibrating at some frequency. You can see compression waves traveling to the right. Notice, though, that any one particle (some have been highlighted in red) doesn&rsquo;t actually move to the right but just oscillates back and forth.
+Figure 1 shows column of air set in motion by a speaker at the left vibrating at some frequency. You can see compression waves traveling to the right. Notice, though, that any one particle (some have been highlighted in red) doesn&rsquo;t actually move to the right but just oscillates back and forth.
 
 ### Speed of Sound
 
@@ -90,14 +87,20 @@ If the frequency of the sound increases, what happens to the wavelength? Justify
 
 The word resonance comes from Latin words for ‘echo’ and ‘resound’. Resonance is illustrated by a swing on a playground; if you push a friend on the swing and wait for it to return to you, the swing will fall into a rhythm, a natural interval. As long as you push the swing in time with its natural frequency, the swing can go quite high. The natural frequency is the frequency at which it would oscillate if there were no resistive forces present. If,  however, you attempt to push the swing at a frequency that is different from this natural frequency, the maximum height of the swing will be much lower  (and you might hurt yourself).
 
-As you might guess from the swing analogy, resonance occurs when you drive a system at its natural frequency of oscillation.  In the case of the paper towel tube apparatus that you are about to make, this means setting the conditions so that you form a **standing wave** inside the tube. That is, a wave that forms a pattern of nodes and antinodes that is fixed in space. Antinodes are regions of maximum amplitude, and nodes are points where the amplitude is zero. Such a pattern is formed by the superposition of the wave with its reflection at the end(s) of the tube, and can happen only if the phase relationship between the wave and its reflection(s) is appropriate. At an open end, the reflected wave has the same phase as the outgoing wave. At a closed end, the reflected wave is 180&deg; out of phase with the outgoing wave. Only if the reflections occur at the right points in the sound wave, can a standing wave form.
+As you might guess from the swing analogy, resonance occurs when you drive a system at its natural frequency of oscillation.  In the case of the paper towel tube apparatus that you are about to make, this means setting the conditions so that you form a **standing wave** inside the tube. That is, a wave that forms a pattern of nodes and antinodes that is fixed in space. Antinodes are regions of maximum amplitude, and nodes are points where the amplitude is zero. A depiction of a standing wave, with nodes and anti-node labeled can be seen in Figure 2 below.
 
-You can produce a standing wave, and therefore make something resonate, when you meet the proper boundary conditions. For a standing wave to form, there needs to be an antinode at any open end of a pipe, and a node any closed end.
+:::Figure:Figure
+![Image of nodes](imgs/Nodes.png)
+:::
+
+Such a pattern is formed by the superposition of the wave with its reflection at the end(s) of the tube, and can happen only if the phase relationship between the wave and its reflection(s) is appropriate. At an open end, the reflected wave has the same phase as the outgoing wave. At a closed end, the reflected wave is 180&deg; out of phase with the outgoing wave. Only if the reflections occur at the right points in the sound wave, can a standing wave form.
+
+You can produce a standing wave, and therefore make something resonate, when you meet the proper boundary conditions. For a standing wave to form, there needs to be an antinode at any open end of a pipe, and a node at any closed end.
 
 To get resonance conditions we can do this in two ways. 
 
 1. We can adjust the driving frequency. Since the speed of sound is constant at a particular temperature, adjusting the frequency changes the wavelength. When the wavelength is such that it meets the boundary conditions, the tube will resonate.
-2. We can adjust the tube length while keeping the frequency constant. At some length(s), the wave inside the tube will match the boundary conditions, and the tube will resonate.
+2. We can adjust the tube length while keeping the frequency constant. At some length(s), the wave inside the tube will match the boundary conditions, and the tube will resonate. In this lab we will call the part of the standing wave between two resonant boundary conditions a **segment**. i.e. For an open-open pipe this would be the part of the wave between two antinodes.
 
 The lowest resonant frequency is called the **fundamental frequency**, or the 1$\rm^{st}$ harmonic. A harmonic is a positive integer multiple of the fundamental frequency.  By increasing the frequency, and thus shortening the wavelength, we can find higher harmonics for which the tube resonates.
 
@@ -111,19 +114,16 @@ Air columns in cylinders for which both ends are open can produce all harmonics 
 
 As noted above, the boundary conditions for a standing wave require that there is a node at any closed end and an antinode at any open end. In Figure 3, the top tube is open on both ends (open-open), and the bottom tube is open at one end and closed (open-closed) at the other. Drawn in each is the first standing wave that can form in either tube. 
 
+
+
 :::Question
 a. What is the wavelength for the fundamental frequency of an open-open tube in terms of the tube length $L$?
 
 b. What is the wavelength for the fundamental frequency of an open-closed tube in terms of the tube length $L$?
 :::
 
-:::Question
-a) For an open-open tube, draw the next two harmonics that would form for a tube of the same length $L$. (Note that each higher harmonic has one more node than does the previous one, and the pattern must fit inside the tube so that the antinodes are evenly spaced along the length of the tube.)
+For this lab we will only be adjusting the length of the pipe, and therefore we will focus on the second way to make something resonate described above. 
 
-b) What is the wavelength for each of those two harmonics in terms of the tube length $L$?
-
-c) Based on the fundamental, and the next two harmonics, what is the wavelength for the $n\rm^{th}$ harmonic?
-:::
 
 For a tube with both ends open, we will say that there is one segment inside the tube resonating at the fundamental.
 
@@ -149,7 +149,7 @@ For this lab you will build a cardboard tube whose length you can change. You wi
 ![Amplitude Plot](imgs/AmplitudePlot.png)
 :::
 
-Figure 4 shows is a sketch of volume as a function of tube length for the fundamental in an open-open pipe. Notice there is a background volume of the speaker playing, but as the length of the pipe nears the length of 1 m the volume increases dramatically.
+Figure 4 shows is a sketch of sound intensity as a function of tube length for the fundamental in an open-open pipe. This is an **example** plot of an adjust, around 1 meter, pipe, with a frequency of 171.5 Hz playing.  Notice there is a background volume of the speaker playing, but as the length of the pipe nears the length of 1 m the volume increases dramatically.
 
 The simulation below will allow you to experiment with this.
  
@@ -163,7 +163,7 @@ You will be able to change the tube&rsquo;s length gradually from $L$ to $2L$. T
 
 Thus you need to choose a frequency that will allow this. Let&rsquo;s make that calculation now.
 
-1. Determine the separation between any two standing waves.
+1. Determine the separation between any two standing waves (the length of one segment).
 
 :::Question
 Assume you have a pipe of length $L$, and that with a set frequency $f$, this corresponds to the $n\rm^{th}$ standing wave. You increase the length of your pipe by $\Delta L$ to the $(n+1)\rm^{th}$ standing wave without changing the frequency.
@@ -171,7 +171,7 @@ Assume you have a pipe of length $L$, and that with a set frequency $f$, this co
 What is $\Delta L$ in terms of wavelength?
 :::
 
-2. You now know the separation between two standing waves. We will increase our pipe length by $L$, with five standing waves forming over that change.
+2. You now know the separation between two standing waves. We will increase our pipe length by $L$, with five standing waves forming over that change (five segments inside changed length).
 
 :::Question
 What is the separation between five standing waves (*i.e.*, if you call the one at which you are starting the first one, from that one up to the fifth one)?
