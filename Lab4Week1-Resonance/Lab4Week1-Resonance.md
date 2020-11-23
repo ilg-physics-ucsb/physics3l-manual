@@ -118,7 +118,7 @@ b. What is the wavelength for the fundamental frequency of an open-closed tube i
 :::
 
 :::Question
-a) For an open-open tube, draw the next two harmonics that would form for a tube of the same length $L$.
+a) For an open-open tube, draw the next two harmonics that would form for a tube of the same length $L$. (Note that each higher harmonic has one more node than does the previous one, and the pattern must fit inside the tube so that the antinodes are evenly spaced along the length of the tube.)
 
 b) What is the wavelength for each of those two harmonics in terms of the tube length $L$?
 
