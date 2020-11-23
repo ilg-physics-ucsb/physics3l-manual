@@ -99,7 +99,7 @@ To get resonance conditions we can do this in two ways.
 
 The lowest resonant frequency is called the **fundamental frequency**, or the 1$\rm^{st}$ harmonic. A harmonic is a positive integer multiple of the fundamental frequency.  By increasing the frequency, and thus shortening the wavelength, we can find higher harmonics for which the tube resonates.
 
-Air columns in cylinders for which both ends are open can produce all harmonics of the fundamental frequency. They allow all harmonics that have an antinode at each end of the cylinder.  These are all (integer) half-wavelength harmonics. Cylinders with one closed end and one open end produce only those harmonics that have a node at the closed end and an antinode at the open end. These are all odd-integer quarter-wavelength harmonics.
+Air columns in cylinders for which both ends are open can produce all harmonics of the fundamental frequency. They allow all harmonics that have an antinode at each end of the cylinder.  These are all half-wavelength harmonics. Cylinders with one closed end and one open end produce only those harmonics that have a node at the closed end and an antinode at the open end. These are all odd quarter-wavelength harmonics.
 
 
 :::Exercise
@@ -170,7 +170,7 @@ What is $\Delta L$ in terms of wavelength?
 2. You now know the separation between two standing waves. We will increase our pipe length by $L$, with five standing waves forming over that change.
 
 :::Question
-What is the separation between five standing waves (*i.e.*, from the first standing wave to the fifth one)?
+What is the separation between five standing waves (*i.e.*, if you call the one at which you are starting the first one, from that one up to the fifth one)?
 :::
 
 :::Question
