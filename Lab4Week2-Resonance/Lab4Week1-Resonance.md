@@ -149,7 +149,7 @@ For this lab you will build a cardboard tube whose length you can change. You wi
 ![Amplitude Plot](imgs/AmplitudePlot.png)
 :::
 
-Figure 4 shows is a sketch of sound intensity as a function of tube length for the fundamental in an open-open pipe. This is an **example** plot of an adjust, around 1 meter, pipe, with a frequency of 171.5 Hz playing.  Notice there is a background volume of the speaker playing, but as the length of the pipe nears the length of 1 m the volume increases dramatically.
+Figure 4 shows is a sketch of sound intensity as a function of tube length for the fundamental in an open-open pipe. This is an **example** plot of an adjustable, around 1 meter, pipe, with a frequency of 171.5 Hz playing.  Notice there is a background volume of the speaker playing, but as the length of the pipe nears the length of 1 m the volume increases dramatically.
 
 The simulation below will allow you to experiment with this.
  
@@ -171,14 +171,10 @@ Assume you have a pipe of length $L$, and that with a set frequency $f$, this co
 What is $\Delta L$ in terms of wavelength?
 :::
 
-2. You now know the separation between two standing waves. We will increase our pipe length by $L$, with five standing waves forming over that change (five segments inside changed length).
+2. You now know the separation between two standing waves. We will increase our pipe length by $L$, with five standing waves forming over that change (five segments inside of the changed length).
 
 :::Question
-What is the separation between five standing waves (*i.e.*, if you call the one at which you are starting the first one, from that one up to the fifth one)?
-:::
-
-:::Question
-If you increase the length of the pipe by $L$, and five standing waves occur over that change in length, what is the length, $L$, in terms of wavelength, $\lambda$?
+If your pipe is currently resonating and you increase the length of the pipe by $L$, and five additional standing waves occur over that change in length, what is the length, $L$, in terms of wavelength, $\lambda$.
 :::
 
 2. In order to get five standing waves over the length increase you will need to select the correct frequency. 
@@ -273,4 +269,10 @@ This is the completed inner tube.
 Finished tube.
 :::
 
+:::
+
+## Conclusion
+
+::: Exercise
+Write a short conclusion highlighting the important parts of resonance and the speed of sound, and how they apply to the measurement you will be making. 
 :::
