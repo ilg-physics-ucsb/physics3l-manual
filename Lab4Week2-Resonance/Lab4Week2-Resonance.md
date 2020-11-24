@@ -1,4 +1,4 @@
-# Lab 4: Speed of Sound - Week 1
+# Lab 4: Speed of Sound - Week 2
 ---
 ### All Materials Needed:
 - One tube from a paper towel roll, ~28 cm long. 
@@ -16,9 +16,7 @@
 - ** Construct an apparatus **
 	- Create a variable-length tube
 - ** Data Analysis **
-	- Understand the theory behind resonance
-	- Determine resonance length
-	- Determine frequency to be used for experiment
+	- Measure the speed of sound in your room.
 ---
 
 # Part I: Building the Apparatus
