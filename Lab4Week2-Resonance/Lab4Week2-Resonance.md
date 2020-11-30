@@ -245,7 +245,15 @@ What is the speed of sound in your room as measured by resonance? Include the un
 
 
 ## Conclusion
+:::Question
+a) How does the speed of sound compare in your two measurements?
 
+b) What is the percent difference between the two?
+
+c) Is the difference explained by random error or systematic error? Justify your reasoning.
+
+d) What might be some sources of systematic error in this experiment?
+:::
 ::: Exercise
-Write a short conclusion highlighting the important parts of resonance and the speed of sound, and how they apply to the measurement you will be making. 
+Write a short conclusion discussing what you did in this lab and what you found about the speed of sound.
 :::
