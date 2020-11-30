@@ -138,13 +138,13 @@ If you were to create a plot of $L$ vs $n$ and fit a line to it, what would the 
 :::Exercise
 In this exercise you will determine what frequency is needed to have five resonances over the change in length of your pipe.
 
-1. If you have a thermometer or other way of measuring the temperature inside of your room, record the value. Otherwise, assume it is about $20^{\circ}$C inside. Then determine the speed of sound in your room.
+1. If you have a thermometer or other way of measuring the temperature inside of your room, record the value. Otherwise, assume it is about $20^{\circ}$C inside. Then determine the speed of sound in your room based on temperature. We will call this measurement of the speed of sound $v_T$ since it is from temperature, as opposed to measurement you will be making later for resonance.
 
 The uncertainty in the speed of sound based on temperature is given by the following:
 
 :::Figure:Equation
 $$
-\delta v_s = 0.6 \delta T
+\delta v_T = 0.6 \delta T
 $$
 :::
 
@@ -200,16 +200,19 @@ This can be slightly challenging to hear. If you move it too fast or slow it wil
 5. Once you are confident that you can identify the resonances, push the inner tube completely inside the outer tube. 
 6. Slide the inner tube out until you hear the first resonance. Spend a moment trying to make sure you are really at the maximum volume by slightly adjusting the length.
 7. Measure the length of your tube.
-8. In a table record the length of the tube and the segment. This first segment will just be $n=1$.
-9. Repeat steps $6$ - $8$ measuring the tube at each resonant and increasing $n$ by one. Do this until you have fully extended your telescoping pipe.
 
 ::: Question
-a) What is the uncertainty in your resonate length measurement?
+a) Is the uncertainty larger, smaller, or the same as a direct length measurement of the tube? (i.e. How does the uncertainty of the length of the tube while resonating, compare to the uncertainty in your measuring tool?) **Hint:** How certain are you that you have length *exactly* at a resonate boundary condition?
 
-b) Is it larger, smaller, or the same as a direct measurement of the tube?
+b) What factors contribute to the uncertainty?
 
-c) What factors contribute to the uncertainty?
+c) What is the uncertainty in your resonate length measurement?
 :::
+
+9. In a table record the length of the tube and the segment. This first segment will just be $n=1$.
+10. Repeat steps $6$ - $8$ measuring the tube at each resonant and increasing $n$ by one. Do this until you have fully extended your telescoping pipe.
+
+
 
 :::
 
@@ -218,7 +221,7 @@ In this exercise you will analyze your data and determine the speed of sound in 
 
 1. Create a plot of $L$ vs $n$.
 2. Fit a line to your plot.
-3. Get the slope of the line and use your answer to Question $1$ to determine the speed of sound.
+3. Get the slope, $s$, of the line and use your answer to Question $2$ to determine the speed of sound $v_R$ as measured by resonance.
 
 :::Question
 Even though you have labeled the segments $n=1,2,3,4,5$, there are more than that number of segments in your entire pipe. 
@@ -228,11 +231,11 @@ For measuring the speed of sound, why does it not matter that we are not startin
 
 Typically, most sound producing devices have very small uncertainties in the frequencies they produce. For the purposes of this lab, we will assume the uncertainty in the frequency is small compared to the uncertainty in your length measurements (which will lead to larger uncertainties in your slope).
 
-In order to propagate the error from the slope to the speed of sound, $v_s$ use the following equation: 
+In order to propagate the error from the slope, $s$ to the speed of sound, $v_R$ use the following equation: 
 
 :::Figure:Equation
 $$
-\delta v_s = \frac{v_s}{s} \delta s
+\delta v_R = \frac{v_R}{s} \delta s
 $$
 :::
 
