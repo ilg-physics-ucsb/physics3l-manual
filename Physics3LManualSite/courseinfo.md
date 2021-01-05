@@ -94,6 +94,7 @@ There are a few other things that you will need but are items typically found ar
 - Empty paper towel roll
 - Empty or full paper towel roll
 - Rubber bands
+- Ziploc sandwich bags.
 - Couch cushion/pillows
 - Broom
 
