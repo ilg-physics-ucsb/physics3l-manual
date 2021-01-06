@@ -146,8 +146,8 @@ In this exercise we will measure g using the accelerometer in your phone. We wil
 
 The instructions in the video are just a guide for how you might perform the experiment. You may follow the video exactly, but feel free to make any improvements to the procedure.
 
-:::Figure:Video
-!(https://www.youtube.com/watch?v=b2t__LSNqn8)
+:::Video
+<iframe width="800" height="500" src="https://www.youtube.com/embed/b2t__LSNqn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
  
  1. Start by opening Phyphox and selecting the "Acceleration With g" sensor again. 
@@ -166,7 +166,6 @@ The instructions in the video are just a guide for how you might perform the exp
 :::Question
 Write a brief paragraph (or two) describe how you made the measurement. If you made any improvements to the procedure describe them here and explain why you did what you did.
 :::
-
 
 ::::::
 
