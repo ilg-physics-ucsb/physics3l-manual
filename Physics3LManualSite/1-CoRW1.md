@@ -85,7 +85,7 @@ Consider a ball being dropped from a height $h_{0}$ above the floor.
 
 The time between subsequent bounces will be referred to as **time of flight**. The time between the first bounce and second bounce will be denoted by $t_1$ , the time between the second bounce and third bounce will be denoted by $t_2$, etc. Between the $nth$ and $(n+1)th$ bounce, the time of fight is $t_n$.
 
-:::Exercise
+::::::Exercise
 We want to find the coefficient of restitution $\epsilon$ between the ball and the floor.  We will be able to measure the time of flight between subsequent bounces, but not the velocities before and after each impact.
 :::Question
 1. Using kinematics, find a relationship between the time of flight $t_n$ and the velocity of the ball  after the $nth$ bounce.
@@ -94,7 +94,7 @@ We want to find the coefficient of restitution $\epsilon$ between the ball and t
 
 3. Given your answers to the previous parts of this question and the definition of $\epsilon$, find the coefficient of restitution $\epsilon$ in terms of the subsequent times of flight $t_n$ and $t_{n+1}$.
 :::
-:::
+::::::
 
 :::Note
 The times of flight between bounces are the only raw data you will collect.
@@ -103,7 +103,7 @@ The times of flight between bounces are the only raw data you will collect.
 ### Maximum height after each bounce
 After the ball is initially dropped and bounces the first time, it reaches a **maximum height** $h_{1}$. Subsequent bounces achieve maximum heights $h_2, h_3, ...$. After the $nth$ bounce, the ball reaches maximum height $h_n$.
 
-:::Exercise 
+::::::Exercise 
 We would like to predict the maximum height that the ball reaches after each bounce.
 
 :::Question
@@ -120,7 +120,7 @@ Now let us try to predict a mathematical formula for the maximum heights $h_n$ a
 
 **Hint**: What is $h_2/h_1$  in terms of $\epsilon$? What is $h_3/h_2$ in terms of $\epsilon$? What is $(\frac{h_3}{h_2})(\frac{h_2}{h_1}) = \frac{h_3}{h_1}$  in terms of  $\epsilon$?
 :::
-:::
+::::::
 ### Energy loss during collisions
 The coefficient of restitution can be thought of as a measure of the energy lost during the collision, since the velocity of the ball has decreased, and $\epsilon$ is a measure of the change in velocities.
 
