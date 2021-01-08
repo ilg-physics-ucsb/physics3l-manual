@@ -24,7 +24,7 @@
 Our job in this lab will be to verify Newton's Experimental Law, calculate $\epsilon$ for different balls, hypothesize what effects this constant, and use our results to make & test a prediction. While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a, perhaps, unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.
 
 :::Note
-Note about threshold
+If you find that your Acoustic Stopwatch is stopping or starting when you don't expect it to, you may need to adjust the threshold. The default is $0.1$ a.u. Increasing the threshold means the sound will have to be **louder** in trip the stopwatch. Decreasing it means **quieter** sounds will trip the stop watch. Adjust accordingly.
 :::
 
 :::Note
