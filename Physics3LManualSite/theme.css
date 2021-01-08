@@ -95,6 +95,7 @@ body {
 
 .Materials{
     background-color: white;
+    width: 95%;
 }
 .Materials header{  
     background-color: var(--primary);
