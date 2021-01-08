@@ -31,9 +31,9 @@ As a reminder, the kinematics formulas for motion under constant acceleration ar
 
 $$v(t)=v_0+at$$
 
-$$x(t)=x_0+v_0t+\frac{1}{2}at^2$$
+$$y(t)=y_0+v_0t+\frac{1}{2}at^2$$
 
-, where  $x_0$ and $v_0$ are the initial position and velocity, and  $a$ is the constant acceleration.
+, where  $y_0$ and $v_0$ are the initial position and velocity, and  $a$ is the constant acceleration.
 :::
  Once the ball hits the floor and bounces, it loses some amount of its total energy. This is evidenced by the fact that the ball will not bounce for the rest of eternity --- its successive heights quickly decrease until the ball comes to rest.
 
@@ -88,11 +88,11 @@ The time between subsequent bounces will be referred to as **time of flight**. T
 :::Exercise
 We want to find the coefficient of restitution $\epsilon$ between the ball and the floor.  We will be able to measure the time of flight between subsequent bounces, but not the velocities before and after each impact.
 :::Question
-(a) Using kinematics, find a relationship between the time of flight $t_n$ and the velocity of the ball  after the $nth$ bounce.
+1. Using kinematics, find a relationship between the time of flight $t_n$ and the velocity of the ball  after the $nth$ bounce.
 
-(b) What is the relationship between the velocity right after the $nth$ bounce and the velocity right before the $(n+1)th$ bounce?
+2. What is the relationship between the velocity right after the $nth$ bounce and the velocity right before the $(n+1)th$ bounce?
 
-(b) Given your answers to the previous parts of this question and the definition of $\epsilon$, find the coefficient of restitution $\epsilon$ in terms of the subsequent times of flight $t_n$ and $t_{n+1}$.
+3. Given your answers to the previous parts of this question and the definition of $\epsilon$, find the coefficient of restitution $\epsilon$ in terms of the subsequent times of flight $t_n$ and $t_{n+1}$.
 :::
 :::
 
@@ -114,14 +114,14 @@ Now let us try to predict a mathematical formula for the maximum heights $h_n$ a
 
 
 :::Question
-(a) Rewrite the coefficient of restitution $\epsilon$ in terms of the consecutive maximum heights $h_n$ and $h_{n+1}$.
+1. Rewrite the coefficient of restitution $\epsilon$ in terms of the consecutive maximum heights $h_n$ and $h_{n+1}$.
 
-(b) Using your equation for $\epsilon$ in terms of maximum bounce heights, derive an equation that gives the height of the ball after the $nth$ bounce in terms of the maximum height $h_1$ and $\epsilon$. 
+2. Using your equation for $\epsilon$ in terms of maximum bounce heights, derive an equation that gives the height of the ball after the $nth$ bounce in terms of the maximum height $h_1$ and $\epsilon$. 
 
-Hint: What is $h_2/h_1$  in terms of $\epsilon$? What is $h_3/h_2$ in terms of $\epsilon$? What is $(\frac{h_3}{h_2})(\frac{h_2}{h_1}) = \frac{h_3}{h_1}$  in terms of  $\epsilon$?
+**Hint**: What is $h_2/h_1$  in terms of $\epsilon$? What is $h_3/h_2$ in terms of $\epsilon$? What is $(\frac{h_3}{h_2})(\frac{h_2}{h_1}) = \frac{h_3}{h_1}$  in terms of  $\epsilon$?
 :::
 :::
-### Energy lost during collisions
+### Energy loss during collisions
 The coefficient of restitution can be thought of as a measure of the energy lost during the collision, since the velocity of the ball has decreased, and $\epsilon$ is a measure of the change in velocities.
 
 :::Exercise
@@ -130,11 +130,11 @@ The ball only loses energy during the collisions. Energy is conserved between co
 Consider the floor to be the reference for zero potential energy.
 
 :::Question
-(a) Find the coefficient of restitution in terms of the ball's kinetic energy **just before** and **just after** the $nth$ collision ($n\geq2$). 
+1. Find the coefficient of restitution in terms of the ball's kinetic energy **just before** and **just after** the $nth$ collision ($n\geq2$). 
 
-(b) If the coefficient of restitution is $\epsilon=0$, what does that imply about the energy lost during the collision? 
+2. If the coefficient of restitution is $\epsilon=0$, what does that imply about the energy lost during the collision? 
 
-(b) If the coefficient of restitution is $\epsilon=1$, what does that imply about the energy lost during the collision? 
+3. If the coefficient of restitution is $\epsilon=1$, what does that imply about the energy lost during the collision? 
 :::
 
 We know that the total energy of the ball is purely kinetic when it bounces off the floor, and the energy is purely gravitational when the ball reaches maximum bounce height.
@@ -153,15 +153,15 @@ Answer the following numerical question to make sure you know how to calculate t
 
 :::Question
 
-(a)  If the time between two consecutive bounces was 2 seconds, determine the maximum height reached in this period.
+1.  If the time between two consecutive bounces was 2 seconds, determine the maximum height reached in this period.
 
-(b)  If the time to the next consecutive bounce was 1 second, calculate the maximum height during this time period.
+2.  If the time to the next consecutive bounce was 1 second, calculate the maximum height during this time period.
 
-(c) Calculate the percent energy lost after the second bounce using the heights determined above.
+3. Calculate the percent energy lost after the second bounce using the heights determined above.
 
-(d) Do you think this ball is a "good" bouncer? Why or why not?
+4. Do you think this ball is a "good" bouncer? Why or why not?
 
-(e) What is the coefficient of restitution of this ball?
+5. What is the coefficient of restitution of this ball?
 :::
 
 
@@ -185,13 +185,7 @@ Take a picture of your two bouncy balls (or ball and two surfaces) and include i
 
 Be sure that you can use and access the "Acoustic Stopwatch" module. This module conveniently reports the time between "loud" sounds, so you don't even have to look at the graphs yourself.
 
-:::Note
-Note about threshold
-:::
 
-:::Note
-Note that there is an "Inelastic Collision" experiment module bundled with Phyphox, but it doesn't give you all the data needed for this lab, and our testing has suggested it is *less* accurate than the procedure given below. In other words, don't use it :)
-:::
 
 # Conclusion
 

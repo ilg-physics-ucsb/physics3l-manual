@@ -23,6 +23,14 @@
 ## 1. Overview
 Our job in this lab will be to verify Newton's Experimental Law, calculate $\epsilon$ for different balls, hypothesize what effects this constant, and use our results to make & test a prediction. While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a, perhaps, unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.
 
+:::Note
+Note about threshold
+:::
+
+:::Note
+Note that there is an "Inelastic Collision" experiment module bundled with Phyphox, but it doesn't give you all the data needed for this lab, and our testing has suggested it is *less* accurate than the procedure given below. In other words, don't use it :)
+:::
+
 :::Video
 ![Ball Being Dropped](../imgs/lab1/droppingball.gif)
 :::
