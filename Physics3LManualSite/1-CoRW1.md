@@ -22,65 +22,55 @@ You don't actually need these materials for this week but if you haven't procure
 
 # Theory: Kinematics, Collision and Energy Loss
 
-You have likely mastered the basic kinematic relations that govern projectile motion and collisions in previous introductory physics courses. In this lab, we will now investigate inelastic collisions, and energy loss to the environment.
+You have mastered the basic kinematic relations that govern projectile motion and collisions in previous introductory physics courses. In this lab, we will investigate inelastic collisions, and energy loss to the environment.
 
-When you drop a ball from rest, you can calculate its height over time until it hits the floor: the usual routine of applying Newton's equations for constant acceleration will give you a fairly accurate account of the ball's trajectory. Once the ball hits the floor, however, it loses some amount of its total energy. This is evidenced by the fact that the ball will not bounce for the rest of eternity --- its successive heights quickly decline until it comes to rest.
+Assume you drop a ball from a given height, and the ball is initially at rest.  The ball's position over time until it hits the floor can be calculated by applying the kinematics formulas for constant acceleration. These formulas will give you a fairly accurate account of the ball's trajectory.
 
-With this phenomena in mind, we can now ask about how to characterize this energy loss, if we can predict the successive bounce heights, and what the mathematical description of this kind of motion looks like. Can we develop equations which will be predictive, i.e. precise and accurate?
+::: Note
+As a reminder, the kinematics formulas for motion under constant acceleration are:
 
-:::Question
-1. You drop a ball of mass $m$ from a height of $h_0$ above the floor. Write the equation that gives the ball's height over time, until it hits the floor. 
+$$v(t)=v_0+at$$
 
-2. What is the equation for potential energy of the ball as a function of height? The floor is the reference for zero potential energy.
+$$x(t)=x_0+v_0t+\frac{1}{2}at^2$$
 
-3. What is the total energy of the the ball as function of height, if it was dropped from a height of $h_{max}$.
-
-4. Using (c) and (b) and the conservation of energy, what is the kinetic energy as a function of height?
+, where  $x_0$ and $v_0$ are the initial position and velocity, and  $a$ is the constant acceleration.
 :::
+ Once the ball hits the floor and bounces, it loses some amount of its total energy. This is evidenced by the fact that the ball will not bounce for the rest of eternity --- its successive heights quickly decrease until the ball comes to rest.
+
+With this phenomena in mind, we can now ask about how to characterize this energy loss, if we can predict the successive bounce heights, and what the mathematical description of this kind of motion looks like. Can we develop equations which will be predictive?
+
 
 ## 1. The Coefficient of Restitution
-When a ball bounces, and hence loses energy, your first observation may be that the speed of the ball is reduced. This observation is what led Newton to propose "Newton's Experimental Law", which is now characterized by a quantity known as the coefficient of restitution.
+When the ball from our previous example bounces from the floor, it loses energy during the collision. Your first observation may be that the speed of the ball has decreased. This observation is what led Newton to propose "Newton's Experimental Law."
 
-**Newton's Experimental Law** states the following:  given a pair of bodies in collision, the ratio of final relative speed to initial relative speed is always the same.
+:::Note
+**Newton's Experimental Law** states that  for a specified pair of bodies in collision, the ratio of the final relative speed to initial relative speed is always the same.
 
-In our ball drop experiment, one of these bodies is "Earth" and the other is our ball. Since we are naturally measuring our ball's velocity with respect to Earth (with the Earth's velocity change due to a tennis ball being negligible, of course!), we obtain the following mathematical sentence:
+The ratio of these two speeds is called the coefficient of restitution and has the symbol $\epsilon$. This value is constant for a given pair of bodies.
+:::
+
+In our ball drop experiment, one of these bodies is "Earth" and the other is our ball. Since we are naturally measuring our ball's velocity with respect to Earth (with the Earth's velocity change due to a tennis ball being negligible, of course!), we obtain:
 
 :::Equation
 $$
-\epsilon = v_f/v_0
+\epsilon = v_f/v_i
 $$
 :::
 
-Which, in ideal circumstances, applies to all collisions between these two bodies. The $\epsilon$ here is our definition of the [coefficient of restitution](https://en.wikipedia.org/wiki/Coefficient_of_restitution). 
+, where $v_f$ is the speed of the ball after the bounce, and $v_i$ is the speed of the ball before the impact with the floor.
 
-:::Question
-1. Rewrite equation 1 in terms of the ball's kinetic energy **just before** and **just after** collision.
-
-2. Using your answer to Question 1.d, rewrite your answer for Question 2.a, in terms of the height of the ball. **Hint:** The max height of the ball will change after it bounces off the ground. Therefore you need a new max height.
-
-3. From Question 1, if $\epsilon=0$, what is the ball's energy after the first bounce? What is its next maximum height?
-
-4. If $\epsilon=1$, what is the ball's energy after the first bounce? What is its next maximum height?
-:::
+In ideal circumstances, the coefficient of restitution is the same for all collisions between these two bodies (our particular ball and the Earth). The $\epsilon$ here is our definition of the [coefficient of restitution](https://en.wikipedia.org/wiki/Coefficient_of_restitution). 
 
 # The Experiment
 
 ## 1. Overview
-Our job in this lab will be to verify Newton's Experimental Law, calculate $\epsilon$ for different balls, hypothesize what effects this constant, and use our results to make & test a prediction. While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a, perhaps, unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.
+In this lab we will investigate Newton's Experimental Law by observing  a ball bounce from the floor multiple times. We will calculate $\epsilon$ for two different balls, understand how energy is lost to the environment during each collision, and use our results to predict subsequent bounce heights. 
 
-The reason for doing this is quite simple: sound data are "cheap" and easy to analyze. Unlike video, which requires an immense increase in pixels (and thus data) in order to improve sampling rate & accuracy, sound data is one dimensional, letting us have a suitably fast sampling rate to make precise measurements. In this experiment, we really only need a few numbers: the times that the ball hits the ground-- we can calculate all other quantities of interest from this. Sound is more than adequate for this task, and video would waste resources on capturing information about the entire environment, colors, lighting etc., which we will ultimately toss out.
+While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a perhaps unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.
 
-This kind of thinking is actually critical to real experimental physics: often experiments are limited by data quality and equipment costs, so a bit of creative problem solving goes a long way in a real lab! Only measure what you need to!
+The reason for doing this is quite simple: sound data are "cheap" and easy to analyze. Unlike video, which requires an immense increase in pixels (and thus data) in order to improve sampling rate and accuracy, sound data is one dimensional, letting us have a suitably fast sampling rate to make precise measurements. In this experiment, we really only need a few numbers: the times between bounces of the ball. We can calculate all other quantities of interest from this. Sound is more than adequate for this task, and video would waste resources on capturing information about the entire environment, colors, lighting etc., which we will ultimately toss out.
 
-Be sure that you can use and access the "Acoustic Stopwatch" module. This module conveniently reports the time between "loud" sounds, so you don't even have to look at the graphs yourself.
-
-:::Note
-Note about threshold
-:::
-
-:::Note
-Note that there is an "Inelastic Collision" experiment module bundled with Phyphox, but it doesn't give you all the data needed for this lab, and our testing has suggested it is *less* accurate than the procedure given below. In other words, don't use it :)
-:::
+This approach is actually critical to real experimental physics: often experiments are limited by data quality and equipment costs, so a bit of creative problem solving goes a long way in a real lab! Only measure what you need to!
 
 A brief demonstration of the data collection portion of the lab can be seen in Video 1. 
 
@@ -88,18 +78,90 @@ A brief demonstration of the data collection portion of the lab can be seen in V
 ![Ball Being Dropped](../imgs/lab1/droppingball.gif)
 :::
 
+
+### Time of flight
+
+Consider a ball being dropped from a height $h_{0}$ above the floor. 
+
+The time between subsequent bounces will be referred to as **time of flight**. The time between the first bounce and second bounce will be denoted by $t_1$ , the time between the second bounce and third bounce will be denoted by $t_2$, etc. Between the $nth$ and $(n+1)th$ bounce, the time of fight is $t_n$.
+
+:::Exercise
+We want to find the coefficient of restitution $\epsilon$ between the ball and the floor.  We will be able to measure the time of flight between subsequent bounces, but not the velocities before and after each impact.
 :::Question
-Answer the following "practice" questions to make sure you know how to calculate the relevant quantities for your experiment:
+(a) Using kinematics, find a relationship between the time of flight $t_n$ and the velocity of the ball  after the $nth$ bounce.
 
-1. Say the time between two consecutive bounces was 2 seconds. Using your knowledge of basic kinematics, determine the max height reached in this period.
+(b) What is the relationship between the velocity right after the $nth$ bounce and the velocity right before the $(n+1)th$ bounce?
 
-2. What is the total energy *density* of the ball during this period? This is just the energy divided by the mass (so you don't have to worry about weighing it). Give your answer with appropriate units
+(b) Given your answers to the previous parts of this question and the definition of $\epsilon$, find the coefficient of restitution $\epsilon$ in terms of the subsequent times of flight $t_n$ and $t_{n+1}$.
+:::
+:::
 
-3. If the time to the next consecutive bounce was 1 second calculate the max height and energy density of the ball during this time period.
+:::Note
+The times of flight between bounces are the only raw data you will collect.
+:::
 
-4. Calculate the percent energy lost after the second bounce.
+### Maximum height after each bounce
+After the ball is initially dropped and bounces the first time, it reaches a **maximum height** $h_{1}$. Subsequent bounces achieve maximum heights $h_2, h_3, ...$. After the $nth$ bounce, the ball reaches maximum height $h_n$.
 
-5. Do you think this ball is a "good" bouncer? Why or why not?
+:::Exercise 
+We would like to predict the maximum height that the ball reaches after each bounce.
+
+:::Question
+Using kinematics, find the maximum height $h_n$ in terms of the time of flight $t_n$.
+
+:::
+Now let us try to predict a mathematical formula for the maximum heights $h_n$ as a function of the bounce number $n$.
+
+
+:::Question
+(a) Rewrite the coefficient of restitution $\epsilon$ in terms of the consecutive maximum heights $h_n$ and $h_{n+1}$.
+
+(b) Using your equation for $\epsilon$ in terms of maximum bounce heights, derive an equation that gives the height of the ball after the $nth$ bounce in terms of the maximum height $h_1$ and $\epsilon$. 
+
+Hint: What is $h_2/h_1$  in terms of $\epsilon$? What is $h_3/h_2$ in terms of $\epsilon$? What is $(\frac{h_3}{h_2})(\frac{h_2}{h_1}) = \frac{h_3}{h_1}$  in terms of  $\epsilon$?
+:::
+:::
+### Energy lost during collisions
+The coefficient of restitution can be thought of as a measure of the energy lost during the collision, since the velocity of the ball has decreased, and $\epsilon$ is a measure of the change in velocities.
+
+:::Exercise
+The ball only loses energy during the collisions. Energy is conserved between collisions. We will denote $E_1$ the total energy of the ball after the first collision,$E_2$ the total energy of the ball after the second collision, etc.
+
+Consider the floor to be the reference for zero potential energy.
+
+:::Question
+(a) Find the coefficient of restitution in terms of the ball's kinetic energy **just before** and **just after** the $nth$ collision ($n\geq2$). 
+
+(b) If the coefficient of restitution is $\epsilon=0$, what does that imply about the energy lost during the collision? 
+
+(b) If the coefficient of restitution is $\epsilon=1$, what does that imply about the energy lost during the collision? 
+:::
+
+We know that the total energy of the ball is purely kinetic when it bounces off the floor, and the energy is purely gravitational when the ball reaches maximum bounce height.
+
+We will focus on the percent energy loss during each collision. The percent energy loss is the energy lost during the collision divided by the initial energy of the ball.
+
+$$\Delta E_n=(E_{n+1}-E_{n})/E_{n}$$
+
+:::Question
+Derive an equation that determines the percent energy loss after the $nth$ bounce in terms of the maximum bounce heights $h_n$ and $h_{n+1}$.
+:::
+
+:::
+
+Answer the following numerical question to make sure you know how to calculate the relevant quantities for your experiment:
+
+:::Question
+
+(a)  If the time between two consecutive bounces was 2 seconds, determine the maximum height reached in this period.
+
+(b)  If the time to the next consecutive bounce was 1 second, calculate the maximum height during this time period.
+
+(c) Calculate the percent energy lost after the second bounce using the heights determined above.
+
+(d) Do you think this ball is a "good" bouncer? Why or why not?
+
+(e) What is the coefficient of restitution of this ball?
 :::
 
 
@@ -121,9 +183,19 @@ Take a picture of your two bouncy balls (or ball and two surfaces) and include i
 :::
 ::::::
 
+Be sure that you can use and access the "Acoustic Stopwatch" module. This module conveniently reports the time between "loud" sounds, so you don't even have to look at the graphs yourself.
+
+:::Note
+Note about threshold
+:::
+
+:::Note
+Note that there is an "Inelastic Collision" experiment module bundled with Phyphox, but it doesn't give you all the data needed for this lab, and our testing has suggested it is *less* accurate than the procedure given below. In other words, don't use it :)
+:::
+
 # Conclusion
 
 ::: Exercise
 1. Give a short summary of Newton's Experimental Law. 
-2. Give a quick summary of the import parts of this lab.
+2. Give a quick summary of the important parts of this lab.
 :::
