@@ -8,7 +8,7 @@ You don't actually need these materials for this week but if you haven't procure
 - Phyphox "Acoustic Stopwatch" or an audio recording device that shows sound amplitude
 :::
 
-## Lab Goals:
+## Lab Goals
 
 - **Construct an apparatus**
 	- Find two "bouncy" balls that can bounce off a surface at least six times.
@@ -78,7 +78,7 @@ A brief demonstration of the data collection portion of the lab can be seen in V
 :::
 
 
-### Time of flight
+## 2. Time of flight
 
 Consider a ball being dropped from a height $h_{0}$ above the floor. 
 
@@ -99,8 +99,12 @@ We want to find the coefficient of restitution $\epsilon$ between the ball and t
 The times of flight between bounces are the only raw data you will collect.
 :::
 
-### Maximum height after each bounce
+## 3. Maximum height after each bounce
 After the ball is initially dropped and bounces the first time, it reaches a **maximum height** $h_{1}$. Subsequent bounces achieve maximum heights $h_2, h_3, ...$. After the $nth$ bounce, the ball reaches maximum height $h_n$.
+
+:::Figure
+![Bounces](../imgs/lab1/bounces_plot.png)
+:::
 
 ::::::Exercise 
 We would like to predict the maximum height that the ball reaches after each bounce.
@@ -120,7 +124,7 @@ Now let us try to predict a mathematical formula for the maximum heights $h_n$ a
 **Hint**: What is $h_2/h_1$  in terms of $\epsilon$? What is $h_3/h_2$ in terms of $\epsilon$? What is $(\frac{h_3}{h_2})(\frac{h_2}{h_1}) = \frac{h_3}{h_1}$  in terms of  $\epsilon$?
 :::
 ::::::
-### Energy loss during collisions
+## 4. Energy loss during collisions
 The coefficient of restitution can be thought of as a measure of the energy lost during the collision, since the velocity of the ball has decreased, and $\epsilon$ is a measure of the change in velocities.
 
 ::::::Exercise
@@ -129,7 +133,7 @@ The ball only loses energy during the collisions. Energy is conserved between co
 Consider the floor to be the reference for zero potential energy.
 
 :::Question
-1. Find the coefficient of restitution in terms of the ball's kinetic energy **just before** and **just after** the $nth$ collision ($n\geq2$). 
+1. Find the coefficient of restitution in terms of the ball's kinetic energy just before and just after the $nth$ collision ($n\geq2$). 
 
 2. If the coefficient of restitution is $\epsilon=0$, what does that imply about the energy lost during the collision? 
 
@@ -141,11 +145,11 @@ We know that the total energy of the ball is purely kinetic when it bounces off 
 We will focus on the percent energy loss during each collision. The percent energy loss is the energy lost during the collision divided by the initial energy of the ball.
 
 :::Equation
-$$\Delta E_n=(E_{n+1}-E_{n})/E_{n}$$
+$$\Delta E_n=(E_{n}-E_{n-1})/E_{n-1}$$
 :::
 
 :::Question
-Derive an equation that determines the percent energy loss after the $nth$ bounce in terms of the maximum bounce heights $h_n$ and $h_{n+1}$.
+Derive an equation that determines the percent energy loss after the $nth$ bounce in terms of the maximum bounce heights $h_{n}$ and $h_{n-1}$.
 :::
 
 ::::::
