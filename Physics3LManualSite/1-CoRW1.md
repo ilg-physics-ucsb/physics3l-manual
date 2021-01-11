@@ -67,7 +67,17 @@ In ideal circumstances, the coefficient of restitution is the same for all colli
 # The Experiment
 
 ## 1. Overview
-In this lab we will investigate Newton's Experimental Law by observing a ball bounce off the floor multiple times. We will calculate $\epsilon$ for two different balls, understand how energy is lost to the environment during each collision, and use our results to predict subsequent bounce heights. 
+In this lab we will investigate Newton's Experimental Law by observing a ball bounce off the floor multiple times. Simulation 1 provides a simplified demonstration of the lab. The simulation shows the height of the ball (as measured from the bottom) of the ball over times. You can adjust the coefficient of restitution to see how different values of $\epsilon$ will affect the balls bounces.
+
+:::Simulation
+
+1. Press the play button by the $t$ slider. Watch what happens.
+2. Adjust the $\epsilon$ slider, slide $t$ back to $0$, and hit play again. 
+
+<iframe src="https://www.desmos.com/calculator/1hpdupmzuc" width="100%" height="800px" style="border: 1px solid #ccc" frameborder=3px></iframe>
+:::
+
+We will calculate $\epsilon$ for two different balls, understand how energy is lost to the environment during each collision, and use our results to predict subsequent bounce heights.
 
 While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a perhaps unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.
 
@@ -75,10 +85,24 @@ The reason for doing this is quite simple: sound data are "cheap" and easy to an
 
 This approach is actually critical to real experimental physics: often experiments are limited by data quality and equipment costs, so a bit of creative problem solving goes a long way in a real lab. Only measure what you need to!
 
-A brief demonstration of the data collection portion of the lab can be seen in Video 1. 
+A brief demonstration of the data collection portion of the lab can be seen in Video 1.
 
 :::Video
 ![Ball Being Dropped](../imgs/lab1/droppingball.gif)
+:::
+
+:::Note
+**Summary**
+
+- You will drop a ball and use Phyphox to record the time between two bounces (the "time of flight").
+- From the time of flight you will calculate the coefficient of restitution, maximum height per bounce, the percent energy loss per bounce.
+- You will use the three calculated values above to check if your ball obeys Newton's Experimental Law.
+- You will use your results to make a prediction about the height of the ball on its second bounce and verify your prediction.
+
+:::
+
+:::Note
+The following three sections you will get prepared to calculate the coefficient of restitution, the maximum height of the bounce, and the percent energy loss in week 2 of this lab.
 :::
 
 
@@ -177,7 +201,7 @@ Answer the following numerical question to make sure you know how to calculate t
 :::
 
 
-## 2. Preparation
+## 5. Preparation
 
 :::::: Exercise
 When you collect data for the lab next week you will preferably need two types of bouncy balls. Some examples include:
