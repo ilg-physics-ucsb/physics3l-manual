@@ -19,6 +19,10 @@ You don't actually need these materials for this week but if you haven't procure
 
 ---
 
+:::Note
+In this lab and subsequent labs, you must show all your work and justify your answers to receive full credit. 
+:::
+
 # Theory: Kinematics, Collision and Energy Loss
 
 You have mastered the basic kinematic relations that govern projectile motion and collisions in previous introductory physics courses. In this lab, we will investigate inelastic collisions, and energy loss to the environment.
@@ -30,9 +34,9 @@ As a reminder, the kinematics formulas for motion under constant acceleration ar
 
 $$v(t)=v_0+at$$
 
-$$y(t)=y_0+v_0t+\frac{1}{2}at^2$$
+$$y(t)=y_0+v_0t+\frac{1}{2}at^2 , $$
 
-, where  $y_0$ and $v_0$ are the initial position and velocity, and  $a$ is the constant acceleration.
+where  $y_0$ and $v_0$ are the initial position and velocity, and  $a$ is the constant acceleration. Depending on how you define your coordinate axis, the acceleration $a$ can be positive or negative.
 :::
  Once the ball hits the floor and bounces, it loses some amount of its total energy. This is evidenced by the fact that the ball will not bounce for the rest of eternity --- its successive heights quickly decrease until the ball comes to rest.
 
@@ -52,11 +56,11 @@ In our ball drop experiment, one of these bodies is "Earth" and the other is our
 
 :::Equation
 $$
-\epsilon = v_f/v_i
+\epsilon = v_f/v_i ,
 $$
 :::
 
-, where $v_f$ is the speed of the ball after the bounce, and $v_i$ is the speed of the ball before the impact with the floor.
+where $v_f$ is the speed of the ball after the bounce, and $v_i$ is the speed of the ball before the impact with the floor. Note that $\epsilon$ is defined in terms of speed, not velocity, so it will always be positive.
 
 In ideal circumstances, the coefficient of restitution is the same for all collisions between these two bodies (our particular ball and the Earth). The $\epsilon$ here is our definition of the [coefficient of restitution](https://en.wikipedia.org/wiki/Coefficient_of_restitution). 
 
@@ -82,25 +86,26 @@ A brief demonstration of the data collection portion of the lab can be seen in V
 
 Consider a ball being dropped from a height $h_{0}$ above the floor. 
 
-The time between subsequent bounces will be referred to as **time of flight**. The time between the first bounce and second bounce will be denoted by $t_1$ , the time between the second bounce and third bounce will be denoted by $t_2$, etc. Between the $nth$ and $(n+1)th$ bounce, the time of fight is $t_n$.
+The time between subsequent bounces will be referred to as **time of flight**. The time between the first bounce and second bounce will be denoted by $t_1$, the time between the second bounce and third bounce will be denoted by $t_2$, and in general, the time between the $n$th and $(n+1)$th bounce will be denoted by $t_n$.
 
 ::::::Exercise
 We want to find the coefficient of restitution $\epsilon$ between the ball and the floor.  We will be able to measure the time of flight between subsequent bounces, but not the velocities before and after each impact.
-:::Question
-1. Using the kinematics equation for position, find a relationship between the time of flight $t_n$ and the velocity of the ball after the $nth$ bounce. You should obtain a quadratic equation that has two solutions for the time $t_n$, but only one of them represents the time of flight.
 
-2. Using the kinematics equation for velocity and the time determined in the previous step, find the relationship between the velocity right after the $nth$ bounce and the velocity right before the $(n+1)th$ bounce?
+:::Question
+1. Using the kinematics equation for position, find a relationship between the time of flight $t_n$ and the velocity of the ball after the $n$th bounce. You should obtain a quadratic equation that has two solutions for the time $t_n$, but only one of them represents the time of flight.
+
+2. Using the kinematics equation for velocity and the relationship determined in the previous step, find the relationship between the velocity right after the $n$th bounce and the velocity right before the $(n+1)$th bounce?
 
 3. Given your answers to the previous parts of this question and the definition of $\epsilon$, find the coefficient of restitution $\epsilon$ in terms of the subsequent times of flight $t_n$ and $t_{n+1}$.
 :::
 ::::::
 
 :::Note
-The times of flight between bounces are the only raw data you will collect.
+The times of flight between bounces are the only raw data you will collect. 
 :::
 
 ## 3. Maximum height after each bounce
-After the ball is initially dropped and bounces the first time, it reaches a **maximum height** $h_{1}$. Subsequent bounces achieve maximum heights $h_2, h_3, ...$. After the $nth$ bounce, the ball reaches maximum height $h_n$.
+After the ball is initially dropped from heigth $h_0$ and bounces the first time, it reaches a **maximum height** $h_{1}$. Subsequent bounces achieve maximum heights $h_2, h_3, ...$. After the $n$th bounce, the ball reaches maximum height $h_n$.
 
 :::Figure
 ![Bounces](../imgs/lab1/bounces_plot.png)
@@ -119,21 +124,24 @@ Now let us try to predict a mathematical formula for the maximum heights $h_n$ a
 :::Question
 1. Rewrite the coefficient of restitution $\epsilon$ in terms of the consecutive maximum heights $h_n$ and $h_{n+1}$.
 
-2. Using your equation for $\epsilon$ in terms of maximum bounce heights, derive an equation that gives the height of the ball after the $nth$ bounce in terms of the maximum height $h_1$ and $\epsilon$. 
+2. Using your equation for $\epsilon$ in terms of maximum bounce heights, derive an equation that gives the height of the ball after the $n$th bounce in terms of the maximum height $h_1$ and $\epsilon$. 
 
 **Hint**: What is $h_2/h_1$  in terms of $\epsilon$? What is $h_3/h_2$ in terms of $\epsilon$? What is $(\frac{h_3}{h_2})(\frac{h_2}{h_1}) = \frac{h_3}{h_1}$  in terms of  $\epsilon$?
 :::
 ::::::
+
+Notice that we don't have any information before the first bounce, so we cannot determine $h_0$ or $t_0$.
+
 ## 4. Energy loss during collisions
 The coefficient of restitution can be thought of as a measure of the energy lost during the collision, since the velocity of the ball has decreased, and $\epsilon$ is a measure of the change in velocities.
 
 ::::::Exercise
-The ball only loses energy during the collisions. Energy is conserved between collisions. We will denote $E_1$ the total energy of the ball after the first collision, $E_2$ the total energy of the ball after the second collision, etc. $E_n$ represents the total energy of the ball after the $nth$ collision.
+The ball only loses energy during the collisions. Energy is conserved between collisions. We will denote $E_1$ the total energy of the ball after the first collision, $E_2$ the total energy of the ball after the second collision, and in general, $E_n$ will represent the total energy of the ball after the $n$th collision.
 
 Consider the floor to be the reference for zero potential energy.
 
 :::Question
-1. Find the coefficient of restitution in terms of the ball's kinetic energy just before and just after the $nth$ collision ($n\geq2$). 
+1. Find the coefficient of restitution in terms of the ball's kinetic energy just before and just after the $n$th collision ($n\geq2$). 
 
 2. If the coefficient of restitution is $\epsilon=0$, what does that imply about the energy lost during the collision? 
 
@@ -143,13 +151,14 @@ Consider the floor to be the reference for zero potential energy.
 We know that the total energy of the ball is purely kinetic when it bounces off the floor, and the energy is purely gravitational when the ball reaches maximum bounce height.
 
 We will focus on the percent energy loss during each collision. The percent energy loss is the energy lost during the collision divided by the initial energy of the ball.
+The percent energy lost during the $n$th collision is denoted by $PEL_n$.
 
 :::Equation
-$$\Delta E_n=(E_{n}-E_{n-1})/E_{n-1}$$
+$$PEL_n=\frac{E_{n-1}-E_{n}}{E_{n-1}}\times 100$$
 :::
 
 :::Question
-Derive an equation that determines the percent energy loss after the $nth$ bounce in terms of the maximum bounce heights $h_{n}$ and $h_{n-1}$.
+Derive an equation that determines the percent energy loss after the $n$th bounce in terms of the maximum bounce heights $h_{n}$ and $h_{n-1}$. 
 :::
 
 ::::::
@@ -164,9 +173,7 @@ Answer the following numerical question to make sure you know how to calculate t
 
 3. Calculate the percent energy lost after the second bounce using the heights determined above.
 
-4. Do you think this ball is a "good" bouncer? Why or why not?
-
-5. What is the coefficient of restitution of this ball?
+4. What is the coefficient of restitution of this ball when it bounces off the floor?
 :::
 
 
