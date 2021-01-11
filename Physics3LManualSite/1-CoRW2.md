@@ -28,7 +28,7 @@ Be sure to include all the tables, plots and reasoning in your **written report*
 In this lab we will investigate Newton's Experimental Law by observing a ball bounce off the floor multiple times. We will calculate $\epsilon$ for two different balls, use our results to predict subsequent bounce heights, and understand how energy is lost to the environment during each collision.
 
 :::Note
-If you find that your Acoustic Stopwatch is stopping or starting when you don't expect it to, you may need to adjust the threshold. The default is $0.1$ a.u. Increasing the threshold means the sound will have to be **louder** in trip the stopwatch. Decreasing it means **quieter** sounds will trip the stop watch. Adjust accordingly.
+If you find that your Acoustic Stopwatch is stopping or starting when you don't expect it to, you may need to adjust the threshold. The default is $0.1$ a.u. Increasing the threshold means the sound will have to be **louder** to trip the stopwatch. Decreasing it means **quieter** sounds will trip the stop watch. Adjust accordingly.
 :::
 
 :::Note
@@ -41,22 +41,29 @@ Note that there is an "Inelastic Collision" experiment module bundled with Phyph
 
 ## 2. Measure the times of flight between bounces
 
+:::Note
+In the Google assignment on Gauchospace you should have received a Google Doc template worksheet to fill out as well as a Google Sheets spreadsheet.
+
+Use this spreadsheet to record and analyze you data. It will be submitted along with your worksheet.
+
+**Note:** There are two tabs at the bottom of the spreadsheet. One for each ball.
+:::
+
 ---
 
 :::::: Exercise
 Follow the steps below to collect data using the Acoustic Stopwatch module in Phyphox.
 
-1. Open your acoustic timer in "sequence mode". This mode will record the times between 6 successive sounds (and thus 5 times of flight).
+1. Open your acoustic timer in "sequence mode". This mode will record the times between 6 successive sounds (and thus 5 times of flight). If you need to adjust the threshold (see note above) you must do this from the "simple mode".
 2. In a large, open area, place your phone on the ground with the microphone pointing down. For example, in the video above, the phone is propped against the back wall.
 3. Hold the ball at the height of a nearby marker, such as a doorknob or counter top. 
-4. For determining the coefficient of restitution, bounce heights, or energy loss during collisions, the initial drop height does not have to be the same each run. However, we will want to look at the average across your five runs throughout your calculations, thus you should try to *make each initial drop height the same across runs*.
+4. For determining the coefficient of restitution or energy loss during collisions, the initial drop height does not have to be the same each run. However, for the maximum bounce heights, the initial height is important. Since we want to average across different runs of the experiment you should try to *make each initial drop height the same*.
 5. Press "Reset" on the app to clear any accidental data.
 6. Drop the ball and let 5 times of flight register. If your ball knocks into an object or travels too far away, you will have to redo that run. Be sure to double check your times and make sure they are monotonically decreasing.
-7. Record these times on a spreadsheet and repeat the procedure for each ball at least 5 times.
-
+7. Record these times in the spreadsheet provided for you in the Google assignment and repeat the procedure for each ball at least 5 times.
 
 :::Question
-Step 4 above claims that the initial ball drop height doesn't have to be exactly the same each run. Why is that the case? Hint: Review "Newton's Experimental Law".
+Step 4 above claims that the initial ball drop height doesn't have to be exactly the same each run for determining the coefficient of restitution or energy loss during collisions. Why is that the case? Hint: Review "Newton's Experimental Law".
 :::
 
 :::Question
@@ -65,9 +72,11 @@ Step 4 above also states you should try to use the same initial heights for each
 
 ::::::
 
-## 3. Data Analysis: Recording the Times of Flight
+# Data Analysis
 
-### Using Equations in Spreadsheets
+For each ball you should have recorded 5 runs, with 5 times of flight each, for a total of 25 data points per ball. We will use these data points to calculate some quantities of interest, such as the coefficient of restitution, the maximum bounce heights, and the percent energy loss per bounce.
+
+## 1. Using Equations in Spreadsheets
 
 To refresh your knowledge on how to manipulate data and use equations in a spreadsheet, watch the video below.
 
@@ -75,41 +84,15 @@ To refresh your knowledge on how to manipulate data and use equations in a sprea
 <iframe width="800" height="500" src="https://www.youtube.com/embed/Zi3H_8JV3jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-For each ball you should have recorded 5 runs, with 5 times of flight each, for a total of 25 data points per ball. We will use these data points to calculate some quantities of interest, such as the coefficient of restitution, the maximum bounce heights, and the percent energy loss per bounce. 
-
-:::Exercise
-
-We will be recording the data and performing our analysis in a spreadsheet.
-
-1. For one of your balls, make a table such as the one below (or use the one provided in the template). Title this table "Time of Flight during Bounce"
 
 
-| Bounce # | Run 1 (s) | Run 2 (s) | Run 3 (s) | Run 4 (s)  | Run 5 (s) | Average Time of Flight (s) | Standard Deviation (s)
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- |-------- |
-| 1    |      |     |     |     |     |     |     |
-| ...   |      |     |     |     |     |     |     |
-| 5   |      |     |     |     |     |     |     |
-
-
-
-For convenience, we have a template of an [organized google sheet](https://docs.google.com/spreadsheets/d/1BLGy1LDlR9DbBSJBjNng0Bqsdq2v0hdrRohqFt27sUM/edit?usp=sharing) that you can use for your data. If you wish to use the template, please make your own copy of it. 
-Note: You will still have to fill in the correct sheet formulas and make the required plots on your own.
-
-
-2. Fill this table with the data you collected from the first ball in Exercise 1. In the last two columns use a spreadsheet equation to calculate the average time of flight for each bounce and a spreadsheet equation to calculate the standard deviation for each bounce.
-
-3. Repeat the above steps with the data from your second ball.
-:::
-
-
-## 4. Data Analysis: Determining the Coefficient of Restitution
-
+## 2. Determining the Coefficient of Restitution
 
 ::::::Exercise
 
-1. Make a table (or use the template table) to calculate the measured coefficient of restitution $\epsilon$ for each bounce using the recorded time of flights. Use the formula you derived in Week 1 Question 1 relating the coefficient of restitution $\epsilon$ to the times of flight $t_n$ and $t_{n+1}$.
-2. Calculate the total average over all 5 x 4= 20 measurements of $\epsilon$ per ball.
-3. Calculate the standard deviation over all measurements.
+1. In the provided Google Sheet, calculate the measured coefficient of restitution $\epsilon$ for each bounce using the recorded time of flights. Use the formula you derived in Week 1 Question 1 relating the coefficient of restitution $\epsilon$ to the times of flight $t_n$ and $t_{n+1}$.
+2. Using the "AVERAGE" function in Google Sheets, calculate the total average over all 5 x 4= 20 measurements of $\epsilon$ per ball.
+3. Using the "STDEV" function in Google Sheets, calculate the standard deviation over all measurements.
 4. Repeat this exercise with the data from your other ball.
 
 :::Question
@@ -118,30 +101,61 @@ Report your average $\epsilon$ and the standard deviation for each ball, based o
 Measured coefficient of restitution =$(\epsilon_{average} \pm  STD)$ 
 :::
 
+:::Note
+Make sure to include a copy of this table in your written lab report. **You need to do this for all your tables, but we won't remind you again.**
+:::
+
 ::::::
 
-## 5. Data Analysis: Determining maximum bounce heights
+## 3. Making a plot
+
+Making plots is an important part of data analysis and presentation. Humans are visual creatures and it is much easier for us to find patterns and features in a plot than it is by looking at a table.
+
+However, in order for plots to be useful for your future self and for others, they need to be properly formatted. In this lab course we will use the following guidelines when making a plot.
+
+**Guidelines**
+
+- Plots should have a title that explains the point of the graph.
+- Each axis should be labelled with the units included.
+- The type of plot should be a scatter plot. This means that the data points should not be connected.
+- If you are fitting the data, you should include the equation of the line you are using.
+- If you are plotting multiple data set on the same graph make sure to use a legend so each data set can be identified.
+
+In one of the exercises below you will perform a curve fit to your data. For the exercise you will fit a line to your data. When we perform a fit, when possible we also want to get quantitative results from the fit. The video below will guide you through how to create a plot, perform a fit, and get quantitative results about the slope and intercept.
+
+The video imagines a scenario where you are driving from San Francisco to San Diego. You create a plot of distance in kilometers against time in hours. You perform a fit of the data to determine the velocity at which you were travelling.
+
+:::Video
+<iframe width="800" height="500" src="https://www.youtube.com/embed/wkqlSuAoFLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+:::
+
+## 4. Determining maximum bounce heights
+
 ::::::Exercise
 
-1. Make a table in which you calculate the maximum bounce heights corresponding to each of the 5 times of flight in each run. Title this table "Maximum Height for Each Bounce." **Be sure to include units.**
-
-| Bounce # | Run 1 (m) | Run 2 (m) | Run 3 (m) | Run 4 (m)  | Run 5 (m) | Average Maximum Height (m) | Standard Deviation (m)
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- |-------- |
-| 1    |      |     |     |     |     |     |     |
-| ...   |      |     |     |     |     |     |     |
-| 5   |      |     |     |     |     |     |     |
+1. Use the table provided in the attached Google Sheet to calculate the maximum bounce heights corresponding to each of the 5 times of flight in each run. The title this table "Max Height of Ball During Flight."
 
 2. In the last two columns use a spreadsheet equation to calculate the average of the maximum height for each bounce, which we will denote by $\overline{h_n}$.  In the last column use a spreadsheet equation to calculate the standard deviation of $\overline{h_n}$ for each bounce.
 
-Now that we calculated the average of the maximum heights, $\overline{h_n}$,  for each bounce, we want to determine how the they depend on the bounce number $n$. 
+Now that we calculated the average of the maximum heights, $\overline{h_n}$, for each bounce, we want to determine how the they depend on the bounce number $n$.
 
-2. Make a plot of $\overline{h_n}$ as a function of the bounce number $n$ for each run of your ball. Hint: Make sure you include all elements of a good graph (e.g. properly labeled axes with units, graph title, etc).
+3. Make a plot of $\overline{h_n}$ as a function of the bounce number $n$ for each run of your ball. **Hint:** Make sure you include all elements of a good graph (e.g. properly labeled axes with units, graph title, etc).
 
-3. In the above plot, graph the equation from Week 1 Question 3 part b) using the average $\epsilon$ you reported in the previous Exercise and the average value for the maximum height of the first bounce, $\overline{h_1}$. Does this model fit your data well? Explain.
+4. On the **same plot** as above, graph the equation from Week 1 Question 3 part b) using the average $\epsilon$ you reported in the previous Exercise and the average value for the maximum height of the first bounce, $\overline{h_1}$. **Hint:** In the Google Sheet provided there is a column for including your theoretical values. The first row of the column should contain your value for $\overline{h_1}$, then you can calculate the rest of the rows from there.
+
+::: Question
+
+1. Look at the theoretical values you plotted compared to the experimental ones. Does this model fit your data well? Explain. **Hint:** Do you notice any visual trends between your experimental data and your theoretical?
+
+2. Does your observation in part (a) match Newton's Experimental Law? Why or why not?
+:::
+
 ::::::
 
-## 6. Data Analysis: Determining Percent Energy Loss per Bounce
+## 5. Determining Percent Energy Loss per Bounce
+
 ::::::Exercise
+
 1. Make another table that calculates the percent energy loss (PEL) after each bounce using the equation derived in Question 5 from Week 1. Title this table "Percent Energy Loss during Each Bounce." **Hint: since you will need to know the initial energy to calculate the percent energy lost, you will not be able to perform this calculation for the first bounce.**
 
 2. Calculate the average across bounces **and** runs using the spreadsheet. The average across bounces means that you average PEL across runs for each bounce number (e.g. average all first bounces across all 5 runs). The average across runs means that you average PEL for all the bounces in that run.
@@ -151,6 +165,7 @@ Now that we calculated the average of the maximum heights, $\overline{h_n}$,  fo
 5. Repeat the above steps with the data from your other ball.
 
 :::Question
+
 1. Look at the standard deviations obtained across runs and those obtained across bounces. Is one set of standard deviations larger than the other?
 
 2. What do you think this means?
@@ -160,7 +175,10 @@ Now that we calculated the average of the maximum heights, $\overline{h_n}$,  fo
 :::
 
 6. Create a plot of the average percent energy lost PEL per bounce as a function of bounce number.
-7. Repeat this with the data from your other ball.
+
+7. Perform a linear fit to your data. Make sure to include the equation in the plot. 
+
+8. Repeat this with the data from your other ball.
 
 :::Question
 1. For each ball, does the percent energy loss seem to increase, decrease, or stay the same with increasing bounce number? Explain your reasoning.
@@ -171,7 +189,7 @@ Now that we calculated the average of the maximum heights, $\overline{h_n}$,  fo
 ::::::
 
 
-## 4. Follow Up Analysis Questions
+## 6. Follow Up Analysis Questions
 
 :::Question
 
