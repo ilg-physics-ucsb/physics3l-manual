@@ -35,7 +35,7 @@ Note that there is an "Inelastic Collision" experiment module bundled with Phyph
 ![Ball Being Dropped](../imgs/lab1/droppingball.gif)
 :::
 
-## 2. Using sound to measure the coefficient of restitution
+## 2. Using sound to record the time of flight between bounces
 
 ---
 
@@ -43,15 +43,15 @@ Note that there is an "Inelastic Collision" experiment module bundled with Phyph
 Follow the steps below to collect data using the Acoustic Stopwatch module in Phyphox.
 
 1. Open up your acoustic timer in "sequence mode". This mode will record the times between 5 successive sounds.
-2. In your large, open area, place your phone on the ground with the mic pointing down. For example, to accomplish this, I propped my phone up against the wall of my living room. 
+2. In a large, open area, place your phone on the ground with the microphone pointing down. For example, to accomplish this, I propped my phone up against the wall of my living room. 
 3. Hold the ball at the height of a nearby marker, such as a doorknob or counter top. 
-4. For determining the coefficient of restitution, it is not very important that the initial height is equal each run. However, we will want to look at the average across your five runs throughout your calculations, thus you should try to make each drop as similar as possible.
-6. Press "Reset" on the app to clear any accidental data
-7. Drop the ball and let 5 times register. If your ball knocks into an object or travels too far away, you will have to redo that run. Be sure to double check your times and make sure they are monotonically decreasing
-8. Record these times somewhere, and repeat the procedure for each ball at least 5 times.
+4. For determining the coefficient of restitution, it is not very important that the initial drop height is the same each run. However, we will want to look at the average across your five runs throughout your calculations, thus you should try to make each drop height as similar as possible.
+6. Press "Reset" on the app to clear any accidental data.
+7. Drop the ball and let 5 times register. If your ball knocks into an object or travels too far away, you will have to redo that run. Be sure to double check your times and make sure they are monotonically decreasing.
+8. Record these times,, and repeat the procedure for each ball at least 5 times.
 
 :::Question
-Exercise 1 step 4 says in measuring $\epsilon$, it not very important that the ball height is exactly the same each run. Why is that the case? Hint: review "Newton's Experimental Law".
+Step 4 above claims that the initial ball drop height doesn't have to be exactly the same each run  Why is that the case? Hint: review "Newton's Experimental Law".
 :::
 
 :::Question
@@ -64,18 +64,48 @@ Exercise 1 step 4 also states you should try to use the same initial heights for
 
 ### Using Equations in Spreadsheets
 
-This week you won't need to know how to use equations in a spreadsheet, but next week you will. If you are unfamiliar with how to do this, watch the video below.
+To refresh your knowledge on how to manipulate data and use equations in a spreadsheet, watch the video below.
 
 :::Video
 <iframe width="800" height="500" src="https://www.youtube.com/embed/Zi3H_8JV3jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-For each ball you should have 5 runs, with 5 times each, for a total of 25 data points per ball. We will use these data points to calculate some quantities of interest, including the max bounce height, the percent energy lost per bounce, and the coefficient of restitution. 
+For each ball you should have recorded 5 runs, with 5 times of flight each, for a total of 25 data points per ball. We will use these data points to calculate some quantities of interest, such as  the coefficient of restitution, the maximum bounce heights, and the percent energy loss per bounce. 
 
-For convenience, we have a template of an [organized google sheet](https://docs.google.com/spreadsheets/d/1BLGy1LDlR9DbBSJBjNng0Bqsdq2v0hdrRohqFt27sUM/edit?usp=sharing) that you can use for your data. If you wish to use the template, please make your own copy of it. Note: you will still have to fill in the correct sheet formulas and make the required plots on your own .
+For convenience, we have a template of an [organized google sheet](https://docs.google.com/spreadsheets/d/1BLGy1LDlR9DbBSJBjNng0Bqsdq2v0hdrRohqFt27sUM/edit?usp=sharing) that you can use for your data. If you wish to use the template, please make your own copy of it. 
+Note: you will still have to fill in the correct sheet formulas and make the required plots on your own .
+
+### Coefficient of Restitution
 
 ::::::Exercise
-Height v.s. Bounces:
+
+1. Make a table to calculate the measured coefficient of restitution for each bounce. 
+2. Calculate the average across bounces **and** runs using the spreadsheet.
+3. Similarly, calculate the standard deviation of your data across bounces **and** runs using the STDEV function.
+4. Calculate the total average over all 5 x 4= 20 measurements of $\epsilon$ per ball.
+5. Repeat this with the data from your other ball.
+
+:::Question
+1. Look at the standard deviations obtained across runs and those obtained across bounces. Is one set of standard deviations larger than the other?
+
+2. What do you think this means?
+
+3. Explain if you observation is part (a) is consistent with Newton's Experimental Law.
+
+4. Whether or not it is consistent, discuss why you might expect the observation made in part (a) based on the relationship between energy lost and bounce number you observed in Exercise 3.
+:::
+
+:::Question
+Report your average $\epsilon$ and the standard deviation for each ball, based on the entire set of data. Write this result in the form:
+
+Measured coefficient of restitution =$(\epsilon_{average} \pm  STD)$ 
+:::
+
+::::::
+
+### Predicting maximum bounce heights
+::::::Exercise
+
 
 In a spreadsheet, follow the instructions listed below:
 
@@ -124,32 +154,6 @@ Derive an equation that determines the percent energy lost after a bounce that *
 
 ::::::
 
-::::::Exercise
-Coefficient of Restitution
-
-1. Finally make a table to calculate the measured coefficient of restitution for each bounce. 
-2. Calculate the average across bounces **and** runs using the spreadsheet.
-3. Similarly, calculate the standard deviation of your data across bounces **and** runs using the STDEV function.
-4. Calculate the total average over all 5 x 4= 20 measurements of $\epsilon$ per ball.
-5. Repeat this with the data from your other ball.
-
-:::Question
-1. Look at the standard deviations obtained across runs and those obtained across bounces. Is one set of standard deviations larger than the other?
-
-2. What do you think this means?
-
-3. Explain if you observation is part (a) is consistent with Newton's Experimental Law.
-
-4. Whether or not it is consistent, discuss why you might expect the observation made in part (a) based on the relationship between energy lost and bounce number you observed in Exercise 3.
-:::
-
-:::Question
-Report your average $\epsilon$ and the standard deviation for each ball, based on the entire set of data. Write this result in the form:
-
-Measured coefficient of restitution =$(\epsilon_{average} \pm  STD)$ 
-:::
-
-::::::
 
 ## 4. Follow Up Analysis Questions
 
