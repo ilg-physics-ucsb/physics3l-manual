@@ -170,7 +170,7 @@ Now that we calculated the average of the maximum heights, $\overline{h_n}$, for
 
 2. What do you think this means?
 
-3. Explain if your observation in part (a) is consistent with Newton's Experimental Law.
+3. Does your observation in part (a) match Newton's Experimental Law? Why or why not?
 
 :::
 
@@ -183,7 +183,7 @@ Now that we calculated the average of the maximum heights, $\overline{h_n}$, for
 :::Question
 1. For each ball, does the percent energy loss seem to increase, decrease, or stay the same with increasing bounce number? Explain your reasoning.
 
-2. Does your observation in part (a) match Newton's Experimental Law? If not, where do you think the law fails in your experiment? 
+2. Does your observation in part (a) match Newton's Experimental Law? Why or why not?
 :::
 
 ::::::
@@ -199,7 +199,7 @@ Now that we calculated the average of the maximum heights, $\overline{h_n}$, for
 :::
 
 :::Question
-1. Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 28 cm (the length of a sheet of paper)?  Show your work and how you arrived at this conclusion.				
+1. Based on your data, from what height do you need to drop the ball for its 2nd bounce to reach a height of 28 cm (the length of a sheet of paper)?  Show your work and how you arrived at this conclusion. Pick any one of the two balls to answer this question.		
 										
 2. Use the Acoustic Stopwatch to determine the height of the ball on the second bounce. You may also use your phone's camera as an independent form of verification and a piece of paper.
 					
