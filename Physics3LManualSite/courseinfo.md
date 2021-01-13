@@ -82,7 +82,12 @@ This quarter you will be building your own pendulum. In order to do this will ne
 
 ## Spring
 
-We will need to purchase a spring in order to study simple harmonic motion. We have not yet identified a good spring but we will let you know some acceptable options soon.
+Springs that will work well are a bit hard to find on Amazon. We have identified a few that will work for you. If you have issues with any of these, please reach out to your TA.
+
+- [Best Option](https://www.amazon.com/gp/product/B017UYYYAU/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1)
+- [Next Best Option](https://www.amazon.com/Eisco-Labs-Spring-Studying-Hookes/dp/B01I212O70/ref=pd_all_pref_1/137-9927954-5796924?_encoding=UTF8&pd_rd_i=B01I212O70&pd_rd_r=4f1b481b-8bcb-44cd-a798-b2b1086bf383&pd_rd_w=aUBQd&pd_rd_wg=YoeyD&pf_rd_p=e6474b7e-8fb6-4ee2-b5d6-a1da55185fe6&pf_rd_r=81H3BRH55DT947624B3T&psc=1&refRID=81H3BRH55DT947624B3T)
+- [Alternative 1](https://www.amazon.com/gp/product/B078NYWWL5/ref=ppx_yo_dt_b_asin_title_o01_s01?ie=UTF8&psc=1)
+- [Alternative 2](https://www.amazon.com/gp/product/B076QKD28G/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)
 
 ## Other Household Items
 
