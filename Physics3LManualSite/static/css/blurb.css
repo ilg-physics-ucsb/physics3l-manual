@@ -27,6 +27,21 @@ ul, ol {
   margin: 40px 0px;
   box-shadow: 1px 1px 2px #838383;
 }
+
+@media (max-width:601px){
+  .roundbox{
+    
+    padding: 1em 0.25em;
+    margin-right: 2em;
+    
+  }
+  .roundbox, .w3-card{
+    
+
+    margin: 0em 0em;
+    
+  }
+  }
 /* Garnish formats */
 .roundbox::before, .roundbox::after{
   border-radius: 5px;
@@ -146,7 +161,11 @@ ul, ol {
 /* Simulation box formats */
 .Simulation{  
   max-width: 90%;
-  margin:30px auto;
+  /* margin:30px auto; */
+ 
+}
+.Simulation .w3-container:not(header){
+  padding: 0px 5px!important;
 }
 
 .Simulation header h3::after  {
@@ -165,7 +184,7 @@ ul, ol {
     border-radius: 5px!important;
     display: inline-block;
     min-width: 30%;
-    float: left;
+  
  }
 .Materials ul > li::before{
   content: '\f046  ';
@@ -203,15 +222,15 @@ ul, ol {
 /*********************************************************************************/
 /* Question box formats */
 .Question{
-  background-color: #009688!important;
+  background-color: #009688;
   color: white;
  }
 .Question::before {
   counter-increment: question;
   content: "Question "  counter(question);
-  background-color:#4fa199!important;
+  background-color:#4fa199;
   position: absolute;
-  top: -1em;
+  top: -0.5em;
   left:calc(50% - 3.6em); 
 }
 .Question ol{ 
@@ -315,6 +334,9 @@ ul, ol {
 .Hider h3{
   font-weight: normal!important;
   font-size: 100%!important;
+}
+.Hider header{
+  border-bottom: white 2px solid;
 }
 
 .Hider .slideopen{
@@ -476,20 +498,24 @@ ul, ol {
 .RFigure img, .LFigure img{
   display: block;
 }
+.xxs img{
+  max-width:2.5em;
+  max-height:2.5em;
+ }
 
  .xs img{
-  max-width:10em;
-  max-height:10em;
+  max-width:5em;
+  max-height:5em;
  }
  
 .s img{
-  max-width:15em;
-  max-height:15em;
+  max-width:10em;
+  max-height:10em;
   }
 
 .m img{
-  max-width:20em;
-  max-height:20em;
+  max-width:15em;
+  max-height:15em;
 }
 
 .l img{

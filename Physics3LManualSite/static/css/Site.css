@@ -10,6 +10,12 @@ body {
     left:30px;
     width: calc( 100% - 60px);
   }
+  #mdcontent{
+    margin-top:20px;
+    margin-right:0px;
+    margin-left:5px;
+    padding: 0px 0px;
+  }
  
 }
 @media (min-width:601px){
@@ -17,6 +23,12 @@ body {
   .tooltiptext{
     left:30px;
     width: calc( 100% - 60px);
+  }
+  #mdcontent{
+    margin-top:20px;
+    margin-right:20px;
+    margin-left:20px;
+    padding: 0px 20px;
   }
   
 }
@@ -26,21 +38,22 @@ body {
     left:370px;
    width: calc( 100% - 420px);
   }
+  #mdcontent{
+    margin-top:20px;
+    padding: 0px 20px;
+    margin-left:0px;
+    margin-right:20px
+  }
  
 }
 
 /* Stop images from running over sections */
 h1 {
   clear: both;
-  color: #009688!important;
-  font-size: 225%;
   padding: 20px 0px;
-  border-bottom: rgb(202, 201, 201) solid 1px;
 }
 
 h2{
-  color: black!important;
-  font-size: 175%;
   padding:70px 0px 20px 0px; 
   margin-left: 20px;
   margin-top:-50px;
@@ -84,22 +97,8 @@ h1::before, h2::before {
 
 /* make the main paragraphs pretty */
 #mdcontent{
-    
-  margin-top:20px;
-  margin-right:20px;
-  margin-left:20px;
-  max-width: 1200px;
-  padding: 0px 20px;
-  z-index: 0!important;
- 
-}
-
-@media (min-width:993px){
-  #mdcontent{
-    margin-left:0px;
-    margin-right:20px
-    
-  }
+   max-width: 1200px;
+   z-index: 0!important;
 }
 
 #mdcontent > p{
@@ -479,17 +478,20 @@ text-align: center;
   max-width:100%;
   /* Position the tooltip text */
   position:fixed;
-  bottom: 5px;
+  bottom: -500px;
   opacity: 0;
-  transition: opacity 5s ease;
+  transition: all 5s ease;
+  transition-delay: 1s;
   border: black 8px solid;
   text-indent: 0;
+  z-index: 10;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   opacity: 1;
   display: block;
+  bottom:5px;
   transition: opacity 1s ease;
   z-index:2;
 }

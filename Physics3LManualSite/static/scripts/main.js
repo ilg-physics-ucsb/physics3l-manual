@@ -36,7 +36,7 @@ function updateRoutine() {
 function htmltweaks() {
 
   //Reset references list
-  RefList = { Eq: ['Equation'], Qu: ['Question'], Fi: ['Figure'], Si: ['Simulation'], Ex: ['Exercise'] }
+  RefList = { Eq: ['Equation'], Qu: ['Question'], Fi: ['Fig'], Si: ['Simulation'], Ex: ['Exercise'] }
 
   for (const property in RefList) {
     elist = document.getElementsByClassName(`${RefList[property]}`)
@@ -112,7 +112,7 @@ function romanize(num) {
 }
 
 function replace_tags() {
-  var text = document.querySelectorAll('#mdcontent h3, #mdcontent h2, #mdcontent p, .Table td')
+  var text = document.querySelectorAll('#mdcontent h3, #mdcontent h2, #mdcontent p, #mdcontent li, #mdcontent ol, #mdcontent ul,  .Table td') 
   for (i = 0; i < text.length; i++) {
     emojified = text[i].innerHTML.replaceAll(/(\@)(.*?)(\@)/g, "<i class='fa $2'></i>")
     text[i].innerHTML = emojified
