@@ -26,7 +26,7 @@
 
 # Experiment Review
 
-### Period
+## What is the Period?
 A period is the time it takes for one cycle in a repeating event or the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced and then released, it oscillates about the equilibrium position. The time it takes for the pendulum to swing from the release point through an arc to to the opposite point, and then back to the release point, is the period of the pendulum.
 
 You should have determined by now how you will be turning your phone into a pendulum. Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum.
@@ -34,11 +34,15 @@ You should have determined by now how you will be turning your phone into a pend
 The pendulum found its first practical timekeeping application with the invention of the pendulum clock by Christiaan Huygens in 1656. Huygens had been inspired by Galileo&rsquo;s observation that, for small angles of displacement, pendulums of the same length have the same period of oscillation. A type of inverted pendulum is still used in some models of metronome, a device that produces a steady, adjustable beat, which musicians use as a practice aid.
 
 
+# Data Collection
+
+## Measuring Length
+
 ::::::Exercise
 
 In this exercise you will measure the length of your pendulum in meters. This would be straightforward in lab, but since we don't have access to a lab it might be a bit more complicated. Below are some tips and ideas to help you accomplish this task.
 
-Figure 13 below shows a front view and a side view of your phone in the cradle. In the front view, the long axis of the phone is coming in and out of the screen, in the side view it is running parallel to the screen.
+[Fi](#Fi-pendDiagram) below shows a front view and a side view of your phone in the cradle. In the front view, the long axis of the phone is coming in and out of the screen, in the side view it is running parallel to the screen.
 
 This distance you want to measure is from the pivot to the center of mass of the phone. This is depicted as $L$. 
 
@@ -56,7 +60,7 @@ This should be true in either case. If you measure straight from the pivot to th
 Regardless your choice in measuring device, make sure that the resolution of the measurement is appropriate.
 :::
 
-:::Figure
+:::Figure pendDiagram
 ![Suggested Materials](../imgs/lab2/Diagram.png)
 :::
 
@@ -72,6 +76,8 @@ What is the length of your pendulum in meters? Be sure to include the uncertaint
 :::
 
 ::::::
+
+## Recording the Acceleration Period with Phyphox
 
 :::::: Exercise
 
@@ -102,20 +108,25 @@ Pay attention to the vertical axis scaling on your three plots. They won&rsquo;t
 
 # Data Analysis 
 
+## Measuring the Average Period
+
 ::::::Exercise
 We want to determine the period, $T$, of the oscillations of motion. We will do so by looking at the oscillatory behavior of the accelerations recorded by the phone in the three different directions. Remember your derivations from Week 1 to determine the relationship between the periods of the accelerations in the different directions and the period  $T$ of motion of the pendulum.
 
 :::Question
 
-1. How do the periods of the accelerations measured by the phone compare to the period of oscillations of the pendulum?
+1. How do the periods of the accelerations measured by the phone compare to the positional period of the pendulum?
 
 2. Which axis has the same period as the period of motion?
 :::
 
-1. Find the period of motion of the pendulum by measuring the average period of the acceleration that has the same period as the period of motion (your answer from the previous question). 
-To find the average period, measure the time it takes the pendulum to complete 10 periods (see Figure 15), and divide by the number of periods (in this case, 10). This will reduce the error in your measurement. If your data cover only eight or nine periods, that works as well. Figure 15 shows you can make a quick measurement of many periods in the Phyphox app. Simply click the "Pick Data" button at the bottom of the screen then touch the point where you would like to start your measurement. Then drag your finger to the end point. A box will appear that will display the difference between the two times you selected.
+1. Find the period of motion of the pendulum by measuring the average period of the acceleration that has the same period as the period of motion (your answer from the previous question).
 
-:::Figure
+To find the average period, measure the time it takes the pendulum to complete 10 periods (see [Fi](#Fi-periodGif)), and divide by the number of periods (in this case, 10). This will reduce the error in your measurement. If your data cover only eight or nine periods, that works as well. [Fi](#Fi-periodGif) shows you can make a quick measurement of many periods in the Phyphox app. 
+- Simply click the "Pick Data" button at the bottom of the screen then touch the point where you would like to start your measurement. 
+- Then drag your finger to the end point. A box will appear that will display the difference between the two times you selected.
+
+:::Figure periodGif
 ![How to measure period in phyphox](../imgs/lab2/PeriodMeasurement.gif)
 :::
 
@@ -125,7 +136,7 @@ What is the average period of motion? Include 4 decimal places in your measureme
 
 Remember that the period $T$, is determined by the pendulum length $L$, and the acceleration due to gravity $g$.
 
-:::Equation
+:::Equation period
 $$T=2\pi \sqrt{\frac{L}{g}}$$
 :::
 
@@ -143,13 +154,15 @@ $$T=2\pi \sqrt{\frac{L}{g}}$$
 
 ---
 
-#### Propagation of Uncertainty
+## Propagation of Uncertainty
 
 In the last exercise, you calculated a value for $g$ by using your one data measurement. Up until this point in Physics 3L when we have discussed uncertainty, we have determined it either from a scale or by calculating a standard deviation. 
 
 A standard deviation requires multiple measurements of the same value...but you have only one measurement! How can you find the uncertainty in that measurement? Your measurement is the result of a calculation involving values that you measured directly. If you know the uncertainties in those values, then you can calculate how those uncertainties **propagate**&mdash;through the calculation&mdash;to give the overall uncertainty in that measurement. Thus, if you know the uncertainties in $T$ and $L$ you can calculate how they **propagate** to find the uncertainty in $g$.
 
-Figuring out how uncertainties propagate can get complicated and we won&rsquo;t provide the techniques in this lab but we will provide the formula for how to calculate the uncertainty in $g$. In the equation below, the uncertainties are denoted with a $\delta$ before the variable and the best estimate is just the variable (*e.g.* $\delta L$ is the uncertainty in the length $L$).
+Figuring out how uncertainties propagate can get complicated and we won&rsquo;t provide the techniques in this lab but we will provide the formula for how to calculate the uncertainty in $g$. 
+
+In the equation below, the uncertainties are denoted with a $\delta$ before the variable and the best estimate is just the variable (*e.g.* $\delta L$ is the uncertainty in the length $L$).
 
 :::Equation
 $$
@@ -182,16 +195,14 @@ What is the period of your pendulum in seconds reported to correct significant f
 5. Use the uncertainty in the period, uncertainty in the length, and Equation 2 to determine the uncertainty in $g$.
 
 :::Question
-1. Show your work for step 5.
-
-2. Report your value of $g$ in $m/s^2$ to correct significant figures and with uncertainty.
+Report your value of $g$ in $m/s^2$ to correct significant figures and with uncertainty.
 :::
 
 ::::::
 
 ---
 
-#### Linearizing Data
+## Linearizing Data
 
 Determining the quality of a non-linear curve fit quantitatively can be very challenging, and is beyond this class.
 
@@ -199,34 +210,43 @@ However, it is possible to analyze a **linear** fit quantitatively. There are so
 
 LINEST is short for Linear Estimation. It will use the method of least squares to make a best estimate of the line that fits your data.
 
-Below is a video that shows you how to use the LINEST function in Google Sheets as well as how to get the slope, the uncertainty in the slope, the intercept, and the error in the intercept.
+Below is a video that we showed you last week. Last week, we wanted to show you how to make a plot and perform a fit. This week you can skip to the end where it shows you how to use the LINEST function in Google Sheets as well as how to get the slope, the uncertainty in the slope, the intercept, and the uncertainty in the intercept.
 
 :::Video
-!(https://www.youtube.com/watch?v=wkqlSuAoFLQ)
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/wkqlSuAoFLQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
+
+
+
+::: Exercise
+
+In this exercise you will be submitting your data in a Google form that will be collected into one larger data set with data from all the students in your section. We will then **linearize** the class data, fit a line to the data, and make a quantitative judgment about the experiment. Submit your data in the form linked in the table below. Make sure that the mass you provide is in **kilograms**, the length is in **meters**, and the period is in **seconds**. **Also make sure that you select your correct section!**
+
+### Submit Data to Google Form
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSefiSL52tiu9OSAtU1GQrwIIwUhYC4kmqIcDddJfJuHdJGm6Q/viewform?embedded=true" width="100%" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> 
+
+:::
+
+
 
 
 ::::::Exercise
 
-In this exercise you will be submitting your data in a Google form that will be collected into one larger data set with data from all the students in your section. We will then **linearize** the class data, fit a line to the data, and make a quantitative judgment about the experiment. Submit your data in the form linked in the table below. Make sure that the mass you provide is in **kilograms**, the length is in **meters**, and the period is in **seconds**. **Also make sure that you select your correct section!**
+In this exercise you will linearize your first equation, namely [Eq](#Eq-period). Then you will use your data, plus the data submitted by your peers create a linear plot and determine the slope and intercept.
 
-:::Table
-| Google Form |
-| -------- |
-| [Link To Form](https://docs.google.com/forms/d/e/1FAIpQLSdMNOtqqm2KSdf8FQLNO5scZo3EIxxJ9WP1eJ9lRgUUMas-0g/viewform)     |
+To linearize an equation you must perform a mathematical operation on your equation so that the independent variable is linear&mdash;this means that it appears once in the equation and is to the first power. While performing the linearization to the independent variable you track the mathematical operations done to the dependent variable. You then apply those operations to the dependent variable to generate a new equation that is linear.
+
+For this lab $L$ is your independent variable and $T$ is your dependent variable. If you square both sides of [Eq](#Eq-period) you will have a function $T^2$ that is linear in $L$.
+
+:::Question
+Linearize [Eq](#Eq-period). What is the new equation?
 :::
 
 ::: Note
 Wait until your TA tells you that it is OK to proceed. You&rsquo;ll need enough submissions to make a usable set of data. 
 :::
 
-To linearize an equation you must perform a mathematical operation on your equation so that the independent variable is linear&mdash;this means that it appears once in the equation and is to the first power. While performing the linearization to the independent variable you track the mathematical operations done to the dependent variable. You then apply those operations to the dependent variable to generate a new equation that is linear.
-
-For this lab $L$ is your independent variable and $T$ is your dependent variable. If you square both sides of Equation 1 you will have a function $T^2$ that is linear in $L$.
-
-:::Question
-Linearize Equation 1. What is the new equation?
-:::
 
 1. Make a new column in your spreadsheet. In this column square each of the period measurements. 
 2. Create a new plot  of $T^2$ and  $L$.

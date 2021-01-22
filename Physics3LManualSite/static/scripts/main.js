@@ -15,7 +15,7 @@ function changepage(file) {
   includeHTML(file)
 }
 
-//Updates to do after mardown rendering. Order is important here
+//Updates to do after markdown rendering. Order is important here
 function updateRoutine() {
   renderMathInElement(document.body, {
     delimiters: [
@@ -36,7 +36,7 @@ function updateRoutine() {
 function htmltweaks() {
 
   //Reset references list
-  RefList = { Eq: ['Equation'], Qu: ['Question'], Fi: ['Fig'], Si: ['Simulation'], Ex: ['Exercise'] }
+  RefList = { Eq: ['Equation'], Qu: ['Question'], Fi: ['Figure'], Si: ['Simulation'], Ex: ['Exercise'] }
 
   for (const property in RefList) {
     elist = document.getElementsByClassName(`${RefList[property]}`)
