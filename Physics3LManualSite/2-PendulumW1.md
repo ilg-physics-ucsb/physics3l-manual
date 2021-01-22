@@ -23,10 +23,10 @@
 ### Lab Goals:
 
 - **Construct an apparatus** 
-	- Construct a method of suspending your phone
+	- Devise a method of suspending your phone
 	- Find a place to **safely** hang your phone
 - **Data Analysis**
-	- Understand the theory of Simple Harmonic Motion
+	- Understand the theory behind Simple Harmonic Motion
 	- Understand the relationship between period and length
 	- Develop the equations from Newton's equations of motion to verify your data
 
@@ -44,7 +44,7 @@ a = \frac{d^2 x}{dt^2} = -\Omega^2 x
 $$
 :::
 
-where $x$ is the coordinate for position. $\Omega^2$ is the constant of proportionality and $\Omega$, by itself, is known as the angular frequency and is defined as the following:
+where $x$ is the coordinate for position, $\Omega^2$ is the constant of proportionality, and $\Omega$, by itself, is known as the angular frequency and is defined as the following:
 
 :::Equation omega
 $$
@@ -55,10 +55,10 @@ $$
 where $T$ is the period of the oscillator. 
  
 ::: Note
-We have not made any mention to what type of oscillator this describes. It could be a pendulum, a ball in bowl, a spring on mass, etc. This definition of $\Omega$ is true for all simple harmonic oscillators.
+We have not made any mention to what type of oscillator this describes. It could be a pendulum, a ball in bowl, a mass on a spring, etc. This definition of $\Omega$ is true for all simple harmonic oscillators.
 :::
 
-You may have seen [Eq](#Eq-harmonicDiffEq) solved in a lecture class before. We won&rsquo;t go through it here, but we will remind you that the solution gives position $x$ as function of time  $t$. The equation for position is given in [Eq](#Eq-harmonicSol) below. 
+You may have seen [Eq](#Eq-harmonicDiffEq) solved in a lecture class before. We won&rsquo;t go through the derivation here, but we will remind you that the solution for the position $x$ as function of time  $t$ is given in [Eq](#Eq-harmonicSol) below. 
  
 :::Equation harmonicSol
 $$
@@ -66,7 +66,7 @@ x = x\small_{0}\normalsize\cos (\Omega t)
 $$
 :::
 
-$x\small_{0}\normalsize$ is the amplitude of the periodic motion, but also marks the initial position. 
+where $x\small_{0}\normalsize$ is the amplitude of the periodic motion, but also marks the initial position. 
 
 ## 2. Simple Pendulum
 [comment]: # (Period is to the length of the pendulum--use this?)
@@ -75,7 +75,7 @@ $x\small_{0}\normalsize$ is the amplitude of the periodic motion, but also marks
 ![Picture of Pendulum](../imgs/lab2/Pendulum.png)
 :::
 
-A simple pendulum is one that is simply a point mass at the at the end of a massless string of length $L$. A simple pendulum that is released from a small initial angle ($15 ^{\circ}$ or less) exhibits simple harmonic motion. For the case of the pendulum it is the angular position given by $\theta$ that follows Equation 1. That is to say:
+A simple pendulum consists of a point mass at the end of a massless string of length $L$. A simple pendulum that is released from a small initial angle ($15 ^{\circ}$ or less) exhibits simple harmonic motion. The angular position $\theta$ follows Equation 1. That is to say:
 
 :::Equation angularHarmDiffEq
 $$
@@ -85,7 +85,7 @@ $$
 
 You may also recall that for a simple pendulum $\Omega = \sqrt{\frac{g}{L}}$, where $g$ is the acceleration due to gravity and $L$ is the length of the pendulum. This has been inserted in Equation 4 above.
 
-Lastly this means that angular position of the pendulum is given by:
+Lastly, this means that angular position $\theta$ of the pendulum is given by:
 
 :::Equation pendSol
 $$
@@ -109,7 +109,7 @@ $$
 $$
 :::
 
-Recall from Physics 2 that the acceleration an object experiences when it moves in an arc or circle at varying speed, has two components. One points in the radial direction (towards the pivot). This we will call $a\small_{rad}\normalsize$ or $a\small_{r}\normalsize$ for short. The other points in the direction of motion tangent to the circle. This is sometimes called $a\small_{tan}\normalsize$ but for this lab we will call it $a\small_{\theta}\normalsize$.
+Recall from Physics 2 that the acceleration an object experiences when it moves in an arc or circle at varying speed, has two components. One component points in the radial direction (towards the pivot). We will call it $a\small_{rad}\normalsize$ or $a\small_{r}\normalsize$ for short. The other component points in the direction of motion tangent to the circle. This is sometimes called $a\small_{tan}\normalsize$ but for this lab we will call it $a\small_{\theta}\normalsize$.
 
 :::Figure
 ![Picture of Pendulum](../imgs/lab2/acceleration3.png)
@@ -146,14 +146,14 @@ In this lab you will turn your phone into a pendulum. You will suspend it in som
 Typically, when measuring the period of the pendulum, you would measure the *angular position* as a function of time. Then from those data you would calculate the period of the pendulum.
 
 :::Note
-The Phyphox app *can't measure position* but it *can measure acceleration*. Therefore we need to determine the relationship between the period of the acceleration and of the angular position.
+The Phyphox app *can't measure position* but it *can measure acceleration*. Therefore we need to determine the relationship between the period of the acceleration and the period of the angular position.
 :::
 
 :::Figure pendAccgif
 ![Gif  of pendulum moving](../imgs/lab2/accelerationgif.gif)
 :::
 
-Since we are measuring the period of the acceleration and not the angular position, we need to understand the relationship between the two. In [Fi](#Fi-pendAccgif) you can see the how the **net acceleration** vector changes with time. Notice that this change is periodic. Also notice that at the bottom of the swing the acceleration is pointed entirely radially, and at the top of the swing it is pointed entirely tangentially. 
+Since we are measuring the period of the acceleration and not the angular position, we need to understand the relationship between the two. In [Fi](#Fi-pendAccgif) you can see how the **net acceleration** vector changes with time. Notice that this change is periodic. Also notice that at the bottom of the swing the acceleration is pointed entirely radially, and at the top of the swing it is pointed entirely tangentially. 
 
 This indicates that both $a\small_{r}\normalsize$ and $a\small_{\theta}\normalsize$ have some sort of periodic behavior, but it is not a given that the period of either acceleration would match that of the angular position. We can get some intuition by watching the animation, however. Notice that it takes one full swing of the pendulum for $a\small_{\theta}\normalsize$ to point in the same direction, while $a\small_{r}\normalsize$ points radially twice in one full swing.
 
@@ -178,7 +178,7 @@ Using the equations you just derived and [Eq](#Eq-omega) you can get the periods
 
 2. What is the relationship between the period of $a\small_{\theta}\normalsize$ and period of the angular position?
 
-3. Which should you use to measure the period angular position of the pendulum?
+3. Which should you use to measure the period of the angular position of the pendulum?
 :::
 
 Recall that the radial acceleration vector always points towards the pivot. The tangential acceleration points in the direction of motion (tangent to the circular arc). 
@@ -201,7 +201,7 @@ Long Axis is x = $a\small_{r}\normalsize$, etc.
 
 ## 3. Is Your Phone a Simple Pendulum?
 
-So far, most of our discussion has been based on a simple pendulum. That means a point mass at the end of  massless string.
+So far, most of our discussion has been based on a simple pendulum, which consists of a point mass at the end of a massless string.
 
 Your phone is not a point mass, but are we able to treat it as one? The answer is yes, but only under certain conditions. 
 
@@ -213,17 +213,17 @@ $$
 $$
 :::
 
-Where $I$ is the moment of inertia for the physical pendulum.
+Where $I$ is the moment of inertia of the mass around the axis of rotation.
 
 :::::: Exercise
 
 :::Question
-Verify  that when we use the moment of inertia for a simple pendulum (point mass), we get back out the $\Omega$ we expect.
+Verify that when we use the moment of inertia for a simple pendulum (point mass), we obtain the $\Omega$ we expect.
 :::
 
-To figure out the moment of inertia for your phone we will need to do two things.
+To find the moment of inertia of your phone around the pivot point we will need to do two things.
 
-1. First we will assume that your phone has the same moment of inertia as a bar rotating about its center. This is given by:
+1. First, we will assume that your phone has the same moment of inertia as a bar rotating about its center. This is given by:
 
 
 :::Equation
@@ -232,9 +232,9 @@ I\small_{phone-cm}\normalsize = \frac{1}{12}ml^2
 $$
 :::
 
-Where $l$ is the length of one of the (long) edges of your phone.
+where $l$ is the length of one of the (long) edges of your phone.
 
-1. The equation for $I\small_{phone-cm}\normalsize$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the [parallel axis theorem](https://en.wikipedia.org/wiki/Parallel_axis_theorem#Mass_moment_of_inertia) [fn]The parallel axis theorem states that the moment of inertia about some point is given by $I = I_{cm} + md^2$ where $d$ is the distance between the point and the center of mass. For us, $d=L$[/fn] . When one does this for his or her phone swinging about a pivot distance $L$ away you find:
+1. The equation for $I\small_{phone-cm}\normalsize$ works only for rotating your phone about its **center of mass**. For our setup, your phone will not be rotating about its center of mass, but about the pivot of the pendulum. To get the moment of inertia about the pivot we will have to apply the [parallel axis theorem](https://en.wikipedia.org/wiki/Parallel_axis_theorem#Mass_moment_of_inertia) [fn]The parallel axis theorem states that the moment of inertia about some point is given by $I = I_{cm} + md^2$ where $d$ is the distance between the point and the center of mass. In our case, $d=L$[/fn]. When the phone is swinging about a pivot distance $L$ away, you find:
 
 :::Equation
 $$
@@ -246,9 +246,9 @@ $$
 4. Factor out $mL^2$ from the denominator. 
 
 :::Question
-1. Under what condition does your phone behave as a simple pendulum. **Hint: Consider the ratio of $\frac{l}{L}$.**
+1. Under what conditions does your phone behave as a simple pendulum? **Hint: Consider the ratio of $\frac{l}{L}$.**
 
-2. If your phone had a length of 8 cm and the pendulum a length of 50 cm,  what would be the percent difference between the period of an ideal simple pendulum of 50 cm, and that of your phone pendulum.
+2. If your phone had a length of 8 cm and the pendulum a length of 50 cm, what would be the percent difference between the period of an ideal simple pendulum of 50 cm, and that of your phone pendulum.
 :::
 ::::::
 

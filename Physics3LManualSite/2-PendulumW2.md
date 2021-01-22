@@ -18,7 +18,7 @@
 - **Data Collection** 
 	- Use "Acceleration without g" to collect acceleration data.
 - **Data Analysis**
-	- Understand the theory of Simple Harmonic Motion
+	- Understand the theory behind Simple Harmonic Motion
 	- Understand the relationship between period and length
 	- Develop the equations from Newton's equations of motion to verify your data
 
@@ -27,7 +27,7 @@
 # Experiment Review
 
 ## What is the Period?
-A period is the time it takes for one cycle in a repeating event or the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced and then released, it oscillates about the equilibrium position. The time it takes for the pendulum to swing from the release point through an arc to to the opposite point, and then back to the release point, is the period of the pendulum.
+A period is the time it takes for an object to undergo one cycle in a repeating event or the time for which the event repeats itself. A pendulum at rest is considered to be in equilibrium. Once the pendulum is displaced and then released, it oscillates about the equilibrium position. The time it takes for the pendulum to swing from the release point through an arc to to the opposite point, and then back to the release point, is the period of the pendulum.
 
 You should have determined by now how you will be turning your phone into a pendulum. Typically, when measuring the period of the pendulum, you would measure the angular position as a function of time. Then from those data you would calculate the period of the pendulum.
 
@@ -40,11 +40,11 @@ The pendulum found its first practical timekeeping application with the inventio
 
 ::::::Exercise
 
-In this exercise you will measure the length of your pendulum in meters. This would be straightforward in lab, but since we don't have access to a lab it might be a bit more complicated. Below are some tips and ideas to help you accomplish this task.
+In this exercise you will measure the length of your pendulum in meters. This would be straightforward in lab, but since we don't have access to a lab, it might be a bit more complicated. Below are some tips and ideas to help you accomplish this task.
 
 [Fi](#Fi-pendDiagram) below shows a front view and a side view of your phone in the cradle. In the front view, the long axis of the phone is coming in and out of the screen, in the side view it is running parallel to the screen.
 
-This distance you want to measure is from the pivot to the center of mass of the phone. This is depicted as $L$. 
+The distance you want to measure is from the pivot to the center of mass of the phone. This is depicted as $L$. 
 
 - If you have a measuring tape, use one end at the point of the pivot and then measure straight downward to the center of mass of your phone. 
 
