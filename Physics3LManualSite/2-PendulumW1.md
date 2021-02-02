@@ -174,7 +174,7 @@ Now you should know that both the radial and tangential accelerations are period
 
 Using the equations you just derived and [Eq](#Eq-omega) you can get the periods for both the radial and tangential accelerations. Use these periods and your response to Question 1 to answer the following questions.
 
-1. What is the relationship between the period of $a\small_{r}\normalsize$ and the period of the angular position?
+1. What is the relationship between the period of $a\small_{r}\normalsize$ and the period of the angular position? **Hint:** To find the period of $\sin^2 (x)$, us the identity involving cosine of the double angles: $\sin^2 (x) = (1-\cos (2x))/2$
 
 2. What is the relationship between the period of $a\small_{\theta}\normalsize$ and period of the angular position?
 
@@ -345,6 +345,12 @@ While you may be able to achieve a pendulum without them, we recommend using the
 :::
 
 Note: I added tape after the second photo to ensure that everything would stay in place.
+
+:::Question
+Include a photo of your apparatus. **Hint:** Your phone does not need to be included in the picture.
+:::
+
+
 ::::::
 
 
