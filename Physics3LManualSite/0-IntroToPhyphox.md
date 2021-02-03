@@ -3,7 +3,7 @@
 ---
 
 :::Note
-There are two videos in this lab. Sometimes the Safari browser has issues playing them. Try switching to Chrome or Firefox. Additionally, sometimes if you click the pop-out button it will play for you when it wouldn't play on the page.
+There are two videos in this lab. Sometimes the Safari browser has issues playing them. Try switching to Chrome or Firefox. Additionally, sometimes if you click the pop-out button, it will play for you when it wouldn&rsquo;t play on the page.
 :::
 
 ---
@@ -13,7 +13,7 @@ The goal of this assignment is to prepare you for the rest of the quarter. In th
  - Performing some basic data analysis.  
 
 :::Note
-**An important point for these labs as that we are not looking for the "right answer" but we instead want you to be able to explain and justify the answers that you get.**
+**An important point for these labs as that we are not looking for the &ldquo;right answer&rdquo; but we instead want you to be able to explain and justify the answers that you get.**
 :::
 ---
 
@@ -44,7 +44,7 @@ This is not an exhaustive list, but includes the most common subtasks you will n
 2. What major you want to graduate with.
 3. The person who has won the largest share of the 2019 Nobel Prize in physics.
 
-When writing your lab report, make it as clear as possible as to which exercise you are responding.
+When writing your lab report, make it as clear as possible, to which exercise you are responding.
 :::
 
 ## Questions
@@ -52,10 +52,10 @@ When writing your lab report, make it as clear as possible as to which exercise 
 ::: Question
 This is a question. Questions will be something that you should respond directly to. There may be many different parts to a question and you should answer each part. Sometimes questions are inside of exercises and other times they are not.
 
-Questions should be answered with a **full sentence** to get full credit. Some examples of bad answers are:
+You should answer Questions with a **full sentence** to get full credit. Some examples of bad answers are:
 
 - Yes.
-- It's bigger.
+- It&rsquo;s bigger.
 - It looks like it.
 - Linear.
 
@@ -73,7 +73,7 @@ Please answer the following for this question:
 ## Notes
 
 ::: Note
-This is a note. Notes don't require you to put anything in your report. 
+This is a note. Notes don&rsquo;t require you to put anything in your report. 
 
 The main point of a note is just to highlight some critical information for you. Please make sure to read every note.
 :::
@@ -81,15 +81,15 @@ The main point of a note is just to highlight some critical information for you.
 ## Warnings
 
 ::: Warning
-This is a warning. It will signify if there is something dangerous. It might instruct you to be careful when using a knife, or it might highlight an easy way to break you phone. **Please read all warnings**
+This is a warning. It will signify if there is something dangerous. It might instruct you to be careful when using a knife, or it might highlight an easy way to break your phone. **Please read all warnings**
 
-They shake to get your attention. To stop the shaking, you can click or tap on the warning.
+Warnings shake to get your attention. To stop the shaking, you can click or tap on the warning.
 :::
 
 ## Conclusion
-Each lab report will ask you to write a conclusion statement about the main point of the lab. This should be a 1-3 sentence statement highlighting most important point(s) of the lab. It should not describe how you feel about the lab, or reexplain what you did. A good example would be:
+Each lab report will ask you to write a conclusion statement about the main point of the lab. This should be a 1-3 sentence statement highlighting the most important point(s) of the lab. It should not describe how you feel about the lab, or reexplain what you did. A good example would be:
 
-> In this lab we showed that falling objects in air do not fall with constant acceleration. The major factors affecting air resistance are mass and cross sectional area. 
+> In this lab we showed that falling objects in air do not fall with constant acceleration. The major factors affecting air resistance are mass and cross-sectional area. 
 
 A bad example would be:
 
@@ -119,21 +119,21 @@ Watch the video below to get the procedure.
 <iframe width="800" height="500" src="https://www.youtube.com/embed/NrAygsCGgA4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
 
-A quick summary is here:
+Here is a quick summary:
 
-1. Open Phyphox and select the "Accelerometer with g" sensor. This will measure the acceleration along each axis and it will include the acceleration due to gravity in the down word direction.
-2. Below the orange bar at the top of the screen select "Simple". This will display the acceleration along each axis as just a number. 
+1. Open Phyphox and select the &ldquo;Accelerometer with g&rdquo; sensor. This will measure the acceleration along each axis and it will include the acceleration due to gravity in the downward direction.
+2. Below the orange bar at the top of the screen select &ldquo;Simple.&rdquo; This will display the acceleration along each axis as just a number.
 3. Place your phone flat on a table and click the play button.
-4. Because your phone is flat, the acceleration vector, "g", is pointed through your screen and aligned with the screen axis (the one that goes in and out of your screen). If an accelerometer axis  is aligned with the screen axis, then only that accelerometer axis should have a reading close to $9.8 m/s^2$. Thus whatever direction that is (for me in the video it was z) is the axis that is aligned with the screen.
-5. Rotate you phone so that the long edge of your phone is pointing straight up. Now a different axis is aligned with acceleration vector.
+4. Because your phone is flat, the acceleration vector, "g," points through your screen and is aligned with the screen axis (the one that goes in and out of your screen). If an accelerometer axis is aligned with the screen axis, then only that accelerometer axis should have a reading close to $9.8 m/s^2$. Thus, whatever direction that is (for me in the video it was z), is the axis that is aligned with the screen.
+5. Rotate your phone so that its long edge is pointing straight up. Now a different axis is aligned with the acceleration vector.
 6. Repeat for the last axis. 
 
 ::: Question
-Create a list that maps the three phone axes to the accelerometer axes. i.e. Screen=Z, Long=... etc.
+Create a list that maps the three phone axes to the accelerometer axes, *i.e.*, Screen=Z, Long=... etc.
 :::
 
 ::: Question
-Create a diagram of your phone and label the axes. The phone can just be a rectangle. Use either a computer to make the drawing, or do it by hand and take a picture (Just make sure it is legible).
+Create a diagram of your phone and label the axes. The phone can be just a rectangle. Either use a computer to make the drawing, or do it by hand and take a picture.  (Just make sure it is legible.)
 :::
 
 ::::::
@@ -142,7 +142,7 @@ Create a diagram of your phone and label the axes. The phone can just be a recta
 
 ::::::Exercise
  
-In this exercise we will measure g using the accelerometer in your phone. We will again use "Acceleration With g". We will collect data for all three axes, and in each direction (i.e. having the phone both face up and face down). We will just collect the data in this exercise, but the data will be analyzed later.
+In this exercise we will measure g by using the accelerometer in your phone. We will again use &ldquo;Acceleration With g.&rdquo; We will collect data for all three axes, and in each direction (*i.e.*, having the phone both face up and face down, etc.). We will just collect the data in this exercise, but the data will be analyzed later.
 
 The instructions in the video are just a guide for how you might perform the experiment. You may follow the video exactly, but feel free to make any improvements to the procedure.
 
@@ -150,13 +150,13 @@ The instructions in the video are just a guide for how you might perform the exp
 <iframe width="800" height="500" src="https://www.youtube.com/embed/b2t__LSNqn8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 :::
  
- 1. Start by opening Phyphox and selecting the "Acceleration With g" sensor again. 
- 2. Before you start recording develop a plan for how you will switch between all the orientations (+x, -x, +y, -y, +z, -z) . You want to keep the phone in each orientation for a couple seconds, but you want want your recording time to get too much longer than ~15 seconds.
- 3. When you have your plan, press play and cycle through aligning each axis with the acceleration vector "g".
- 4. Export your data to somewhere you can use it later.
+ 1. Start by opening Phyphox and selecting the &ldquo;Acceleration With g&rdquo; sensor again. 
+ 2. Before you start recording, develop a plan for how you will switch among all the orientations (+x, -x, +y, -y, +z, -z). You want to keep the phone in each orientation for a couple of seconds, but you won&rsquo;t want your recording time to get too much longer than ~15 seconds.
+ 3. When you have your plan, press &ldquo;Play&rdquo; and cycle through aligning each axis with the acceleration vector &ldquo;g.&rdquo;
+ 4. Export your data to a location where you can use it later.
  
  :::Note
- In this class we will demonstrate analysis using google sheets. You can use excel, MATLAB, or something else to do your data analysis, but you will only be supported with google sheets.
+ In this class we will use Google sheets to demonstrate analysis. You can use Excel, MATLAB, or something else to do your data analysis, but you will be supported only with google sheets.
  :::
  
 ::: Question
@@ -164,7 +164,7 @@ The instructions in the video are just a guide for how you might perform the exp
 :::
 
 :::Question
-Write a brief paragraph (or two) describe how you made the measurement. If you made any improvements to the procedure describe them here and explain why you did what you did.
+Write a brief paragraph (or two) describing how you made the measurement. If you made any improvements to the procedure, describe them here and explain why you did what you did.
 :::
 
 ::::::
@@ -172,7 +172,7 @@ Write a brief paragraph (or two) describe how you made the measurement. If you m
 
 # Analyzing Data
 
-Physics is the study of the laws of nature through observation and experiment. In an experiment, we perform measurements and collect data, then we interpret the data and  derive trends and relationships between our variables.
+Physics is the study of the laws of nature through observation and experiment. In an experiment, we perform measurements and collect data, then we interpret the data and derive trends and relationships between our variables.
 
 ## Uncertainty in measurement
 
@@ -182,7 +182,7 @@ $$
 6.23 \pm 0.05 \text{ cm}
 $$
 
-The 6.23 cm is our best estimate, and the 0.05 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the rod is 6.23cm but the true length is most likely between 6.18cm and 6.28cm.
+The 6.23 cm is our best estimate, and the 0.05 cm is our estimate of the uncertainty.  We are saying that our best guess at the true length of the rod is 6.23 cm but the true length is most likely between 6.18 cm and 6.28 cm.
 
 :::Note
 **UNCERTANTY IS UNAVOIDABLE IN EVERY MEASUREMENT.**
@@ -196,25 +196,25 @@ There are two main types of errors: **systematic** and **random**.
 
 ### Systematic Errors
 
-**Systematic errors** arise from improper use of the measurement equipment and  improper experimental techniques. Systematic uncertainties are consistent between measurements: if you repeat the experiment, you'll get the same error.
+**Systematic errors** arise from improper use of the measurement equipment and improper experimental techniques. Systematic uncertainties are consistent between measurements: if you repeat the experiment, you&rsquo;ll get the same error.
 
-For example, when we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted. That implies that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value.
+For example, when we measure the length of the pencil, if the ruler is made out of metal and the temperature of the room is very low, the ruler might be contracted. That means that the ruler is actually shorter than it should be, and our best estimate for the length of the pencil will always be larger than its true value.
 
-Another systematic error would be introduced if we didn't keep the line of sight perpendicular to the ruler when measuring the pencil length.
+Another systematic error would be introduced if we didn&rsquo;t keep the line of sight perpendicular to the ruler when measuring the pencil length.
 
 We can completely prevent systematic errors by calibrating and checking the equipment and using proper measurement techniques.
 
 ### Random error
  
-If we repeat a measurement, the values of the measured quantity will  be different from each other and will be randomly distributed around a mean value, which we will take to be our best estimate. This is known as **random error**.
+If we repeat a measurement, the values of the measured quantity will be different from each other and will be randomly distributed around a mean value, which we will take to be our best estimate. This is known as **random error**.
 
-We can't eliminate random errors, but we can minimize them by using precise instruments and by collecting a  large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors.
+We can&rsquo;t eliminate random errors, but we can minimize them by using precise instruments and by collecting a  large data set for calculating the average of our measurements. Thus, we need to perform multiple trials by repeating the experiment several times to average out the random errors.
 
 :::Note
 ***Random error leads to uncertainty in our measurement.***
 :::
 
-This random error is what we quote in the above example as 0.05 cm.
+This random error is what we quote in the above example as $\PM$0.05 cm.
 
 The video below shows an example of random error you have already seen in this lab.
 
