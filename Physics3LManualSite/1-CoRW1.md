@@ -1,4 +1,4 @@
-# Lab 1: Coefficient of Restitution Week 1
+# Lab 1: Coefficient of Restitution - Week 1
 ---
 ## Materials
 You don&rsquo;t actually need these materials for this week, but if you haven&rsquo;t procured these items you need to do that before next week.
@@ -23,9 +23,9 @@ You don&rsquo;t actually need these materials for this week, but if you haven&rs
 In this lab and subsequent labs, you must show all your work and justify your answers to receive full credit. 
 :::
 
-# Theory: Kinematics, Collision and Energy Loss
+# Theory &ndash; Kinematics, Collision and Energy Loss
 
-You have mastered the basic kinematic relations that govern projectile motion and collisions in previous introductory physics courses. In this lab, we will investigate inelastic collisions, and energy loss to the environment.
+You have mastered the basic kinematic relations that govern projectile motion and collisions in previous introductory physics courses. In this lab, we will investigate (partially) elastic collisions, and energy loss to the environment.
 
 Assume that you drop a ball from a given height, and the ball is initially at rest. The ball&rsquo;s position over time until it hits the floor can be calculated by means of the kinematics formulas for constant acceleration. These formulas will give you a fairly accurate account of the ball&rsquo;s trajectory.
 
@@ -52,7 +52,7 @@ When the ball from our previous example bounces off the floor, it loses energy d
 The ratio of these two speeds is called the coefficient of restitution, and has the symbol $\epsilon$. This value is constant for a given pair of bodies.
 :::
 
-In our ball drop experiment, one of these bodies is &ldquo;Earth&rdquo;, and the other is our ball. Since we are naturally measuring our ball&rsquo;s velocity with respect to Earth (with the Earth&rsquo;s velocity change due to a tennis ball being negligible, of course!), we obtain:
+In our ball drop experiment, one of the bodies in the note above is &ldquo;Earth&rdquo;, and the other is our ball. Since we are naturally measuring our ball&rsquo;s velocity with respect to Earth (with the Earth&rsquo;s velocity change due to a tennis ball being negligible, of course!), we obtain:
 
 :::Equation
 $$
@@ -81,7 +81,7 @@ We will calculate $\epsilon$ for two different balls, understand how energy is l
 
 While your first instinct may be to make a video recording of a ball bouncing, we will approach these tasks in a perhaps unexpected way: we will instead use only the sound of the the ball hitting the floor to make our measurements.
 
-The reason for doing this is quite simple: sound data are &ldquo;cheap&rdquo; and easy to analyze. Unlike video, which requires an immense number of pixels (and thus data) in order to obtain a good sampling rate and accuracy, sound data are one dimensional. This enables us to have a suitably fast sampling rate to make precise measurements, with far fewer data than would be necessary for video. In this experiment, we really need only a few numbers: the times between bounces of the ball. We can calculate all other quantities of interest by knowing only the times between bounces. Sound is more than adequate for this task, and video would waste resources on capturing information about the entire environment, colors, lighting etc., which we will ultimately toss out.
+The reason for doing this is quite simple: sound data are &ldquo;cheap&rdquo; and easy to analyze. Unlike video, which requires an immense number of pixels (and thus data) in order to obtain a good sampling rate and accuracy, sound data are one dimensional. This enables us to have a suitably fast sampling rate to make precise measurements, with far fewer data than would be necessary for video. In this experiment, we really need only a few numbers: the times between bounces of the ball. We can calculate all other quantities of interest by knowing only the times between bounces. Sound is more than adequate for this task, and video would waste resources on capturing information about the entire environment, colors, lighting etc., which we would ultimately toss out.
 
 This approach is actually critical to real experimental physics: often experiments are limited by data quality and equipment costs, so a bit of creative problem solving goes a long way in a real lab. Measure only what you need to!
 
@@ -102,7 +102,7 @@ A brief demonstration of the data collection portion of the lab can be seen in V
 :::
 
 :::Note
-In the following three sections you will get prepared to calculate the coefficient of restitution, the maximum height of the bounce, and the percent energy loss in week 2 of this lab.
+In the following three sections you will prepare for the calculations of the coefficient of restitution, the maximum height of the bounce, and the percent energy loss, which you will perform in week 2 of this lab.
 :::
 
 
@@ -110,7 +110,7 @@ In the following three sections you will get prepared to calculate the coefficie
 
 Consider a ball being dropped from a height $h_{0}$ above the floor. 
 
-The time between subsequent bounces will be referred to as **time of flight**. The time between the first bounce and second bounce will be denoted by $t_1$, the time between the second bounce and third bounce will be denoted by $t_2$, and in general, the time between the $n\rm^{th}$ and $(n+1)\rm^{th}$ bounce will be denoted by $t_n$.
+We will refer to the time between subsequent bounces as **time of flight**. We will denote the time between the first bounce and second bounce by $t_1$, the time between the second bounce and third bounce by $t_2$, and in general, the time between the $n\rm^{th}$ and $(n+1)\rm^{th}$ bounce by $t_n$.
 
 ::::::Exercise
 We want to find the coefficient of restitution $\epsilon$ between the ball and the floor.  We will be able to measure the time of flight between subsequent bounces, but not the velocities before and after each impact.
@@ -118,7 +118,7 @@ We want to find the coefficient of restitution $\epsilon$ between the ball and t
 :::Question
 1. Using the kinematics equation for position, find a relationship between the time of flight $t_n$ and the velocity of the ball after the $n\rm^{th}$ bounce. You should obtain a quadratic equation that has two solutions for the time $t_n$, but only one of them represents the time of flight.
 
-2. Using the kinematics equation for velocity and the relationship determined in the previous step, find the relationship between the velocity right after the $n\rm^{th}$ bounce and the velocity right before the $(n+1)\rm^{th}$ bounce?
+2. Using the kinematics equation for velocity and the relationship determined in the previous step, find the relationship between the velocity right after the $n\rm^{th}$ bounce and the velocity right before the $(n+1)\rm^{th}$ bounce.
 
 3. Given your answers to the previous parts of this question and the definition of $\epsilon$, find the coefficient of restitution $\epsilon$ in terms of the subsequent times of flight $t_n$ and $t_{n+1}$.
 :::
@@ -142,11 +142,11 @@ We would like to predict the maximum height that the ball reaches after each bou
 Using kinematics, find the maximum height $h_n$ in terms of the time of flight $t_n$.
 
 :::
-Now let us try to construct a mathematical formula for the maximum heights $h_n$ as a function of the bounce number $n$.
+Now let us try to construct a mathematical formula for the maximum heights $h_n$ as a function of the bounce number, $n$.
 
 
 :::Question
-1. Rewrite the coefficient of restitution $\epsilon$ in terms of the consecutive maximum heights $h_n$ and $h_{n+1}$.
+1. Rewrite the coefficient of restitution, $\epsilon$, in terms of the consecutive maximum heights $h_n$ and $h_{n+1}$.
 
 2. Using your equation for $\epsilon$ in terms of maximum bounce heights, derive an equation that gives the height of the ball after the $n\rm^{th}$ bounce in terms of the maximum height $h_1$ and $\epsilon$. 
 

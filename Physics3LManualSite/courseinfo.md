@@ -3,7 +3,7 @@
 
 Welcome to the Physics 3L Lab course. This is a companion course for the Physics 3 lecture course, but it is its own course. Therefore it does not map perfectly to the lecture course. You will see material from earlier physics lecture courses, as well as some material covered in Physics 3.
 
-There are two main goals of this course.
+There are two main goals of this course:
 
 1. We want you to see for yourself and verify some of the physical phenomena you&rsquo;ve seen in theory.
 

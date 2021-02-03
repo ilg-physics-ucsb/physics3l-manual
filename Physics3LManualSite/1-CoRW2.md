@@ -54,10 +54,10 @@ Use this spreadsheet to record and analyze your data. It will be submitted along
 :::::: Exercise
 Follow the steps below to collect data with the Acoustic Stopwatch module in Phyphox.
 
-1. Open your acoustic timer in &ldquo;sequence mode.&rdquo; This mode will record the times between 6 successive sounds (and thus 5 times of flight). If you need to adjust the threshold (see note above) you must do this from the &ldquo;simple mode.&rdquo;
+1. Open your acoustic timer in &ldquo;sequence mode.&rdquo; This mode will record the times between six successive sounds (and thus five times of flight). If you need to adjust the threshold (see note above) you must do this from the &ldquo;simple mode.&rdquo;
 2. In a large, open area, place your phone on the ground with the microphone pointing down. For example, in the video above, the phone is propped against the wall.
 3. Hold the ball at the height of a nearby marker, such as a doorknob or counter top. 
-4. For determining the coefficient of restitution or energy loss during collisions, the initial drop height does not have to be the same each run. For the maximum bounce heights, however, the initial height is important. Since we want to average across different runs of the experiment, you should try to *make each initial drop height the same*.
+4. For determining the coefficient of restitution or energy loss during collisions, the initial drop height does not have to be the same for each run. For the maximum bounce heights, however, the initial height is important. Since we want to average across different runs of the experiment, you should try to *make each initial drop height the same*.
 5. Press &ldquo;Reset&rdquo; on the app to clear any accidental data.
 6. Drop the ball and let five times of flight register. If your ball knocks into an object or travels too far away, you will have to redo that run. Be sure to double-check your times and make sure they are monotonically decreasing.
 7. Record these times in the spreadsheet provided for you in the Google assignment, and repeat the procedure for each ball at least five times.
@@ -98,7 +98,7 @@ To refresh your knowledge of how to manipulate data and use equations in a sprea
 :::Question
 Report your average $\epsilon$ and the standard deviation for each ball, based on the entire set of data. Write this result in the form:
 
-Measured coefficient of restitution =$(\epsilon_{average} \pm  STD)$ 
+Measured coefficient of restitution = $(\epsilon_{average} \pm STD)$ 
 :::
 
 :::Note
@@ -111,7 +111,7 @@ Make sure to include a copy of this table in your written lab report. **You need
 
 Making plots is an important part of data analysis and presentation. Humans are visual creatures, and it is much easier for us to find patterns and features in a plot than it is by looking at a table.
 
-However, in order for plots to be useful for your future self and for others, they need to be properly formatted. In this lab course we will use the following guidelines when making a plot.
+However, in order for plots to be useful for your future self and for others, they need to be properly formatted. In this lab course we will use the following guidelines for making a plot.
 
 **Guidelines**
 
@@ -213,6 +213,6 @@ You need to include your spreadsheet with your submission. This will be used to 
 # Conclusion
 
 ::: Exercise
-Write a short paragraph describing the procedure you followed, and any important observations for each Exercise. Be sure to summarize your results and reasons why you believe your data are precise and accurate. If you do not think your data are accurate, explain why, and how it could be fixed in a future lab.
+Write a short paragraph describing the procedure you followed, and any important observations for each Exercise. Be sure to summarize your results and reasons why you believe your data are precise and accurate. If you do not think your data are accurate, explain why, and how this could be fixed in a future lab.
 :::
 
