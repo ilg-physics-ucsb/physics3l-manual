@@ -14,7 +14,6 @@
 - Fork
 - Large textbook (or a stack of books)
 - Countertop
-- Phyphox &ldquo;Acceleration (without g)&rdquo; preferred, or &ldquo;Acceleration (with g).&rdquo;
 :::
 
 ## Lab Goals
