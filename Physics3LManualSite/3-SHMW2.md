@@ -131,23 +131,6 @@ Does your spring appear to obey Hooke's law? Explain your reasoning.
 
 ::::::
 
-::::::Exercise
-In this exercise you will plot $k$ vs. $m$ and discuss it.
-
-Another way we can analyze if your rubber band obeys Hooke's Law is to examine the spring constant $k$. An ideal spring has a constant spring constant $k$ over all masses attached. 
-
-1. Graph $k$ as a function of mass $m$.
-
-:::Question
-1. Is there a region in which $k$ is constant?
-
-2. If so, how does that region compare to the linear regime found above?
-:::
-
-You may find that $k$ varies with mass. This will be an important consideration in experiment 2. 
-
-::::::
-
 ## Using Results
 
 ::::::Exercise
@@ -259,7 +242,7 @@ Using the $k$ value that is in the regime closest to the mass of your phone, com
 
 ::::::
 
-## Conclusion
+# Conclusion
 :::Question
 If you were to asked to give the most *precise* method of measuring the spring constant which experiment would you use an why? 
 :::
