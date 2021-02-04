@@ -265,19 +265,21 @@ We want to make the correction term (the term due to rotation) as small as possi
 DISCLAIMER - You will be using your phone to take data, and this can sometimes lead to accidents. **Please use due care in handling your phone during this experiment.**
 :::
 
-::::::Exercise
+::::::::::::Exercise
 
 <!---[INSERT ANIMATED GIF HERE]--->
-
-:::LFigure
+:::::::::row
+::::::col l6
+:::Video
 ![Carpet Pendulum](../imgs/lab2/CarpetPendulum.gif)
 :::
-
-
-:::RFigure
+::::::
+::::::col l6
+:::Video
 ![Bathroom Pendulum](../imgs/lab2/BathroomPendulum.gif)
 :::
-
+::::::
+:::::::::
 
 In this experiment you will be using your phone to measure the acceleration in the x, y, and z axes without gravity. You will build an apparatus and take data. Include a picture of your setup if you can!
 
@@ -353,7 +355,7 @@ Include a photo of your apparatus. **Hint:** Your phone does not need to be incl
 :::
 
 
-::::::
+::::::::::::
 
 
 # Conclusion

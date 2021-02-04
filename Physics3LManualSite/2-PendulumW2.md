@@ -57,7 +57,7 @@ If you do not feel that you can reliably measure the distance between the phone 
 This should be true in either case. If you measure straight from the pivot to the center of the phone, this does not affect your measurement. If, however, you measure the length $l$, if the strings are not parallel, the length you then calculate for $L$ will differ slightly from the actual length.
 
 :::Note
-Regardless your choice in measuring device, make sure that the resolution of the measurement is appropriate.
+Regardless of your choice in measuring device, make sure that the resolution of the measurement is appropriate.
 :::
 
 :::Figure pendDiagram
