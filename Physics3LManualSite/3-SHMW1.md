@@ -21,7 +21,7 @@
 - **Construct an apparatus**
   - Gather all the components and build your apparatus.
 - **Data Analysis**
-  - Understand the theory behind Hooke's Law.
+  - Understand the theory behind Hooke&rsquo;s Law.
   - Write the equations that will be used to process the data.
   - Prepare a spreadsheet for data analysis.
 
@@ -153,7 +153,7 @@ Is the oscillating mass a simple harmonic oscillator? Use your response to [Qu](
 ![GIF of moving phone](../imgs/lab3/SHM.gif)
 :::
 
-The second experiment for next week will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use the &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of your spring.
+The second experiment for next week will involve your putting your phone in the zip-lock bag and then setting it in motion. You will use &ldquo;Acceleration without g&rdquo; to measure the acceleration experienced by your phone. You will then use the acceleration to measure the period, and the spring constant of your spring.
 
 As we do for a pendulum, we typically talk about the period of the position and not the acceleration. You will be measuring acceleration. Since we know that the mass on a spring is also a simple harmonic oscillator, we know that the position as a function of time looks like the following:
 
@@ -179,7 +179,7 @@ In this lab you will be hanging your spring from a fork that is held down to a h
 ::::::Exercise 
 In this experiment you will be using some masses and your phone to measure characteristics of simple harmonic motion. You will build an apparatus and take data for analysis.
 
-The process of building your experiment will be similar to the procedure you used to make apparatus for your previous lab, &Ldquo;Pendulum.&rdquo; There is a variety of ways in which you could build this apparatus. Please read through all of the instructions before considering alternate steps.
+The process of building your experiment will be similar to the procedure you used to make the apparatus for your previous lab, &ldquo;Pendulum.&rdquo; There is a variety of ways in which you could build this apparatus. Please read through all of the instructions before considering alternate steps.
 
 1. Collect all of the materials you will need for this setup: spring, tape, paper clips, zip-lock bags, textbook(s), makeshift weights (sugar, flour, salt, cornstarch, coins). 
 
@@ -193,18 +193,18 @@ In this lab you will have your phone oscillating on a spring, so you will want t
 
 
 
-3. Place a fork on your surface so that the prongs are hanging off the edge of the table.
+3. Place a fork on your surface so that the tines are hanging off the edge of the table (pointing upward).
 
-4. If you have tape available tape the fork to the surface.
+4. If you have tape available, tape the fork to the surface.
 
-5. Get a heavy textbook (or similar weighted object) and place it on top of the fork. You should now be safe to hang some stuff from the edge of the fork.
+5. Get a heavy textbook (or similar weighted object) and place it on top of the fork. It should now be safe to hang some things from the tines of the fork.
 ::: Figure fork s
 ![Fork On Table](../imgs/lab3/Fork.png)
 ![Fork On Table](../imgs/lab3/ForkTape.png)
 ![Fork On Table](../imgs/lab3/ForkTapeBook.png)
 :::
 :::Warning
-Don't use Scotch tape on wooden or painted surfaces. It might ruin the surface when you remove the tape.
+Don&rsquo;t use Scotch tape on wooden or painted surfaces. It might ruin the surface when you remove the tape.
 :::
 
 ::: RFigure ziploc xs
@@ -217,7 +217,7 @@ Click to enlarge
 
 7. If possible make it so that an open side of the paperclip is facing down. This will make it easier to hook onto the spring.
 
-8. Now slide your spring over 1 or 2 of the prongs of the fork.
+8. Now slide your spring over 1 or 2 of the tines of the fork.
 
 9. Then attach the paperclip and bag to the fork.
 
@@ -232,7 +232,7 @@ Once you have your setup, it should look something like this:
 You may consider alternate mounting methods if you have a solution that is better for your space.
 
 :::Warning
-It is **strongly** recommended you put a pillow or cushion under your apparatus when you hang your phone from the spring.
+It is **strongly** recommended that you put a pillow or cushion under your apparatus when you hang your phone from the spring.
 :::
 
 ::: Question
@@ -250,7 +250,7 @@ You will be collecting data in two experiments &mdash; one with only masses, and
 ::::::Exercise
 Making your data tables now will help organization and reduce workload for next week. 
 
-Make a table in the google sheet provided. Follow the example shown below for the first experiment.
+Make a table in the Google sheet provided. Follow the example shown below for the first experiment.
 
 :::Table
 | Length (m) | $\Delta$y (m) | Mass (kg) | Mass Description | Force (N)| k (N/m)| 
@@ -317,7 +317,7 @@ Mixing and matching materials for your masses is certainly fine. Please note, ho
 | 1 tablespoon     |  14.8ml    |   14.8g   |   8.5g  | 12.6g | 17g |
 :::
 
-1. Find your available materials and think about how you can distribute your masses to have 10 - 15 different mass values between 20 g and 500 g. Measure out your available materials, and make a plan for how to achieve each mass value you want to test. Mass values of roughly 20 g, 50 g, 100 g, 150 g, 200 g, 250 g, 300 g, 350 g, 400 g, 450 g, 500 g would be great.
+1. Find your available materials, and think about how you can distribute your masses to have 10 - 15 different mass values between 20 g and 500 g. Measure out your available materials, and make a plan for how to achieve each mass value you want to test. Mass values of roughly 20 g, 50 g, 100 g, 150 g, 200 g, 250 g, 300 g, 350 g, 400 g, 450 g, 500 g would be great.
 
 2. Write out your chosen masses and what proportions of which materials you use for them in the table you made for experiment 1.
 

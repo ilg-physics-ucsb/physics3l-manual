@@ -1,4 +1,4 @@
-# Lab 2 Pendulum Week 1
+# Lab 2: Pendulum Week 1
 ---
 
 ### Required Materials:
@@ -137,7 +137,7 @@ $$
 
 In this lab you will turn your phone into a pendulum. You will suspend it in some way (we provide some ideas below) and then use the &ldquo;Accelerometer without g&rdquo; to measure the phone&rsquo;s acceleration along all three axes while your phone swings back and forth. Figure 3 shows one such setup. We will use the acceleration data to measure the period of the pendulum.
 
-:::Figure
+:::Video
 ![Phone Swinging Image](../imgs/lab2/phonePendulumGif.gif)
 :::
 
@@ -149,7 +149,7 @@ Typically, when measuring the period of the pendulum, you would measure the *ang
 The Phyphox app *can't measure position* but it *can measure acceleration*. Therefore we need to determine the relationship between the period of the acceleration and the period of the angular position.
 :::
 
-:::Figure pendAccgif
+:::Video pendAccgif
 ![Gif  of pendulum moving](../imgs/lab2/accelerationgif.gif)
 :::
 
@@ -268,9 +268,11 @@ DISCLAIMER - You will be using your phone to take data, and this can sometimes l
 ::::::Exercise
 
 <!---[INSERT ANIMATED GIF HERE]--->
+
 :::LFigure
 ![Carpet Pendulum](../imgs/lab2/CarpetPendulum.gif)
 :::
+
 
 :::RFigure
 ![Bathroom Pendulum](../imgs/lab2/BathroomPendulum.gif)
