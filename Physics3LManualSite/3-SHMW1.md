@@ -67,7 +67,7 @@ $$
 
 where in the first line of the equation we recognized that for a system in equilibrium, the acceleration is zero.
 
-Thus we can use the mass and gravity to measure the spring force. From this we can measure the spring constant of the rubber band.
+Thus we can use the mass and gravity to measure the spring force. From this we can measure the spring constant of the spring.
 
 :::Question freebody-qu
 Use [Eq](#Eq-hookeslaw) and [Eq](#Eq-freebody-eq) to solve for the spring constant.
