@@ -1,4 +1,4 @@
-# Lab 3: Simple Harmonic Motion Week 1
+# Lab 3: Simple Harmonic Motion - Week 1
 ---
 
 # Intro
@@ -30,7 +30,7 @@
 # Hooke&rsquo;s Law
 
 ## Theory
-Most springs obey Hooke's Law: the magnitude of the force  that the spring exerts is proportional to the amount it is stretched. This is mathematically expressed as: 
+Most springs obey Hooke's Law: the magnitude of the force that the spring exerts is proportional to how far it is stretched. This is mathematically expressed as: 
 
 :::Equation hookeslaw
 $$
@@ -201,6 +201,7 @@ In this lab you will have your phone oscillating on a spring, so you will want t
 ::: Figure fork s
 ![Fork On Table](../imgs/lab3/Fork.png)
 ![Fork On Table](../imgs/lab3/ForkTape.png)
+
 ![Fork On Table](../imgs/lab3/ForkTapeBook.png)
 :::
 :::Warning
@@ -209,6 +210,7 @@ Don&rsquo;t use Scotch tape on wooden or painted surfaces. It might ruin the sur
 
 ::: RFigure ziploc xs
 ![Ziploc Pierce](../imgs/lab3/Bag1.png)
+
 ![Ziploc Pierce](../imgs/lab3/Bag2.png)
 Click to enlarge
 :::
@@ -275,7 +277,7 @@ Make another table in Google Sheets as shown below for the second experiment.
 
 ::::::Exercise
 
-Now we need to figure out what masses you can use with your apparatus.
+Now you need to figure out what masses you can use with your apparatus.
 
 For this you can use any household item that you can weigh, but we have several recommendations: coins, batteries, water, flour, sugar and salt.
 

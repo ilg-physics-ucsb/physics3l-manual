@@ -1,4 +1,4 @@
-# Lab 2 Pendulum Week 2
+# Lab 2: Pendulum - Week 2
 ---
 
 ## Required Materials

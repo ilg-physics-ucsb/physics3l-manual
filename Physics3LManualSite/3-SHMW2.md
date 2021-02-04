@@ -1,4 +1,4 @@
-# Lab 3: Simple Harmonic Motion Week 2
+# Lab 3: Simple Harmonic Motion - Week 2
 ---
 
 # Intro
