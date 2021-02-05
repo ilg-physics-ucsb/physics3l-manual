@@ -154,9 +154,9 @@ If possible, and you feel comfortable doing so, remove your phone from its case.
 
 1. What is the displacement, $\Delta y$, with your phone as the mass?
 
-2. Using your results from Exercise 2 and the $\Delta y$ for your phone, estimate the weight of your phone.
+2. Using your results from Exercise 2 and the $\Delta y$ for your phone, estimate the mass of your phone.
 
-3. How does this value compare to what you find online? Note that cases and other things on your phone will increase your estimated weight.
+3. How does this value compare to what you find online? Note that cases and other things on your phone will increase your estimated mass.
 :::
 
 ::::::
@@ -242,10 +242,6 @@ a) What is the expression for the slope of your line?
 b) What is the $k$ value from your fit data?
 
 c) What is the uncertainty $\delta k$ in your $k$ value?
-:::
-
-:::Question
-Using the $k$ value that is in the regime closest to the mass of your phone, compare the two $k$ values and their uncertainties $\delta k$. How well do they agree?
 :::
 
 ::::::
