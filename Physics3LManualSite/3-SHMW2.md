@@ -74,6 +74,8 @@ In this exercise you will collect the data from the experiment.
 
 :::Note
 The end of a tape measure is specially made to allow for both inside and outside measurements without loss of accuracy. (You will notice that it slides back and forth a bit.) Unless you can actually hook it on the end of your spring, it is best to make your measurement from a reference mark further down the tape measure, and make the appropriate subtraction.
+
+If you are using a ruler, if the scale begins right at the end of the ruler, then you should not use the end of the ruler as your zero reference. You should choose a mark away from the end as your reference, and make the appropriate subtraction.
 :::
 
 3. Take 10 data points, starting with ~50 g and going to roughly 500 g. Make sure that your first mass is heavy enough to cause your spring to stretch by a measurable amount.
@@ -203,7 +205,7 @@ Just as in the pendulum lab, we recommend that you use the &ldquo;Timed Run&rdqu
 
 
 :::Note
-To calculate the period T, divide the time by the number of periods $n$. Note that $n$ is the number of **periods**, not peaks.
+To calculate the period, T, divide the time by the number of periods, $n$. Note that $n$ is the number of **periods**, not peaks.
 :::
 
 8. Repeat this process with four additional mass values. 
@@ -217,7 +219,7 @@ You can add masses in a separate bag if you are using something messy, such as w
 ## Analyzing SHM Data
 
 ::::::Exercise
-In this exercise, you will analyze the data you collected in Exercise 5, to determine the value of $k$ using the principles of simple harmonic motion.
+In this exercise, you will analyze the data you collected in Exercise 5, and use the principles of simple harmonic motion to determine the value of $k$.
 
 :::Question
 1. What is the expression for the period, $T$, as a function of mass, $m$, and the spring constant, $k$?
@@ -225,7 +227,7 @@ In this exercise, you will analyze the data you collected in Exercise 5, to dete
 2. If you were to plot $T$ vs $m$ should you fit a line to it? Why or why not?
 :::
 
-Last week you had a very similar expression for period. We analyzed it by linearizing the equation and performing a linear fit.
+Last week you had a very similar expression for period. You analyzed it by linearizing the equation and performing a linear fit.
 
 :::Question
 How would you linearize the period with respect to mass? (What&rsquo;s the equation?)
@@ -234,14 +236,14 @@ How would you linearize the period with respect to mass? (What&rsquo;s the equat
 1. Graph your linearized data.
 2. Fit a line to your linearized graph.
 
-You will have to find the uncertainty in $k$, by calculating how the uncertainty in the slope propagates through your calculation of $k$ from it. The equation you should use is [Eq](#Eq-uncertainty).
+You will have to find the uncertainty in $k$ by calculating how the uncertainty in the slope propagates through your calculation of $k$ from it. The equation you should use is [Eq](#Eq-uncertainty).
 
 :::Question
 a) What is the expression for the slope of your line?
 
 b) What is the $k$ value from your fit data?
 
-c) What is the uncertainty $\delta k$ in your $k$ value?
+c) What is the uncertainty, $\delta k$, in your $k$ value?
 :::
 
 ::::::
