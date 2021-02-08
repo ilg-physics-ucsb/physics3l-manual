@@ -78,7 +78,7 @@ The end of a tape measure is specially made to allow for both inside and outside
 If you are using a ruler, if the scale begins right at the end of the ruler, then you should not use the end of the ruler as your zero reference. You should choose a mark away from the end as your reference, and make the appropriate subtraction.
 :::
 
-3. Take 10 data points, starting with ~50 g and going to roughly 500 g. Make sure that your first mass is heavy enough to cause your spring to stretch by a measurable amount.
+3. Take 10 data points, starting with ~20 g and going to roughly 300 g. Make sure that your first mass is heavy enough to cause your spring to stretch by a measurable amount.
 
 :::Note
 Some springs are manufactured to have what is called &ldquo;initial tension.&rdquo; That is, it takes some force to reach the point at which the coils of the spring just barely separate. It may be useful to keep this in mind when you perform your data analysis.
@@ -121,7 +121,7 @@ In this exercise you will analyze the data from Exercise 2 to determine if your 
 :::
 
 
-You will be determining $k$ from the slope, $s$, of your plot. Just as in the previous lab you found the uncertainty in the value of *g* from the uncertanties in *T* and *L* for your pendulum, you will need to calculate how the uncertainty in your slope $s$ propagates in your calculation of the value of $k$. This calculation is very similar to the one that you used in the previous lab. The uncertainty in $k$, which we denote by $\delta k$, is given in terms of the uncertainty in the slope $s$, which we denote by $\delta s$, by the following equation:
+You will be determining $k$ from the slope, $s$, of your plot. Just as in the previous lab you found the uncertainty in the value of *g* from the uncertainties in *T* and *L* for your pendulum, you will need to calculate how the uncertainty in your slope $s$ propagates in your calculation of the value of $k$. This calculation is very similar to the one that you used in the previous lab. The uncertainty in $k$, which we denote by $\delta k$, is given in terms of the uncertainty in the slope $s$, which we denote by $\delta s$, by the following equation:
 
 :::Equation uncertainty
 $$
@@ -142,6 +142,10 @@ Does your spring appear to obey Hooke&rsquo;s law? Explain your reasoning.
 ::::::
 
 ## Using Results
+
+Now that you have measured the spring constant of your spring you have created a useful tool. You can now use your spring as a spring scale to measure the mass of different objects. By measuring the stretch of spring when an object is hanging and using the $k$ value you determined, you can back out the mass of the object. 
+
+For the second experiment, you will need to know the mass of your phone in order to measure the spring constant. This exercise will walk you through using you spring to measure the mass of your phone.
 
 ::::::Exercise
 In this exercise you will use the data you collected and analyzed in Exercises 1 and 2 to measure the mass of your phone.
@@ -239,11 +243,11 @@ How would you linearize the period with respect to mass? (What&rsquo;s the equat
 You will have to find the uncertainty in $k$ by calculating how the uncertainty in the slope propagates through your calculation of $k$ from it. The equation you should use is [Eq](#Eq-uncertainty).
 
 :::Question
-a) What is the expression for the slope of your line?
+1. What is the expression for the slope of your line?
 
-b) What is the $k$ value from your fit data?
+2. What is the $k$ value from your fit data?
 
-c) What is the uncertainty, $\delta k$, in your $k$ value?
+3. What is the uncertainty, $\delta k$, in your $k$ value?
 :::
 
 ::::::

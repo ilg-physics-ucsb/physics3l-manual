@@ -281,7 +281,7 @@ Now you need to figure out what masses you can use with your apparatus.
 
 For this you can use any household item that you can weigh, but we have several recommendations: coins, batteries, water, flour, sugar and salt.
 
-The mass range you will want to use is anywhere from about 20 g to 500 g, depending on how stiff your spring is.
+The mass range you will want to use is anywhere from about 20 g to 300 g, depending on how stiff your spring is.
 
 ::: Warning
 Adding too much mass to your spring can permanently deform it!
@@ -319,7 +319,7 @@ Mixing and matching materials for your masses is certainly fine. Please note, ho
 | 1 tablespoon     |  14.8ml    |   14.8g   |   8.5g  | 12.6g | 17g |
 :::
 
-1. Find your available materials, and think about how you can distribute your masses to have 10 - 15 different mass values between 20 g and 500 g. Measure out your available materials, and make a plan for how to achieve each mass value you want to test. Mass values of roughly 20 g, 50 g, 100 g, 150 g, 200 g, 250 g, 300 g, 350 g, 400 g, 450 g, 500 g would be great.
+1. Find your available materials, and think about how you can distribute your masses to have 10 - 15 different mass values between 20 g and 300 g. Measure out your available materials, and make a plan for how to achieve each mass value you want to test.
 
 2. Write out your chosen masses and what proportions of which materials you use for them in the table you made for experiment 1.
 
