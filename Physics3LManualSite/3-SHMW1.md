@@ -326,7 +326,12 @@ Mixing and matching materials for your masses is certainly fine. Please note, ho
 Because your zip-lock bag is mounted via a paper clip, you can easily replace your bag when you move on to experiment 2. This will be useful if you are using messy masses such as flour or water.
 
 :::Warning
-If you are using messy household goods, you can use two bags. Put your masses into a separate bag, then place that bag with your phone in the main bag as shown in [Fi](#Fi-masswithphone). 
+If you are using messy household goods, you can use two or more bags. Put your masses into a separate bag, then place that bag with your phone in the main bag as shown in [Fi](#Fi-masswithphone). 
+:::
+
+:::Question
+1. Describe what masses you will be using for the second week of the lab.
+2. Include a picture of the masses.
 :::
 
 :::Figure masswithphone
