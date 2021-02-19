@@ -157,7 +157,7 @@ Figure 4 shows is a sketch of sound intensity as a function of tube length for t
 The simulation below will allow you to experiment with this.
  
 :::Simulation
-embed src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800"
+<iframe src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800"></iframe>
 :::
 
 ::::::Exercise
