@@ -200,7 +200,7 @@ Assuming you are using a paper towel roll of standard length, $28$ cm, what is t
 
 # Building the Apparatus
 
-::::::Exercise
+::::::::::::Exercise
 In this exercise you will build the resonant cavity that you will use in next week&rsquo;s lab. Basically, we want to construct one tube that fits perfectly inside of another one. That way we can slide the inner tube out of the outer tube to make a longer tube.
 
 1. Start by collecting all of the materials listed at the top of the lab.
@@ -215,8 +215,8 @@ If you don&rsquo;t have paper towel rolls, you can tape multiple toilet paper ro
 
 2. Take your empty cardboard tube, and cut it down its length.
 
-::::::Figure
-:::row
+:::::::::Figure
+::::::row
 :::column
 ![Cutting the Tube](../imgs/lab4//CuttingTube.jpg)
 Cut the tube down its length.
@@ -226,8 +226,8 @@ Cut the tube down its length.
 ![Cutting the Tube](../imgs/lab4//CutTube.jpg)
 This is what it should look like after being cut.
 :::
-:::
 ::::::
+:::::::::
 
 3. Take the cut tube and fold one part of the seem under the other as shown in the figure below.
 
@@ -238,8 +238,8 @@ This is what it should look like after being cut.
 4. Slide the cut tube into your second tube. Leave just about a tape&rsquo;s width sticking out of the outer tube.
 5. Then wrap the piece that is sticking out in tape. Don&rsquo;t wrap it multiple times, and don&dsquo;t wrap it so tightly that it reduces the size of the tube too much. You want it to fit snugly inside the other tube, but to slide fairly easily.
 
-:::Figure
-:::row
+:::::::::Figure
+::::::row
 :::column
 ![Tube Inside Other Tube](../imgs/lab4//TubeStickingOut.jpg)
 Make sure to leave a little piece sticking out.
@@ -249,25 +249,25 @@ Make sure to leave a little piece sticking out.
 ![Tape Wrapped End](../imgs/lab4//SealedEnd.jpg)
 Don't wrap the tape too tightly.
 :::
-:::
-:::
+::::::
+:::::::::
 
 6. Now push the other end out and do the same thing. Then slide the inner tube out.
 7. Tape over a couple more parts on the tube to make sure it stays cylindrical.
 
-:::Figure:Figure
-:::row
+:::::::::Figure
+::::::row
 :::column
 ![Roll pulled out](../imgs/lab4//SealedTube1.jpg)
 This is what it should look like after Step 6.
 :::
 
-::::::column
+:::column
 ![Finished Inner Roll](../imgs/lab4//SealedTube2.jpg)
 This is the completed inner tube.
+:::
 ::::::
-:::
-:::
+:::::::::
 
 8. Now slide the inner tube into the outer tube. You are done!
 
@@ -276,7 +276,7 @@ This is the completed inner tube.
 Finished tube.
 :::
 
-::::::
+::::::::::::
 
 ## Conclusion
 
