@@ -28,7 +28,7 @@
 
 # Building the Apparatus
 
-:::::: Exercise
+:::::::::::: Exercise
 
 1. Start by collecting all of the materials listed at the top of the lab.
 
@@ -42,19 +42,19 @@ If you don't have paper towel rolls, you can tape multiple toilet paper rolls to
 #####
 2. Take your empty cardboard tube, and cut it down its length.
 
-:::Figure
-:::row
-:::column
+:::::::::Figure
+::::::row
+:::col
 ![Cutting the Tube](../imgs/lab4//CuttingTube.jpg)
 Cut the tube down its length.
 :::
 
-:::column
+:::col
 ![Cutting the Tube](../imgs/lab4//CutTube.jpg)
 This is what it should look like after being cut.
 :::
-:::
-:::
+::::::
+:::::::::
 #####
 3. Fold one part of the seem under the other as shown in the figure below.
 
@@ -65,45 +65,45 @@ This is what it should look like after being cut.
 4. Slide the cut tube into your second tube. Leave approximately a tape's width sticking out of the outer tube.
 5. Wrap the portion of the inner tube that is sticking out of the outer tube in tape. Don't wrap it multiple times and don't wrap it so tightly that it reduces the size of the tube too much. You want it to fit snugly inside the other tube, while allowing it to slide in and out fairly easily.
 
-::: Figure
-:::row
-:::column
+::::::::: Figure
+::::::row
+:::col
 ![Tube Inside Other Tube](../imgs/lab4//TubeStickingOut.jpg)
 Make sure to leave a little piece sticking out.
 :::
 
-:::column
+:::col
 ![Tape Wrapped End](../imgs/lab4//SealedEnd.jpg)
 Don't wrap the tape too tightly.
 :::
-:::
-:::
+::::::
+:::::::::
 #####
 6. Push the other end of the inner tube out of the other side of the outer tube and do the same thing. Once the inner tube is taped on both ends, slide the inner tube out of the outer tube.
 7. Use tape to secure a few more sections along the tube to ensure it keeps its cylindrical shape.
 
-:::Figure:Figure
-:::row
-:::column
+::::::Figure
+::::::row
+:::col
 ![Roll pulled out](../imgs/lab4//SealedTube1.jpg)
 This is what it should look like after Step $6$.
 :::
 
-:::column
+:::col
 ![Finished Inner Roll](../imgs/lab4//SealedTube2.jpg)
 This is the completed inner tube.
 :::
-:::
-:::
+::::::
+:::::::::
 #####
 8. Slide the inner tube into the outer tube. You are done!
 
-:::Figure:Figure
+:::Figure
 ![Completed Apparatus](../imgs/lab4//CompletedTube.jpg)
 Finished telescoping tube.
 :::
 
-::::::
+::::::::::::
 
 
 # The Experiment
@@ -114,7 +114,7 @@ Finished telescoping tube.
 
 For this lab you will build a telescoping cardboard tube with a variable length you can manually change. Using phyphox to generate a constant-frequency tone, place your phone&rsquo;s speaker at the end of the tube. You will then adjust the length of the tube until a standing wave forms in the tube and it resonates. When this happens, you will hear a significant increase in the volume of the sound.
 
-:::Figure:Figure
+:::Figure
 ![Amplitude Plot](../imgs/lab4//AmplitudePlot.png)
 ::: 
 
@@ -122,8 +122,8 @@ Figure 7 shows a plot of sound intensity as a function of tube length for the fu
 
 The simulation below will allow you to experiment with this.
  
-:::Figure:Simulation
-embed src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800"
+:::Simulation
+<iframe src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800"></iframe>
 :::
 
 ## What will you be doing?

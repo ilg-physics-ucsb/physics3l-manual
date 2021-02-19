@@ -217,12 +217,12 @@ If you don&rsquo;t have paper towel rolls, you can tape multiple toilet paper ro
 
 :::::::::Figure
 ::::::row
-:::column
+:::col
 ![Cutting the Tube](../imgs/lab4//CuttingTube.jpg)
 Cut the tube down its length.
 :::
 
-:::column
+:::col
 ![Cutting the Tube](../imgs/lab4//CutTube.jpg)
 This is what it should look like after being cut.
 :::
@@ -240,12 +240,12 @@ This is what it should look like after being cut.
 
 :::::::::Figure
 ::::::row
-:::column
+:::col
 ![Tube Inside Other Tube](../imgs/lab4//TubeStickingOut.jpg)
 Make sure to leave a little piece sticking out.
 :::
 
-:::column
+:::col
 ![Tape Wrapped End](../imgs/lab4//SealedEnd.jpg)
 Don't wrap the tape too tightly.
 :::
@@ -257,12 +257,12 @@ Don't wrap the tape too tightly.
 
 :::::::::Figure
 ::::::row
-:::column
+:::col
 ![Roll pulled out](../imgs/lab4//SealedTube1.jpg)
 This is what it should look like after Step 6.
 :::
 
-:::column
+:::col
 ![Finished Inner Roll](../imgs/lab4//SealedTube2.jpg)
 This is the completed inner tube.
 :::
