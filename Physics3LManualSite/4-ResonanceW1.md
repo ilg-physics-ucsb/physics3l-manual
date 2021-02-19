@@ -35,7 +35,7 @@ Sound is caused by a disturbance in the surrounding medium — air. Air is an el
 When the speaker moves outward, it pushes out surrounding air molecules, and that push causes a chain of disturbances that propagate through the air. When the speaker moves inward, it creates more space for air particles to move, starting with the air molecules closest to the speaker. This is known as positive and negative displacement.
 
 :::Figure
-![SpeakerOut](../imgs/lab4//SoundPulse.gif)
+![SpeakerOut](../imgs/lab4/SoundPulse.gif)
 :::
 
 Figure 1 shows column of air set in motion by a speaker at the left vibrating at some frequency. You can see compression waves traveling to the right. Notice, though, that any one particle (some have been highlighted in red) doesn&rsquo;t actually move to the right but just oscillates back and forth around its equilibrium position.
@@ -92,7 +92,7 @@ The word resonance comes from Latin words for ‘echo’ and ‘resound’. Reso
 As you might guess from the swing analogy, resonance occurs when you drive a system at its natural frequency of oscillation.  In the case of the paper towel tube apparatus that you are about to make, this means setting the conditions so that you form a **standing wave** inside the tube. That is, a wave that forms a pattern of nodes and antinodes that is fixed in space. Antinodes are regions of maximum amplitude, and nodes are points where the amplitude is zero. A depiction of a standing wave, with nodes and anti-node labeled can be seen in Figure 2 below.
 
 :::Figure
-![Image of nodes](../imgs/lab4//Nodes.png)
+![Image of nodes](../imgs/lab4/Nodes.png)
 :::
 
 Such a pattern is formed by the superposition of the wave with its reflection at the end(s) of the tube, and can happen only if the phase relationship between the wave and its reflection(s) is appropriate. At an open end, the reflected wave has the same phase as the outgoing wave. At a closed end, the reflected wave is 180&deg; out of phase with the outgoing wave. Only if the reflections occur at the right points in the sound wave, can a standing wave form.
@@ -108,11 +108,18 @@ The lowest resonant frequency is called the **fundamental frequency**, or the 1$
 
 Air columns in cylinders for which both ends are open can produce all harmonics of the fundamental frequency. They allow all harmonics that have an antinode at each end of the cylinder. Cylinders with one closed end and one open end produce only those harmonics that have a node at the closed end and an antinode at the open end.
 
+In the simulation below you can investigate what happens when you change the parameters of an open-open tube. You can adjust the length until you see resonance under any given conditions. You can change the speed of sound in the medium, the driving frequency, and the amplitude of  the wave. When you hit a resonant condition you should see that an orange "Resonance" appear below the wavelength. Finally you can move forward in time to see the wave oscillate. 
+
+Use this to gain some intuition about how different parameter will affect when the tube resonates.
+
+:::Simulation
+<iframe sandbox="allow-scripts" src="https://www.desmos.com/calculator/xqvx4ovjj0" width="100%" height="800px" style="border: 1px solid #ccc" frameborder=0></iframe>
+:::
 
 ::::::Exercise
 
 :::Figure
-![Resonant Conditions](../imgs/lab4//ResonanceTubes.png)
+![Resonant Conditions](../imgs/lab4/ResonanceTubes.png)
 :::
 
 As noted above, the boundary conditions for a standing wave require that there is a node at any closed end and an antinode at any open end. In Figure 3, the top tube is open on both ends (open-open), and the bottom tube is open at one end and closed (open-closed) at the other. Drawn in each is the first standing wave that can form in either tube. 
@@ -127,17 +134,18 @@ As noted above, the boundary conditions for a standing wave require that there i
 
 For this lab we will only be adjusting the length of the pipe, and therefore we will focus on the second way to make something resonate described above. 
 
-
-For a tube with both ends open, we will say that there is one segment inside the tube resonating at the fundamental.
+For a tube with both ends open, we will say that there is one segment inside the tube resonating at the fundamental. For this exercise, we will call this length $L$.
 
 :::Question
-1. For an open-open tube, draw the next two standing waves that would form in a longer tube, assuming that the frequency is kept constant.
+1. Draw a picture of an open-open tube resonating at its fundamental frequency.
 
-2. How many segments are in each tube?
+2. For an open-open tube, draw the next two standing waves that would form in a **longer** tube, assuming that the frequency is kept constant. The lengths should be relative to the tube drawn in the first part of the question.
 
-3. What is the length, $L$, of the tube in terms of the wavelength $\lambda$ for each of the two new pipes?
+3. How many segments are in each tube?
 
-4. Based on the fundamental, and the next two standing waves, what is length of a tube with $n$ segments inside of it.
+4. What is the length, $L$, of the tube in terms of the wavelength $\lambda$ for each of the two new pipes?
+
+5. Based on the fundamental, and the next two standing waves, what is length of a tube with $n$ segments inside of it.
 :::
 
 ::::::
@@ -149,7 +157,7 @@ For a tube with both ends open, we will say that there is one segment inside the
 For this lab you will build a cardboard tube whose length you can change. You will then use phyphox to generate a constant-frequency tone, and place your phone&rsquo;s speaker at the end of the tube. You will then adjust the length of the tube until a standing wave forms in the tube and it resonates. When this happens, you will hear a significant increase in the volume of the sound.
 
 :::Figure
-![Amplitude Plot](../imgs/lab4//AmplitudePlot.png)
+![Amplitude Plot](../imgs/lab4/AmplitudePlot.png)
 :::
 
 Figure 4 shows is a sketch of sound intensity as a function of tube length for the fundamental in an open-open pipe. This is an **example** plot of an adjustable, around 1 meter, pipe, with a frequency of 171.5 Hz playing.  Notice there is a background volume of the speaker playing, but as the length of the pipe nears the length of 1 m the volume increases dramatically.
@@ -206,7 +214,7 @@ In this exercise you will build the resonant cavity that you will use in next we
 1. Start by collecting all of the materials listed at the top of the lab.
 
 ::: Figure
-![Image of Materials](../imgs/lab4//Materials.jpg)
+![Image of Materials](../imgs/lab4/Materials.jpg)
 :::
 
 ::: Note
@@ -218,12 +226,12 @@ If you don&rsquo;t have paper towel rolls, you can tape multiple toilet paper ro
 :::::::::Figure
 ::::::row
 :::col
-![Cutting the Tube](../imgs/lab4//CuttingTube.jpg)
+![Cutting the Tube](../imgs/lab4/CuttingTube.jpg)
 Cut the tube down its length.
 :::
 
 :::col
-![Cutting the Tube](../imgs/lab4//CutTube.jpg)
+![Cutting the Tube](../imgs/lab4/CutTube.jpg)
 This is what it should look like after being cut.
 :::
 ::::::
@@ -241,12 +249,12 @@ This is what it should look like after being cut.
 :::::::::Figure
 ::::::row
 :::col
-![Tube Inside Other Tube](../imgs/lab4//TubeStickingOut.jpg)
+![Tube Inside Other Tube](../imgs/lab4/TubeStickingOut.jpg)
 Make sure to leave a little piece sticking out.
 :::
 
 :::col
-![Tape Wrapped End](../imgs/lab4//SealedEnd.jpg)
+![Tape Wrapped End](../imgs/lab4/SealedEnd.jpg)
 Don't wrap the tape too tightly.
 :::
 ::::::
@@ -258,12 +266,12 @@ Don't wrap the tape too tightly.
 :::::::::Figure
 ::::::row
 :::col
-![Roll pulled out](../imgs/lab4//SealedTube1.jpg)
+![Roll pulled out](../imgs/lab4/SealedTube1.jpg)
 This is what it should look like after Step 6.
 :::
 
 :::col
-![Finished Inner Roll](../imgs/lab4//SealedTube2.jpg)
+![Finished Inner Roll](../imgs/lab4/SealedTube2.jpg)
 This is the completed inner tube.
 :::
 ::::::
@@ -272,7 +280,7 @@ This is the completed inner tube.
 8. Now slide the inner tube into the outer tube. You are done!
 
 :::Figure
-![Completed Apparatus](../imgs/lab4//CompletedTube.jpg)
+![Completed Apparatus](../imgs/lab4/CompletedTube.jpg)
 Finished tube.
 :::
 
