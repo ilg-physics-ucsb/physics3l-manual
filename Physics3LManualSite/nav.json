@@ -10,48 +10,48 @@
         "showSmall": "true"
     },
     {
-        "name": "Lab 1 - W1",
+        "name": "L1-W1",
         "file": "1-CoRW1",
         "showSmall": "true"
     },
     {
-        "name": "Lab 1 - W2",
+        "name": "L1-W2",
         "file": "1-CoRW2",
         "showSmall": "true"
     },
     {
-        "name": "Lab 2 - W1",
+        "name": "L2-W1",
         "file": "2-PendulumW1",
         "showSmall": "true"
     },
     {
-        "name": "Lab 2 - W2",
+        "name": "L2-W2",
         "file": "2-PendulumW2",
         "showSmall": "true"
     },
     {
-        "name": "Lab 3 - W1",
+        "name": "L3-W1",
         "file": "3-SHMW1",
         "showSmall": "true"
     },
     {
-        "name": "Lab 3 - W2",
+        "name": "L3-W2",
         "file": "3-SHMW2",
         "showSmall": "true"
     },
     {
-        "name": "Lab 4 - W1",
+        "name": "L4-W1",
         "file": "4-ResonanceW1",
         "showSmall": "true"
     },
     {
-        "name": "Lab 4 - W2",
+        "name": "L4-W2",
         "file": "4-ResonanceW2",
         "showSmall": "true"
     },
     {
-        "name": "Lab 5",
-        "file": "#lab5",
+        "name": "L5",
+        "file": "5-Ohms",
         "showSmall": "true"
     }
 ]

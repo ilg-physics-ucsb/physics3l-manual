@@ -26,96 +26,15 @@
 	- Determine frequency to be used for experiment
 ---
 
-# Building the Apparatus
-
-:::::::::::: Exercise
-
-1. Start by collecting all of the materials listed at the top of the lab.
-
-::: Figure
-![Image of Materials](../imgs/lab4//Materials.jpg)
-:::
-
-::: Note
-If you don't have paper towel rolls, you can tape multiple toilet paper rolls together or use a different type of cardboard tube. You can use one from a roll of aluminum foil or saran wrap. In a pinch, rolled up printer paper, card stock, or cardboard should also work. You just need two that are the same diameter or one that fits perfectly inside the other already. If you already have a tube that fits perfectly inside of another one, you are done with the apparatus. 
-:::
-#####
-2. Take your empty cardboard tube, and cut it down its length.
-
-:::::::::Figure
-::::::row
-:::col
-![Cutting the Tube](../imgs/lab4//CuttingTube.jpg)
-Cut the tube down its length.
-:::
-
-:::col
-![Cutting the Tube](../imgs/lab4//CutTube.jpg)
-This is what it should look like after being cut.
-:::
-::::::
-:::::::::
-#####
-3. Fold one part of the seem under the other as shown in the figure below.
-
-:::Figure
-![Rolled Over Tube](../imgs/lab4//RolledOverTube.jpg)
-:::
-#####
-4. Slide the cut tube into your second tube. Leave approximately a tape's width sticking out of the outer tube.
-5. Wrap the portion of the inner tube that is sticking out of the outer tube in tape. Don't wrap it multiple times and don't wrap it so tightly that it reduces the size of the tube too much. You want it to fit snugly inside the other tube, while allowing it to slide in and out fairly easily.
-
-::::::::: Figure
-::::::row
-:::col
-![Tube Inside Other Tube](../imgs/lab4//TubeStickingOut.jpg)
-Make sure to leave a little piece sticking out.
-:::
-
-:::col
-![Tape Wrapped End](../imgs/lab4//SealedEnd.jpg)
-Don't wrap the tape too tightly.
-:::
-::::::
-:::::::::
-#####
-6. Push the other end of the inner tube out of the other side of the outer tube and do the same thing. Once the inner tube is taped on both ends, slide the inner tube out of the outer tube.
-7. Use tape to secure a few more sections along the tube to ensure it keeps its cylindrical shape.
-
-::::::Figure
-::::::row
-:::col
-![Roll pulled out](../imgs/lab4//SealedTube1.jpg)
-This is what it should look like after Step $6$.
-:::
-
-:::col
-![Finished Inner Roll](../imgs/lab4//SealedTube2.jpg)
-This is the completed inner tube.
-:::
-::::::
-:::::::::
-#####
-8. Slide the inner tube into the outer tube. You are done!
-
-:::Figure
-![Completed Apparatus](../imgs/lab4//CompletedTube.jpg)
-Finished telescoping tube.
-:::
-
-::::::::::::
-
 
 # The Experiment
-
-
 
 ## The Experiment
 
 For this lab you will build a telescoping cardboard tube with a variable length you can manually change. Using phyphox to generate a constant-frequency tone, place your phone&rsquo;s speaker at the end of the tube. You will then adjust the length of the tube until a standing wave forms in the tube and it resonates. When this happens, you will hear a significant increase in the volume of the sound.
 
 :::Figure
-![Amplitude Plot](../imgs/lab4//AmplitudePlot.png)
+![Amplitude Plot](../imgs/lab4/AmplitudePlot.png)
 ::: 
 
 Figure 7 shows a plot of sound intensity as a function of tube length for the fundamental frequency in an open-open pipe. This is an **example** plot of an adjustable pipe of approximately $1$ meter with a frequency of $171.5$ Hz playing.  Notice that there is a background volume of the speaker playing, but as the length of the pipe nears the length of 1 m, the volume increases dramatically.

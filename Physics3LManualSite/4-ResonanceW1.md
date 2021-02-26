@@ -26,7 +26,7 @@
 	- Determine frequency to be used for experiment
 ---
 
-# Sound, Waves, & Resonance
+# Theory: Sound, Waves, & Resonance
 
 ## Sound
 
@@ -40,7 +40,7 @@ When the speaker moves outward, it pushes out surrounding air molecules, and tha
 
 Figure 1 shows column of air set in motion by a speaker at the left vibrating at some frequency. You can see compression waves traveling to the right. Notice, though, that any one particle (some have been highlighted in red) doesn&rsquo;t actually move to the right but just oscillates back and forth around its equilibrium position.
 
-### Speed of Sound
+## Speed of Sound
 
 The speed of sound results from the inertia and elastic properties of the material it travels through. The greater the mass of individual particles of the medium, the less responsive they are to the interactions between neighboring particles, and the slower the wave. All other things being equal, a sound wave travels faster in a less dense material than in a more dense material. For instance, a sound wave travels nearly three times faster in Helium as it does in air. A sound wave travels faster in a medium with greater restoring force than in one that provides a lesser restoring force. Sound waves travel extremely fast in metals, which have stiff crystal structures that quickly restore individual particles to their equilibrium positions.
 
@@ -58,7 +58,7 @@ where T is the temperature of the air in degrees Celsius.
 What are the units of the 0.6 constant in Equation 1?
 :::
 
-:::Question
+:::Question speedTemp
 If it is $20^\circ$C in your room what is the speed of sound?
 :::
 
@@ -84,7 +84,7 @@ If the frequency of the sound increases, what happens to the wavelength? Justify
 :::
 
 
-### Resonance
+## Resonance
 
 
 The word resonance comes from Latin words for ‘echo’ and ‘resound’. Resonance is illustrated by a swing on a playground; if you push a friend on the swing and wait for it to return to you, the swing will fall into a rhythm, a natural interval. As long as you push the swing in time with its natural frequency, the swing can go quite high. The natural frequency is the frequency at which it would oscillate if there were no resistive forces present. If,  however, you attempt to push the swing at a frequency that is different from this natural frequency, the maximum height of the swing will be much lower  (and you might hurt yourself).
@@ -134,25 +134,28 @@ As noted above, the boundary conditions for a standing wave require that there i
 
 For this lab we will only be adjusting the length of the pipe, and therefore we will focus on the second way to make something resonate described above. 
 
-For a tube with both ends open, we will say that there is one segment inside the tube resonating at the fundamental. For this exercise, we will call this length $L$.
+For a tube with both ends open, we will say that there is one segment inside the tube resonating at the fundamental. For this exercise, we will call this length $L_1$.
 
 :::Question
-1. Draw a picture of an open-open tube resonating at its fundamental frequency.
 
-2. For an open-open tube, draw the next two standing waves that would form in a **longer** tube, assuming that the frequency is kept constant. The lengths should be relative to the tube drawn in the first part of the question.
+1. Draw a picture of an open-open tube resonating at its fundamental frequency. Label the length of the pipe $L_1$
+
+2. For an open-open tube, draw the next two standing waves that would form in a **longer** tube, assuming that the frequency is kept constant. Label the lengths of the tubes $L_2$ and $L_3$. Try to draw you diagram to scale ($L_2$ and $L_3$ should be appropriately proportional to $L_1$).
 
 3. How many segments are in each tube?
 
-4. What is the length, $L$, of the tube in terms of the wavelength $\lambda$ for each of the two new pipes?
+4. What are the lengths, $L_2$ and $L_3$, of the tube in terms of the wavelength $\lambda$ for each of the two new pipes?
 
-5. Based on the fundamental, and the next two standing waves, what is length of a tube with $n$ segments inside of it.
+5. Based on the fundamental, and the next two standing waves, what is length, $L_n$, of a tube with $n$ segments inside of it.
 :::
 
 ::::::
 
 
 
-## The Experiment
+# The Experiment
+
+## Explanation
 
 For this lab you will build a cardboard tube whose length you can change. You will then use phyphox to generate a constant-frequency tone, and place your phone&rsquo;s speaker at the end of the tube. You will then adjust the length of the tube until a standing wave forms in the tube and it resonates. When this happens, you will hear a significant increase in the volume of the sound.
 
@@ -168,38 +171,30 @@ The simulation below will allow you to experiment with this.
 <iframe src="https://kapawlak.github.io/PhDemoJS/Apps/TubeResonance/index.html" width="100%" height="800"></iframe>
 :::
 
+## Determining Frequency
+
 ::::::Exercise
 
-You will be able to change the tube&rsquo;s length gradually from $L$ to $2L$. Thus you are able to adjust the length of the pipe by $L$. Over that length you will want to measure five standing waves (have your tube resonate five times).
+You will be able to change the tube&rsquo;s length gradually from $L$ to $2L$. Thus you are able to adjust the length of the pipe by $L$. Over that length you will want to measure five standing waves (have your tube resonate five times). This is equivalent to saying that we want five segments over the change of length of the pipe.
 
 Thus you need to choose a frequency that will allow this. Let&rsquo;s make that calculation now.
 
-1. Determine the separation between any two standing waves (the length of one segment).
-
-:::Question
-Assume you have a pipe of length $L$, and that with a set frequency $f$, this corresponds to the $n\rm^{th}$ standing wave. You increase the length of your pipe by $\Delta L$ to the $(n+1)\rm^{th}$ standing wave without changing the frequency.
-
-What is $\Delta L$ in terms of wavelength?
+:::Note
+If you have exactly $n$ segments in the first half of your pipe you will have $n$ segments over the second half.
 :::
 
-2. You now know the separation between two standing waves. We will increase our pipe length by $L$, with five standing waves forming over that change (five segments inside of the changed length).
+1. The note above will make the calculations much more simple. It means that if we can determine the frequency that will fit five segments in the first half of the tube, it will fit five segments in the second half.
 
-:::Question
-What is the separation between five standing waves (*i.e.*, if you call the one at which you are starting the first one, from that one up to the fifth one)?
+:::Question fivelambda
+If you have exactly 5 segments over the length $L$ of the pipe, what is the wavelength of the sound?
 :::
 
 :::Question
-If you increase the length of the pipe by $L$, and five standing waves occur over that change in length, what is the length, $L$, in terms of wavelength, $\lambda$?
-:::
-
-2. In order to get five standing waves over the length increase you will need to select the correct frequency. 
-
-:::Question
-Assuming the speed of sound is what you calculated in Question 2, that you can change your pipe over a length $L$, and that you want to get five standing waves over that change, what frequency should you use?
+Using the speed of a wave and your response to [Qu](#Qu-fivelambda) write an equation for the frequency of the sound.
 :::
 
 :::Question
-Assuming you are using a paper towel roll of standard length, $28$ cm, what is the frequency you need to get five standing waves?
+Assuming you are using a paper towel roll of standard length, $28$ cm, and the speed of sound you calculated in [Qu](#Qu-speedTemp), what is the frequency you need to get five segments in the second half of the tube?
 :::
 
 ::::::
@@ -284,9 +279,13 @@ This is the completed inner tube.
 Finished tube.
 :::
 
+::: Question
+Take a picture of your apparatus and include it in lab report.
+:::
+
 ::::::::::::
 
-## Conclusion
+# Conclusion
 
 ::: Exercise
 Write a short conclusion highlighting the important parts of resonance and the speed of sound, and how they apply to the measurement you will be making. 
