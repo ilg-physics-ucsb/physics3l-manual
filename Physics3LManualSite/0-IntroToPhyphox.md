@@ -214,7 +214,7 @@ We can&rsquo;t eliminate random errors, but we can minimize them by using precis
 ***Random error leads to uncertainty in our measurement.***
 :::
 
-This random error is what we quote in the above example as $\PM$0.05 cm.
+This random error is what we quote in the above example as $\pm$0.05 cm.
 
 The video below shows an example of random error you have already seen in this lab.
 
@@ -250,7 +250,7 @@ $$\text{pecent discrepancy} = |\frac{\text{accepted - experimental}} { \text{acc
 :::
 
 :::Question
-In an experiment we measure the acceleration due to gravity to be $9.825 m/s^2$. The accepted value is $9.807 m/s^2$
+In an experiment we measure the acceleration due to gravity to be $9.825$ m/s$^2$. The accepted value is $9.807$ m/s$^2$
 
 What is the percent discrepancy in our measurement?
 :::
