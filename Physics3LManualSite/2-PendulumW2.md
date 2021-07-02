@@ -259,7 +259,7 @@ Wait until your TA tells you that it is OK to proceed. You&rsquo;ll need enough 
 :::
 
 :::Question
-Using the slope. what is the value of $g$.
+Use the slope to find the value of $g$.
 :::
 
 Determining the uncertainty in $g$ is slightly more complex than just using the uncertainty in the slope provided by LINEST. The slope does not exactly equal $g$, therefore the uncertainties aren&rsquo;t exactly equal either. To determine the uncertainty you must calculate how it **propagates** in the calculation you used to find $g$ from $m$. The details of this topic will be saved for later. Use the assumption that the uncertainty in $g$&mdash;denoted $\delta g$&mdash;is related to the uncertainty in the slope&mdash;$\delta m$&mdash;in the following way:
@@ -278,7 +278,7 @@ $$
 3. Does this strengthen the theory? Why or why not?
 :::
 
-5. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806 m/s^2$.
+5. Find the percent discrepancy between the value you found for $g$ and the accepted value of $9.806$ m/s$^2$.
 
 :::Question
 What is the value of $g$ and of the percent discrepancy that you recorded?

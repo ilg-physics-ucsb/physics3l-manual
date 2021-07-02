@@ -109,7 +109,7 @@ Hint: What assumptions did you make when making that calculation? What about you
 In this exercise you will collect data.
 Use your phone to play the frequency you found in Question $5$, and listen for resonances. When you hear a resonance, you will measure the length of your pipe. Then adjust the length and repeat.
 
-1. Open the phyphox app and select *Tone Generator*. Enter the frequency you determined from Exercise $2$. 
+1. Open the phyphox app and select *Tone Generator*. Enter the frequency you determined from Exercise $1$. 
 2. Locate and place your phone&rsquo;s speaker on the edge of a table.
 3. Put the tube right up against the phone and then hit play on the *Tone Generator* function.
 
